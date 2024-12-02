@@ -1,0 +1,96 @@
+@import 'colors-wlogout.css';
+
+* {
+	background-image: none;
+}
+
+window {
+    font-family: Mononoki Nerd Font;
+    font-size: 20px; /*Define el tamaño de la fuente.*/
+    color: #939498; /*Color de la fuente.*/
+	background-color: rgba(0, 0, 0, 0.8); /*Color de fonto al abrir wlogout.*/
+}
+
+button {
+    background-repeat: no-repeat; /*no-repeat, evita que se replique los iconos en el fondo.*/
+    background-position: center; /*Pocisión de los iconos.*/
+    background-size: 20%; /*Tamaño de los iconos.*/
+    background-color: @color0;/*Color del fondo, o los botones.*/
+    animation: gradient_f 20s ease-in infinite;
+    border-radius:20px; /*Define el radio del borde.*/
+    
+    border-style: none; /*Establece un borde. (nonte o solid)*/
+    border-width: 5px; /*Define el grueso del borde.*/
+    margin: 10px 10px; /*Margen de los botones. Parametros: vertical horizonta*/
+    text-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+
+}
+
+button:focus {
+        background-size: 25%;
+	border: 0px;
+
+}
+
+button:hover {
+    background-color: @color5; 
+    color: @color3; /* Cambia el color de la fuente, cuando se seleciona.*/
+    background-size: 30%;
+    margin: 30px;
+    border-radius: 80px; 
+    transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    box-shadow: 0 0 50px @color1; /* Brillo, animacion. */
+	
+}
+
+button span {
+    font-size: 1.2em; /* Increase the font size */
+}
+
+button:active, button:hover {
+	background-color: @color12;/*Define el color de: Activa*/
+	outline-style: none;
+}
+
+#lock {
+    background-image: image(url("./icons/lock.png"));
+}
+#lock:hover {
+    background-image: image(url("./icons/lock-hover.png"));
+}
+
+#logout {
+    background-image: image(url("./icons/logout.png"));
+}
+#logout:hover {
+    background-image: image(url("./icons/logout-hover.png"));
+}
+
+#suspend {
+    background-image: image(url("./icons/sleep.png"));
+}
+#suspend:hover {
+    background-image: image(url("./icons/sleep-hover.png"));
+}
+
+#shutdown {
+    background-image: image(url("./icons/power.png"));
+}
+#shutdown:hover {
+    background-image: image(url("./icons/power-hover.png"));
+}
+
+#reboot {
+    background-image: image(url("./icons/restart.png"));
+}
+#reboot:hover {
+    background-image: image(url("./icons/restart-hover.png"));
+}
+
+#hibernate {
+    background-image: image(url("./icons/hibernate.png"));
+}
+#hibernate:hover {
+    background-image: image(url("./icons/hibernate-hover.png"));
+}

@@ -1,0 +1,10 @@
+qt5ct
+qt6ct
+kvantum
+qt5-wayland
+qt6-wayland
+nwg-look
+xdg-desktop-portal-gtk
+dconf-editor
+gsettings-desktop-schemas
+gsettings-system-schemas

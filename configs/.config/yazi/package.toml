@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "orhnk/simple-clipboard", rev = "7775a80" }]
+
+[flavor]
+deps = []

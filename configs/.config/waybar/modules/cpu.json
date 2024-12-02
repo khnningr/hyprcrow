@@ -1,0 +1,7 @@
+{
+    "cpu": {
+        "interval": 15,
+        "format": "<span color='#f7768e'> </span> {}%",
+        "max-length": 10
+    },
+}

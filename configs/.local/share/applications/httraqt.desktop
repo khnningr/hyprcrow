@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=HTTraQt
+Comment=Web copier
+GenericName=HTTraQt
+TryExec=httraqt
+Exec=httraqt
+Terminal=false
+Icon=httraqt.xpm
+Type=Application
+Categories=Network;Qt;
+

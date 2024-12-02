@@ -1,0 +1,14 @@
+hyprland
+waybar
+xdg-desktop-portal-hyprland
+mako
+swww
+slurp
+cliphist
+polkit-gnome
+hyprcursor
+polkit-gnome
+xorg-xhost
+swappy
+lemurs
+swayidle

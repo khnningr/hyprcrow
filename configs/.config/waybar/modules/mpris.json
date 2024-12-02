@@ -1,0 +1,33 @@
+{
+    "mpris": {
+        "format": "{player_icon} {title} | {artist} <small>[{position}/{length}]</small>",
+        "format-paused": "{status_icon} {title} | {artist} <small>[{position}/{length}]</small>",
+        "tooltip-format": "{player} ({status})\r{artist} - {title}\r\rMiddle-Click:   Play / Pause\rLeft-Click: Previous Track\rRight-Click:  Next Track\rScroll Up: Volume up\rScroll Down: Volume down",
+        "title-len": 15,
+        "interval": 1,
+        "player-icons": {
+            "chromium": " ",
+            "default": " ",
+            "firefox": " ",
+            "kdeconnect": "",
+            "mopidy": " ",
+            "mpv": "󰐹 ",
+            "spotify": " ",
+            "vlc": "󰕼 ",
+        },
+        "status-icons": {
+            "paused": " ",
+            "stopped": " ",
+        },
+        "on-click-middle": "playerctl play-pause",
+        "on-click": "playerctl previous",
+        "on-click-right": "playerctl next",
+        "scroll-step": 5.0,
+        "on-scroll-up": "volumectl -u up",
+        "on-scroll-down": "volumectl -u down",
+        "smooth-scrolling-threshold": 1,
+        // "ignored-players": ["firefox"]
+        
+    },
+}
+ 

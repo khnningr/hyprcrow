@@ -229,6 +229,8 @@ while [ true ]; do
     actualizar_repositorio ~/wallpapers/
     echo -e "\nMi Neovim...\n"
     actualizar_repositorio ~/crow-neovim/
+    echo -e "\nSe esta subiendo mis proyectos..."
+    actualizar_repositorio ~/Proyectos/
     ;;
   3)
     respaldo

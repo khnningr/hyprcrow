@@ -3,6 +3,7 @@
 # Funciones de PACMAN
 
 pacman_conf(){
+	# usar sed: sed -i 's/palabra/sustituir' archivo donde se sustituye.
 	local elegir
 	echo -e "¿Deseas modificar el archivo /etc/pacman.conf? (s/n)"
 	read -p "> " elegir
@@ -35,24 +36,5 @@ chaotic_aur(){
 	
 }
 
-tty_login(){
-clear
-local elegir
-echo -e "\nEstá función permite establecer el tty1, como si fuese un display manager."
-echo -e "¿Deseas modificar el archivo ~/.bash_profile? (s/n)"
-read -p "> " elegir
 
-if [[ "$elegir" == "s" ]]; then
-echo -e """\n# Está configuración debe ir en: ~/.bash_profile
-# Permite establecer el tty1, como si fuese un display manager.
-if [ "$(tty)" = "/dev/tty1" ]; then
-	exec Hyprland""" >> ~/.bash_profile
-cat ~/.bash_profile
-echo -e "\n> TTY1, ahora funciona como display manager.\n"
-else
-echo -e "\nNo se ha modificado el archivo.\n"
-fi
-}
-
-tty_login
 #pacman_conf

@@ -16,7 +16,7 @@ function file-dots
     else
         echo -e "\n\tEl directorio $1 no existe..."
         echo -e "\n\tCreando directorio...\n"
-        mkdir -v "$1"
+        mkdir -p -v "$1"
         echo -e "\n\tDirectorio $1 creado\n"
     fi
     if [ -f "$1/$2" ]; then
@@ -100,7 +100,7 @@ function dir-dots
     else
         echo -e "\n\tEl directorio $1 no existe..."
         echo -e "\n\tCreando directorio $1"
-        mkdir -v "$1"
+        mkdir -p -v "$1"
         echo -e "\n\tDirectorio $1 creado\n"
         echo -e "\n\tCopiando archivos de configuración...\n"
         cp -r -v "$2"/* "$1"/
@@ -162,6 +162,10 @@ function copiar_dots
     file-dots "$local_bin"/ sleep.sh "$dotfiles"/Swaylock/
     file-dots "$local_bin"/ xdg_kitty_exec.sh "$dotfiles"/Kitty/
     file-dots "$local_bin"/ powermenu_rofi.sh "$dotfiles"/Rofi/
+
+    # Estos dotfiles van en la carpeta /etc/
+    #dir-dots /etc/lemurs "$dotfiles"/Lemurs/lemurs lemurs
+    #file-dots /etc/ environment "$dotfiles"/Lemurs/
 }
 
 function pruebas
@@ -171,16 +175,10 @@ function pruebas
     local config=$HOME/.config
     local local_bin=$HOME/.local/share/bin
 
-    file-dots "$local_bin"/ default_handlr.sh "$dotfiles"/Scripts/
-    file-dots "$local_bin"/ gtk_integrado.sh "$dotfiles"/Scripts/ # Integrarlo en Apariencia.
-    file-dots "$local_bin"/ pywal16_swww.sh "$dotfiles"/Pywal/
-    file-dots "$local_bin"/ pywal16_waypaper.sh "$dotfiles"/Pywal/
-    file-dots "$local_bin"/ mako_volumen.sh "$dotfiles"/Mako/
-    file-dots "$local_bin"/ screenshot.sh "$dotfiles"/Hyprland/
-    file-dots "$local_bin"/ sleep.sh "$dotfiles"/Swaylock/
-    file-dots "$local_bin"/ xdg_kitty_exec.sh "$dotfiles"/Kitty/
-    file-dots "$local_bin"/ powermenu_rofi.sh "$dotfiles"/Rofi/
+    sudo dir-dots /etc/lemurs $HOME/dotfiles/Dotfiles/Lemurs/lemurs lemurs
+    sudo file-dots /etc/ environment /home/$(whoami)/dotfiles/Dotfiles/Java/
+    sudo cp -r -v "$dotfiles"/Lemurs/lemurs /etc/
 }
 
-copiar_dots
-#pruebas
+#copiar_dots
+pruebas

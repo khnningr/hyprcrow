@@ -10,5 +10,4 @@ hyprcursor
 polkit-gnome
 xorg-xhost
 swappy
-lemurs
 swayidle

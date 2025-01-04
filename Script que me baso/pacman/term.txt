@@ -1,0 +1,15 @@
+btop
+fish
+neofetch
+neovim
+python-colorthief
+python-pip
+python-pipx
+python-pynvim
+python-pywal
+python-toml
+starship
+stow
+tmux
+yazi
+zoxide

@@ -1,0 +1,31 @@
+{
+    "pulseaudio": { 
+		"format": "{icon} {volume}%",												// Formato en el que se muestra, en este caso, icono, volumen y porcentaje.
+		"tooltip-format": "{icon} {desc} | {volume}%",								// Tooltip, es una vista precia al dejar el puntero encima, en este caso, da la información que brinda.
+		"scroll-step": 5,															// Salto del volumen, al hacer scroll con el mouse. 	
+		"on-scroll-up": "volumectl -u up",
+		"on-scroll-down": "volumectl -u down",
+		"format-muted": "  ", 														// Formato al estar muteado, en este caso, un icono.
+		"on-click-right":"volumectl toggle-mute",									// Al dar click derecho, se mutea.	
+		"format-icons": {															// Formato de los iconos. 	
+			"default": ["󰕿 ","󰖀 ","󰕾 "]	
+		}, 
+		"on-click": "pavucontrol -t 1",												// Click izquierdo abre pavucontrol.
+		"min-length": 7,															// Minimo de largo del botton.
+        "max-length": 7																// Maximo de largo del botton.
+	},
+
+	"pulseaudio#microphone": {
+		"format": "{format_source}",
+		"format-source": "  {volume}%",
+		"format-source-muted": " ",
+		"on-click-right":"volumectl -m toggle-mute",
+		"on-click": "pavucontrol -t 4",
+		"tooltip-format": "{format_source} {source_desc} | {source_volume}%",
+		"scroll-step": 5,
+		"on-scroll-up": "volumectl -m up",
+		"on-scroll-down": "volumectl -m down",
+		"min-length": 7,															// Minimo de largo del botton.
+        "max-length": 7																// Maximo de largo del botton.
+	},
+}

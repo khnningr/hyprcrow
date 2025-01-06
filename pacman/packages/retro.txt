@@ -1,3 +1,0 @@
-retroarch
-retroarch-assets-xmb
-retroarch-assets-ozone

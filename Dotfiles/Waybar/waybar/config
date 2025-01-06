@@ -13,8 +13,7 @@
 	"modules-left": [
        
         "custom/launcher",
-        "custom/playerctl", "custom/playerlabel",
-       // "mpris",
+        "mpris",
         "hyprland/window",
                 
     ],
@@ -48,7 +47,6 @@
         "$HOME/.config/waybar/modules/cpu.json",
         "$HOME/.config/waybar/modules/memory.json",
         "$HOME/.config/waybar/modules/disk.json",
-        "$HOME/.config/waybar/modules/waybar-mediaplayer.json",
         //"$HOME/.config/waybar/modules/launcher.json",
         "$HOME/.config/waybar/modules/network.json",
         "$HOME/.config/waybar/modules/pulseaudio.json",

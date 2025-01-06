@@ -1,5 +1,4 @@
 @import 'colors-waybar.css';
-@import "./waybar-mediaplayer/src/style.css";
 
 /* Colores: transparent
 
@@ -343,37 +342,6 @@ window#waybar.hidden {
   
 #custom-mpris {
 	padding: 10px;
-}
-
-#custom-playerctl {
-	background: #282828;
-	padding-left: 15px;
-  padding-right: 14px;
-  /*padding: 0px 0px 0px 0px;*/
-	border-radius: 16px;
-  /*border-left: solid 1px #282738;*/
-  /*border-right: solid 1px #282738;*/
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 0px;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 16px;
-}
-
-#custom-playerlabel {
-    background: transparent;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding: 0px 0px 0px 0px;
-    
-    border-radius: 16px;
-    /*border-left: solid 1px #282738;*/
-    /*border-right: solid 1px #282738;*/
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-weight: normal;
-    font-style: normal;
 }
 
 #custom-pacman {

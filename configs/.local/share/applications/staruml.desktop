@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=StarUML
-Exec=/opt/StarUML/staruml %U
-Terminal=false
-Type=Application
-Icon=staruml
-StartupWMClass=StarUML
-Comment=A sophisticated software modeler
-Categories=Development;

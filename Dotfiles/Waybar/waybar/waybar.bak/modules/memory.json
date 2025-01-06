@@ -1,0 +1,7 @@
+{
+    "memory": {
+        "interval": 30,
+        "format": "<span color='#7dcfff'>  </span> {used} GiB",
+        "max-length": 10
+    },
+}

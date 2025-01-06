@@ -1,7 +1,0 @@
-waypaper
-rofi-lbonn-wayland-git
-swaylock-effects-git
-grimblast-git
-python-pywal16
-avizo
-wlogout

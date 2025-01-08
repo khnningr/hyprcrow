@@ -63,7 +63,7 @@ sudo pacman -S --needed vesktop
 # hypr
 sudo pacman -S --needed - < $HOME/hyprcrow/Dotfiles/Pacman/Paquetes/hypr.txt
 # AUR
-paru -S --needed xdg-desktop-portal-termfilechooser-git python-pywal16 grimblast-git avizo
+paru -S --needed xdg-desktop-portal-termfilechooser-git python-pywal16 avizo
 
 echo -e "\n\tSe han instalado los paquetes necesarios.\n"
 

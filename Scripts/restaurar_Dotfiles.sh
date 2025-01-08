@@ -144,6 +144,8 @@ sudo cp -rf -v "$dotfiles"/Yazi/xdg-desktop-portal-termfilechooser /usr/share
 # Elegir con base un condicional.
 dir-dots "$config"/xdg-desktop-portal "$dotfiles"/xdg-desktop-portal xdg-desktop-portal
 dir-dots "$config"/VSCode "$dotfiles"/VSCodium VSCodium
+dir-dots "$config"/swaync "$dotfiles/SwayNC/swaync swaync
+dir-dots "$config"/hellwal "$dotfiles/Hellwal/hellwal hellwal
 file-dots "$config"/baloofilerc "$dotfiles"/Dolphin/
 file-dots "$config"/kdeglobals "$dotfiles"/Dolphin/
 file-dots "$config"/electron30-flags.conf "$dotfiles"/ElectronApps/
@@ -163,23 +165,9 @@ file-dots "$local_bin"/ screenshot.sh "$dotfiles"/Hyprland/
 file-dots "$local_bin"/ sleep.sh "$dotfiles"/Swaylock/
 file-dots "$local_bin"/ xdg_kitty_exec.sh "$dotfiles"/Kitty/
 file-dots "$local_bin"/ powermenu_rofi.sh "$dotfiles"/Rofi/
-
-# Estos dotfiles van en la carpeta /etc/
-#dir-dots /etc/lemurs "$dotfiles"/Lemurs/lemurs lemurs
-#file-dots /etc/ environment "$dotfiles"/Lemurs/
-}
-
-function pruebas
-{
-local dotfiles=$HOME/dotfiles/Dotfiles
-local nvim=$HOME/crow-neovim
-local config=$HOME/.config
-local local_bin=$HOME/.local/share/bin
-
-sudo dir-dots /etc/lemurs $HOME/dotfiles/Dotfiles/Lemurs/lemurs lemurs
-sudo file-dots /etc/ environment /home/$(whoami)/dotfiles/Dotfiles/Java/
-sudo cp -r -v "$dotfiles"/Lemurs/lemurs /etc/
+file-dots "$local_bin"/ variables.sh "$dotfiles"/Hellwal/
+file-dots "$local_bin"/ terminal.sh "$dotfiles"/Hellwal/
+file-dots "$local_bin"/ swww_hellwal.sh "$dotfiles"/Hellwal/
 }
 
 restaurar_dotfiles
-#pruebas

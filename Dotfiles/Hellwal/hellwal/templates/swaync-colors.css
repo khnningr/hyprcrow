@@ -1,0 +1,9 @@
+@define-color noti-border-color                 #%%background%%;
+@define-color noti-bg                           #%%background%%;
+@define-color noti-bg-hover                     rgba(%%color12.rgb%%, 0.1);
+@define-color noti-bg-focus                     #%%color2.hex%%;
+@define-color noti-close-bg                     #%%background%%;
+@define-color noti-close-bg-hover               #%%color1.hex%%;
+@define-color mpris-album-art-overlay           rgba(%%color12.rgb%%, 0.55);
+@define-color bg-selected                       #%%color2.hex%%;
+@define-color shade-lighter rgba(%%color3.rgb%%, 0.1);

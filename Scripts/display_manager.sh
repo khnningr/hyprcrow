@@ -4,32 +4,52 @@
 
 function tty_login
 {
+
 clear
+
 local elegir
+
 while [ true ]; do
-if grep -q "tty1" ~/.bash_profile; then
+
+if grep -q "Hyprland" ~/.bash_profile && grep -q "Hyprland" ~/.zprofile; then
+
 echo -e "\n> TTY1, ya funciona como display manager.\n"
+
 break
+
 fi
+
 echo -e "\nEstá función permite establecer el tty1, como si fuese un display manager."
-echo -e "¿Deseas modificar el archivo ~/.bash_profile? (s/n)"
+echo -e "¿Deseas modificar el archivo ~/.bash_profile, para bash y ~/.zprofile, para zsh? (s/n)"
 read -p "> " elegir
 
 if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
+
 echo -e """\n# Está configuración debe ir en: ~/.bash_profile
 # Permite establecer el tty1, como si fuese un display manager.
 if [ "$(tty)" = "/dev/tty1" ]; then
-    exec Hyprland""" >> ~/.bash_profile
+    exec Hyprland
+fi""" >> ~/.bash_profile
 cat ~/.bash_profile
+
 echo -e "\n> TTY1, ahora funciona como display manager.\n"
+
 break
+
 elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then
+
 echo -e "\nNo se ha modificado el archivo.\n"
+
 break
+
 else
+
 echo -e "\n\tOpción no valida. Intente de nuevo.\n"
+
 fi
+
 done
+
 }
 # Más adelante agregar una función para quitar tty1 como display manager.
 
@@ -60,4 +80,3 @@ echo -e "\n\tOpción no valida. Intente de nuevo.\n"
 fi
 done
 }
-

@@ -35,7 +35,8 @@ configuration{
     sidebar-mode: true;
 }
 
-@import "~/.cache/wal/colors-rofi-dark"
+//@import "~/.cache/wal/colors-rofi-dark"
+@import "rofi-colors-dark"
 
 // *: Aplica estilos generales a todos los elementos.
 * {

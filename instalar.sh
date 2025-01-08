@@ -11,10 +11,11 @@ source "$Dotfiles"/Scripts/flatpak.sh
 source "$Dotfiles"/Scripts/display_manager.sh
 source "$Dotfiles"/Scripts/zsh.sh
 source "$Dotfiles"/Scripts/apariencia.sh
-source "$Dotfiles"/Scripts/plugins_hyprland.sh
-source "$Dotfiles"/Scripts/restaurar_Dotfiles.sh
+source ./Scripts/plugins_hyprland.sh
+source ./Scripts/restaurar_Dotfiles.sh
 
-generar_indice() {
+function generar_indice
+{
 
 local titulo="$1"
 shift # Elimina el primer argumento, $1.
@@ -86,12 +87,47 @@ else
 
 echo -e "\n\tOpción no valida. Intente de nuevo.\n"
 
+fi
+
 done
 
 }
 
 function instalacion_manual
 {
-menu_principal=("Instalar Chaotic-AUR" "Actualizar mirrorlist" "Instalar Hyprland" "Instalar soporte de videojuegos" )
+
+while [ true ]; do
+
+menu_principal=("Instalar Chaotic-AUR" "Actualizar mirrorlist" "Instalar Hyprland" "Instalar soporte de videojuegos" "Instalar Drivers de video" "Instalar flatpak" "Configurar Display Manager" "Instalar OH-MY-ZSH" "Configurar apariencia" "Soporte de Plugins Hyprland" "Habilitar Hyprexpo" "Habilitar Hyprspace" "Restaurar Dotfiles" "Instalar en modo Automaático")
 generar_indice "Menu Principal" "${menu_principal[@]}"
+read -p "Seleccione una opción: " elegir
+
+case $elegir in
+0) break ;;
+1) chaotic_aur ;;
+2) actualizar_mirrorlist ;;
+3) paquetes_necesarios ;;
+4) soporte_videojuegos ;;
+5) instalar_controladores ;;
+6) soporte_flatpak ;;
+7) display_manager ;;
+8) ohmyzsh ;;
+9) 
+verificar_carpetas 
+definir_themes
+definir_iconos
+definir_fonts
+;;
+10) habilitar_plugins ;;
+11) habilitar_hyprexpo ;;
+12) habilitar_hyprspace ;;
+13) restaurar_dotfiles ;;
+14) instalacion_auto ;;
+esac
+
+done
+
 }
+
+instalacion_manual
+

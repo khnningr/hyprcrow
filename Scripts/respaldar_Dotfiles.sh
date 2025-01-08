@@ -44,6 +44,8 @@ dir_respaldo xdg-desktop-portal-termfilechooser /usr/share/xdg-desktop-portal-te
 # dir_respaldo "menus (Dolphin)" "$config"/menus "$dotfiles"/Dolphin
 dir_respaldo xdg-desktop-portal "$config"/xdg-desktop-portal "$dotfiles"
 dir_respaldo VSCode "$config"/VSCode "$dotfiles"/VSCodium
+dir_respaldo swaync "$config"/swaync "$dotfiles"/SwayNC
+dir_respaldo hellwal "$config"/hellwal "$dotfiles"/Hellwal
 # Solo un archivo de configuración.
 file_respaldo "baloofilerc (Dolphin)" "$config"/baloofilerc "$dotfiles"/Dolphin
 file_respaldo "kdeglobals (Dolphin)" "$config"/kdeglobals "$dotfiles"/Dolphin
@@ -63,6 +65,10 @@ file_respaldo screenshot.sh "$local_bin"/screenshot.sh "$dotfiles"/Hyprland/
 file_respaldo sleep.sh "$local_bin"/sleep.sh "$dotfiles"/Swaylock/
 file_respaldo xdg_kitty_exec.sh "$local_bin"/xdg_kitty_exec.sh "$dotfiles"/Kitty/
 file_respaldo powermenu_rofi.sh "$local_bin"/powermenu_rofi.sh "$dotfiles"/Rofi/
+file_respaldo "variables.sh (hellwal)" "$local_bin"/variables.sh "$dotfiles"/Hellwal/
+file_respaldo "terminal.sh (hellwal)" "$local_bin"/terminal.sh "$dotfiles"/Hellwal/
+file_respaldo swww_hellwal.sh "$local_bin"/swww_hellwal.sh "$dotfiles"/Hellwal/
 file_respaldo .zshrc "$HOME"/.zshrc "$dotfiles"/Zsh
+file_respaldo .zprofile "$HOME"/.zprofile "$dotfiles"/Zsh
 }
 respaldar

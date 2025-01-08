@@ -1,4 +1,4 @@
-@import 'colors-waybar.css';
+@import 'waybar-colors.css';
 
 /* Colores: transparent
 
@@ -13,6 +13,10 @@
 @define-color background-color        @color12;
 
 @define-color transparent   rgba(0, 0, 0, 0.3);
+
+@define-color cyan          rgba(53, 140, 169, 1);
+
+@define-color teal-trans    rgba(1, 117, 84, 0.5);
 
 
 * {																
@@ -84,6 +88,7 @@ tooltip {
 #custom-dunst,
 #mpris,
 #window,
+#custom-swaync,
 #taskbar,
 #tray,
 #pulseaudio,
@@ -390,4 +395,22 @@ window#waybar.hidden {
     margin-right: 5px;
     padding: 0px 11px 0px 9px;
     font-weight: bold;
+}
+
+#custom-swaync {
+    color: @foreground;
+    padding: 0px 10px 0px 10px;
+    background-color: @background;
+    border-radius: 10px;
+    margin: 4px 2px 0 2px;
+}
+
+#custom-swaync {
+    margin-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#custom-swaync {
+    color: @color10;
 }

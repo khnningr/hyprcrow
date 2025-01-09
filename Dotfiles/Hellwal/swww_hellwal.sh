@@ -39,9 +39,9 @@ cp ~/.cache/hellwal/kitty-colors.conf ~/.config/kitty
 cp ~/.cache/hellwal/rofi-colors-dark.rasi ~/.config/rofi
 cp ~/.cache/hellwal/terminal.sh ~/.local/share/bin
 cp ~/.cache/hellwal/variables.sh ~/.local/share/bin
-
+cp ~/.cache/hellwal/wezterm-colors.toml ~/.config/wezterm/colors/
 # cp ~/.cache/wal/colors-wlogout.css ~/.config/wlogout
-# cp ~/.cache/wal/wezterm-wal.toml ~/.config/wezterm/colors/
+
 
 killall swaync
 wait

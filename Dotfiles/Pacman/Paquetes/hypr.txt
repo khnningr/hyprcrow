@@ -9,7 +9,6 @@ gtk3
 mako
 swaync
 swww
-hyprpaper
 slurp
 grim
 cliphist

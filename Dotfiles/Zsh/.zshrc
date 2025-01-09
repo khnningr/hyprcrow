@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
-source ~/.local/share/bin/variables.sh
-sh ~/.local/share/bin/terminal.sh
+#source ~/.local/share/bin/variables.sh
+#sh ~/.local/share/bin/terminal.sh
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"

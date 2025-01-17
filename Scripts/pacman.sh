@@ -58,8 +58,9 @@ if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
 
 sudo pacman -Syu
 # base
+# thunar-archive-plugin
 sudo pacman -S --needed - < $HOME/hyprcrow/Dotfiles/Pacman/Paquetes/base.txt
-sudo pacman -S --needed vesktop
+sudo pacman -S --needed vesktop rofi-emoji noto-fonts-emoji
 # hypr
 sudo pacman -S --needed - < $HOME/hyprcrow/Dotfiles/Pacman/Paquetes/hypr.txt
 # AUR

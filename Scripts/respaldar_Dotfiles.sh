@@ -68,6 +68,7 @@ file_respaldo powermenu_rofi.sh "$local_bin"/powermenu_rofi.sh "$dotfiles"/Rofi/
 file_respaldo "variables.sh (hellwal)" "$local_bin"/variables.sh "$dotfiles"/Hellwal/
 file_respaldo "terminal.sh (hellwal)" "$local_bin"/terminal.sh "$dotfiles"/Hellwal/
 file_respaldo swww_hellwal.sh "$local_bin"/swww_hellwal.sh "$dotfiles"/Hellwal/
+file_respaldo waypaper_hellwal.sh "$local_bin"/waypaper_hellwal.sh "$dotfiles"/Hellwal/
 file_respaldo .zshrc "$HOME"/.zshrc "$dotfiles"/Zsh
 file_respaldo .zprofile "$HOME"/.zprofile "$dotfiles"/Zsh
 }

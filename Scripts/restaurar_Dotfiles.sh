@@ -168,6 +168,7 @@ file-dots "$local_bin"/ powermenu_rofi.sh "$dotfiles"/Rofi/
 file-dots "$local_bin"/ variables.sh "$dotfiles"/Hellwal/
 file-dots "$local_bin"/ terminal.sh "$dotfiles"/Hellwal/
 file-dots "$local_bin"/ swww_hellwal.sh "$dotfiles"/Hellwal/
+file-dots "$local_bin"/ waypaper_hellwal.sh "$dotfiles"/Hellwal/
 }
 
 restaurar_dotfiles

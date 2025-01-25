@@ -15,3 +15,5 @@ actualizar_repositorio ~/hyprcrow/
 actualizar_repositorio ~/Wallpapers/
 
 actualizar_repositorio ~/Neovim/
+
+actualizar_repsotorio ~/Biblioteca/

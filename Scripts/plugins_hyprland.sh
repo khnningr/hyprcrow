@@ -23,3 +23,8 @@ hyprpm add https://github.com/KZDKM/Hyprspace
 hyprpm enable Hyprspace
 
 }
+
+
+habilitar_plugins
+habilitar_hyprexpo
+habilitar_hyprspace

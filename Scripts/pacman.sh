@@ -64,7 +64,7 @@ sudo pacman -S --needed vesktop rofi-emoji noto-fonts-emoji
 # hypr
 sudo pacman -S --needed - < $HOME/hyprcrow/Dotfiles/Pacman/Paquetes/hypr.txt
 # AUR
-paru -S --needed xdg-desktop-portal-termfilechooser-git python-pywal16 avizo
+paru -S --needed xdg-desktop-portal-termfilechooser-git hellwal avizo
 
 echo -e "\n\tSe han instalado los paquetes necesarios.\n"
 
@@ -102,6 +102,10 @@ echo ""
 if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
 
 sudo pacman -S --needed - < $HOME/hyprcrow/Dotfiles/Pacman/Paquetes/videojuegos.txt
+# github.com/flightlessmango/MangoHud
+sudo pacman -S --needed mangohud lib32-mangohud
+paru -S --needed mangojuice
+# Comando necesario en steam modo lazamiento: mangohud %command%
 
 echo -e "\n\tSe han instalado los paquetes.\n"
 

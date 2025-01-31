@@ -146,6 +146,7 @@ dir-dots "$config"/xdg-desktop-portal "$dotfiles"/xdg-desktop-portal xdg-desktop
 dir-dots "$config"/VSCode "$dotfiles"/VSCodium VSCodium
 dir-dots "$config"/swaync "$dotfiles/SwayNC/swaync swaync
 dir-dots "$config"/hellwal "$dotfiles/Hellwal/hellwal hellwal
+dir-dots "$config"/sys64 "$dotfiles/Syshud/sys64 sys64
 file-dots "$config"/baloofilerc "$dotfiles"/Dolphin/
 file-dots "$config"/kdeglobals "$dotfiles"/Dolphin/
 file-dots "$config"/electron30-flags.conf "$dotfiles"/ElectronApps/

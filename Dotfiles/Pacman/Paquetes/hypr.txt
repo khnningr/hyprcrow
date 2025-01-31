@@ -6,7 +6,6 @@ xdg-desktop-portal-gtk
 gnu-free-fonts
 rofi-wayland
 gtk3
-mako
 swaync
 swww
 slurp

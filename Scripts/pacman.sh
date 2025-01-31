@@ -64,7 +64,7 @@ sudo pacman -S --needed vesktop rofi-emoji noto-fonts-emoji
 # hypr
 sudo pacman -S --needed - < $HOME/hyprcrow/Dotfiles/Pacman/Paquetes/hypr.txt
 # AUR
-paru -S --needed xdg-desktop-portal-termfilechooser-git hellwal avizo
+paru -S --needed xdg-desktop-portal-termfilechooser-git hellwal syshud
 
 echo -e "\n\tSe han instalado los paquetes necesarios.\n"
 

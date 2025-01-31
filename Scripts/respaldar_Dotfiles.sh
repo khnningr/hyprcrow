@@ -46,6 +46,7 @@ dir_respaldo xdg-desktop-portal "$config"/xdg-desktop-portal "$dotfiles"
 dir_respaldo VSCode "$config"/VSCode "$dotfiles"/VSCodium
 dir_respaldo swaync "$config"/swaync "$dotfiles"/SwayNC
 dir_respaldo hellwal "$config"/hellwal "$dotfiles"/Hellwal
+dir_respaldo sys64 "$config"/sys64 "$dotfiles"/Syshud
 # Solo un archivo de configuración.
 file_respaldo "baloofilerc (Dolphin)" "$config"/baloofilerc "$dotfiles"/Dolphin
 file_respaldo "kdeglobals (Dolphin)" "$config"/kdeglobals "$dotfiles"/Dolphin

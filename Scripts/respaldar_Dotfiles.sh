@@ -31,7 +31,8 @@ dir_respaldo rofi "$config"/rofi "$dotfiles"/Rofi
 dir_respaldo fastfetch "$config"/fastfetch "$dotfiles"/Fastfetch
 dir_respaldo mako "$config"/mako "$dotfiles"/Mako
 dir_respaldo wal "$config"/wal "$dotfiles"/Pywal
-dir_respaldo xfce4 "$config"/xfce4 "$dotfiles"/Thunar
+#dir_respaldo xfce4 "$config"/xfce4 "$dotfiles"/Thunar
+dir_respaldo Thunar "$config"/Thunar "$dotfiles"/Thunar
 dir_respaldo wlogout "$config"/wlogout "$dotfiles"/Wlogout
 dir_respaldo wezterm "$config"/wezterm "$dotfiles"/Wezterm
 dir_respaldo ranger "$config"/ranger "$dotfiles"/Ranger

@@ -60,11 +60,11 @@ sudo pacman -Syu
 # base
 # thunar-archive-plugin
 sudo pacman -S --needed - < $HOME/hyprcrow/Dotfiles/Pacman/Paquetes/base.txt
-sudo pacman -S --needed vesktop rofi-emoji noto-fonts-emoji
+sudo pacman -S --needed vesktop rofi-emoji noto-fonts-emoji hyprpicker
 # hypr
 sudo pacman -S --needed - < $HOME/hyprcrow/Dotfiles/Pacman/Paquetes/hypr.txt
 # AUR
-paru -S --needed xdg-desktop-portal-termfilechooser-git hellwal syshud
+paru -S --needed xdg-desktop-portal-termfilechooser-git hellwal syshud gpu-usage-waybar
 
 echo -e "\n\tSe han instalado los paquetes necesarios.\n"
 

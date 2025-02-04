@@ -130,7 +130,8 @@ dir-dots "$config"/rofi "$dotfiles"/Rofi/rofi rofi
 dir-dots "$config"/fastfetch "$dotfiles"/Fastfetch/fastfetch fastfetch
 dir-dots "$config"/mako "$dotfiles"/Mako/mako mako
 dir-dots "$config"/wal "$dotfiles"/Pywal/wal wal
-dir-dots "$config"/xfce4 "$dotfiles"/Thunar/xfce4 xfce4
+#dir-dots "$config"/xfce4 "$dotfiles"/Thunar/xfce4 xfce4
+dir-dots "$config"/Thunar "$dotfiles"/Thunar/Thunar Thunar
 dir-dots "$config"/wlogout "$dotfiles"/Wlogout/wlogout wlogout
 dir-dots "$config"/wezterm "$dotfiles"/Wezterm/wezterm wezterm
 dir-dots "$config"/ranger "$dotfiles"/Ranger/ranger ranger
@@ -159,8 +160,8 @@ file-dots "$config"/codium-flags.conf "$dotfiles"/ElectronApps/
 # Es posible que deba sustituir esto para ingresar cada Script dentro de la carpeta del programa.
 file-dots "$local_bin"/ default_handlr.sh "$dotfiles"/Scripts/
 file-dots "$local_bin"/ gtk_integrado.sh "$dotfiles"/Scripts/ # Integrarlo en Apariencia.
-file-dots "$local_bin"/ pywal16_swww.sh "$dotfiles"/Pywal/
-file-dots "$local_bin"/ pywal16_waypaper.sh "$dotfiles"/Pywal/
+#file-dots "$local_bin"/ pywal16_swww.sh "$dotfiles"/Pywal/
+#file-dots "$local_bin"/ pywal16_waypaper.sh "$dotfiles"/Pywal/
 file-dots "$local_bin"/ mako_volumen.sh "$dotfiles"/Mako/
 file-dots "$local_bin"/ screenshot.sh "$dotfiles"/Hyprland/
 file-dots "$local_bin"/ sleep.sh "$dotfiles"/Swaylock/

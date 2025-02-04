@@ -5,21 +5,23 @@
     "margin-top": 5,
     "margin-left": 10,
     "margin-right": 10,
-    "margin-bottom": 10,
+    "margin-bottom": 0,
     "reload_style_on_change": true,
 
     // Modules layout
 
 	"modules-left": [
-       
         "custom/launcher",
-        "mpris",
+        "group/hardware",
+        //"memory",
+        //"disk",
+        //"cpu",
+        //"custom/gpu-usage",
         "hyprland/window",
                 
     ],
 
 	"modules-center": [
-        "wlr/taskbar",
         "hyprland/workspaces",
     ],
 	
@@ -29,8 +31,7 @@
         "tray",
         "custom/swaync",
         "custom/pacman",
-        "pulseaudio",
-        "pulseaudio#microphone", 
+        "group/pulseaudio",
         "clock",
         "custom/power",
     ],
@@ -64,14 +65,14 @@
       "tooltip": false,
       "format": "{icon}",
       "format-icons": {
-        "notification": "<span foreground='red'><sup></sup></span>",
-        "none": "",
-        "dnd-notification": "<span foreground='red'><sup></sup></span>",
-        "dnd-none": "",
-        "inhibited-notification": "<span foreground='red'><sup></sup></span>",
-        "inhibited-none": "",
-        "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
-        "dnd-inhibited-none": ""
+        "notification": "󱅫 ",
+        "none": " ",
+        "dnd-notification": "󱅫 ",
+        "dnd-none": " ",
+        "inhibited-notification": "󱅫 ",
+        "inhibited-none": " ",
+        "dnd-inhibited-notification": "󱅫 ",
+        "dnd-inhibited-none": " "
       },
       "return-type": "json",
       "exec-if": "which swaync-client",
@@ -88,65 +89,16 @@
         "exec": "checkupdates | wc -l",
         "exec-if": "[ $(checkupdates | wc -l) -gt 0 ]",
         "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system
+        "on-click-right": "wezterm start sh -c 'if pkexec pacman -Syu; then if pkexec paru -Syu; then notify-send \"Sistema actualizado correctamente\"; else notify-send \"Error al actualizar con Paru\"; fi; else notify-send \"Error al actualizar con Pacman\"; fi'",
         "signal": 8
        },
 
-    "custom/dunst": {
-        "format": "{} ",
-        "exec": "~/.config/waybar/scripts/dunst.sh",
-        "on-click": "dunstctl set-paused toggle",
-        "restart-interval": 1
-    },
+
 
     "custom/window": {
         "exec": "~/.config/waybar/scripts/window_title.sh",
         "interval": 1
     },
-
-    "wlr/workspaces": {
-      "format": "{icon}",
-      "on-click": "activate",
-      "format-icons": {
-        "active": " 󰮯",
-        "default": "",
-      }
-    },
-
-    "custom/playerlabel": {
-      "format": "<span>{}</span>",
-      "return-type": "json",
-      "max-length": 80,
-      "exec": "python3 -u ~/.local/share/bin/scrolling-mpris.py",  
-      "on-click-middle": "playerctl play-pause",
-      "on-click": "playerctl previous",
-      "on-click-right": "playerctl next",
-      "format-icons": {
-        "Playing": "<span foreground='#E5B9C6'>󰒮󰐌󰒭</span>",
-        "Paused": "<span foreground='#928374'>󰒮󰏥󰒭</span>"
-        
-      },
-    },
-
-   "custom/playerctl": {
-      "format": "{icon}",
-      "return-type": "json",
-      "max-length": 64,
-      "exec": "python3 -u ~/.local/share/bin/scrolling-mpris.py", 
-      "on-click-middle": "playerctl play-pause",
-      "on-click": "playerctl previous",
-      "on-click-right": "playerctl next",
-      "format-icons": {
-        "Playing": "<span foreground='#E5B9C6'>󰒮 󰐌 󰒭</span>",
-        "Paused": "<span foreground='#928374'>󰒮 󰏥 󰒭</span>"
-      },
-    },
-
-    "custom/mpris": {
-		  "exec": "python3 -u ~/.local/share/bin/scrolling-mpris.py",
-		  "format": "{text}",
-		  "return-type": "json",
-		  "on-click": "playerctl play-pause"
-	},
 
   "custom/hyprpicker": {
     "format": "󰈋",
@@ -161,6 +113,93 @@
     "on-click-right": "cliphist list | rofi -dmenu | cliphist decode | wl-copy",
     "on-click": "rofi -show drun",
   },
+
+  "memory": {
+    "format": "  {used:0.1f}G",
+    "format-alt": "  {used:0.1f}/{total:0.1f}G",
+    "interval": 5,
+    "max-length": 15,
+    "tooltip-format": "En uso: {used:0.1f}G ({percentage}%)\rDisponible: {avail}G\rTotal: {total:0.1f}G"
+  },
+
+  "cpu": {
+    "format": " {usage}%",
+    "format-alt": " {avg_frequency} GHz",
+    "interval": 5
+  },
+
+  "disk": {
+    "format": "󰋊 {percentage_used}%",
+    "format-alt": "󰋊 {used}/{total}",
+    "interval": 5,
+    "path": "/home/kh/",
+    "tooltip-format": "En uso: {used} ({percentage_used}%)\rDisponible: {free} ({percentage_free}%)\rTotal: {total}"
+  },
+
+  "custom/gpu-usage1": {
+    "format": " {}%",
+    "exec": "cat /sys/class/hwmon/hwmon*/device/gpu_busy_percent",
+    "exec-if": "sensors | grep 'edge:' | awk '{print $2}' | cut -d '.' -f 1",
+    "return-type": "",
+    "interval": 1
+  },
+
+  // https://github.com/polponline/gpu-usage-waybar
+  "custom/gpu-usage": {
+    "format": " {}",
+    "exec": "gpu-usage-waybar",
+    "return-type": "json",
+    "on-click": "wezterm start radeontop",
+  },
+
+  "custom/flecha_derecha": {
+    "format": " "
+  },
+
+  "custom/group-pulseaudio": {
+    "format": " "
+  },
+
+  "group/hardware": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 300,
+      "children-class": "not-memory",
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "custom/flecha_derecha",
+      "memory",
+      "disk",
+      "cpu",
+      "custom/gpu-usage"
+    ]
+  },
+  
+  "group/pulseaudio": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 300,
+      "children-class": "not-memory",
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "pulseaudio",
+      "pulseaudio#microphone"
+    ]
+  },
+  
+  "group/hardware1": {
+    "orientation": "horizontal",
+    "modules": [
+      
+      "memory",
+      "disk",
+      "cpu",
+      "custom/gpu-usage"
+    ]
+  },
+
 
 }
 

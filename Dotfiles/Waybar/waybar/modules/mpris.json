@@ -1,8 +1,8 @@
 {
     "mpris": {
-        "format": "{player_icon} {title} | {artist} <small>[{position}/{length}]</small>",
-        "format-paused": "{status_icon} {title} | {artist} <small>[{position}/{length}]</small>",
-        "tooltip-format": "{player} ({status})\r{artist} - {title}\r\rMiddle-Click:   Play / Pause\rLeft-Click: Previous Track\rRight-Click:  Next Track\rScroll Up: Volume up\rScroll Down: Volume down",
+        "format": "{player_icon}",
+        "format-paused": "{status_icon}",
+        "tooltip-format": "({status}) {position} - {length}\rReproduciendo desde: {player}\r{artist} - {title}\r\rMiddle-Click:   Play / Pause\rLeft-Click: Previous Track\rRight-Click:  Next Track\rScroll Up: Volume up\rScroll Down: Volume down",
         "title-len": 15,
         "interval": 1,
         "player-icons": {

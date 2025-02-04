@@ -13,7 +13,7 @@ return {
 	hide_tab_bar_if_only_one_tab = true,
 	color_scheme = "wezterm-colors",
 	automatically_reload_config = true,
-	--front_end = "Software" -- "Renderiza con CPU en lugar de GPU"
+	front_end = "Software" -- "Renderiza con CPU en lugar de GPU"
 }
 
 -- Pywal

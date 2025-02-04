@@ -19,7 +19,8 @@ PICS=($(ls "$DIR"))
 RANDOMPICS="${PICS[$RANDOM % ${#PICS[@]}]}"
 
 if pidof swww >/dev/null; then
-  pkill swww
+  pkill -f swww
+  sleep 1
 fi
 
 wait

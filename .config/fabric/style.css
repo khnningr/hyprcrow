@@ -1,0 +1,148 @@
+@import 'fabric-colors.css';
+
+* {
+    all: unset;
+    color: var(--foreground);
+    font-size: 16px;
+    font-family: "Mononoki Nerd Font";
+    border-radius: 100px;
+}
+
+#crow-bar {
+    padding: 4px;
+    border: none;
+    border-radius: 0px;
+    background-color: var(--window-bg);
+    /*background: rgba(0, 0, 0, 0.3);*/
+    min-height: 28px;
+    box-shadow: inset 0px -3px var(--border-color);
+}
+
+#widgets-container {
+    background-color: var(--module-bg);
+    padding: 2px;
+}
+
+tooltip {
+    border: solid 2px;
+    border-radius: 2px;
+    border-color: var(--border-color);
+    background-color: var(--window-bg);
+}
+
+tooltip>* {
+    padding: 2px 4px
+}
+
+#hyprland-window,
+#picker-button,
+#systray,
+#date-time,
+#power-button {
+    padding: 2px 10px 2px 10px;
+    margin: 0.2em 0.3em 0.2em 0.3em;
+    border-radius: 0.2em;
+    box-shadow: inset 0 -20px transparent;
+    
+}
+
+#hyprland-window,
+#picker-button,
+#systray,
+#date-time {
+    text-shadow: 1px 2px @color0;
+    background: @color12;
+}
+
+#power-button,
+#logo {
+    font-size: 20px; 
+    text-shadow: 1px 2px @color0;
+}
+
+#power-button {
+    color: @color3w;
+    background: @color12;
+    margin: /*Arriba*/ -0.4em /*Derecha*/ -0.3em /*Abajo*/ -0.4em /*Izquierda*/ 1em; /*Espacio fuera del cuadro*/
+    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 0em /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 2em;
+    padding: /*Arriba*/ 0em /*Derecha*/ 1em /*Abajo*/ 0em /*Izquierda*/ 1em;
+    box-shadow: inset 0px -5px var(--border-color);
+}
+
+#logo {
+    color: @color12;
+    background: @color3;
+    margin: /*Arriba*/ -0.4em /*Derecha*/ 1em /*Abajo*/ -0.4em /*Izquierda*/ -0.3em; /*Espacio fuera del cuadro*/
+    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 2em /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 0em;
+    padding: /*Arriba*/ 0em /*Derecha*/ 1em /*Abajo*/ 0em /*Izquierda*/ 1em;
+    box-shadow: inset -4px 0px var(--border-color);
+}
+
+#hyprland-window {
+    background: none;
+}
+
+#workspaces {
+    padding: 10px;
+    /*background-color: var(--module-bg);*/
+    background: none;
+    border-radius: 2px;
+}
+
+#workspaces>button {
+    padding: 0px 8px;
+    transition: padding 0.05s steps(8);
+    background-color: var(--ws-inactive);
+}
+
+#workspaces>button>label {
+    font-size: 0px;
+}
+
+#workspaces>button:hover {
+    background-color: var(--ws-hover);
+}
+
+#workspaces>button.urgent {
+    background-color: var(--ws-urgent);
+}
+
+#workspaces>button.active {
+    padding: 0px 32px;
+    background-color: var(--ws-active);
+}
+
+#workspaces>button.empty {
+    background-color: var(--ws-empty);
+}
+
+/* menu and menu items (written for the system tray) */
+menu {
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: var(--border-color);
+    background-color: var(--window-bg);
+}
+
+menu>menuitem {
+    border-radius: 0px;
+    background-color: var(--module-bg);
+    padding: 6px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+menu>menuitem:first-child {
+    margin-top: 1px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+menu>menuitem:last-child {
+    margin-bottom: 1px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+menu>menuitem:hover {
+    background-color: var(--border-color);
+}
+

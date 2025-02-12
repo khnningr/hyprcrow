@@ -1,0 +1,192 @@
+@import 'waybar-colors.css';
+
+@define-color transparent   rgba(0, 0, 0, 0.3);
+
+@define-color font_color           @foreground;
+
+* {
+    font-family: "Mononoki Nerd Font";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*  */
+window#waybar {
+    background: @transparent;
+    box-shadow: inset 0 -3px @color5;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+/*  */
+window#waybar>box {
+    margin: 0.2em 0em 0.2em 0em;
+    padding: 0;
+}
+
+tooltip {
+    background: @background;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+}
+
+/*  */
+#window,
+#custom-hyprpicker,
+#tray,
+#custom-swaync,
+#custom-pacman,
+#clock {
+    padding: 2px 10px 2px 10px;
+    margin: 0.2em 0.3em 0.2em 0.3em;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+    box-shadow: inset 0 -3px transparent;
+}
+
+#memory,
+#disk,
+#cpu,
+#custom-gpu-usage,
+#window,
+#custom-hyprpicker,
+#tray,
+#custom-swaync,
+#custom-pacman,
+#pulseaudio,
+#clock {
+    background: @color12;
+    text-shadow: 1px 2px @color0;
+    color: @font_color;
+}
+
+#memory,
+#disk,
+#cpu,
+#custom-gpu-usage {
+    padding: /*Arriba*/ 0em /*Derecha*/ 0.8em /*Abajo*/ 0em /*Izquierda*/ 0.8em; /*Espacio dentro deluadro*/
+}
+
+#custom-launcher,
+#custom-power {
+    font-size: 20px;
+    text-shadow: 1px 2px @color0;
+}
+
+#custom-launcher {
+    color: @color12;
+    background: @color3;
+    margin: /*Arriba*/ -0.4em /*Derecha*/ 1em /*Abajo*/ -0.4em /*Izquierda*/ -0.1em; /*Espacio fuera del cuadro*/
+    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 2em /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 0em;
+    padding: /*Arriba*/ 0em /*Derecha*/ 1em /*Abajo*/ 0em /*Izquierda*/ 1em;
+}
+
+#custom-power {
+    color: @color3;
+    background: @color12;
+    margin: /*Arriba*/ -0.4em /*Derecha*/ -0.1em /*Abajo*/ -0.4em /*Izquierda*/ 1em; /*Espacio fuera del cuadro*/
+    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 0em /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 2em;
+    padding: /*Arriba*/ 0em /*Derecha*/ 1em /*Abajo*/ 0em /*Izquierda*/ 1em;
+}
+
+#memory {
+    margin: /*Arriba*/ 0.2em /*Derecha*/ 0em /*Abajo*/ 0.2em /*Izquierda*/ 0.3em; /*Espacio fuera del cuadro*/
+    border-radius: /*Arriba-Izquierda*/ 0.2em /*Arriba-Derecha*/ 0em /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 0.2em;
+}
+
+/* Espacio de Disk */
+#disk {
+    margin: /*Arriba*/ 0.2em /*Derecha*/ 0em /*Abajo*/ 0.2em /*Izquierda*/ 0em; /*Espacio fuera del cuadro*/
+}
+
+#cpu {
+    margin: /*Arriba*/ 0.2em /*Derecha*/ 0em /*Abajo*/ 0.2em /*Izquierda*/ 0em; /*Espacio fuera del cuadro*/
+    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 0em /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 0em;
+}
+
+#custom-gpu-usage {
+    margin: /*Arriba*/ 0.2em /*Derecha*/ 0.3em /*Abajo*/ 0.2em /*Izquierda*/ 0em; /*Espacio fuera del cuadro*/
+    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 0.2em /*Abajo-Derecha*/ 0.2em /*Abajo-Izquierda*/ 0em;
+}
+
+#window {
+    background: none;
+}
+
+/*
+Configuración basica de los workspaces
+Referencia: https://github.com/Alexays/Waybar/issues/2480#issuecomment-171208164
+*/
+#workspaces {
+    background: none;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+    margin: 0.2em 0.3em 0.2em 0.3em;
+    padding: 0em 0.3em 0em 0.3em;
+    box-shadow: none;
+    text-shadow: none;
+    transition: 0.2s ease;
+}
+
+#workspaces button {
+    color: @color15;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+    transition: 0.2s ease;
+    padding: 0em 0.3em 0em 0.3em;
+    animation: ws_normal 20s ease-in-out 1;
+}
+
+#workspaces button.active {
+    background: none;
+    color: @color12;
+    margin: 5em 2em 5em 2em;
+    padding: 0em 5em 0em 8em;
+    font-size: 0px;
+    transition: 0.2s ease;
+}
+
+#workspaces button:hover {
+    background: none;
+    color: @color14;
+    box-shadow: inset 0 -2px @color3;
+    text-shadow: inherit;
+    animation: ws_hover 20s ease-in-out 1;
+    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#workspaces button.urgent {
+    color: @color14;
+    transition: all 0.3s ease;
+}
+
+#tray menu {
+    background: @color10;
+    border-radius: 0em 0em 0em 0em;
+    min-height: 15px;
+}
+
+#tray menu separator {
+    min-height: 5px;
+    color: @color10;
+}
+
+#tray menu * { min-height: 10px; font-weight: bold; padding: 2px; font-size: 16px; color: @font_color; border-radius: 15px; font-size: 15px;}
+
+#custom-swaync {
+    padding-right: 15px;
+}
+
+#pulseaudio.muted,
+#pulseaudio-microphone.muted {
+    color: @color3;
+}
+
+#pulseaudio,
+#pulseaudio-microphone {
+    padding: 2px 1px 2px 1px;
+    margin: 0.2em 0.3em 0.2em 0.3em;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+}
+
+#clock {
+    padding: 0 10pt;
+}

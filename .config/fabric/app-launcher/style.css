@@ -1,0 +1,22 @@
+@import 'fabric-colors.css';
+
+* {
+    all: unset;
+    color: var(--foreground);
+    font-size: 16px;
+    font-family: "Mononoki Nerd Font";
+    border-radius: 100px;
+}
+
+#widgets-container {
+    background-color: var(--module-bg);
+    padding: 2px;
+}
+
+#AppLauncher {
+    background-color: var(--window-bg);
+}
+
+#add {
+    background-color: var(--module-bg);
+}

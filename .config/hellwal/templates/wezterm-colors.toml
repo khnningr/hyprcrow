@@ -1,0 +1,36 @@
+# wallpaper_path = "%%wallpaper%%"
+# REFERENCIA - https://wezfurlong.org/wezterm/config/appearance.html#defining-your-own-colors
+
+[colors]
+background = "#%%background%%" # Color de fondo por defecto.
+foreground = "#%%foreground%%" # Color del texto por defecto.
+cursor_bg = "#%%cursor%%"
+cursor_border = "#%%color12.hex%%"
+cursor_fg = "#%%color0.hex%%"
+
+selection_bg = "#%%background%%"
+selection_fg = "#%%foreground%%"
+
+scrollbar_thumb = "#%%color12.hex%%" # Color de la barra de desplazamiento.
+split = "#%%color7.hex%%" # Color de las líneas de división entre paneles.
+
+ansi = [
+    "#%%color0.hex%%",
+    "#%%color1.hex%%",
+    "#%%color2.hex%%",
+    "#%%color3.hex%%",
+    "#%%color4.hex%%",
+    "#%%color5.hex%%",
+    "#%%color6.hex%%",
+    "#%%color7.hex%%"
+]
+brights = [
+    "#%%color8.hex%%",
+    "#%%color9.hex%%",
+    "#%%color10.hex%%",
+    "#%%color11.hex%%",
+    "#%%color12.hex%%",
+    "#%%color13.hex%%",
+    "#%%color14.hex%%",
+    "#%%color15.hex%%"
+]

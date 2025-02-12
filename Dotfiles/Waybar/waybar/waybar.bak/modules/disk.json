@@ -1,6 +1,0 @@
-{
-    "disk": {
-        "format": "<span color='#e0af68'>  </span> {used}",
-        "interval": 1,
-    },
-}

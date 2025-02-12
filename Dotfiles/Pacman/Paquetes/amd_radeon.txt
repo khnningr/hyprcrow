@@ -1,6 +1,0 @@
-llvm-libs-git
-lib32-llvm-libs-git
-mesa-git
-lib32-mesa-git
-vulkan-radeon-git
-lib32-vulkan-radeon-git

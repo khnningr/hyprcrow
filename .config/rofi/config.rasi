@@ -1,0 +1,128 @@
+// Bloque de configuraciones principal.
+configuration {
+    modi: "drun,window,emoji";
+    icon-theme: "Papirus";
+    show-icons: true;
+    terminal: "wezterm";
+    drun-display-format: "{icon} {name}";
+    disable-history: false;
+    //hide-scrollbar: false;
+    display-drun: "  ";
+    display-run: "   Run ";
+    display-window: " 󰕰 Ventanas";
+    display-combi: "  󰕰  All";
+    display-filebrowser:"  Archivos";
+    sidebar-mode: true;
+
+    timeout {
+        delay: 5;
+        action: "kb-cancel";
+    }
+}
+
+@import "rofi-colors-dark"
+
+* {
+    font: "Mononoki Nerd Font 12";
+
+}
+
+// Widget window, ventana principal.
+window {
+    transparency:                "real";
+    fullscreen:                  false;
+    location:   center;
+    anchor:     center;
+    
+    /*
+    «location»: Determina dónde se coloca rofi en el monitor.
+    «anchor»: Determina donde se coloca el centro de rofi.
+
+    Tanto «location» como «anchor» pueden tener como valor: 
+    north, northeast, northwest, 
+    south, southeast, southwest, 
+    east, west o center.
+
+    - REFERENCIA: https://davatorium.github.io/rofi/guides/Positioning/theme3-positioning/
+    */
+
+    width:      30%;
+    height:     30%;
+
+    /*
+    «width»: Determina el ancho de la ventana.
+    «height»: Determina la altura de la ventana.
+    */
+
+    padding:    4 4;
+
+    /*
+    «padding»: Determina el relleno de la ventana.
+
+    Puede tener distintos formatos:
+    Format: {Integer}
+    Format: {Distance}
+    Format: {Distance} {Distance}
+    Format: {Distance} {Distance} {Distance}
+    Format: {Distance} {Distance} {Distance} {Distance}
+
+    Si no se especifica ninguna unidad, se asumen como píxeles (px).
+
+    El diferente número de campos en los formatos se analizan como:
+    1 field: all
+    2 fields: top&bottom left&right
+    3 fields: top, left&right, bottom
+    4 fields: top, right, bottom, left
+
+    */
+
+    /*
+    «children»: Determina el contenido el widget, pueden ser otros widgets.
+    */
+
+    border: 10px;
+    
+}
+
+mainbox {
+    orientation: vertical;
+    children:   [ inputbar, listview ];
+}
+
+listview {
+    columns: 2;
+    lines: 5;
+    layout:     vertical;
+    spacing:    5px;
+    fixed-height:                true;
+    fixed-columns:               true;
+    margin: 20px;
+
+}
+
+inputbar {
+    enabled: true;
+    margin: 2px;
+    children: [prompt, entry];
+}
+
+prompt {
+    enabled: true;    
+}
+
+entry {
+    enabled: true;
+    placeholder: "Buscar...";
+}
+
+element {
+    orientation: horizontal;
+    children: [ element-icon, element-text];
+    spacing: 2px;
+}
+
+
+
+element-icon {
+    size: 1em;
+}

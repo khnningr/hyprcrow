@@ -1,8 +1,0 @@
-{
-    "network": {
-		"tooltip": false,
-		"format-wifi": "<span color='#9ece6a'> </span> {bandwidthDownBits}",
-		"format-ethernet": "",
-        "interval": 30
-	},
-}

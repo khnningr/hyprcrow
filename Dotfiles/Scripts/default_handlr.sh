@@ -1,2 +1,0 @@
-#!/usr/bin/bash
-handlr open "$@"

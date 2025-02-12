@@ -1,0 +1,4 @@
+configuration {
+    modi: "run:~/.config/rofi/scripts/rofi_fzf.sh";
+    display-drun: "dmenu";
+}

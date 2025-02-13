@@ -1,22 +1,25 @@
 :vars {
-    --background: #04050b;
-    --foreground: #ffffff;
-    --color0: #04050b;
-    --color1: #1b1d21;
-    --color2: #402b3e;
-    --color3: #493233;
-    --color4: #42363a;
-    --color5: #603b4d;
-    --color6: #804143;
-    --color7: #dac6c6;
-    --color8: #12172f;
-    --color9: #212429;
-    --color10: #50354d;
-    --color11: #5b3e3f;
-    --color12: #524348;
-    --color13: #784960;
-    --color14: #a05153;
-    --color15: #ffffff;
+
+    --background:   #0F100E;
+    --foreground:   #B1AAAA;
+
+    --color0:       #4F4F4D;
+    --color1:       #534344;
+    --color2:       #60645E;
+    --color3:       #646D81;
+    --color4:       #806A4E;
+    --color5:       #7D8272;
+    --color6:       #A0A290;
+    --color7:       #887D7E;
+    --color8:       #5F5858;
+    --color9:       #534344;
+    --color10:      #60645E;
+    --color11:      #646D81;
+    --color12:      #806A4E;
+    --color13:      #7D8272;
+    --color14:      #A0A290;
+    --color15:      #887D7E;
+
     --window-bg: alpha(var(--background), 0.6);
     --module-bg: alpha(var(--background), 0.4);
     --border-color: var(--color11);
@@ -25,4 +28,5 @@
     --ws-empty: var(--color8);
     --ws-hover: var(--color1);
     --ws-urgent: var(--color12);
+
 }

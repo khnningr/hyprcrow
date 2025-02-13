@@ -1,0 +1,9 @@
+@define-color shade-lighter rgba({{foreground | rgb}},0.1);
+@define-color noti-bg-hover rgba({{background | rgb}},0.25);
+@define-color noti-bg {{background}};
+@define-color cursor {{color1}};
+@define-color noti-bg-focus {{color12}};
+@define-color noti-close-bg-hover {{color6}};
+@define-color noti-close-bg {{color2}};
+@define-color noti-border-color {{color9}};
+@define-color bg-selected {{color15}};

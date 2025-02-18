@@ -1,36 +1,36 @@
-# wallpaper_path = "/home/kh/Wallpapers/2825810.gif"
+# wallpaper_path = "/home/kh/Wallpapers/dino.jpg"
 # REFERENCIA - https://wezfurlong.org/wezterm/config/appearance.html#defining-your-own-colors
 
 [colors]
-background = "#010000" # Color de fondo por defecto.
-foreground = "#ffcd00" # Color del texto por defecto.
-cursor_bg = "#ffcd00"
-cursor_border = "#376991"
-cursor_fg = "#010000"
+background = "#191921" # Color de fondo por defecto.
+foreground = "#ffffff" # Color del texto por defecto.
+cursor_bg = "#ffffff"
+cursor_border = "#cbb9c5"
+cursor_fg = "#191921"
 
-selection_bg = "#010000"
-selection_fg = "#ffcd00"
+selection_bg = "#191921"
+selection_fg = "#ffffff"
 
-scrollbar_thumb = "#376991" # Color de la barra de desplazamiento.
-split = "#c89a00" # Color de las líneas de división entre paneles.
+scrollbar_thumb = "#cbb9c5" # Color de la barra de desplazamiento.
+split = "#efffff" # Color de las líneas de división entre paneles.
 
 ansi = [
-    "#010000",
-    "#110516",
-    "#1e2620",
-    "#861c0a",
-    "#2c5474",
-    "#7d4e61",
-    "#1e8097",
-    "#c89a00"
+    "#191921",
+    "#615c73",
+    "#91727b",
+    "#9f908a",
+    "#a3949e",
+    "#aeabb8",
+    "#debabc",
+    "#efffff"
 ]
 brights = [
-    "#050002",
-    "#15061b",
-    "#252f28",
-    "#a7230c",
-    "#376991",
-    "#9c6179",
-    "#25a0bc",
-    "#ffcd00"
+    "#6b6b8c",
+    "#79738f",
+    "#b58e99",
+    "#c6b4ac",
+    "#cbb9c5",
+    "#d9d5e6",
+    "#ffe8eb",
+    "#ffffff"
 ]

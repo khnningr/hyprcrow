@@ -59,6 +59,24 @@ arch_actualizar_mirrorlist(){
   done
 }
 
+arch_instalar_flatpak(){
+  while true; do
+    echo -e "\n¿Deseas instalar Flatpak? (s/n)"
+    read -p "> " elegir
+    echo ""
+    
+    if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
+      sudo pacman -S --needed flatpak flatseal pamac
+      break
+    elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then 
+      echo -e "\tNo sea instalado flatpak."
+      break
+    else
+      echo -e "\tOpción no valida. Intente de nuevo.\n"
+    fi
+  done
+}
+
 arch_paquetes_necesarios(){
   while [ True ]; do
     echo -e "\nPara estos dotfiles, es necesario instalar algunos paquetes."
@@ -218,6 +236,7 @@ arch_display_manager(){
     echo "1. tty"
     echo "2. Lemurs"
     read -p "> " elegir
+    echo ""
 
     if [[ "$elegir" == "1" ]]; then
       base_tty_login
@@ -233,5 +252,45 @@ arch_display_manager(){
 
 }
 
+arch_plugins_hyprland(){
+  while [ true ]; do
+    echo -e "\n¿Deseas habilitar el soporte de plugins? (s/n)"
+    read -p "> " elegir
+    echo ""
+    if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
+      sudo pacman -S --needed cpio meson cmake
+      base_plugins_hyprland
+      break
+    elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then
+      echo -e "\tNo se ha instalado OH-MY-ZSH.\n"
+      break
+    else
+      echo -e "\tOpción no valida. Intente de nuevo.\n"
+    fi
+  done
+}
 
+arch_virt_manager(){
+  while [ true ]; do
+    echo -e "\n¿Deseas instalar virt-manager? (s/n)"
+    read -p "> " elegir
+    echo ""
+    if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
+      sudo pacman -Syu
+      # Paquetes necesarios:
+      sudo pacman -S --needed  virt-manager qemu-full vde2\
+        virt-viewer ebtables iptables-nft nftables dnsmasq\
+        bridge-utils ovmf swtpm dmidecode qemu-common
 
+      base_
+      break
+    elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then
+      echo -e "\tNo se ha instalado OH-MY-ZSH.\n"
+      break
+    else
+      echo -e "\tOpción no valida. Intente de nuevo.\n"
+    fi
+
+  done
+  
+}

@@ -94,15 +94,40 @@ base_reglas_ufw(){
   # Para desabilitar ufw, basta con usar el comando:
   # sudo ufw disable
   sudo ufw enable # Activa el firewall ahora, y al inicio del sistema.
+
   sudo ufw allow out https # Salida por el puerto 443 o https.
   sudo ufw allow in https # Entrada por el puerto 443 o https.
+
   sudo ufw allow out http # Salida por el puerto 80 o http.
   sudo ufw allow in http # Entrada por el puerto 80 o http.
+
   # Es necesario habilitar el puerto 53 para,
   # habilitar el acceso a internet, no basta 
   # con habilitar los puertos 80 y 443.
   sudo ufw allow out 53 # Salida por el puerto 53 o dns.
   sudo ufw allow in 53 # Entrada por el puerto 53 o dns.
+  # Reglas parar Warframe.
+  sudo ufw allow out 4950
+  sudo ufw allow in 4950
+
+  sudo ufw allow out 4955
+  sudo ufw allow in 4955
+
+  sudo ufw allow out 6695
+  sudo ufw allow in 6695
+
+  sudo ufw allow out 6696
+  sudo ufw allow in 6696
+
+  sudo ufw allow out 6697
+  sudo ufw allow in 6697
+
+  sudo ufw allow out 6698
+  sudo ufw allow in 6698
+
+  sudo ufw allow out 6699
+  sudo ufw allow in 6699
+
   sudo ufw reload # Recarga el servicio al hacer cambios en reglas.
   sudo ufw status
 }
@@ -111,8 +136,8 @@ base_tty_login(){
   while [ true ]; do
     if grep -q "Hyprland" ~/.bash_profile ||\
       grep -q "Hyprland" ~/.zprofile; then
-      echo -e "\e[31mtty1, ya funciona como display manager.\e[0m"
-      break 
+      echo -e "\t\ntty1, ya funciona como display manager."
+      #break 
     fi 
 
     echo -e "\nEstá función permite establecer tty1, como display manager."
@@ -144,16 +169,16 @@ base_tty_login(){
         >> "$HOME"/"$shell_elegido"
       echo -e "# Establece el tty1, como si fuese un display manager." \
         >> "$HOME"/"$shell_elegido"
-      echo -e "if [ "$(tty)" = "/dev/tty1" ]; then" \
+      echo -e 'if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then' \
         >> "$HOME"/"$shell_elegido"
-      echo -e " exec Hyprland" \
+      echo -e ' exec Hyprland' \
         >> "$HOME"/"$shell_elegido"
-      echo -e "fi" \
+      echo -e 'fi' \
         >> "$HOME"/"$shell_elegido"
       
       cat "$HOME"/"$shell_elegido"
 
-      echo -e "\n\e[32m> TTY1, ahora funciona como display manager.\n"
+      echo -e "\n> TTY1, ahora funciona como display manager.\n"
       break
     elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then
       echo -e "\nNo se ha modificado el archivo.\n"
@@ -175,4 +200,50 @@ base_lemurs_login(){
   sudo chmod +x /etc/lemurs/wayland/hyprland.sh
 }
 
-lemurs_login
+base_plugins_hyprland(){  
+  while [ true ]; do
+    echo -e "\n¿Cuáles plugins deseas instalar?"
+    echo "1. hyprexpo"
+    echo "2. hyprspace"
+    echo "0. Salir"
+    read -p "> " elegir
+    echo ""
+    
+    if [[ "$elegir" == "1" ]]; then
+      hyprpm update
+      hyprpm add https://github.com/hyprwm/hyprland-plugins
+      hyprpm enable hyprexpo
+    elif [[ "$elegir" == "2" ]]; then
+      hyprpm update
+      hyprpm add https://github.com/KZDKM/Hyprspace
+      hyprpm enable Hyprspace
+    elif [[ "$elegir" == 0 ]]; then
+      break
+    else
+      echo -e "\n\tOpción no valida. Intente de nuevo.\n"
+    fi
+  done
+
+}
+
+# Recordar agregar referencias.
+base_virt_manager(){
+  # Descomentar las lineas 85 y 108.
+  # unix_socket_group = "libvirt"
+  # unix_socket_rw_perms = "0770"
+  # sudo nano /etc/libvirt/libvirtd.conf
+  sudo sed -i '85,108s/^#//' /etc/libvirt/libvirtd.conf
+  
+  # Añadir el usuario actual al grupo kvm y libvirt.
+  sudo usermod -a -G kvm,libvirt $(whoami)
+
+  # Cambiar el grupo actual del usuario sin necesidad de cerrar sesion.
+  newgrp libvirt
+
+  # Habilitar servicios necesarios.
+  sudo systemctl enable --now libvirtd
+
+  # Comprobar que se han habilitado los servicios.
+  sudo systemctl status libvirtd.service
+
+}

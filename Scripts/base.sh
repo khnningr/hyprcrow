@@ -13,27 +13,25 @@ banner(){
 }
 
 base_yazi_portal(){
-  mkdir -p .clone
+  mkdir -p ~/.clone
 
-  git clone https://github.com/hunkyburrito/xdg-desktop-portal\
-    -termfilechooser ~/.clone/xdg-desktop-portal-termfilechooser
+  git clone https://github.com/hunkyburrito/xdg-desktop-portal-termfilechooser ~/.clone/xdg-desktop-portal-termfilechooser
   
-  sudo cp ~/.clone/xdg-desktop-portal-termfilechooser/\
-    termfilechooser.portal /usr/share/xdg-desktop-portal/portals/
+  sudo cp -r ~/.clone/xdg-desktop-portal-termfilechooser/termfilechooser.portal /usr/share/xdg-desktop-portal/portals/
   
   find /usr/share/xdg-desktop-portal/portals -name '*.portal' -not -name\
     'termfilechooser.portal' -exec grep -q 'FileChooser' '{}' \; -exec \
     sudo sed -i'.bak' 's/org\.freedesktop\.impl\.portal\.FileChooser;\?//g' '{}' \;
-
+  
   systemctl --user restart xdg-desktop-portal.service
 
   # Test: GDK_DEBUG=portals  zenity --file-selection
 
   systemctl --user restart xdg-desktop-portal-termfilechooser.service
 
-  systemctl --user stop xdg-desktop-portal-termfilechooser.service
+  #systemctl --user stop xdg-desktop-portal-termfilechooser.service
+  #/usr/local/libexec/xdg-desktop-portal-termfilechooser -l TRACE -r &
 
-  /usr/local/libexec/xdg-desktop-portal-termfilechooser -l TRACE -r &
 }
 
 base_oh_my_zsh(){
@@ -57,7 +55,7 @@ base_dotfiles_stow(){
 
     if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
       cd "$dotfiles"
-      stow -v .
+      stow .
       break
     elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then
       echo -e "\tDotfiles no copiados."
@@ -137,7 +135,7 @@ base_tty_login(){
     if grep -q "Hyprland" ~/.bash_profile ||\
       grep -q "Hyprland" ~/.zprofile; then
       echo -e "\t\ntty1, ya funciona como display manager."
-      #break 
+      break 
     fi 
 
     echo -e "\nEstá función permite establecer tty1, como display manager."
@@ -226,8 +224,17 @@ base_plugins_hyprland(){
 
 }
 
-# Recordar agregar referencias.
+# Está función permite configurar
+# virt-manager.
+#
+# La siguiente referencia se usa en Arch Linux, 
+# pero igual sirve como ejemplo a nivel de configuración:
+# Referencia: https://www.youtube.com/watch?v=HN-krqqblOA 
+#
+# Está otra referencia es para Fedora.
+# Referencia: https://fedoramagazine.org/full-virtualization-system-on-fedora-workstation-30/
 base_virt_manager(){
+  echo "prueba de archivos"
   # Descomentar las lineas 85 y 108.
   # unix_socket_group = "libvirt"
   # unix_socket_rw_perms = "0770"
@@ -237,13 +244,35 @@ base_virt_manager(){
   # Añadir el usuario actual al grupo kvm y libvirt.
   sudo usermod -a -G kvm,libvirt $(whoami)
 
+  # Habilitar servicios necesarios.
+  sudo systemctl enable --now libvirtd.service
+
+  # Descomentar las líneas 519 y 523.
+  # user = "usuario"
+  # group = "libvirt"
+  sudo sed -i 's/^#user = "libvirt-qemu"/user = "'"$(whoami)"'"/' \
+    /etc/libvirt/qemu.conf
+  sudo sed -i 's/^#group = "libvirt-qemu"/group = "'"$(whoami)"'"/' \
+    /etc/libvirt/qemu.conf 
+
+  # Configuración de redes virtuales.
+  sudo virsh net-autostart default
+
+  # Habilitar la virtualización con el firewall activo.
+  # Descomentar línea 29.
+  # firewall_backend = "nftables"
+  # sudo sed -i 's/^#firewall_backend = "iptables"/firewall_backend = "nftables"/' /etc/libvirt/network.conf
+
+  # Reiniciar el servicio.
+  sudo systemctl restart libvirtd.service
+
+  # Comprobar que se han habilitado los servicios.
+  # sudo systemctl status libvirtd.service
+
   # Cambiar el grupo actual del usuario sin necesidad de cerrar sesion.
   newgrp libvirt
 
-  # Habilitar servicios necesarios.
-  sudo systemctl enable --now libvirtd
-
-  # Comprobar que se han habilitado los servicios.
-  sudo systemctl status libvirtd.service
+  # sudo reboot
 
 }
+

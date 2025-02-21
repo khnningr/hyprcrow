@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dotfiles=$HOME/hyprcrow
-source "$dotfiles"/Scripts/Scripts/base.sh
+source ./base.sh
 
 # Acá se encuentran las funciones
 # para una instalación de hyprland
@@ -21,10 +21,12 @@ arch_chaotic_aur(){
       sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
       sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
       echo -e "\n\tCopiando pacman.conf...\n"
-      sudo cp -v "$dotfiles"/Scripts/pacman.conf /etc/pacman.conf
+      sudo cp -v ./pacman.conf /etc/pacman.conf
       sudo pacman -Sy
       sudo pacman -S --needed paru
-      break 
+      if pacman -Qi paru > /dev/null 2>&1; then
+        break 
+      fi
     elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then
       echo -e "\tAbortar instalación..."
       break 
@@ -67,6 +69,7 @@ arch_instalar_flatpak(){
     
     if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
       sudo pacman -S --needed flatpak flatseal pamac
+      # Hacer una funcion base para instalar paquetes flatpak.
       break
     elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then 
       echo -e "\tNo sea instalado flatpak."
@@ -91,7 +94,7 @@ arch_paquetes_necesarios(){
       # Paquetes omitidos: kitty, vivaldi, wget, yazi, fastfetch
       # spotify-launcher, pitivi, foliate, gimp, btop
       # intellij-idea-community-edition
-      sudo pacman -S --needed wezterm zellij curl git\
+      sudo pacman -S --needed wezterm-git zellij curl git\
         github-cli man-db man-pages-es tldr nano neovim\
         udiskie p7zip unzip imv zathura zathura-cb\
         zathura-pdf-mupdf vlc telegram-desktop jdk-openjdk\
@@ -121,8 +124,7 @@ arch_paquetes_necesarios(){
         ripgrep fzf zoxide imagemagick xdg-desktop-portal git\
         libinih ninja meson scdoc
 
-      paru -S --needed xdg-desktop-portal-termfilechooser-hunky\
-        burrito-git
+      paru -S --needed xdg-desktop-portal-termfilechooser-hunkyburrito-git
       
       base_yazi_portal
 
@@ -156,6 +158,7 @@ arch_paquetes_videojuegos(){
       # Referencia: github.com/flightlessmango/MangoHud
       sudo pacman -S --needed mangohud lib32-mangohud
       paru -S --needed mangojuice
+      break
 
     elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then 
       echo -e "\tNo sea instalados los paquetes." 
@@ -170,6 +173,7 @@ arch_controladores_de_video(){
   while [ true ]; do
     echo -e "¿Qué tipo de gráficos tienes?"
     echo "1. AMD"
+    echo "2. VM"
     read -p "> " elegir
     echo ""
 
@@ -179,6 +183,8 @@ arch_controladores_de_video(){
       
       echo -e "\n\tSe han instalado los controladores AMD.\n"
       break
+    elif [[ "$elegir" == "2" ]]; then
+      sudo pacman -S --needed mesa-git xf86-video-vmware
     else
       echo -e "\n\tOpción no valida. Intente de nuevo.\n"
     fi
@@ -278,9 +284,9 @@ arch_virt_manager(){
     if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
       sudo pacman -Syu
       # Paquetes necesarios:
-      sudo pacman -S --needed  virt-manager qemu-full vde2\
+      sudo pacman -S --needed virt-manager qemu-full vde2\
         virt-viewer ebtables iptables-nft nftables dnsmasq\
-        bridge-utils ovmf swtpm dmidecode qemu-common
+        bridge-utils ovmf swtpm dmidecode qemu-common libvirt
 
       base_
       break

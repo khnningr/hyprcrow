@@ -49,6 +49,7 @@ base_oh_my_zsh(){
 
 base_dotfiles_stow(){
   while [ true ]; do
+    clear
     echo -e "\n¿Desea copiar los dotfiles? (s/n)"
     read -p "> " elegir
     echo ""

@@ -1,36 +1,36 @@
-# wallpaper_path = "/home/kh/Wallpapers/rooftops.jpg"
+# wallpaper_path = "/home/kh/Wallpapers/black-hole-1.png"
 # REFERENCIA - https://wezfurlong.org/wezterm/config/appearance.html#defining-your-own-colors
 
 [colors]
-background = "#0e0f11" # Color de fondo por defecto.
+background = "#070709" # Color de fondo por defecto.
 foreground = "#ffffff" # Color del texto por defecto.
 cursor_bg = "#ffffff"
-cursor_border = "#828492"
-cursor_fg = "#0e0f11"
+cursor_border = "#8d8798"
+cursor_fg = "#070709"
 
-selection_bg = "#0e0f11"
+selection_bg = "#070709"
 selection_fg = "#ffffff"
 
-scrollbar_thumb = "#828492" # Color de la barra de desplazamiento.
-split = "#d9cde4" # Color de las líneas de división entre paneles.
+scrollbar_thumb = "#8d8798" # Color de la barra de desplazamiento.
+split = "#fcf0ff" # Color de las líneas de división entre paneles.
 
 ansi = [
-    "#0e0f11",
-    "#34454c",
-    "#4c4e68",
-    "#51546f",
-    "#686a75",
-    "#868384",
-    "#8288a3",
-    "#d9cde4"
+    "#070709",
+    "#1f1f36",
+    "#53556e",
+    "#595c78",
+    "#716c7a",
+    "#76767f",
+    "#79878d",
+    "#fcf0ff"
 ]
 brights = [
-    "#3c3e48",
-    "#41565f",
-    "#5f6182",
-    "#65698a",
-    "#828492",
-    "#a7a3a5",
-    "#a2aacb",
+    "#202029",
+    "#262643",
+    "#676a89",
+    "#6f7396",
+    "#8d8798",
+    "#93939e",
+    "#97a8b0",
     "#ffffff"
 ]

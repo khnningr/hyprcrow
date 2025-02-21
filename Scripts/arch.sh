@@ -11,6 +11,7 @@ source ./base.sh
 # Referencia: https://github.com/chaotic-aur
 arch_chaotic_aur(){
   while [ true ]; do
+    clear
     echo -e "\n¿Deseas instalar Chaotic-AUR? (s/n)"
     read -p "> " elegir
     echo ""
@@ -20,7 +21,6 @@ arch_chaotic_aur(){
       sudo pacman-key --lsign-key 3056513887B78AEB
       sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
       sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
-      echo -e "\n\tCopiando pacman.conf...\n"
       sudo cp -v ./pacman.conf /etc/pacman.conf
       sudo pacman -Sy
       sudo pacman -S --needed paru
@@ -38,6 +38,7 @@ arch_chaotic_aur(){
 
 arch_actualizar_mirrorlist(){
   while [ true ]; do
+    clear
     echo -e "\n¿Deseas actualizar los mirrorlist? (s/n)"
     read -p "> " elegir
     echo ""
@@ -63,6 +64,7 @@ arch_actualizar_mirrorlist(){
 
 arch_instalar_flatpak(){
   while true; do
+    clear
     echo -e "\n¿Deseas instalar Flatpak? (s/n)"
     read -p "> " elegir
     echo ""
@@ -82,6 +84,7 @@ arch_instalar_flatpak(){
 
 arch_paquetes_necesarios(){
   while [ True ]; do
+    clear
     echo -e "\nPara estos dotfiles, es necesario instalar algunos paquetes."
     echo -e "¿Deseas instalar los paquetes necesarios? (s/n)"
     read -p "> " elegir
@@ -100,7 +103,7 @@ arch_paquetes_necesarios(){
         zathura-pdf-mupdf vlc telegram-desktop jdk-openjdk\
         obs-studio kooha obsidian fragments handbrake\
         downgrade vesktop ncspot mission-center stow\
-        android-tools
+        android-tools zen-browser-bin
 
       # Paquetes Hyprland.
       # Paquetes omitidos: waybar, thunar, file-roller, 
@@ -142,6 +145,7 @@ arch_paquetes_necesarios(){
 
 arch_paquetes_videojuegos(){
   while [ true ]; do
+    clear
     echo -e "\nEsta función permite instalar algunos paquetes para juegos."
     echo -e "Estos paquetes son necesarios para su soporte."
     echo -e "¿Deseas instalar los paquetes? (s/n)"
@@ -171,6 +175,7 @@ arch_paquetes_videojuegos(){
 
 arch_controladores_de_video(){
   while [ true ]; do
+    clear
     echo -e "¿Qué tipo de gráficos tienes?"
     echo "1. AMD"
     echo "2. VM"
@@ -193,6 +198,7 @@ arch_controladores_de_video(){
 
 arch_zsh(){
   while [ true ]; do
+    clear
     echo -e "\n¿Deseas instalar OH-MY-ZSH? (s/n)"
     read -p "> " elegir
     echo ""
@@ -212,6 +218,7 @@ arch_zsh(){
 
 arch_firewall_ufw(){
   while [ true ]; do
+    clear
     echo -e "\nUFW es un firewall sencillo de configurar."
     echo -e "¿Deseas instalar UFW? (s/n)"
     read -p "> " elegir
@@ -237,6 +244,7 @@ arch_firewall_ufw(){
 
 arch_display_manager(){
   while [ true ]; do
+    clear
     echo -e "\n¿Cuál display manager deseas?" 
     echo -e "Elije uno de los siguientes:"
     echo "1. tty"
@@ -259,6 +267,7 @@ arch_display_manager(){
 }
 
 arch_plugins_hyprland(){
+  clear
   while [ true ]; do
     echo -e "\n¿Deseas habilitar el soporte de plugins? (s/n)"
     read -p "> " elegir
@@ -278,6 +287,7 @@ arch_plugins_hyprland(){
 
 arch_virt_manager(){
   while [ true ]; do
+    clear
     echo -e "\n¿Deseas instalar virt-manager? (s/n)"
     read -p "> " elegir
     echo ""

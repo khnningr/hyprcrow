@@ -16,4 +16,4 @@ actualizar_repositorio ~/Wallpapers/
 
 actualizar_repositorio ~/Neovim/
 
-#actualizar_repositorio ~/Biblioteca/
+actualizar_repositorio ~/Biblioteca/

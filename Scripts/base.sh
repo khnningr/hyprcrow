@@ -56,6 +56,7 @@ base_dotfiles_stow(){
     if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
       cd "$dotfiles"
       stow .
+      sudo cp -r "$dotfiles"/.config/nano/nanorc /etc/
       break
     elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then
       echo -e "\tDotfiles no copiados."

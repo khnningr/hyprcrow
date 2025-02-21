@@ -12,6 +12,23 @@ banner(){
 	echo -e "\t=== === === === === === === === === === ===\n"
 }
 
+# De momento está función no está en funcionamiento.
+install_pipewire() {
+    local pipewire="../Scripts/packages/pipewire.txt"
+    echo "$pipewire"
+    mapfile -t paquete < "$pipewire"
+    echo "$paquete"
+    echo -e "\nInstalando Pipewire"
+    for i in "${paquete[@]}"; do
+        pkg_pacman "$i"
+    done
+    echo -e "\nHabilitando servicios de Pipewire..."
+    systemctl --user enable --now pipewire.socket
+    systemctl --user enable --now pipewire-pulse.socket
+    systemctl --user enable --now wireplumber.service
+    echo -e "\n... por favor reiniciar."
+}
+
 base_yazi_portal(){
   mkdir -p ~/.clone
 

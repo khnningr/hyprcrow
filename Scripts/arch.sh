@@ -7,6 +7,33 @@ source ./base.sh
 # para una instalación de hyprland
 # en Arch Linux.
 
+# Función que borra el archivo db.lck,
+# se borra en caso de cancelar o detener,
+# la instalación de un paquete. De lo 
+# contrario no dejará instalar nada.
+arch_rm_pacman_db(){
+  while [ true ]; do
+    clear
+    echo -e "\n\tEn caso de que en medio proceso de instalación"
+    echo -e "\tde un paquete, se detenga o interrumpa. Es muy"
+    echo -e "\tprobable que no deje instalar ningún otro,"
+    echo -e "\ten ese caso, debes limpiar la base de datos"
+    echo -e "\tde Pacman."
+    echo -e "\n¿Deseas limpiar la base de datos de Pacman? (s/n)"
+    read -p "> " elegir
+    echo ""
+    if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
+      sudo rm -v /var/lib/pacman/db.lck
+      break
+    elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then 
+      echo -e "\n\tNo sea limpiado la base de datos de Pacman."
+      break
+    else
+      echo -e "\tOpción no valida. Intente de nuevo.\n"
+    fi
+  done
+}
+
 # Función de chaotic AUR.
 # Referencia: https://github.com/chaotic-aur
 arch_chaotic_aur(){

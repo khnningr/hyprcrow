@@ -5,6 +5,22 @@ clear
 source ./base.sh
 source ./arch.sh
 
+# Al yo colar doble (()), es decir, paretesis,
+# le indica al interprete que es una operación.
+#
+# En "echo -e ...", se usa para indicarle al interprete,
+# que tome /n, como iun salto en renglon.
+#
+# El $1, $2 o $@ se usa para pasar argumentos a la función, en este caso.
+#
+# En concreto, $@ se usa para pasar el valor de todos los argumentos,
+# en este caso, desde la array.
+#
+# Es necesario porle "" al $@ porque así respeta los espacios.
+#
+# Se debe usar llaves, {} para llamar cada dato de la array.
+#
+# Se usa [@], para introducir todos los datos de la array.
 hy_generador_menu(){
   local titulo="$1"
   shift # Elimina el primer argumento, $1 o titulo.
@@ -68,6 +84,7 @@ hy_instalacion_manual_arch(){
       "Selector de display manager"
       "Soporte de plugins (hyprland)"
       "Instalar y configurar Virt-manager"
+      "Eliminar pacman-db"
       "Instalación automática"
       )
     hy_generador_menu "Instalación manual de Arch Linux (Hyprcrow)" "${hy_manual_menu[@]}"
@@ -88,7 +105,8 @@ hy_instalacion_manual_arch(){
       10) arch_display_manager ;;
       11) arch_plugins_hyprland ;;
       12) arch_virt_manager ;;
-      13) hy_instalacion_automatica ;;
+      13) arch_rm_pacman_db ;;
+      14) hy_instalacion_automatica ;;
       *) echo -e "\n\tOpción no valida. Intente de nuevo.\n" ;;
     esac
   done

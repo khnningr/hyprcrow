@@ -360,4 +360,15 @@ on   = "F"
 run  = "plugin smart-filter"
 desc = "Smart filter"
 
+[[manager.prepend_keymap]]
+on   = "S"
+run  = "plugin what-size"
+desc = "Calc size of selection or cwd"
+
+[[manager.prepend_keymap]]
+on  = "ñ"
+run = '''
+  shell 'dragon-drop --and-exit --on-top "$@"' --confirm
+'''
+desc = "Usa dragon-drop para arrastrar un archivo o directorio."
 

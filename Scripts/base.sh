@@ -263,8 +263,14 @@ base_virt_manager(){
   # Añadir el usuario actual al grupo kvm y libvirt.
   sudo usermod -a -G kvm,libvirt $(whoami)
 
+  # Cambiar el grupo actual del usuario sin necesidad de cerrar sesion.
+  #newgrp libvirt 
+
   # Habilitar servicios necesarios.
-  sudo systemctl enable --now libvirtd.service
+  sudo systemctl enable libvirtd.service
+
+  # Iniciamos el servicio.
+  sudo systemctl start libvirtd.service
 
   # Descomentar las líneas 519 y 523.
   # user = "usuario"
@@ -274,6 +280,9 @@ base_virt_manager(){
   sudo sed -i 's/^#group = "libvirt-qemu"/group = "'"$(whoami)"'"/' \
     /etc/libvirt/qemu.conf 
 
+   # Reiniciar el servicio.
+  sudo systemctl restart libvirtd.service
+
   # Configuración de redes virtuales.
   sudo virsh net-autostart default
 
@@ -282,16 +291,68 @@ base_virt_manager(){
   # firewall_backend = "nftables"
   # sudo sed -i 's/^#firewall_backend = "iptables"/firewall_backend = "nftables"/' /etc/libvirt/network.conf
 
-  # Reiniciar el servicio.
-  sudo systemctl restart libvirtd.service
-
+ 
   # Comprobar que se han habilitado los servicios.
   # sudo systemctl status libvirtd.service
 
-  # Cambiar el grupo actual del usuario sin necesidad de cerrar sesion.
-  newgrp libvirt
+  
 
   # sudo reboot
 
 }
 
+# Función para hellwal
+# Función para wallust
+# Función para fabric
+base_intalacion_fabric(){
+  while [ true ]; do
+    clear
+    if [[ -n $1 && ! "s" && ! "S" && ! "n" && ! "N" ]]; then
+      elegir=$1 
+    else
+      echo -e "¿Desea instalar Fabric? (s/n)"
+      read -p "> " elegir
+      echo ""
+    fi
+
+    #if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
+    if [[ "$elegir" == "s" || "$elegir" == "S" ]]; then
+	    echo "Sí se instala"
+      break
+    elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then
+      echo -e "\tNo se instala."
+      break
+    else
+      echo -e "\n\tOpción no valida. Intente de nuevo.\n"
+      
+    fi
+  done
+}
+read -p "> " elegir_fabric
+base_intalacion_fabric "$elegir_fabric"
+#base_intalacion_fabric
+
+# fabric wallust y hellwal estan en nix
+# Función para NvChad de Neovim.
+# Referencia: https://nvchad.com/
+base_nvchad_neovim(){
+while [ true ]; do
+    clear
+    echo -e "\nNvChad son dotfiles para Neovim pre-configurados."
+    echo -e "¿Desea instalar NvChad? (s/n)"
+    read -p "> " elegir
+    echo ""
+
+    if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
+	    git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+      break
+    elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then
+      echo -e "\tDotfiles no copiados."
+      break
+    else
+      echo -e "\n\tOpción no valida. Intente de nuevo.\n"
+    fi
+  done
+
+}
+#base_nvchad_neovim

@@ -1,0 +1,19 @@
+2025-02-23 03:59:36.249 [info] Started local extension host with pid 81259.
+2025-02-23 03:59:36.272 [info] Started initializing default profile extensions in extensions installation folder. file:///home/kh/.vscode-oss/extensions
+2025-02-23 03:59:36.370 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/kh/.vscode-oss/extensions
+2025-02-23 03:59:39.161 [info] [perf] Render performance baseline is 19ms
+2025-02-23 04:00:20.688 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-02-23 04:00:20.689 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-02-23 04:00:20.696 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-02-23 04:00:22.097 [error] An unknown error occurred. Please consult the log for more details.
+2025-02-23 04:01:20.178 [info] Started local extension host with pid 81536.
+2025-02-23 04:01:20.295 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-02-23 04:01:20.295 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-02-23 04:01:20.303 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-02-23 04:01:22.566 [error] Error while getting the latest version for the extension kevinrose.vsc-python-indent. Cannot read properties of undefined (reading 'replace')
+2025-02-23 04:01:22.566 [error] Error while getting the latest version for the extension ms-python.debugpy. Cannot read properties of undefined (reading 'replace')
+2025-02-23 04:01:22.566 [error] Error while getting the latest version for the extension ms-python.python. Cannot read properties of undefined (reading 'replace')
+2025-02-23 04:01:22.760 [info] [perf] Render performance baseline is 19ms
+2025-02-23 04:01:22.806 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-02-23 04:01:22.810 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-02-23 04:01:31.697 [error] An unknown error occurred. Please consult the log for more details.

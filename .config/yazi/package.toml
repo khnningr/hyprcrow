@@ -33,5 +33,10 @@ use = "Ape/open-with-cmd"
 rev = "433cf30"
 hash = "86e0312b01bc5762813c6c1d0517f073"
 
+[[plugin.deps]]
+use = "pirafrank/what-size"
+rev = "b23e3a4"
+hash = "98e5f5af3efd3ba8bc2db0720187cc83"
+
 [flavor]
 deps = []

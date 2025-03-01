@@ -1,0 +1,104 @@
+2025-02-23 23:13:40.485 [warning] Dir "/home/kh/hyprcrow/.pixi/envs" is not watchable (directory does not exist)
+2025-02-23 23:13:40.485 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:16858)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:46213)
+	at new v (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:878084)
+	at ge (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1683875)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687239
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687267
+	at Se (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687334)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687814
+	at we (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687755)
+	at Pe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687789)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1685028
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1686633
+	at Array.reduce (<anonymous>)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1686605
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1686887
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687267
+	at Se (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687334)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687814
+	at we (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687755)
+	at Pe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687789)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1685028
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1714698
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1714719
+	at e._get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1713732)
+	at e._getButThrowIfAsync (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1713792)
+	at e.get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1709501)
+	at e.dynamicValue (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1699234)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1685411
+	at Ee (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1685667)
+	at Se (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687383)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687814
+	at we (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687755)
+	at Pe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687789)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1685028
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1684962
+	at Array.map (<anonymous>)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1684933
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1686633
+	at Array.reduce (<anonymous>)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1686605
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1686887
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687267
+	at Se (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687334)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687814
+	at we (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687755)
+	at Pe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1687789)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1685028
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1714698
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1714719
+	at e._get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1713732)
+	at e._getButThrowIfAsync (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1713792)
+	at e.get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1709501)
+	at a.get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:537584)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:452426
+	at async t.activateComponents (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:450706)
+	at async /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:2638685
+	at async e (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:2638217)
+	at async aw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:4447)
+	at async aw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:4410)
+	at async aw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:3866)]
+2025-02-23 23:13:40.485 [info] Python interpreter path: /bin/python
+2025-02-23 23:13:40.485 [info] > pyenv which python
+2025-02-23 23:13:40.485 [info] cwd: .
+2025-02-23 23:13:40.496 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 67ms, has a falsy return value, Arg 1: <Uri:/home/kh/hyprcrow/Scripts/prueba_zxpy.py>, Arg 2: {"started":1740374020378}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:16858)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:39426)
+  	at C.activate (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:908459)
+  	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:2447)]
+]
+2025-02-23 23:13:40.496 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:16858)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:39426)
+	at C.activate (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:908459)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:2447)]
+2025-02-23 23:13:40.496 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:16858)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:39426)
+	at C.activate (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:908459)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:2447)]
+2025-02-23 23:13:41.160 [info] Starting Jedi language server for hyprcrow.
+2025-02-23 23:14:44.741 [info] Discover tests for workspace name: undefined - uri: /home/kh/Untitled-1.py
+2025-02-23 23:15:46.359 [info] Discover tests for workspace name: undefined - uri: /home/kh/Untitled-1.py
+2025-02-23 23:16:00.997 [info] Discover tests for workspace name: undefined - uri: /home/kh/Untitled-1.py
+2025-02-23 23:16:10.144 [info] Discover tests for workspace name: undefined - uri: /home/kh/Untitled-1.py
+2025-02-23 23:16:17.249 [info] Discover tests for workspace name: undefined - uri: /home/kh/Untitled-1.py
+2025-02-23 23:16:58.502 [info] Discover tests for workspace name: undefined - uri: /home/kh/Untitled-1.py

@@ -1,0 +1,325 @@
+2025-02-25 10:00:12.591 [info] [main] Log level: Info
+2025-02-25 10:00:12.591 [info] [main] Validating found git in: "git"
+2025-02-25 10:00:12.591 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 10:00:12.591 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 10:00:12.591 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-25 10:00:12.591 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-02-25 10:00:12.591 [info] [Model][openRepository] Opened repository: /home/kh/hyprcrow
+2025-02-25 10:00:12.592 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 10:00:12.592 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 10:00:12.592 [info] > git config --get commit.template [6ms]
+2025-02-25 10:00:12.602 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-25 10:00:12.607 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 10:00:12.611 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 10:00:12.611 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-25 10:00:12.618 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-02-25 10:00:12.628 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-25 10:00:12.634 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-25 10:00:12.635 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 10:00:12.641 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 10:00:12.645 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 10:00:12.646 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 10:00:13.105 [info] > git check-ignore -v -z --stdin [7ms]
+2025-02-25 10:00:15.569 [info] > git status -z -uall [2945ms] (cancelled)
+2025-02-25 10:00:15.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 10:00:15.575 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-02-25 10:00:15.580 [info] > git config --get commit.template [12ms]
+2025-02-25 10:00:15.604 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [24ms]
+2025-02-25 10:00:16.146 [info] > git merge-base refs/heads/main refs/remotes/origin/main [538ms]
+2025-02-25 10:00:16.152 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [551ms]
+2025-02-25 10:00:16.158 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 10:00:16.158 [info] > git diff --name-status -z --diff-filter=ADMR a43ca963f74f89750cda02b1a6ec95217b82c619...refs/remotes/origin/main [6ms]
+2025-02-25 10:00:16.159 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-02-25 10:00:16.168 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 10:00:16.793 [info] > git status -z -uall [630ms] (cancelled)
+2025-02-25 10:25:53.664 [info] > git check-ignore -v -z --stdin [48ms]
+2025-02-25 10:39:45.119 [info] [main] Log level: Info
+2025-02-25 10:39:45.119 [info] [main] Validating found git in: "git"
+2025-02-25 10:39:45.119 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 10:39:45.119 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 10:39:45.119 [info] > git rev-parse --show-toplevel [50ms]
+2025-02-25 10:39:45.130 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2025-02-25 10:39:45.137 [info] [Model][openRepository] Opened repository: /home/kh/hyprcrow
+2025-02-25 10:39:45.152 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-25 10:39:45.152 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 10:39:45.153 [info] > git config --get commit.template [10ms]
+2025-02-25 10:39:45.161 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-25 10:39:45.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-02-25 10:39:45.169 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 10:39:45.170 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-25 10:39:45.174 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-02-25 10:39:45.184 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-25 10:39:45.196 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-02-25 10:39:45.200 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-25 10:39:45.210 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-25 10:39:45.235 [info] > git rev-parse --show-toplevel [17ms]
+2025-02-25 10:39:45.235 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 10:39:45.713 [info] > git check-ignore -v -z --stdin [6ms]
+2025-02-25 10:39:46.151 [info] > git status -z -uall [973ms] (cancelled)
+2025-02-25 10:39:46.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 10:39:46.160 [info] > git config --get --local branch.main.vscode-merge-base [5ms]
+2025-02-25 10:39:46.164 [info] > git config --get commit.template [14ms]
+2025-02-25 10:39:46.170 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2025-02-25 10:39:46.176 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 10:39:46.179 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 10:39:46.182 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2025-02-25 10:39:46.726 [info] > git diff --name-status -z --diff-filter=ADMR a43ca963f74f89750cda02b1a6ec95217b82c619...refs/remotes/origin/main [540ms]
+2025-02-25 10:39:46.727 [info] > git rev-parse refs/remotes/origin/main [547ms]
+2025-02-25 10:39:46.738 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 10:39:47.382 [info] > git status -z -uall [651ms] (cancelled)
+2025-02-25 11:09:35.084 [info] [main] Log level: Info
+2025-02-25 11:09:35.084 [info] [main] Validating found git in: "git"
+2025-02-25 11:09:35.084 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 11:09:35.084 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 11:09:35.084 [info] > git rev-parse --show-toplevel [47ms]
+2025-02-25 11:09:35.098 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-02-25 11:09:35.104 [info] [Model][openRepository] Opened repository: /home/kh/hyprcrow
+2025-02-25 11:09:35.119 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-25 11:09:35.119 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 11:09:35.120 [info] > git config --get commit.template [10ms]
+2025-02-25 11:09:35.140 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-25 11:09:35.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-02-25 11:09:35.150 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 11:09:35.150 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-25 11:09:35.163 [info] > git rev-parse refs/remotes/origin/main [13ms]
+2025-02-25 11:09:35.187 [info] > git rev-parse --show-toplevel [32ms]
+2025-02-25 11:09:35.201 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [27ms]
+2025-02-25 11:09:35.205 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-25 11:09:35.212 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 11:09:35.218 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 11:09:35.219 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 11:09:35.633 [info] > git check-ignore -v -z --stdin [6ms]
+2025-02-25 11:09:35.926 [info] > git status -z -uall [758ms] (cancelled)
+2025-02-25 11:09:35.926 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-02-25 11:09:35.935 [info] > git config --get --local branch.main.vscode-merge-base [5ms]
+2025-02-25 11:09:35.939 [info] > git config --get commit.template [14ms]
+2025-02-25 11:09:35.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-02-25 11:09:35.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-02-25 11:09:35.956 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 11:09:35.956 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2025-02-25 11:09:35.960 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-02-25 11:09:36.509 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [541ms]
+2025-02-25 11:09:36.510 [info] > git diff --name-status -z --diff-filter=ADMR a43ca963f74f89750cda02b1a6ec95217b82c619...refs/remotes/origin/main [550ms]
+2025-02-25 11:09:36.623 [info] > git status -z -uall [659ms] (cancelled)
+2025-02-25 11:39:29.957 [info] [main] Log level: Info
+2025-02-25 11:39:29.957 [info] [main] Validating found git in: "git"
+2025-02-25 11:39:29.957 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 11:39:29.957 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 11:39:29.957 [info] > git rev-parse --show-toplevel [43ms]
+2025-02-25 11:39:29.968 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2025-02-25 11:39:29.974 [info] [Model][openRepository] Opened repository: /home/kh/hyprcrow
+2025-02-25 11:39:29.991 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-25 11:39:29.991 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 11:39:29.991 [info] > git config --get commit.template [10ms]
+2025-02-25 11:39:30.006 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-25 11:39:30.016 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-02-25 11:39:30.022 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 11:39:30.023 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-25 11:39:30.029 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2025-02-25 11:39:30.054 [info] > git rev-parse --show-toplevel [25ms]
+2025-02-25 11:39:30.074 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [32ms]
+2025-02-25 11:39:30.076 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-25 11:39:30.082 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 11:39:30.088 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 11:39:30.088 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 11:39:30.505 [info] > git check-ignore -v -z --stdin [8ms]
+2025-02-25 11:39:30.779 [info] > git status -z -uall [745ms] (cancelled)
+2025-02-25 11:39:30.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 11:39:30.786 [info] > git config --get --local branch.main.vscode-merge-base [3ms]
+2025-02-25 11:39:30.791 [info] > git config --get commit.template [13ms]
+2025-02-25 11:39:30.795 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2025-02-25 11:39:30.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 11:39:30.805 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 11:39:30.808 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2025-02-25 11:39:30.812 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-02-25 11:39:31.371 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [551ms]
+2025-02-25 11:39:31.372 [info] > git diff --name-status -z --diff-filter=ADMR a43ca963f74f89750cda02b1a6ec95217b82c619...refs/remotes/origin/main [560ms]
+2025-02-25 11:39:31.491 [info] > git status -z -uall [674ms] (cancelled)
+2025-02-25 12:13:21.782 [info] [main] Log level: Info
+2025-02-25 12:13:21.782 [info] [main] Validating found git in: "git"
+2025-02-25 12:13:21.782 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 12:13:21.782 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 12:13:21.782 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-25 12:13:21.798 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2025-02-25 12:13:21.804 [info] [Model][openRepository] Opened repository: /home/kh/hyprcrow
+2025-02-25 12:13:21.818 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-25 12:13:21.818 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 12:13:21.818 [info] > git config --get commit.template [8ms]
+2025-02-25 12:13:21.833 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-25 12:13:21.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-02-25 12:13:21.854 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 12:13:21.855 [info] > git rev-parse --show-toplevel [18ms]
+2025-02-25 12:13:21.859 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-02-25 12:13:21.868 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-25 12:13:21.872 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-25 12:13:21.873 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 12:13:21.878 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 12:13:21.882 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 12:13:21.882 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 12:13:22.340 [info] > git check-ignore -v -z --stdin [8ms]
+2025-02-25 12:13:24.724 [info] > git status -z -uall [2861ms] (cancelled)
+2025-02-25 12:13:24.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 12:13:24.731 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-02-25 12:13:24.736 [info] > git config --get commit.template [12ms]
+2025-02-25 12:13:24.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-02-25 12:13:24.747 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 12:13:24.751 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 12:13:24.754 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2025-02-25 12:13:24.758 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-02-25 12:13:25.314 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [548ms]
+2025-02-25 12:13:25.315 [info] > git diff --name-status -z --diff-filter=ADMR a43ca963f74f89750cda02b1a6ec95217b82c619...refs/remotes/origin/main [557ms]
+2025-02-25 12:13:25.433 [info] > git status -z -uall [671ms] (cancelled)
+2025-02-25 12:13:39.420 [info] > git check-ignore -v -z --stdin [44ms]
+2025-02-25 12:13:48.360 [info] > git check-ignore -v -z --stdin [479ms]
+2025-02-25 12:13:53.238 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [16573ms]
+2025-02-25 12:13:53.238 [info] warning: exhaustive rename detection was skipped due to too many files.
+warning: you may want to set your diff.renameLimit variable to at least 89714 and retry the command.
+2025-02-25 12:54:32.250 [info] [main] Log level: Info
+2025-02-25 12:54:32.250 [info] [main] Validating found git in: "git"
+2025-02-25 12:54:32.250 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 12:54:32.250 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 12:54:32.250 [info] > git rev-parse --show-toplevel [43ms]
+2025-02-25 12:54:32.263 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-02-25 12:54:32.270 [info] [Model][openRepository] Opened repository: /home/kh/hyprcrow
+2025-02-25 12:54:32.290 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-25 12:54:32.290 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 12:54:32.291 [info] > git config --get commit.template [13ms]
+2025-02-25 12:54:32.300 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-02-25 12:54:32.306 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 12:54:32.306 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-25 12:54:32.321 [info] > git rev-parse refs/remotes/origin/main [15ms]
+2025-02-25 12:54:32.354 [info] > git rev-parse --show-toplevel [33ms]
+2025-02-25 12:54:32.356 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]
+2025-02-25 12:54:32.379 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-25 12:54:32.399 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-25 12:54:32.407 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 12:54:32.414 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 12:54:32.425 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 12:54:32.426 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 12:54:32.836 [info] > git check-ignore -v -z --stdin [29ms]
+2025-02-25 12:54:33.201 [info] > git status -z -uall [874ms] (cancelled)
+2025-02-25 12:54:33.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 12:54:33.208 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-02-25 12:54:33.213 [info] > git config --get commit.template [11ms]
+2025-02-25 12:54:33.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-25 12:54:33.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2025-02-25 12:54:33.226 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 12:54:33.227 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2025-02-25 12:54:33.231 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-02-25 12:54:33.239 [info] > git diff --name-status -z --diff-filter=ADMR a43ca963f74f89750cda02b1a6ec95217b82c619...refs/remotes/origin/main [8ms]
+2025-02-25 12:54:33.240 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 12:54:33.935 [info] > git status -z -uall [700ms] (cancelled)
+2025-02-25 13:26:16.868 [info] [main] Log level: Info
+2025-02-25 13:26:16.868 [info] [main] Validating found git in: "git"
+2025-02-25 13:26:16.868 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 13:26:16.868 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 13:26:16.871 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-25 13:26:16.894 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2025-02-25 13:26:16.902 [info] [Model][openRepository] Opened repository: /home/kh/hyprcrow
+2025-02-25 13:26:16.937 [info] > git rev-parse --show-toplevel [18ms]
+2025-02-25 13:26:16.937 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 13:26:16.937 [info] > git config --get commit.template [22ms]
+2025-02-25 13:26:16.951 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-25 13:26:16.969 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-25 13:26:16.973 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 13:26:16.978 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 13:26:16.983 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 13:26:16.987 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 13:26:16.991 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2025-02-25 13:26:16.995 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 13:26:16.996 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-25 13:26:16.996 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 13:26:16.997 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-25 13:26:17.008 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 13:26:17.479 [info] > git check-ignore -v -z --stdin [30ms]
+2025-02-25 13:26:19.739 [info] > git status -z -uall [2738ms] (cancelled)
+2025-02-25 13:26:19.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 13:26:19.746 [info] > git config --get --local branch.main.vscode-merge-base [3ms]
+2025-02-25 13:26:19.750 [info] > git config --get commit.template [11ms]
+2025-02-25 13:26:19.755 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-02-25 13:26:19.760 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-02-25 13:26:19.764 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 13:26:19.764 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2025-02-25 13:26:19.769 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-02-25 13:26:19.777 [info] > git diff --name-status -z --diff-filter=ADMR a43ca963f74f89750cda02b1a6ec95217b82c619...refs/remotes/origin/main [9ms]
+2025-02-25 13:26:19.778 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 13:26:20.439 [info] > git status -z -uall [667ms] (cancelled)
+2025-02-25 13:50:19.299 [info] [main] Log level: Info
+2025-02-25 13:50:19.299 [info] [main] Validating found git in: "git"
+2025-02-25 13:50:19.299 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 13:50:19.299 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 13:50:19.299 [info] > git rev-parse --show-toplevel [43ms]
+2025-02-25 13:50:19.312 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2025-02-25 13:50:19.319 [info] [Model][openRepository] Opened repository: /home/kh/hyprcrow
+2025-02-25 13:50:19.340 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-25 13:50:19.340 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 13:50:19.341 [info] > git config --get commit.template [14ms]
+2025-02-25 13:50:19.363 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-25 13:50:19.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-02-25 13:50:19.371 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 13:50:19.382 [info] > git rev-parse --show-toplevel [16ms]
+2025-02-25 13:50:19.388 [info] > git rev-parse refs/remotes/origin/main [17ms]
+2025-02-25 13:50:19.400 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-25 13:50:19.421 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]
+2025-02-25 13:50:19.435 [info] > git rev-parse --show-toplevel [15ms]
+2025-02-25 13:50:19.441 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 13:50:19.448 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 13:50:19.454 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 13:50:19.455 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 13:50:19.876 [info] > git check-ignore -v -z --stdin [28ms]
+2025-02-25 13:50:20.244 [info] > git status -z -uall [852ms] (cancelled)
+2025-02-25 13:50:20.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 13:50:20.250 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-02-25 13:50:20.254 [info] > git config --get commit.template [11ms]
+2025-02-25 13:50:20.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-02-25 13:50:20.264 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 13:50:20.268 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 13:50:20.268 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-02-25 13:50:20.272 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-02-25 13:50:20.281 [info] > git diff --name-status -z --diff-filter=ADMR a43ca963f74f89750cda02b1a6ec95217b82c619...refs/remotes/origin/main [9ms]
+2025-02-25 13:50:20.281 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 13:50:20.945 [info] > git status -z -uall [669ms] (cancelled)
+2025-02-25 14:21:25.956 [info] [main] Log level: Info
+2025-02-25 14:21:25.956 [info] [main] Validating found git in: "git"
+2025-02-25 14:21:25.956 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 14:21:25.956 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 14:21:25.956 [info] > git rev-parse --show-toplevel [43ms]
+2025-02-25 14:21:25.973 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2025-02-25 14:21:25.980 [info] [Model][openRepository] Opened repository: /home/kh/hyprcrow
+2025-02-25 14:21:25.998 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-25 14:21:25.998 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-25 14:21:25.998 [info] > git config --get commit.template [11ms]
+2025-02-25 14:21:26.009 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-25 14:21:26.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 14:21:26.019 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 14:21:26.019 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-25 14:21:26.024 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-02-25 14:21:26.046 [info] > git rev-parse --show-toplevel [23ms]
+2025-02-25 14:21:26.057 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+2025-02-25 14:21:26.069 [info] > git rev-parse --show-toplevel [17ms]
+2025-02-25 14:21:26.077 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 14:21:26.099 [info] > git rev-parse --show-toplevel [17ms]
+2025-02-25 14:21:26.106 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-25 14:21:26.106 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 14:21:26.591 [info] > git check-ignore -v -z --stdin [29ms]
+2025-02-25 14:21:26.755 [info] > git status -z -uall [726ms] (cancelled)
+2025-02-25 14:21:26.755 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 14:21:26.763 [info] > git config --get --local branch.main.vscode-merge-base [4ms]
+2025-02-25 14:21:26.767 [info] > git config --get commit.template [13ms]
+2025-02-25 14:21:26.772 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-02-25 14:21:26.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-25 14:21:26.781 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/hyprcrow/.git/refs/remotes/origin/main'
+2025-02-25 14:21:26.781 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2025-02-25 14:21:26.785 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-02-25 14:21:26.794 [info] > git diff --name-status -z --diff-filter=ADMR a43ca963f74f89750cda02b1a6ec95217b82c619...refs/remotes/origin/main [9ms]
+2025-02-25 14:21:26.794 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 14:21:27.446 [info] > git status -z -uall [657ms] (cancelled)

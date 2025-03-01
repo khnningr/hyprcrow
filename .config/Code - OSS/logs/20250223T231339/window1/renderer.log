@@ -1,0 +1,49 @@
+2025-02-23 23:13:39.790 [info] Started local extension host with pid 3674.
+2025-02-23 23:13:40.022 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-02-23 23:13:40.022 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-02-23 23:13:40.038 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-02-23 23:13:41.498 [error] An unknown error occurred. Please consult the log for more details.
+2025-02-23 23:13:42.222 [error] Error while getting the latest version for the extension kevinrose.vsc-python-indent. Cannot read properties of undefined (reading 'replace')
+2025-02-23 23:13:42.222 [error] Error while getting the latest version for the extension ms-python.debugpy. Cannot read properties of undefined (reading 'replace')
+2025-02-23 23:13:42.222 [error] Error while getting the latest version for the extension ms-python.python. Cannot read properties of undefined (reading 'replace')
+2025-02-23 23:13:42.416 [info] [perf] Render performance baseline is 20ms
+2025-02-23 23:14:31.530 [error] FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1': Error: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-23 23:14:37.299 [error] FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1': Error: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-23 23:14:38.426 [error] FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1': Error: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-23 23:14:39.697 [error] FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1': Error: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-23 23:15:41.078 [error] UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-23 23:15:42.891 [error] UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-23 23:15:44.432 [error] UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-02-23 23:15:45.476 [error] UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1973990)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1971950)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/out/client/extension.js:2:1968244)
+	at process.processImmediate (node:internal/timers:483:21)

@@ -1,0 +1,424 @@
+2025-02-23 23:14:25.422 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "54"
+
+2025-02-23 23:14:31.510 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 67 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=2:2-2:2, context=CodeActionContext(diagnostics=[Diagnostic(range=2:1-2:2, message='SyntaxError: invalid syntax (untitled:Untitled-1, line 3)', severity=<DiagnosticSeverity.Error: 1>, code=None, code_description=None, source='compile', tags=None, related_information=None, data=None)], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 611, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+        server.workspace, extract_variable_refactoring
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 46, in lsp_document_changes
+    return [
+           ^
+    ...<2 lines>...
+    ]
+    ^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 78, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 106, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/workspace/text_document.py", line 181, in source
+    with io.open(self.path, "r", encoding="utf-8") as f:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+
+2025-02-23 23:14:31.529 [info] [Error - 11:14:31 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:14:31.529 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+  Code: -32603 
+[object Object]
+2025-02-23 23:14:32.518 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 69 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=2:2-2:2, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 611, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+        server.workspace, extract_variable_refactoring
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 46, in lsp_document_changes
+    return [
+           ^
+    ...<2 lines>...
+    ]
+    ^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 78, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 106, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/workspace/text_document.py", line 181, in source
+    with io.open(self.path, "r", encoding="utf-8") as f:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+
+2025-02-23 23:14:32.524 [info] [Error - 11:14:32 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:14:32.524 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+  Code: -32603 
+[object Object]
+2025-02-23 23:14:37.292 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 70 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=2:13-2:13, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 611, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+        server.workspace, extract_variable_refactoring
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 46, in lsp_document_changes
+    return [
+           ^
+    ...<2 lines>...
+    ]
+    ^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 78, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 106, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/workspace/text_document.py", line 181, in source
+    with io.open(self.path, "r", encoding="utf-8") as f:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+
+2025-02-23 23:14:37.295 [info] [Error - 11:14:37 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:14:37.296 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+  Code: -32603 
+[object Object]
+2025-02-23 23:14:37.923 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 72 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=2:14-2:14, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 611, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+        server.workspace, extract_variable_refactoring
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 46, in lsp_document_changes
+    return [
+           ^
+    ...<2 lines>...
+    ]
+    ^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 78, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 106, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/workspace/text_document.py", line 181, in source
+    with io.open(self.path, "r", encoding="utf-8") as f:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+
+2025-02-23 23:14:37.930 [info] [Error - 11:14:37 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:14:37.930 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+  Code: -32603 
+[object Object]
+2025-02-23 23:14:38.420 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 74 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=2:15-2:15, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 611, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+        server.workspace, extract_variable_refactoring
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 46, in lsp_document_changes
+    return [
+           ^
+    ...<2 lines>...
+    ]
+    ^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 78, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 106, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/workspace/text_document.py", line 181, in source
+    with io.open(self.path, "r", encoding="utf-8") as f:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+
+2025-02-23 23:14:38.423 [info] [Error - 11:14:38 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:14:38.423 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+  Code: -32603 
+[object Object]
+2025-02-23 23:14:38.983 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 76 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=2:14-2:14, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 611, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+        server.workspace, extract_variable_refactoring
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 46, in lsp_document_changes
+    return [
+           ^
+    ...<2 lines>...
+    ]
+    ^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 78, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 106, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/workspace/text_document.py", line 181, in source
+    with io.open(self.path, "r", encoding="utf-8") as f:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+
+2025-02-23 23:14:38.985 [info] [Error - 11:14:38 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:14:38.985 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+  Code: -32603 
+[object Object]
+2025-02-23 23:14:39.083 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "77"
+
+2025-02-23 23:14:39.284 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 78 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=2:15-2:15, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 611, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+        server.workspace, extract_variable_refactoring
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 46, in lsp_document_changes
+    return [
+           ^
+    ...<2 lines>...
+    ]
+    ^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 78, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 106, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/workspace/text_document.py", line 181, in source
+    with io.open(self.path, "r", encoding="utf-8") as f:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+
+2025-02-23 23:14:39.286 [info] [Error - 11:14:39 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:14:39.286 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+  Code: -32603 
+[object Object]
+2025-02-23 23:14:39.689 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 80 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=2:16-2:16, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 611, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+        server.workspace, extract_variable_refactoring
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 46, in lsp_document_changes
+    return [
+           ^
+    ...<2 lines>...
+    ]
+    ^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 78, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 106, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/workspace/text_document.py", line 181, in source
+    with io.open(self.path, "r", encoding="utf-8") as f:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+
+2025-02-23 23:14:39.695 [info] [Error - 11:14:39 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:14:39.695 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+  Code: -32603 
+[object Object]
+2025-02-23 23:14:40.559 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 82 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=2:18-2:18, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 611, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+        server.workspace, extract_variable_refactoring
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 46, in lsp_document_changes
+    return [
+           ^
+    ...<2 lines>...
+    ]
+    ^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 78, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 106, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/workspace/text_document.py", line 181, in source
+    with io.open(self.path, "r", encoding="utf-8") as f:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+
+2025-02-23 23:14:40.565 [info] [Error - 11:14:40 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:14:40.565 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-1'
+  Code: -32603 
+[object Object]
+2025-02-23 23:15:39.586 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "90"
+
+2025-02-23 23:15:41.068 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 95 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/kh/Untitled-1.py'), range=2:0-2:0, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                              ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+
+2025-02-23 23:15:41.073 [info] [Error - 11:15:41 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:15:41.073 [info]   Message: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-02-23 23:15:42.884 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 98 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/kh/Untitled-1.py'), range=2:2-2:2, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                              ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+
+2025-02-23 23:15:42.890 [info] [Error - 11:15:42 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:15:42.890 [info]   Message: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-02-23 23:15:44.429 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 107 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/kh/Untitled-1.py'), range=2:11-2:11, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                              ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+
+2025-02-23 23:15:44.430 [info] [Error - 11:15:44 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:15:44.430 [info]   Message: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-02-23 23:15:45.472 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 110 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/kh/Untitled-1.py'), range=2:13-2:13, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                              ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+
+2025-02-23 23:15:45.475 [info] [Error - 11:15:45 p. m.] Request textDocument/codeAction failed.
+2025-02-23 23:15:45.475 [info]   Message: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-02-23 23:16:12.529 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "130"
+

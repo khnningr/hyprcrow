@@ -1,0 +1,17 @@
+2025-02-26 07:47:22.826 [info] Started local extension host with pid 12588.
+2025-02-26 07:47:23.118 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-02-26 07:47:23.118 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-02-26 07:47:23.137 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-02-26 07:47:24.731 [error] An unknown error occurred. Please consult the log for more details.
+2025-02-26 07:47:25.269 [error] Error while getting the latest version for the extension kevinrose.vsc-python-indent. Cannot read properties of undefined (reading 'replace')
+2025-02-26 07:47:25.269 [error] Error while getting the latest version for the extension ms-python.debugpy. Cannot read properties of undefined (reading 'replace')
+2025-02-26 07:47:25.269 [error] Error while getting the latest version for the extension ms-python.python. Cannot read properties of undefined (reading 'replace')
+2025-02-26 07:47:25.475 [info] [perf] Render performance baseline is 19ms
+2025-02-26 08:20:40.645 [info] Extension host (LocalProcess pid: 12588) is unresponsive.
+2025-02-26 08:21:57.061 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:737:10013
+2025-02-26 08:22:02.880 [error] Extension host (LocalProcess pid: 12588) terminated unexpectedly. The following extensions were running: ms-python.python, vscode.emmet, KevinRose.vsc-python-indent, ms-python.debugpy, vscode.git-base, vscode.git, vscode.github, vscode.debug-auto-launch, vscode.merge-conflict, vscode.github-authentication, vscode.npm, vscode.debug-server-ready
+2025-02-26 08:22:02.883 [info] Automatically restarting the extension host.
+2025-02-26 08:22:03.016 [info] Started local extension host with pid 15240.
+2025-02-26 08:22:04.683 [error] No registered selector for ID: ms-vscode.npm-command
+2025-02-26 08:22:04.709 [error] An unknown error occurred. Please consult the log for more details.

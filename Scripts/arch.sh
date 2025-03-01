@@ -144,7 +144,8 @@ arch_paquetes_necesarios(){
         gsettings-system-schemas wlogout bluez bluez-utils\
         blueman pipewire pipewire-alsa pipewire-audio\
         pipewire-jack pipewire-pulse gst-plugin-pipewire\
-        wireplumber pamixer pavucontrol
+        wireplumber pamixer pavucontrol qt5ct qt6ct kvantum\
+        kvantum-qt5 qt5-wayland qt6-wayland gtk-engine-murrine
       paru -S --needed hellwal waytrogen syshud
 
       # Configuración de Yazi como file manager principal.
@@ -152,7 +153,7 @@ arch_paquetes_necesarios(){
       # Referencia: https://github.com/hunkyburrito/xdg-desktop-portal-termfilechooser?tab=readme-ov-file#installation
       sudo pacman -S --needed yazi ffmpeg p7zip jq poppler fd\
         ripgrep fzf zoxide imagemagick xdg-desktop-portal git\
-        libinih ninja meson scdoc
+        libinih ninja meson scdoc dragon-drop-git
 
       paru -S --needed xdg-desktop-portal-termfilechooser-hunkyburrito-git
       
@@ -182,7 +183,7 @@ arch_paquetes_videojuegos(){
       
       sudo pacman -S --needed steam protonplus heroic-games-launcher-bin\
         bottles wine-mono wine-gecko retroarch retroarch-assets-xmb\
-        retroarch-assets-ozone
+        retroarch-assets-ozone nexusmods-app-bin
 
       # Instalar MangoHud.
       # Comando necesario en steam modo lazamiento: mangohud %command%
@@ -321,11 +322,11 @@ arch_virt_manager(){
     if [[ -z "$elegir" || "$elegir" == "s" || "$elegir" == "S" ]]; then
       sudo pacman -Syu
       # Paquetes necesarios:
-      sudo pacman -S --needed virt-manager qemu-full vde2\
-        virt-viewer ebtables iptables-nft nftables dnsmasq\
+      sudo pacman -S --needed virt-manager qemu vde2\
+        virt-viewer ebtables iptables dnsmasq\
         bridge-utils ovmf swtpm dmidecode qemu-common libvirt
 
-      base_
+      base_virt_manager
       break
     elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then
       echo -e "\tNo se ha instalado OH-MY-ZSH.\n"

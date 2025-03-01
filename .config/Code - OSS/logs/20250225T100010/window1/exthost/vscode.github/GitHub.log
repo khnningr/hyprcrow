@@ -1,0 +1,19 @@
+2025-02-25 10:00:12.591 [info] Log level: Info
+2025-02-25 10:00:16.226 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-02-25 10:39:45.119 [info] Log level: Info
+2025-02-25 10:39:46.175 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-02-25 11:09:35.085 [info] Log level: Info
+2025-02-25 11:09:35.949 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-02-25 11:39:29.957 [info] Log level: Info
+2025-02-25 11:39:30.800 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-02-25 12:13:21.788 [info] Log level: Info
+2025-02-25 12:13:24.746 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-02-25 12:13:53.246 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for khnningr/hyprcrow: Error: No GitHub authentication session available.
+2025-02-25 12:54:32.250 [info] Log level: Info
+2025-02-25 12:54:33.223 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-02-25 13:26:16.868 [info] Log level: Info
+2025-02-25 13:26:19.760 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-02-25 13:50:19.300 [info] Log level: Info
+2025-02-25 13:50:20.264 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-02-25 14:21:25.957 [info] Log level: Info
+2025-02-25 14:21:26.777 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.

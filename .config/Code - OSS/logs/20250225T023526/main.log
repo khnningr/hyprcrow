@@ -1,0 +1,4 @@
+2025-02-25 02:35:26.321 [info] update#setState disabled
+2025-02-25 02:35:26.321 [info] update#ctor - updates are disabled as there is no update URL
+2025-02-25 03:04:09.067 [info] Extension host with pid 31530 exited with code: 134, signal: unknown.
+2025-02-25 03:04:09.076 [error] [UtilityProcess id: 1, type: extensionHost, pid: 31530]: crashed with code 134 and reason 'crashed'

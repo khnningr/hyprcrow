@@ -1,9 +1,9 @@
-@define-color shade-lighter rgba(190,186,186,0.1);
-@define-color noti-bg-hover rgba(28,31,30,0.25);
-@define-color noti-bg #1C1F1E;
-@define-color cursor #706766;
-@define-color noti-bg-focus #CF6D59;
-@define-color noti-close-bg-hover #8D9280;
-@define-color noti-close-bg #828A87;
-@define-color noti-border-color #706766;
-@define-color bg-selected #9A9494;
+@define-color noti-border-color                 #0f1721;
+@define-color noti-bg                           #0f1721;
+@define-color noti-bg-hover                     rgba(143, 137, 157, 0.1);
+@define-color noti-bg-focus                     #34698c;
+@define-color noti-close-bg                     #0f1721;
+@define-color noti-close-bg-hover               #46556e;
+@define-color mpris-album-art-overlay           rgba(143, 137, 157, 0.55);
+@define-color bg-selected                       #34698c;
+@define-color shade-lighter rgba(64, 116, 155, 0.1);

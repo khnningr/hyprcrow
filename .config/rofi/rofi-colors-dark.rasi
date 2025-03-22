@@ -1,166 +1,46 @@
 * {
-    active-background: #32333d;
-    active-foreground: @foreground;
-    normal-background: @background;
-    normal-foreground: @foreground;
-    urgent-background: #24243d;
-    urgent-foreground: @foreground;
 
-    alternate-active-background: @background;
-    alternate-active-foreground: @foreground;
-    alternate-normal-background: @background;
-    alternate-normal-foreground: @foreground;
-    alternate-urgent-background: @background;
-    alternate-urgent-foreground: @foreground;
+    active-background: #8B9FBB;
+    active-foreground: #ADAEB1;
+    normal-background: #060709;
+    normal-foreground: #ADAEB1;
+    urgent-background: #96BDB3;
+    urgent-foreground: #ADAEB1;
 
-    selected-active-background: #24243d;
-    selected-active-foreground: @foreground;
-    selected-normal-background: #32333d;
-    selected-normal-foreground: @foreground;
-    selected-urgent-background: #3b3c55;
-    selected-urgent-foreground: @foreground;
+    alternate-active-background: #6B818A;
+    alternate-active-foreground: #ADAEB1;
+    alternate-normal-background: #060709;
+    alternate-normal-foreground: #ADAEB1;
+    alternate-urgent-background: #060709;
+    alternate-urgent-foreground: #ADAEB1;
 
-    background-color: @background;
-    background: #030304;
-    foreground: #fff4ff;
-    border-color: @background;
-    spacing: 2;
-}
+    selected-active-background: #96BDB3;
+    selected-active-foreground: #ADAEB1;
+    selected-normal-background: #96BDB3;
+    selected-normal-foreground: #ADAEB1;
+    selected-urgent-background: #8B9FBB;
+    selected-urgent-foreground: #ADAEB1;
 
-#window {
-    background-color: @background;
-    border: 0;
-    padding: 2.5ch;
-}
+    background-color: #060709;
+    background: rgba(0,0,0,0.7);
+    foreground: #ADAEB1;
+    border-color: #8B9FBB;
 
-#mainbox {
-    border: 0;
-    padding: 0;
-}
+    color0:  #45433F;
+    color1:  #494B52;
+    color2:  #717682;
+    color3:  #6B818A;
+    color4:  #8B9FBB;
+    color5:  #96BDB3;
+    color6:  #E7DEC5;
+    color7:  #818286;
+    color8:  #5A5B5E;
+    color9:  #494B52;
+    color10: #717682;
+    color11: #6B818A;
+    color12: #8B9FBB;
+    color13: #96BDB3;
+    color14: #E7DEC5;
+    color15: #818286;
 
-#message {
-    border: 2px 0px 0px;
-    border-color: @border-color;
-    padding: 1px;
-}
-
-#textbox {
-    text-color: @foreground;
-}
-
-#inputbar {
-    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
-}
-
-#textbox-prompt-colon {
-    expand: false;
-    str: ":";
-    margin: 0px 0.3em 0em 0em;
-    text-color: @normal-foreground;
-}
-
-#listview {
-    fixed-height: 0;
-    border: 2px 0px 0px;
-    border-color: @border-color;
-    spacing: 2px;
-    scrollbar: true;
-    padding: 2px 0px 0px;
-}
-
-#element {
-    border: 0;
-    padding: 1px;
-}
-
-#element-text, element-icon {
-    background-color: inherit;
-    text-color:       inherit;
-}
-
-#element.normal.normal {
-    background-color: @normal-background;
-    text-color: @normal-foreground;
-}
-
-#element.normal.urgent {
-    background-color: @urgent-background;
-    text-color: @urgent-foreground;
-}
-
-#element.normal.active {
-    background-color: @active-background;
-    text-color: @active-foreground;
-}
-
-#element.selected.normal {
-    background-color: @selected-normal-background;
-    text-color: @selected-normal-foreground;
-}
-
-#element.selected.urgent {
-    background-color: @selected-urgent-background;
-    text-color: @selected-urgent-foreground;
-}
-
-#element.selected.active {
-    background-color: @selected-active-background;
-    text-color: @selected-active-foreground;
-}
-
-#element.alternate.normal {
-    background-color: @alternate-normal-background;
-    text-color: @alternate-normal-foreground;
-}
-
-#element.alternate.urgent {
-    background-color: @alternate-urgent-background;
-    text-color: @alternate-urgent-foreground;
-}
-
-#element.alternate.active {
-    background-color: @alternate-active-background;
-    text-color: @alternate-active-foreground;
-}
-
-#scrollbar {
-    width: 4px;
-    border: 0;
-    handle-width: 8px;
-    padding: 0;
-}
-
-#sidebar {
-    border: 2px 0px 0px;
-    border-color: @border-color;
-}
-
-#button {
-    text-color: @normal-foreground;
-}
-
-#button.selected {
-    background-color: @selected-normal-background;
-    text-color: @selected-normal-foreground;
-}
-
-#inputbar {
-    spacing: 0;
-    text-color: @normal-foreground;
-    padding: 1px;
-}
-
-#case-indicator {
-    spacing: 0;
-    text-color: @normal-foreground;
-}
-
-#entry {
-    spacing: 0;
-    text-color: @normal-foreground;
-}
-
-#prompt {
-    spacing: 0;
-    text-color: @normal-foreground;
 }

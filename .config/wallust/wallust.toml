@@ -54,4 +54,6 @@ terminal = { template = 'terminal.sh', target = '~/.local/share/bin/terminal.sh'
 variables = { template = 'variables.sh', target = '~/.local/share/bin/variables.sh'}
 waybar = { template = 'waybar-colors.css', target = '~/.config/waybar/waybar-colors.css'}
 wlogout = { template = 'wlogout-colors.css', target = '~/.config/wlogout/colors-wlogout.css'}
-#wezterm = { template = 'wezterm-colors.css', target = '~/.config/wezterm/colors/wezterm-colors.toml'}
+wezterm = { template = 'wezterm-colors.toml', target = '~/.config/wezterm/colors/wezterm-colors.toml'}
+fuzzel = { template = 'fuzzel-colors.ini', target = '~/.config/fuzzel/fuzzel-colors.ini' }
+

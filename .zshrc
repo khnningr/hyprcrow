@@ -121,6 +121,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias Syu="sudo pacman -Syu && paru -Syu"
+alias hypr="cd ~/hyprcrow/.config/hypr/"
+
 export GTK_USE_PORTAL=1
 
 function y() {

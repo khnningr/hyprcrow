@@ -11,6 +11,13 @@ def ejemplo_subprocess():
 
 #ejemplo_subprocess(
 
+def prueba_pkg():
+    comando = "if command -v pacman &> /dev/null; then  echo 'hola'"
+    salida = subprocess.run(comando, capture_output=True, shell=True)
+    print(salida.stdout.decode())
+prueba_pkg()
+
+
 def ejecutar_comando(comando):
     procesar_comando = comando
     salida_comando = subprocess.run(
@@ -31,4 +38,4 @@ def arch_actualizar_mirrorlist():
             ejecutar_comando("sudo pacman -S --needed rate-mirrors")
            
 
-arch_actualizar_mirrorlist()
+#arch_actualizar_mirrorlist()

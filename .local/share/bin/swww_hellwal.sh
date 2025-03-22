@@ -57,6 +57,7 @@ notify-send "hellwal" "hellwal ejecutado con la imagen: $(basename "$RANDOMPICS"
 cp ~/.cache/hellwal/waybar-colors.css ~/.config/waybar
 cp ~/.cache/hellwal/swaync-colors.css ~/.config/swaync
 cp ~/.cache/hellwal/hyprland-colors.conf ~/.config/hypr
+cp ~/.cache/hellwal/ax-shell-colors.conf ~/.config/Ax-Shell/config/hypr/colors.conf
 cp ~/.cache/hellwal/kitty-colors.conf ~/.config/kitty
 cp ~/.cache/hellwal/rofi-colors-dark.rasi ~/.config/rofi
 cp ~/.cache/hellwal/terminal.sh ~/.local/share/bin

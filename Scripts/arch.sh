@@ -212,7 +212,8 @@ arch_controladores_de_video(){
 
     if [[ "$elegir" == "1" ]]; then 
       sudo pacman -S --needed llvm-libs-git lib32-llvm-libs-git mesa-git\
-        lib32-mesa-git vulkan-radeon-git lib32-vulkan-radeon-git
+        lib32-mesa-git vulkan-radeon-git lib32-vulkan-radeon-git amdvlk\
+        lib32-amdvlk
       
       echo -e "\n\tSe han instalado los controladores AMD.\n"
       break

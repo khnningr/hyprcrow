@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Referencia: https://youtu.be/PLb2lA9jBCI?t=591   
+
+# Directorio de Wallpapers.
+DIR_WALL="$HOME/Wallpapers/"
+
+ROFI_THEME="$HOME/.config/rofi/wallpaper/wallpapers.rasi"
+
+CWD="$(pwd)"
+
+cd "$DIR_WALL" || exit 1
+
+IFS=$'\n'
+
+IMAGEN=$(for a in *.jpg *.png *.jpeg *.gif; do echo -en "$a\0icon\x1f$a\n" ; done | rofi -dmenu -p "" -theme "$ROFI_THEME")
+
+if [ -n "$IMAGEN" ]; then
+  walcrow-palette "$IMAGEN"
+fi
+
+cd "$CWD" || exit

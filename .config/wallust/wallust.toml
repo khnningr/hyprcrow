@@ -46,7 +46,7 @@ check_contrast = true
 # zathura = { template = 'zathura', target = '~/.config/zathura/zathurarc' }
 fabric = { template = 'fabric-colors.css', target = '~/.config/fabric/fabric-colors.css'}
 hyprland = { template = 'hyprland-colors.conf', target = '~/.config/hypr/hyprland-colors.conf'}
-rofi = { template = 'rofi-colors-dark.rasi', target = '~/.config/rofi/rofi-colors-dark.rasi'}
+rofi = { template = 'rofi-colors.rasi', target = '~/.config/rofi/rofi-colors.rasi'}
 swaync = { template = 'swaync-colors.css', target = '~/.config/swaync/swaync-colors.css'}
 syshud = { template = 'syshud-colors.css', target = '~/.config/sys64/hud/syshud-colors.css'}
 # Terminal

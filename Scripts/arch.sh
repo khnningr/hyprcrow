@@ -146,7 +146,7 @@ arch_paquetes_necesarios(){
         pipewire-jack pipewire-pulse gst-plugin-pipewire\
         wireplumber pamixer pavucontrol qt5ct qt6ct kvantum\
         kvantum-qt5 qt5-wayland qt6-wayland gtk-engine-murrine
-      paru -S --needed hellwal waytrogen syshud
+      paru -S --needed hellwal syshud
 
       # Configuración de Yazi como file manager principal.
       # Referencia: https://yazi-rs.github.io/docs/tips/

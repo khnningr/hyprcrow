@@ -1,9 +1,9 @@
-@define-color shade-lighter rgba(173,174,177,0.1);
+@define-color shade-lighter rgba(172,173,176,0.1);
 @define-color noti-bg-hover rgba(6,7,9,0.25);
 @define-color noti-bg #060709;
-@define-color cursor #494B52;
-@define-color noti-bg-focus #8B9FBB;
-@define-color noti-close-bg-hover #E7DEC5;
-@define-color noti-close-bg #717682;
-@define-color noti-border-color #494B52;
-@define-color bg-selected #818286;
+@define-color cursor #484B51;
+@define-color noti-bg-focus #7F94A6;
+@define-color noti-close-bg-hover #96D5D8;
+@define-color noti-close-bg #717785;
+@define-color noti-border-color #484B51;
+@define-color bg-selected #808286;

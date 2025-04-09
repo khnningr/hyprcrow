@@ -69,7 +69,7 @@ class Bar(Window):
             name="power-button",
             on_clicked=lambda *_: self.power(),
             child=Label(label="⏻",),
-            tooltip_text="wlogout"
+            tooltip_text="powercrow"
         )
         
         self.active_window = ActiveWindow(name="hyprland-window")
@@ -116,9 +116,10 @@ class Bar(Window):
     def hyprpicker(self):
         exec_shell_command("hyprpicker -a -f hex")
     def power(self):
-        exec_shell_command("wlogout")
+        exec_shell_command("powercrow-rofi")
     def crow_logo(self):
-        exec_shell_command("rofi -show drun")
+        exec_shell_command("launchercrow-rofi")
+
         
     
     

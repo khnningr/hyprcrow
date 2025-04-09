@@ -130,7 +130,7 @@ arch_paquetes_necesarios(){
         zathura-pdf-mupdf vlc telegram-desktop jdk-openjdk\
         obs-studio kooha obsidian fragments handbrake\
         downgrade vesktop ncspot mission-center stow\
-        android-tools zen-browser-bin
+        android-tools tree tutanota-desktop zen-browser-bin
 
       # Paquetes Hyprland.
       # Paquetes omitidos: waybar, thunar, file-roller, 
@@ -141,7 +141,7 @@ arch_paquetes_necesarios(){
         libnotify hyprshot polkit-gnome hyprcursor swappy\
         hyprlock hypridle networkmanager network-manager-applet\
         nwg-look dconf-editor gsettings-desktop-schemas\
-        gsettings-system-schemas wlogout bluez bluez-utils\
+        gsettings-system-schemas bluez bluez-utils\
         blueman pipewire pipewire-alsa pipewire-audio\
         pipewire-jack pipewire-pulse gst-plugin-pipewire\
         wireplumber pamixer pavucontrol qt5ct qt6ct kvantum\

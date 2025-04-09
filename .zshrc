@@ -121,7 +121,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias Syu="sudo pacman -Syu && paru -Syu"
+
+alias u="sudo pacman -Syu && paru -Syu"
+alias i="paru -S --needed"
+alias r="paru -Rnsc"
+alias s="paru"
+alias m="rate-mirrors --allow-root --protocol https arch | sudo tee /etc/pacman.d/mirrorlist"
 alias hypr="cd ~/hyprcrow/.config/hypr/"
 
 export GTK_USE_PORTAL=1

@@ -3,38 +3,38 @@
 # REFERENCIA: https://codeberg.org/explosion-mental/wallust-templates/src/branch/master/wezterm.toml
 
 [colors]
-background = "#040406" # Color de fondo por defecto.
-foreground = "#575759" # Color del texto por defecto.
+background = "#070504" # Color de fondo por defecto.
+foreground = "#595656" # Color del texto por defecto.
 
-cursor_bg = "#C79E88"
-cursor_border = "#C79E88"
-cursor_fg = "#07070B"
+cursor_bg = "#9A6661"
+cursor_border = "#9A6661"
+cursor_fg = "#0D0A09"
 
-selection_bg = "#C79E88"
-selection_fg = "#AEAEB2"
+selection_bg = "#9A6661"
+selection_fg = "#B2ABAB"
 
-scrollbar_thumb = "#C79E88" # Color de la barra de desplazamiento.
+scrollbar_thumb = "#9A6661" # Color de la barra de desplazamiento.
 
-split = "#C79E88" # Color de las líneas de división entre paneles.
+split = "#9A6661" # Color de las líneas de división entre paneles.
 
 ansi = [
-    "#38373B",
-    "#4D4B56",
-    "#93795B",
-    "#477E95",
-    "#B4637A",
-    "#DF8E5E",
-    "#D0CDE4",
-    "#848389"
+    "#3B302B",
+    "#564546",
+    "#5C5550",
+    "#6F5048",
+    "#626050",
+    "#9E524B",
+    "#786E63",
+    "#897F7F"
 ]
 
 brights = [
-    "#5C5B60",
-    "#4D4B56",
-    "#93795B",
-    "#477E95",
-    "#B4637A",
-    "#DF8E5E",
-    "#D0CDE4",
-    "#848389"
+    "#605959",
+    "#564546",
+    "#5C5550",
+    "#6F5048",
+    "#626050",
+    "#9E524B",
+    "#786E63",
+    "#897F7F"
 ]

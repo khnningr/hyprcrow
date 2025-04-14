@@ -372,3 +372,13 @@ run = '''
 '''
 desc = "Usa dragon-drop para arrastrar un archivo o directorio."
 
+[[manager.prepend_keymap]]
+on = ["C"]
+run = "plugin ouch"
+desc = "Compress with ouch"
+
+[opener]
+extract = [
+	{ run = 'ouch d -y "%*"', desc = "Extract here with ouch", for = "windows" },
+	{ run = 'ouch d -y "$@"', desc = "Extract here with ouch", for = "unix" },
+]

@@ -1,7 +1,19 @@
 {
-    "cpu": {
-        "interval": 15,
-        "format": "<span color='#f7768e'> </span> {}%",
-        "max-length": 10
-    },
+  "cpu": {
+    //"format": " {usage}%",
+    "format-alt": " {usage}% {avg_frequency}GHz",
+    "interval": 1,
+    "format": " {icon0}", // Puedes poner más iconos; icon0,icon1...
+     "format-icons": [
+        "<span color='#69ff94'>▁</span>",
+        "<span color='#2aa9ff'>▂</span>",
+        "<span color='#f8f8f2'>▃</span>",
+        "<span color='#f8f8f2'>▄</span>",
+        "<span color='#ffffa5'>▅</span>",
+        "<span color='#ffffa5'>▆</span>",
+        "<span color='#ff9977'>▇</span>",
+        "<span color='#dd532e'>█</span>"  
+     ],
+     //"on-click": "kitty sh -c 'pkill btop;btop; exit'"
+  }
 }

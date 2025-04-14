@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+
+## Author  : Aditya Shakya
+## Mail    : adi1090x@gmail.com
+## Github  : @adi1090x
+## Twitter : @adi1090x
+
+
+dir="$HOME/.config/rofi/screenshots"
+rofi_command="rofi -theme $dir/screenshot.rasi"
+
+# Error msg
+msg() {
+	rofi -theme "$HOME/.config/rofi/applets/styles/message.rasi" -e "Please install 'scrot' first."
+}
+
+# Options
+screen=""
+area=""
+window=""
+
+# Variable passed to rofi
+options="$screen\n$area\n$window"
+
+chosen="$(echo -e "$options" | $rofi_command -p 'App : scrot' -dmenu -selected-row 1)"
+case $chosen in
+    $screen)
+      sleep 1; hyprshot -m output
+      ;;
+    $area)
+      sleep 1; hyprshot -m region
+      ;;
+    $window)
+      sleep 1; hyprshot -m window
+      ;;
+esac
+

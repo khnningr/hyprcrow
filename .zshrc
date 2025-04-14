@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+#export PATH="$PATH:$HOME/.cargo/bin"
 
 source ~/.local/bin/variables.sh
 sh ~/.local/bin/terminal.sh
@@ -131,11 +132,4 @@ alias hypr="cd ~/hyprcrow/.config/hypr/"
 
 export GTK_USE_PORTAL=1
 
-function y() {
-	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
-	yazi "$@" --cwd-file="$tmp"
-	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
-		builtin cd -- "$cwd"
-	fi
-	rm -f -- "$tmp"
-}
+

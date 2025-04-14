@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+killall waybar
+waybar --config config.jsonc --style style.css
+disown
+
+

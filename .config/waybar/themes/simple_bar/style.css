@@ -1,0 +1,13 @@
+@import '../../waybar-colors.css';
+@import './styles/waybar.css';
+@import './styles/window.css';
+@import './styles/general.css';
+@import './styles/workspaces.css';
+@import './styles/modules-position.css';
+
+* {
+  font-family: "IosevkaTerm Nerd Font", "JetBrainsMono Nerd Font Propo", monospace;
+  font-size: 14px;
+  border-radius: 0px;
+  min-height: 0px;
+}

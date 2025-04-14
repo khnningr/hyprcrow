@@ -1,0 +1,5 @@
+#window {
+  color: @color12;
+  background-color: @background;
+  padding-left: 4px;
+}

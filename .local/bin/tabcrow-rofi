@@ -1,0 +1,8 @@
+#! /bin/bash
+
+
+theme="tab_switcher.rasi"
+dir="$HOME/.config/rofi/switcher"
+
+rofi -show window \
+  -theme $dir/"$theme"   

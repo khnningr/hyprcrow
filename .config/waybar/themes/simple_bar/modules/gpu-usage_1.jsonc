@@ -1,0 +1,8 @@
+{
+  "custom/gpu-usage": {
+    "exec": "gpu-usage",
+    "format": "[GPU:{}%]", // 󰢮
+    "return-type": "",
+    "interval": 1  
+  }
+}

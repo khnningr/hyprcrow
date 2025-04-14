@@ -1,0 +1,8 @@
+{
+  "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "[VOL:{volume}%]",
+        "format-muted": "[VOL: M]",
+        "on-click": "pavucontrol"
+  }
+}

@@ -45,11 +45,11 @@
         "$HOME/.config/waybar/modules/tray.json",
         "$HOME/.config/waybar/modules/pulseaudio.json",
         //"$HOME/.config/waybar/modules/media.json",
-        "$HOME/.config/waybar/modules/power.json",
+        "$HOME/.config/waybar/modules/power.jsonc",
         "$HOME/.config/waybar/modules/cpu.json",
         "$HOME/.config/waybar/modules/memory.json",
         "$HOME/.config/waybar/modules/disk.json",
-        //"$HOME/.config/waybar/modules/launcher.json",
+        "$HOME/.config/waybar/modules/launcher.jsonc",
         "$HOME/.config/waybar/modules/network.json",
         "$HOME/.config/waybar/modules/pulseaudio.json",
         "$HOME/.config/waybar/modules/tray.json",
@@ -108,11 +108,7 @@
   },
 
 
-  "custom/launcher": {
-    "format": " ",
-    "on-click-right": "cliphist list | rofi -dmenu | cliphist decode | wl-copy",
-    "on-click": "rofi -show drun",
-  },
+ 
 
   "memory": {
     "format": "  {used:0.1f}G",
@@ -122,11 +118,7 @@
     "tooltip-format": "En uso: {used:0.1f}G ({percentage}%)\rDisponible: {avail}G\rTotal: {total:0.1f}G"
   },
 
-  "cpu": {
-    "format": " {usage}%",
-    "format-alt": " {avg_frequency} GHz",
-    "interval": 5
-  },
+
 
   "disk": {
     "format": "󰋊 {percentage_used}%",

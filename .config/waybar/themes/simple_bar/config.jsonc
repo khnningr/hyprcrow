@@ -1,0 +1,42 @@
+{
+  "layer": "top",
+  "position": "top",
+  "spacing": 8,
+  "height": 25,
+  "margin": "0, 0, 0, 0",
+  "reload_style_on_change": true,
+
+  "modules-left": [
+    "hyprland/workspaces",
+    "hyprland/window"
+  ],
+
+  "modules-center": [
+    "clock#time",
+    "clock#date"
+  ],
+
+  "modules-right": [
+    "custom/spotify",
+    "pulseaudio",
+    "tray",
+    "cpu",
+    //"custom/gpu-usage",
+    "memory",
+    "custom/power"
+  ],
+
+  "include": [
+    "$HOME/.config/waybar/themes/simple_bar/modules/clock.jsonc",
+    "$HOME/.config/waybar/themes/simple_bar/modules/calendar.jsonc",
+    "$HOME/.config/waybar/themes/simple_bar/modules/cpu.jsonc",
+    //"$HOME/.config/waybar/themes/simple_bar/modules/gpu-usage.jsonc",
+    "$HOME/.config/waybar/themes/simple_bar/modules/memory.jsonc",
+    "$HOME/.config/waybar/themes/simple_bar/modules/power.jsonc",
+    "$HOME/.config/waybar/themes/simple_bar/modules/pulseaudio.jsonc",
+    "$HOME/.config/waybar/themes/simple_bar/modules/spotify.jsonc",
+    "$HOME/.config/waybar/themes/simple_bar/modules/tray.jsonc",
+    "$HOME/.config/waybar/themes/simple_bar/modules/workspaces.jsonc",
+    "$HOME/.config/waybar/themes/simple_bar/modules/window.jsonc"
+  ]
+}

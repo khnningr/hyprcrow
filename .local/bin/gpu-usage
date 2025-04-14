@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+for dir in /sys/class/hwmon/hwmon*; do
+  gpu_usage="$dir/device/gpu_busy_percent"
+  if [ -f "$gpu_usage" ]; then
+  cat "$gpu_usage"
+  fi
+done

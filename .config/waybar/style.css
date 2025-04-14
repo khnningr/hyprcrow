@@ -1,4 +1,5 @@
-@import 'waybar-colors.css';
+@import './styles/waybar-colors.css';
+@import './styles/workspaces.css';
 
 @define-color transparent   rgba(0, 0, 0, 0.3);
 
@@ -111,52 +112,6 @@ tooltip {
     background: none;
 }
 
-/*
-Configuración basica de los workspaces
-Referencia: https://github.com/Alexays/Waybar/issues/2480#issuecomment-171208164
-*/
-#workspaces {
-    background: none;
-    border-radius: 0.2em 0.2em 0.2em 0.2em;
-    margin: 0.2em 0.3em 0.2em 0.3em;
-    padding: 0em 0.3em 0em 0.3em;
-    box-shadow: none;
-    text-shadow: none;
-    transition: 0.2s ease;
-}
-
-#workspaces button {
-    color: @color15;
-    box-shadow: none;
-    text-shadow: none;
-    border-radius: 0.2em 0.2em 0.2em 0.2em;
-    transition: 0.2s ease;
-    padding: 0em 0.3em 0em 0.3em;
-    animation: ws_normal 20s ease-in-out 1;
-}
-
-#workspaces button.active {
-    background: none;
-    color: @color12;
-    margin: 5em 2em 5em 2em;
-    padding: 0em 5em 0em 8em;
-    font-size: 0px;
-    transition: 0.2s ease;
-}
-
-#workspaces button:hover {
-    background: none;
-    color: @color14;
-    box-shadow: inset 0 -2px @color3;
-    text-shadow: inherit;
-    animation: ws_hover 20s ease-in-out 1;
-    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
-}
-
-#workspaces button.urgent {
-    color: @color14;
-    transition: all 0.3s ease;
-}
 
 #tray menu {
     background: @color10;

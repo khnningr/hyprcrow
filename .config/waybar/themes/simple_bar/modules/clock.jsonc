@@ -1,0 +1,6 @@
+{
+  "clock#time":{
+    "format": "[{:%I:%M %p}]",
+    "tooltip": false
+  }
+}

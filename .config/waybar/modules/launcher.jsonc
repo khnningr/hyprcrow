@@ -1,0 +1,8 @@
+{
+    "custom/launcher":{
+        "format": " ",
+        "on-click": "killall rofi || launchercrow-rofi",
+        "on-click-right": "killall rofi || tabcrow-rofi"
+    }
+}
+

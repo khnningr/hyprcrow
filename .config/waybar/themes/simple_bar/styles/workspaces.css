@@ -1,0 +1,13 @@
+#workspaces {
+  background-color: transparent;
+}
+
+#workspaces button {
+  padding: 0 5px;
+	color: @foreground;
+}
+
+#workspaces button.active {
+  background-color: @color12;
+  color: @background;
+}

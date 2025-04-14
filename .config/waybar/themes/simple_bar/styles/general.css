@@ -1,0 +1,14 @@
+#pulseaudio,
+#cpu,
+#memory,
+#custom-gpu-usage,
+#battery,
+#clock,
+#tray,
+#custom-power,
+#window,
+#custom-icon {
+  background-color: transparent;
+  color: @foreground;
+  margin: 0px 2px 0px 2px;
+}

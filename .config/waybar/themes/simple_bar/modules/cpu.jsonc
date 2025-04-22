@@ -1,6 +1,9 @@
 {
   "cpu": {
-        "format": "[CPU:{usage}%]",
-        "tooltip": false
+    "format": "󰻠 {usage}%",
+    "tooltip": true,
+    "interval": 5,
+    "min-length": 6,
+    "max-length": 6
   }
 }

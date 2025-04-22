@@ -1,0 +1,96 @@
+2025-04-19 04:06:15.133 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 22 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-2'), range=0:7-0:7, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 611, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+        server.workspace, extract_variable_refactoring
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 46, in lsp_document_changes
+    return [
+           ^
+    ...<2 lines>...
+    ]
+    ^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 78, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 106, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/workspace/text_document.py", line 181, in source
+    with io.open(self.path, "r", encoding="utf-8") as f:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-2'
+
+2025-04-19 04:06:15.139 [info] [Error - 4:06:15 a. m.] Request textDocument/codeAction failed.
+2025-04-19 04:06:15.139 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-2'
+  Code: -32603 
+[object Object]
+2025-04-19 04:06:16.356 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 25 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-2'), range=0:8-0:8, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 611, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+        server.workspace, extract_variable_refactoring
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 46, in lsp_document_changes
+    return [
+           ^
+    ...<2 lines>...
+    ]
+    ^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 78, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 106, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/workspace/text_document.py", line 181, in source
+    with io.open(self.path, "r", encoding="utf-8") as f:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-2'
+
+2025-04-19 04:06:16.357 [info] [Error - 4:06:16 a. m.] Request textDocument/codeAction failed.
+2025-04-19 04:06:16.357 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-2'
+  Code: -32603 
+[object Object]
+2025-04-19 04:06:17.505 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 30 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-2'), range=0:11-0:11, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 611, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+        server.workspace, extract_variable_refactoring
+    )
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 46, in lsp_document_changes
+    return [
+           ^
+    ...<2 lines>...
+    ]
+    ^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 78, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 106, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/workspace/text_document.py", line 181, in source
+    with io.open(self.path, "r", encoding="utf-8") as f:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-2'
+
+2025-04-19 04:06:17.506 [info] [Error - 4:06:17 a. m.] Request textDocument/codeAction failed.
+2025-04-19 04:06:17.506 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/kh/hyprcrow/Untitled-2'
+  Code: -32603 
+[object Object]

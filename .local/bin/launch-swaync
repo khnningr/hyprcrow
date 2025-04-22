@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+command -v swaync > /dev/null 2>&1 || {
+  notify-send "swaync no instalado" \
+  "El paquete swaync no se encuentra instalado."
+  exit 1
+}
+
+swaync > /dev/null 2>&1 & disown
+
+swaync-client -R 
+
+swaync-client -rs
+
+swaync-client -t

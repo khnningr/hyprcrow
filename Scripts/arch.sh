@@ -153,7 +153,7 @@ arch_paquetes_necesarios(){
       # Referencia: https://github.com/hunkyburrito/xdg-desktop-portal-termfilechooser?tab=readme-ov-file#installation
       sudo pacman -S --needed yazi ffmpeg p7zip jq poppler fd\
         ripgrep fzf zoxide imagemagick xdg-desktop-portal git\
-        libinih ninja meson scdoc dragon-drop-git
+        libinih ninja meson scdoc dragon-drop-git ouch
 
       paru -S --needed xdg-desktop-portal-termfilechooser-hunkyburrito-git
       
@@ -183,13 +183,13 @@ arch_paquetes_videojuegos(){
       
       sudo pacman -S --needed steam protonplus heroic-games-launcher-bin\
         bottles wine-mono wine-gecko retroarch retroarch-assets-xmb\
-        retroarch-assets-ozone nexusmods-app-bin
+        retroarch-assets-ozone
 
       # Instalar MangoHud.
       # Comando necesario en steam modo lazamiento: mangohud %command%
       # Referencia: github.com/flightlessmango/MangoHud
       sudo pacman -S --needed mangohud lib32-mangohud
-      paru -S --needed mangojuice
+      paru -S --needed mangojuice nexusmods-app-bin
       break
 
     elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then 

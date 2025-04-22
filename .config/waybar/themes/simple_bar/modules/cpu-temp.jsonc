@@ -1,0 +1,10 @@
+{
+  "custom/cpuinfo": {
+    "exec": "cpu-temp.sh",
+    "return-type": "json",
+    "format": "{}",
+    "interval": 5,
+    "min-length": 8,
+    "max-length": 8
+  }
+}

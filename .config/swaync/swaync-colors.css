@@ -1,9 +1,126 @@
-@define-color shade-lighter rgba(178,171,171,0.1);
-@define-color noti-bg-hover rgba(13,10,9,0.25);
-@define-color noti-bg #0D0A09;
-@define-color cursor #564546;
-@define-color noti-bg-focus #626050;
-@define-color noti-close-bg-hover #786E63;
-@define-color noti-close-bg #5C5550;
-@define-color noti-border-color #564546;
-@define-color bg-selected #897F7F;
+/*
+* Css Colors
+* Generated with Matugen
+*/
+
+    @define-color background #10140f;
+
+    @define-color error #ffb4ab;
+
+    @define-color error_container #93000a;
+
+    @define-color inverse_on_surface #2d322c;
+
+    @define-color inverse_primary #3b693a;
+
+    @define-color inverse_surface #e0e4db;
+
+    @define-color on_background #e0e4db;
+
+    @define-color on_error #690005;
+
+    @define-color on_error_container #ffdad6;
+
+    @define-color on_primary #09390f;
+
+    @define-color on_primary_container #bcf0b4;
+
+    @define-color on_primary_fixed #002204;
+
+    @define-color on_primary_fixed_variant #235024;
+
+    @define-color on_secondary #253423;
+
+    @define-color on_secondary_container #d5e8cf;
+
+    @define-color on_secondary_fixed #101f0f;
+
+    @define-color on_secondary_fixed_variant #3b4b38;
+
+    @define-color on_surface #e0e4db;
+
+    @define-color on_surface_variant #c2c9bd;
+
+    @define-color on_tertiary #00363b;
+
+    @define-color on_tertiary_container #bcebf1;
+
+    @define-color on_tertiary_fixed #002023;
+
+    @define-color on_tertiary_fixed_variant #1f4d52;
+
+    @define-color outline #8c9388;
+
+    @define-color outline_variant #424940;
+
+    @define-color primary #a1d39a;
+
+    @define-color primary_container #235024;
+
+    @define-color primary_fixed #bcf0b4;
+
+    @define-color primary_fixed_dim #a1d39a;
+
+    @define-color scrim #000000;
+
+    @define-color secondary #b9ccb3;
+
+    @define-color secondary_container #3b4b38;
+
+    @define-color secondary_fixed #d5e8cf;
+
+    @define-color secondary_fixed_dim #b9ccb3;
+
+    @define-color shadow #000000;
+
+    @define-color source_color #515b4e;
+
+    @define-color surface #10140f;
+
+    @define-color surface_bright #363a34;
+
+    @define-color surface_container #1d211b;
+
+    @define-color surface_container_high #272b25;
+
+    @define-color surface_container_highest #323630;
+
+    @define-color surface_container_low #191d17;
+
+    @define-color surface_container_lowest #0b0f0a;
+
+    @define-color surface_dim #10140f;
+
+    @define-color surface_tint #a1d39a;
+
+    @define-color surface_variant #424940;
+
+    @define-color tertiary #a0cfd4;
+
+    @define-color tertiary_container #1f4d52;
+
+    @define-color tertiary_fixed #bcebf1;
+
+    @define-color tertiary_fixed_dim #a0cfd4;
+
+
+@define-color theme_fg rgba(248, 248, 252, 0.98); /* Primary Text */
+@define-color theme_fg_secondary rgba(215, 220, 225, 0.78); /* Secondary Text */
+@define-color theme_bg rgba(22, 22, 28, 0.98); /* Panel/Background */
+@define-color popup_bg rgba(20, 25, 25, 0.5); /* Floating Notification Background */
+@define-color module_bg rgba(20, 20, 20, 0.46); /* Default Module Background */
+@define-color module_hover_bg rgba(210, 215, 225, 0.35); /* Module Hover */
+@define-color button_bg rgba(130, 135, 145, 0.28); /* Button Default */
+@define-color button_hover_bg rgba(150, 155, 165, 0.40); /* Button Hover */
+@define-color accent_color rgba(10, 132, 255, 0.8); /* Accent Active */
+@define-color accent_color_hover #198de5; /* Accent Hover */
+@define-color border_light rgba(255, 255, 255, 0.18);
+@define-color border_dark rgba(0, 0, 0, 0.06);
+@define-color border_medium alpha(@border_light, 0.5); /* Approx rgba(255, 255, 255, 0.09) */
+@define-color icon_primary @theme_fg;
+@define-color icon_secondary rgba(215, 220, 225, 0.88);
+@define-color slider_trough_bg rgba(50, 55, 65, 0.35);
+@define-color slider_thumb_bg white;
+@define-color close_button_bg rgba(110, 110, 115, 0.15);
+@define-color close_button_hover_bg rgba(130, 130, 135, 0.30);
+@define-color mpris_player_bg rgba(0, 0, 0, 0.5);

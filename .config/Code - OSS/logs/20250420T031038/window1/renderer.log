@@ -1,0 +1,7 @@
+2025-04-20 03:10:39.539 [info] Started local extension host with pid 312321.
+2025-04-20 03:10:39.979 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-04-20 03:10:39.980 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-04-20 03:10:40.012 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-04-20 03:10:41.659 [error] An unknown error occurred. Please consult the log for more details.
+2025-04-20 03:10:42.417 [info] [perf] Render performance baseline is 19ms
+2025-04-20 03:11:47.394 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file 'vscode-userdata:/home/kh/.config/Code - OSS/User/settings.json' (Error: File Modified Since) vscode-userdata:/home/kh/.config/Code%20-%20OSS/User/settings.json

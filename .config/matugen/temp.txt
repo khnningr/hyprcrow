@@ -1,0 +1,3 @@
+[templates.yazi]
+input_path = 'path/to/template'
+output_path = '~/.config/yazi/theme.toml'

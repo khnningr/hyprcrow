@@ -1,65 +1,96 @@
 {
-    "$schema": "/etc/xdg/swaync/configSchema.json",
-    "positionX": "right",
-    "positionY": "top",
-    "control-center-margin-top": 15,
-    "control-center-margin-bottom": 15,
-    "control-center-margin-right": 15,
-    "control-center-margin-left": 15,
-    "notification-icon-size": 32,
-    "notification-body-image-height": 100,
-    "notification-body-image-width": 200,
-    "timeout": 5,
-    "timeout-low": 5,
-    "timeout-critical": 5,
-    "fit-to-screen": false,
-    "control-center-width": 370,
-    "control-center-height": 700,
-    "notification-window-width": 370,
-    "keyboard-shortcuts": true,
-    "image-visibility": "when-available",
-    "transition-time": 200,
-    "hide-on-clear": false,
-    "hide-on-action": true,
-    "script-fail-notify": true,
-    "widgets": [
-        "buttons-grid",
-        "mpris",
-        "volume",
-        "dnd",
-        "title",
-        "notifications"
-    ],
-    "widget-config": {
-        "title": {
-            "text": "Notificaciones",
-            "clear-all-button": true,
-            "button-text": "Limpiar"
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "positionX": "center",
+  "positionY": "top",
+  "layer": "overlay",
+  "control-center-layer": "top",
+  "layer-shell": true,
+  "cssPriority": "application",
+  "control-center-width": 380,
+  "control-center-margin-top": 0,
+  "control-center-margin-bottom": 500,
+  "control-center-margin-right": 0,
+  "control-center-margin-left": 0,
+  "notification-2fa-action": true,
+  "notification-inline-replies": false,
+  "notification-window-width": 380,
+  "notification-icon-size": 48,
+  "notification-body-image-height": 180,
+  "notification-body-image-width": 180,
+  "timeout": 8,
+  "timeout-low": 4,
+  "timeout-critical": 0,
+  "fit-to-screen": true,
+  "keyboard-shortcuts": true,
+  "image-visibility": "when-available",
+  "transition-time": 150,
+  "hide-on-clear": true,
+  "hide-on-action": true,
+  "script-fail-notify": true,
+  "widgets": [
+    "mpris",
+    "title",
+    "dnd",
+    "notifications",
+    "volume",
+    "backlight",
+    "buttons-grid"
+  ],
+  "widget-config": {
+    "title": {
+      "text": "Notificaciones",
+      "clear-all-button": true,
+      "button-text": "Limpiar"
+    },
+    "dnd": {
+      "text": "No molestar"
+      
+    },
+    "label": {
+      "max-lines": 2,
+      "text": "Notificaciones"
+    },
+    "mpris": {
+      "image-size": 80,
+      "image-radius": 10
+    },
+    "volume": {
+      "label": "󰕾",
+      "step": 5
+    },
+    "backlight": {
+      "label": "󰃟 ",
+      "step": 5
+    },
+    "buttons-grid": {
+      "actions": [
+        {
+          "label": "󰝟",
+          "command": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+          "type": "toggle"
         },
-        "dnd": {
-            "text": "No molestar"
+        {
+          "label": "󰍭",
+          "command": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+          "type": "toggle"
         },
-        "label": {
-            "max-lines": 1,
-            "text": "Notifications"
+        {
+          "label": " ",
+          "command": "wezterm -e --class float nmtui",
+          "tooltip": "Network"
         },
-        "mpris": {
-            "image-size": 96,
-            "image-radius": 12
+        {
+          "label": "",
+          "command": "blueman-manager",
+          "tooltip": "Bluetooth"
         },
-        "volume": {
-            "label": " 󰕾 "
-        },
-        "buttons-grid": {
-            "actions": [
-                {
-                    "label": "Wifi",
-                    "type": "toggle",
-                    "active": true,
-                    "command": "sh -c '[[ $SWAYNC_TOGGLE_STATE == true ]] && nmcli radio wifi on || nmcli radio wifi off'",
-                    "update-command": "sh -c '[[ $(nmcli radio wifi) == \"enabled\" ]] && echo true || echo false'"
-                }
-            ]
+        {
+          "label":"󰤄",
+          "command": "swaync-client -d",
+          "type":"toggle",
+          "tooltip": "DND"
         }
+      ]
     }
+  }
 }

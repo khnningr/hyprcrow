@@ -1,0 +1,9 @@
+2025-04-21 10:56:12.912 [info] update#setState disabled
+2025-04-21 10:56:12.912 [info] update#ctor - updates are disabled as there is no update URL
+2025-04-21 11:00:28.807 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)
+2025-04-21 11:00:28.823 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)
+2025-04-21 11:00:28.839 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)
+2025-04-21 11:00:28.854 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)
+2025-04-21 11:00:28.876 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)
+2025-04-21 11:00:28.963 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)
+2025-04-21 11:08:18.110 [info] Extension host with pid 183883 exited with code: 0, signal: unknown.

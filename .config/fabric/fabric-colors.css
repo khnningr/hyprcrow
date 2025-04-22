@@ -1,24 +1,24 @@
 :vars {
 
-    --background:   #0D0A09;
-    --foreground:   #B2ABAB;
+    --background:   #1E1121;
+    --foreground:   #B2B1BB;
 
-    --color0:       #3B302B;
-    --color1:       #564546;
-    --color2:       #5C5550;
-    --color3:       #6F5048;
-    --color4:       #626050;
-    --color5:       #9E524B;
-    --color6:       #786E63;
-    --color7:       #897F7F;
-    --color8:       #605959;
-    --color9:       #564546;
-    --color10:      #5C5550;
-    --color11:      #6F5048;
-    --color12:      #626050;
-    --color13:      #9E524B;
-    --color14:      #786E63;
-    --color15:      #897F7F;
+    --color0:       #4C4A49;
+    --color1:       #55526A;
+    --color2:       #876690;
+    --color3:       #B46C9E;
+    --color4:       #D77F95;
+    --color5:       #FCBDBC;
+    --color6:       #F1E5DD;
+    --color7:       #898796;
+    --color8:       #605E69;
+    --color9:       #55526A;
+    --color10:      #876690;
+    --color11:      #B46C9E;
+    --color12:      #D77F95;
+    --color13:      #FCBDBC;
+    --color14:      #F1E5DD;
+    --color15:      #898796;
 
     --window-bg: alpha(var(--background), 0.6);
     --module-bg: alpha(var(--background), 0.4);

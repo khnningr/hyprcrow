@@ -1,0 +1,30 @@
+{
+    "workbench.colorCustomizations": {
+      "editor.background": "{{colors.surface.default.hex}}",
+      "editor.foreground": "{{colors.on_surface.default.hex}}",
+      "terminal.foreground": "{{colors.on_surface.default.hex}}",
+      "terminal.background": "{{colors.surface.default.hex}}",
+      "terminal.ansiBlack": "#181818",
+      "terminal.ansiBlue": "{{colors.primary.default.hex}}",
+      "terminal.ansiCyan": "{{colors.secondary.default.hex}}",
+      "terminal.ansiGreen": "{{colors.primary.default.hex}}",
+      "terminal.ansiMagenta": "{{colors.tertiary.default.hex}}",
+      "terminal.ansiRed": "{{colors.error.default.hex}}",
+      "terminal.ansiWhite": "#BAC2DE",
+      "terminal.ansiYellow": "{{colors.inverse_primary.default.hex}}",
+      "terminal.ansiBrightBlack": "#585B70",
+      "terminal.ansiBrightBlue": "#89B4FA",
+      "terminal.ansiBrightCyan": "#94E2D5",
+      "terminal.ansiBrightGreen": "#A6E3A1",
+      "terminal.ansiBrightMagenta": "#F5C2E7",
+      "terminal.ansiBrightRed": "#F38BA8",
+      "terminal.ansiBrightWhite": "#A6ADC8",
+      "terminal.ansiBrightYellow": "#F9E2AF",
+      "terminal.selectionBackground": "{{colors.on_secondary_fixed.default.hex}}",
+      "terminalCursor.background": "{{colors.background.default.hex}}",
+      "terminalCursor.foreground": "{{colors.on_surface.default.hex}}"
+      
+    },
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Iosevka Term Nerd Font', 'JetBrainsMono Font Propo', 'monospace', monospace"
+}

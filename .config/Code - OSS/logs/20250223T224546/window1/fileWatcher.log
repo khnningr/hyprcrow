@@ -1,2 +1,0 @@
-2025-02-23 22:46:31.283 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/kh/hyprcrow/.config/Code - OSS/User/workspaceStorage/1740304776318' failed: No existe el fichero o el directorio (EUNKNOWN) (path: /home/kh/hyprcrow)
-2025-02-23 22:46:31.283 [error] [File Watcher (universal)] inotify_add_watch on '/home/kh/hyprcrow/.config/Code - OSS/User/workspaceStorage/1740304776318' failed: No existe el fichero o el directorio

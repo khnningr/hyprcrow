@@ -1,0 +1,39 @@
+# wallpaper_path = "%%wallpaper%%"
+# REFERENCIA - https://wezfurlong.org/wezterm/config/appearance.html#defining-your-own-colors
+# REFERENCIA: https://codeberg.org/explosion-mental/wallust-templates/src/branch/master/wezterm.toml
+
+[colors]
+background = "{{colors.surface.default.hex}}" # Color de fondo por defecto.
+foreground = "{{colors.on_surface.default.hex}}" # Color del texto por defecto.
+cursor_bg = "{{colors.background.default.hex}}"
+cursor_border = "{{colors.on_surface_variant.default.hex}}"
+cursor_fg = "{{colors.on_surface.default.hex}}"
+
+selection_bg = "{{colors.on_secondary_fixed.default.hex}}"
+selection_fg = "{{colors.on_secondary.default.hex}}"
+
+scrollbar_thumb = "{{colors.inverse_surface.default.hex}}"  # Color de la barra de desplazamiento.
+
+split = "{{colors.surface_variant.default.hex}}" # Color de las líneas de división entre paneles.
+
+ansi = [
+    "#181818", 
+    "{{colors.error.default.hex}}",
+    "{{colors.primary.default.hex}}",
+    "{{colors.inverse_primary.default.hex}}",
+    "{{colors.primary.default.hex}}",
+    "{{colors.tertiary.default.hex}}",
+    "{{colors.secondary.default.hex}}",
+    "#BAC2DE" 
+]
+
+brights = [
+    "#585B70",
+    "#F38BA8",
+    "#A6E3A1",
+    "#F9E2AF",
+    "#89B4FA",
+    "#F5C2E7",
+    "#94E2D5",
+    "#A6ADC8" 
+]

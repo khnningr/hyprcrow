@@ -1,0 +1,323 @@
+# A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
+# If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
+"$schema" = "https://yazi-rs.github.io/schemas/theme.json"
+
+# vim:fileencoding=utf-8:foldmethod=marker
+
+# : Manager {{{
+
+[manager]
+cwd = { fg = "{{colors.on_surface.default.hex}}" }
+
+# Hovered
+hovered         = { fg = "white", bg = "blue" }
+preview_hovered = { underline = true }
+
+# Find
+find_keyword = { fg = "{{colors.error.default.hex}}", bold = true, italic = true, underline = true }
+find_position = { fg = "{{colors.error.default.hex}}", bold = true, italic = true }
+
+# Marker
+marker_selected = { fg = "{{colors.tertiary.default.hex}}", bg = "{{colors.tertiary.default.hex}}" }
+marker_copied = { fg = "{{colors.tertiary_fixed.default.hex | auto_lightness: 20.0}}", bg = "{{colors.tertiary_fixed.default.hex | auto_lightness: 20.0}}" }
+marker_cut = { fg = "{{colors.tertiary_fixed.default.hex}}", bg = "{{colors.tertiary_fixed.default.hex}}" }
+marker_marked = { fg = "{{colors.error.default.hex}}", bg = "{{colors.error.default.hex}}" }
+
+# Tab
+tab_active = { fg = "{{colors.on_primary.default.hex}}", bg = "{{colors.primary.default.hex}}", bold = true }
+tab_inactive = { fg = "{{colors.primary_fixed.default.hex}}", bg = "{{colors.on_primary_fixed.default.hex}}" }
+tab_width    = 1
+
+# Border
+border_symbol = "│"
+border_style  = { fg = "{{colors.surface_tint.default.hex}}" }
+
+# Count
+count_copied = { fg = "{{colors.on_tertiary_fixed.default.hex}}", bg = "{{colors.tertiary_fixed.default.hex}}" }
+count_cut = { fg = "{{colors.on_tertiary_fixed.default.hex}}", bg = "{{colors.tertiary_fixed.default.hex}}" }
+count_selected = { fg = "{{colors.on_primary.default.hex}}", bg = "{{colors.tertiary.default.hex}}" }
+
+# Highlighting
+syntect_theme = ""
+
+# : }}}
+
+
+# : Status {{{
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#F4A261", bg = "{{colors.on_primary.default.hex}}" }
+
+# Mode
+mode_normal = { fg = "{{colors.on_primary.default.hex}}", bg = "{{colors.primary.default.hex}}", bold = true }
+mode_select = { fg = "{{colors.on_secondary.default.hex}}", bg = "{{colors.secondary.default.hex}}", bold = true }
+mode_unset  = { fg = "{{colors.on_tertiary.default.hex}}", bg = "{{colors.tertiary.default.hex}}", bold = true }
+
+# Progress
+progress_label  = { bold = true }
+progress_normal = { fg = "{{colors.primary.default.hex}}", bg = "{{colors.surface_bright.default.hex}}" }
+progress_error = { fg = "{{colors.error.default.hex}}", bg = "{{colors.surface_bright.default.hex}}" }
+
+# Permissions
+permissions_t = { fg = "{{colors.secondary.default.hex | auto_lightness: 30.0}}" }
+permissions_r = { fg = "{{colors.tertiary_fixed.default.hex | auto_lightness: 30.0}}" }
+permissions_w = { fg = "{{colors.tertiary.default.hex | auto_lightness: 30.0}}" }
+permissions_x = { fg = "{{colors.error.default.hex | auto_lightness: 30.0}}" }
+permissions_s = { fg = "{{colors.primary_fixed.default.hex | auto_lightness: 30.0}}" }
+
+# : }}}
+
+
+# : Select {{{
+
+[select]
+border = { fg = "{{colors.primary.default.hex}}" }
+active = { fg = "{{colors.tertiary.default.hex}}", bold = true }
+inactive = {}
+
+# : }}}
+
+
+# : Input {{{
+
+[input]
+border = { fg = "{{colors.primary.default.hex}}" }
+title    = {}
+value = { fg = "{{colors.on_surface.default.hex}}" }
+selected = { reversed = true }
+
+# : }}}
+
+
+# : Completion {{{
+
+[completion]
+border   = { fg = "{{colors.primary.default.hex}}" }
+active   = { bg = "{{colors.on_primary.default.hex}}" }
+inactive = {}
+
+# Icons
+icon_file    = ""
+icon_folder  = ""
+icon_command = ""
+
+# : }}}
+
+
+# : Tasks {{{
+
+[tasks]
+border = { fg = "{{colors.primary.default.hex}}" }
+title   = {}
+hovered = { fg = "{{colors.tertiary_fixed.default.hex}}", underline = true }
+
+# : }}}
+
+
+# : Which {{{
+
+[which]
+cols            = 1
+mask            = { bg = "{{colors.surface_bright.default.hex}}" }
+cand            = { fg = "{{colors.primary.default.hex}}" }
+rest            = { fg = "{{colors.on_primary.default.hex}}" }
+desc            = { fg = "{{colors.on_surface.default.hex}}" }
+separator       = "  "
+separator_style = { fg = "{{colors.on_surface.default.hex}}" }
+
+# : }}}
+
+
+# : Help {{{
+
+[help]
+on      = { fg = "{{colors.on_surface.default.hex}}" }
+exec    = { fg = "{{colors.on_surface.default.hex}}" }
+desc    = { fg = "{{colors.on_surface.default.hex}}" }
+hovered = { bg = "{{colors.secondary.default.hex}}", bold = true }
+footer  = { fg = "{{colors.on_secondary.default.hex}}", bg = "{{colors.secondary.default.hex}}" }
+
+# : }}}
+
+
+# : File-specific styles {{{
+
+[filetype]
+
+rules = [
+	# Images
+	{ mime = "image/*", fg = "#94e2d5" },
+
+	# Videos
+	{ mime = "video/*", fg = "#f9e2af" },
+	{ mime = "audio/*", fg = "#f9e2af" },
+
+	# Archives
+	{ mime = "application/zip",             fg = "#f5c2e7" },
+	{ mime = "application/gzip",            fg = "#f5c2e7" },
+	{ mime = "application/x-tar",           fg = "#f5c2e7" },
+	{ mime = "application/x-bzip",          fg = "#f5c2e7" },
+	{ mime = "application/x-bzip2",         fg = "#f5c2e7" },
+	{ mime = "application/x-7z-compressed", fg = "#f5c2e7" },
+	{ mime = "application/x-rar",           fg = "#f5c2e7" },
+	{ mime = "application/xz",              fg = "#f5c2e7" },
+
+	# Documents
+	{ mime = "application/doc",   fg = "#a6e3a1" },
+	{ mime = "application/pdf",   fg = "#a6e3a1" },
+	{ mime = "application/rtf",   fg = "#a6e3a1" },
+	{ mime = "application/vnd.*", fg = "#a6e3a1" },
+
+	# Fallback
+	{ name = "*", fg = "{{colors.on_surface.default.hex}}" },
+	{ name = "*/", fg = "{{colors.surface_tint.default.hex}}" }
+]
+
+[icon]
+
+rules = [
+	# Programming
+	{ name = "*.c"    , text = "" },
+	{ name = "*.cpp"  , text = "" },
+	{ name = "*.css"  , text = "" },
+	{ name = "*.fish" , text = "" },
+	{ name = "*.go"   , text = "" },
+	{ name = "*.h"    , text = "" },
+	{ name = "*.hpp"  , text = "" },
+	{ name = "*.html" , text = "" },
+	{ name = "*.java" , text = "" },
+	{ name = "*.js"   , text = "" },
+	{ name = "*.jsx"  , text = "" },
+	{ name = "*.lua"  , text = "" },
+	{ name = "*.nix"  , text = "" },
+	{ name = "*.php"  , text = "" },
+	{ name = "*.py"   , text = "" },
+	{ name = "*.rb"   , text = "" },
+	{ name = "*.rs"   , text = "" },
+	{ name = "*.scss" , text = "" },
+	{ name = "*.sh"   , text = "" },
+	{ name = "*.swift", text = "" },
+	{ name = "*.ts"   , text = "" },
+	{ name = "*.tsx"  , text = "" },
+	{ name = "*.vim"  , text = "" },
+	{ name = "*.vue"  , text = "󰡄" },
+
+	# Text
+	{ name = "*.conf", text = "" },
+	{ name = "*.ini" , text = "" },
+	{ name = "*.json", text = "" },
+	{ name = "*.md" ,  text = "" },
+	{ name = "*.toml", text = "" },
+	{ name = "*.txt",  text = "" },
+	{ name = "*.yaml", text = "" },
+	{ name = "*.yml" , text = "" },
+
+	# Archives
+	{ name = "*.7z" , text = "" },
+	{ name = "*.bz2", text = "" },
+	{ name = "*.gz" , text = "" },
+	{ name = "*.rar", text = "" },
+	{ name = "*.tar", text = "" },
+	{ name = "*.xz" , text = "" },
+	{ name = "*.zip", text = "" },
+
+	# Images
+	{ name = "*.HEIC", text = "" },
+	{ name = "*.avif", text = "" },
+	{ name = "*.bmp" , text = "" },
+	{ name = "*.gif" , text = "" },
+	{ name = "*.ico" , text = "" },
+	{ name = "*.jpeg", text = "" },
+	{ name = "*.jpg" , text = "" },
+	{ name = "*.png" , text = "" },
+	{ name = "*.svg" , text = "" },
+	{ name = "*.webp", text = "" },
+
+	# Movies
+	{ name = "*.avi" , text = "" },
+	{ name = "*.mkv" , text = "" },
+	{ name = "*.mov" , text = "" },
+	{ name = "*.mp4" , text = "" },
+	{ name = "*.webm", text = "" },
+
+	# Audio
+	{ name = "*.aac" , text = "" },
+	{ name = "*.flac", text = "" },
+	{ name = "*.m4a" , text = "" },
+	{ name = "*.mp3" , text = "" },
+	{ name = "*.ogg" , text = "" },
+	{ name = "*.wav" , text = "" },
+
+	# Documents
+	{ name = "*.csv" , text = "" },
+	{ name = "*.doc" , text = "" },
+	{ name = "*.doct", text = "" },
+	{ name = "*.docx", text = "" },
+	{ name = "*.dot" , text = "" },
+	{ name = "*.ods" , text = "" },
+	{ name = "*.ots" , text = "" },
+	{ name = "*.pdf" , text = "" },
+	{ name = "*.pom" , text = "" },
+	{ name = "*.pot" , text = "" },
+	{ name = "*.potx", text = "" },
+	{ name = "*.ppm" , text = "" },
+	{ name = "*.ppmx", text = "" },
+	{ name = "*.pps" , text = "" },
+	{ name = "*.ppsx", text = "" },
+	{ name = "*.ppt" , text = "" },
+	{ name = "*.pptx", text = "" },
+	{ name = "*.xlc" , text = "" },
+	{ name = "*.xlm" , text = "" },
+	{ name = "*.xls" , text = "" },
+	{ name = "*.xlsm", text = "" },
+	{ name = "*.xlsx", text = "" },
+	{ name = "*.xlt" , text = "" },
+
+	# Lockfiles
+	{ name = "*.lock", text = "" },
+
+	# Misc
+	{ name = "*.bin", text = "" },
+	{ name = "*.exe", text = "" },
+	{ name = "*.pkg", text = "" },
+
+	# Dotfiles
+	{ name = ".DS_Store"     , text = "" },
+	{ name = ".bashprofile"  , text = "" },
+	{ name = ".bashrc"       , text = "" },
+	{ name = ".gitattributes", text = "" },
+	{ name = ".gitignore"    , text = "" },
+	{ name = ".gitmodules"   , text = "" },
+	{ name = ".vimrc"        , text = "" },
+	{ name = ".zprofile"     , text = "" },
+	{ name = ".zshenv"       , text = "" },
+	{ name = ".zshrc"        , text = "" },
+
+	# Named files
+	{ name = "COPYING"      , text = "󰿃" },
+	{ name = "Containerfile", text = "󰡨" },
+	{ name = "Dockerfile"   , text = "󰡨" },
+	{ name = "LICENSE"      , text = "󰿃" },
+
+	# Directories
+	{ name = ".config/"    , text = "" },
+	{ name = ".git/"       , text = "" },
+	{ name = "Desktop/"    , text = "" },
+	{ name = "Development/", text = "" },
+	{ name = "Documents/"  , text = "" },
+	{ name = "Downloads/"  , text = "" },
+	{ name = "Library/"    , text = "" },
+	{ name = "Movies/"     , text = "" },
+	{ name = "Music/"      , text = "" },
+	{ name = "Pictures/"   , text = "" },
+	{ name = "Public/"     , text = "" },
+	{ name = "Videos/"     , text = "" },
+
+	# Default
+	{ name = "*" , text = "" },
+	{ name = "*/", text = "" },
+]
+
+# : }}}

@@ -40,13 +40,15 @@ notify-send "Cambiando tema" "Aplicando nuevo fondo y actualizando paleta de col
 swww img "$IMAGEN" --transition-type wipe --transition-fps 60 --transition-duration 0.3 --transition-angle 30 --transition-step 90
 
 # hellwal -i "$IMAGEN"
-wallust run "$IMAGEN"
+# wallust run "$IMAGEN"
+matugen image "$IMAGEN"
+wal -i "$IMAGEN"
 
 # pkill waybar
 # waybar > /dev/null 2>&1 &
 
-pkill swaync
-swaync > /dev/null 2>&1 &
+#pkill swaync
+#swaync > /dev/null 2>&1 &
 
 pkill syshud
 sleep 0.1

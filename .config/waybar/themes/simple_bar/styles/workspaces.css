@@ -4,10 +4,10 @@
 
 #workspaces button {
   padding: 0 5px;
-	color: @foreground;
+	color: @inverse_surface;
 }
 
 #workspaces button.active {
-  background-color: @color12;
-  color: @background;
+  background-color: @primary;
+  color: @surface;
 }

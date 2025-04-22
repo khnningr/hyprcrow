@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# Este script es especificamente para,
+# actualizar los mirrorlist en Arch Linux.
+
+verificar() {
+  local COMANDO="$1"
+  command -v "$COMANDO" >/dev/null 2>&1
+}
+
+verificar rate-mirrors || {
+  notify-send "rate-mirrors no instalado" \
+  "El paquete rate-mirrors no se encuentra instalado."
+  exit 1
+}
+
+rate-mirrors --allow-root --protocol https arch | \
+sudo tee /etc/pacman.d/mirrorlist 
+

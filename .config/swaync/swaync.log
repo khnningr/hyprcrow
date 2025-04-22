@@ -1,0 +1,15 @@
+** Message: 23:41:06.757: configModel.vala:297: Loading Config: "/home/kh/.config/swaync/config.json"
+** Message: 23:41:06.757: functions.vala:98: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 23:41:06.758: functions.vala:112: Loading CSS: "/home/kh/.config/swaync/style.css"
+** Message: 23:41:06.764: factory.vala:44: Loading widget: mpris
+** Message: 23:41:06.764: factory.vala:44: Loading widget: title
+** Message: 23:41:06.764: factory.vala:44: Loading widget: dnd
+** Message: 23:41:06.765: factory.vala:44: Loading widget: volume
+
+** (swaync:434431): WARNING **: 23:41:06.765: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 23:41:06.766: factory.vala:44: Loading widget: backlight
+** Message: 23:41:06.766: factory.vala:44: Loading widget: buttons-grid
+
+** (swaync:434431): WARNING **: 23:41:08.751: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+

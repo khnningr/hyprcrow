@@ -1,0 +1,31 @@
+{
+    "workbench.colorCustomizations": {
+      "editor.background": "#121318",
+      "editor.foreground": "#e3e1e9",
+      "terminal.foreground": "#e3e1e9",
+      "terminal.background": "#121318",
+      "terminal.ansiBlack": "#181818",
+      "terminal.ansiBlue": "#b8c4ff",
+      "terminal.ansiCyan": "#c2c5dd",
+      "terminal.ansiGreen": "#b8c4ff",
+      "terminal.ansiMagenta": "#e4bad9",
+      "terminal.ansiRed": "#ffb4ab",
+      "terminal.ansiWhite": "#BAC2DE",
+      "terminal.ansiYellow": "#4f5b92",
+      "terminal.ansiBrightBlack": "#585B70",
+      "terminal.ansiBrightBlue": "#89B4FA",
+      "terminal.ansiBrightCyan": "#94E2D5",
+      "terminal.ansiBrightGreen": "#A6E3A1",
+      "terminal.ansiBrightMagenta": "#F5C2E7",
+      "terminal.ansiBrightRed": "#F38BA8",
+      "terminal.ansiBrightWhite": "#A6ADC8",
+      "terminal.ansiBrightYellow": "#F9E2AF",
+      "terminal.selectionBackground": "#171b2c",
+      "terminalCursor.background": "#121318",
+      "terminalCursor.foreground": "#e3e1e9"
+      
+    },
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Iosevka Term Nerd Font', 'JetBrainsMono Font Propo', 'monospace', monospace",
+    "workbench.colorTheme": "Wal"
+}

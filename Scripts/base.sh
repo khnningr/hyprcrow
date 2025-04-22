@@ -145,6 +145,10 @@ base_reglas_ufw(){
   sudo ufw allow out 6699
   sudo ufw allow in 6699
 
+  if command -v fragments > /dev/null 2>&1; then
+    sudo ufw allow Transmission
+  fi
+
   sudo ufw reload # Recarga el servicio al hacer cambios en reglas.
   sudo ufw status
 }

@@ -9,6 +9,6 @@
 #window,
 #custom-icon {
   background-color: transparent;
-  color: @foreground;
+  color: @surface;
   margin: 0px 2px 0px 2px;
 }

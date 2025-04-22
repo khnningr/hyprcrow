@@ -12,6 +12,7 @@
   ],
 
   "modules-center": [
+    "custom/swaync",
     "clock#time",
     "clock#date"
   ],
@@ -21,7 +22,7 @@
     "pulseaudio",
     "tray",
     "cpu",
-    //"custom/gpu-usage",
+    "custom/gpu-usage",
     "memory",
     "custom/power"
   ],
@@ -30,13 +31,14 @@
     "$HOME/.config/waybar/themes/simple_bar/modules/clock.jsonc",
     "$HOME/.config/waybar/themes/simple_bar/modules/calendar.jsonc",
     "$HOME/.config/waybar/themes/simple_bar/modules/cpu.jsonc",
-    //"$HOME/.config/waybar/themes/simple_bar/modules/gpu-usage.jsonc",
+    "$HOME/.config/waybar/themes/simple_bar/modules/gpu-usage.jsonc",
     "$HOME/.config/waybar/themes/simple_bar/modules/memory.jsonc",
     "$HOME/.config/waybar/themes/simple_bar/modules/power.jsonc",
     "$HOME/.config/waybar/themes/simple_bar/modules/pulseaudio.jsonc",
     "$HOME/.config/waybar/themes/simple_bar/modules/spotify.jsonc",
     "$HOME/.config/waybar/themes/simple_bar/modules/tray.jsonc",
     "$HOME/.config/waybar/themes/simple_bar/modules/workspaces.jsonc",
-    "$HOME/.config/waybar/themes/simple_bar/modules/window.jsonc"
+    "$HOME/.config/waybar/themes/simple_bar/modules/window.jsonc",
+    "$HOME/.config/waybar/themes/simple_bar/modules/swaync.jsonc"
   ]
 }

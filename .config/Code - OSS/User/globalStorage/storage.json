@@ -1,12 +1,12 @@
 {
     "telemetry.sqmId": "",
     "telemetry.machineId": "c86acdc1ab76b1c4f34d9768cc5685f4b429e9fba6c27dfe286cb5dfaf73bbff",
-    "telemetry.devDeviceId": "7c5422c1-67f6-4252-9eaa-c2d877e3e7d2",
+    "telemetry.devDeviceId": "09827d69-1d70-4832-857c-7d56e26c8018",
     "backupWorkspaces": {
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/kh/hyprcrow"
+                "folderUri": "file:///home/kh/ProyectoTareas"
             }
         ],
         "emptyWindows": []
@@ -14,7 +14,8 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/kh/Obsidian/01%20Desarrollo/Python/curso_python": "__default__profile__",
-            "file:///home/kh/hyprcrow": "__default__profile__"
+            "file:///home/kh/hyprcrow": "__default__profile__",
+            "file:///home/kh/ProyectoTareas": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -1706,28 +1707,28 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#0e1514",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "titleBarBorder": "#2b2b2b",
-            "activityBarBackground": "#181818",
-            "activityBarBorder": "#2b2b2b",
-            "sideBarBackground": "#181818",
-            "sideBarBorder": "#2b2b2b",
-            "statusBarBackground": "#181818",
-            "statusBarBorder": "#2b2b2b",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "rgba(194, 194, 195, 0.6)",
+            "background": "#0e1514",
+            "editorBackground": "#0e1514",
+            "titleBarBackground": "#0d0d12",
+            "titleBarBorder": "rgba(88, 88, 108, 0.2)",
+            "activityBarBackground": "#0d0d12",
+            "activityBarBorder": "rgba(88, 88, 108, 0.2)",
+            "sideBarBackground": "#0d0d12",
+            "sideBarBorder": "rgba(88, 88, 108, 0.2)",
+            "statusBarBackground": "#0d0d12",
+            "statusBarBorder": "rgba(88, 88, 108, 0.2)",
+            "statusBarNoFolderBackground": "#101016"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
+            "titleBarHeight": 35,
             "activityBarWidth": 48,
             "sideBarWidth": 300,
             "auxiliarySideBarWidth": 0,
@@ -1737,16 +1738,17 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/kh/hyprcrow",
-            "backupPath": "/home/kh/.config/Code - OSS/Backups/1c98f760be70ac079e5f10081bb9df36",
+            "folder": "file:///home/kh/ProyectoTareas",
+            "backupPath": "/home/kh/.config/Code - OSS/Backups/d01e46ab8eab0a9614b96e202a8ed737",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1920,
-                "height": 1080
+                "width": 960,
+                "height": 1055
             }
         },
         "openedWindows": []
-    }
+    },
+    "windowControlHeight": 35
 }

@@ -1,0 +1,46 @@
+2025-04-24 11:24:26.729 [info] Started local extension host with pid 11325.
+2025-04-24 11:24:26.900 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-04-24 11:24:26.900 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-04-24 11:24:26.919 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-04-24 11:24:28.654 [error] An unknown error occurred. Please consult the log for more details.
+2025-04-24 11:24:29.396 [info] [perf] Render performance baseline is 19ms
+2025-04-24 14:24:30.565 [error] Failed: Server returned 503
+    at pGe.K (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:33992)
+    at async pGe.H (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:28528)
+    at async a (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:27250)
+    at async pGe.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:27538)
+    at async rat.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2514:14491)
+    at async Promise.all (index 0)
+    at async XWs.Pc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2306:22383)
+    at async XWs.zc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2306:14306)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2306:12602
+2025-04-24 14:24:31.088 [error] Failed: Server returned 503
+    at pGe.K (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:33992)
+    at async pGe.H (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:28528)
+    at async a (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:27250)
+    at async pGe.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:27538)
+    at async rat.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2514:14491)
+    at async Promise.all (index 0)
+    at async XWs.Pc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2306:22383)
+    at async XWs.zc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2306:14306)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2306:12602
+2025-04-24 14:24:32.225 [error] Failed: Server returned 503
+    at pGe.K (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:33992)
+    at async pGe.H (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:28528)
+    at async a (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:27250)
+    at async pGe.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:27538)
+    at async rat.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2514:14491)
+    at async Promise.all (index 0)
+    at async XWs.Pc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2306:22383)
+    at async XWs.zc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2306:14306)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2306:12602
+2025-04-24 14:24:32.942 [error] Failed: Server returned 503
+    at pGe.K (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:33992)
+    at async pGe.H (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:28528)
+    at async a (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:27250)
+    at async pGe.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1838:27538)
+    at async rat.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2514:14491)
+    at async Promise.all (index 0)
+    at async XWs.Pc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2306:22383)
+    at async XWs.zc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2306:14306)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2306:12602

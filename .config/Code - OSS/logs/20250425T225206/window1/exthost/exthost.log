@@ -1,0 +1,80 @@
+2025-04-25 22:52:07.563 [info] Extension host with pid 4984 started
+2025-04-25 22:52:07.563 [info] Skipping acquiring lock for /home/kh/.config/Code - OSS/User/workspaceStorage/8075e445e460a60efe71910f6a02d51c.
+2025-04-25 22:52:07.692 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-25 22:52:07.707 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-04-25 22:52:07.919 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-25 22:52:07.929 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-25 22:52:07.973 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-25 22:52:08.016 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-04-25 22:52:08.100 [error] Activating extension ms-python.debugpy failed due to an error:
+2025-04-25 22:52:08.100 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:48788)
+	at t.registerDebugger (/home/kh/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:846640)
+	at e.activate (/home/kh/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:1098056)
+	at Uw.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:15216)
+	at Uw.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:14923)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:13081
+	at async cw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13359)
+	at async cw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13322)
+	at async cw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:12778)
+2025-04-25 22:52:08.144 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-25 22:52:08.147 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2025-04-25 22:52:08.212 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-25 22:52:08.248 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-25 22:52:08.301 [info] Eager extensions activated
+2025-04-25 22:52:08.322 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-25 22:52:08.324 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-25 22:52:09.108 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)
+2025-04-25 23:24:27.613 [error] [ms-python.python] provider FAILED
+2025-04-25 23:24:27.613 [error] Error: ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-25 23:24:38.731 [error] [ms-python.python] provider FAILED
+2025-04-25 23:24:38.731 [error] Error: ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-25 23:24:40.339 [error] [ms-python.python] provider FAILED
+2025-04-25 23:24:40.339 [error] Error: ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-25 23:24:40.908 [error] [ms-python.python] provider FAILED
+2025-04-25 23:24:40.908 [error] Error: ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-25 23:25:02.832 [error] [ms-python.python] provider FAILED
+2025-04-25 23:25:02.833 [error] Error: ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-25 23:25:04.423 [error] [ms-python.python] provider FAILED
+2025-04-25 23:25:04.423 [error] Error: ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-25 23:52:15.711 [error] [ms-python.python] provider FAILED
+2025-04-25 23:52:15.711 [error] Error: AttributeError: 'Newline' object has no attribute 'children'
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)

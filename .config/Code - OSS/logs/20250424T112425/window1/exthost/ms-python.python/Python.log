@@ -1,0 +1,193 @@
+2025-04-24 11:24:27.447 [warning] Dir "/home/kh/Proyectos/PE2/ProyectoTareas/.pixi/envs" is not watchable (directory does not exist)
+2025-04-24 11:24:27.462 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:39305)
+	at new v (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:878107)
+	at ge (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1684812)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688176
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at e.dynamicValue (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1700171)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686348
+	at Ee (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686604)
+	at Se (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688320)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685899
+	at Array.map (<anonymous>)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685870
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at a.get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:536740)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:451577
+	at async t.activateComponents (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:449857)
+	at async /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642626
+	at async e (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642158)
+	at async cw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13359)
+	at async cw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13322)
+	at async cw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:12778)]
+2025-04-24 11:24:27.470 [info] Python interpreter path: /bin/python
+2025-04-24 11:24:27.564 [info] > pyenv which python
+2025-04-24 11:24:27.564 [info] cwd: .
+2025-04-24 11:24:27.651 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 185ms, has a falsy return value, Arg 1: <Uri:/home/kh/Proyectos/PE2/ProyectoTareas/gestor.py>, Arg 2: {"started":1745515467322}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+  	at C.activate (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+  	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+]
+2025-04-24 11:24:27.651 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-04-24 11:24:27.651 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-04-24 11:24:28.222 [info] Starting Jedi language server for ProyectoTareas.
+2025-04-24 11:52:19.225 [info] CreateEnv Trigger - Skipping for /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 11:52:19.466 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 11:52:19.825 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 11:53:55.931 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 11:53:56.179 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 11:54:01.100 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 11:55:29.528 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 11:55:29.778 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 11:59:19.075 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 11:59:26.821 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 11:59:50.771 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:01:09.766 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:01:10.016 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:01:39.666 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:07:08.041 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:15:19.027 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-24 12:15:24.710 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-24 12:15:45.154 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:17:40.727 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:17:40.977 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:18:11.037 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:18:15.606 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:18:15.856 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:20:07.779 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:20:10.053 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:20:11.103 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:20:40.498 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:20:40.749 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:20:47.343 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:20:47.593 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:21:32.338 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:21:32.587 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:21:33.093 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:22:46.831 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:22:49.759 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:24:12.011 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:24:13.827 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:26:11.248 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:26:12.180 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:28:19.892 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:28:21.615 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:29:24.590 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:29:26.329 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:29:50.066 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:29:52.115 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:31:34.300 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:32:02.276 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:32:02.527 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-24 12:37:44.119 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:39:12.673 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:39:15.551 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:39:16.951 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:39:21.657 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:40:05.614 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:40:05.863 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:40:06.405 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:40:12.515 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:40:12.764 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:40:29.077 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:40:30.255 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:41:15.845 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:41:17.011 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:47:21.575 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:48:43.102 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:48:43.352 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:48:57.942 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:48:59.957 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:49:06.005 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:49:15.239 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:52:07.168 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:52:08.626 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:52:38.920 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:52:40.229 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:59:01.928 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 12:59:07.262 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 13:02:23.435 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 13:02:23.684 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 13:05:01.028 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 13:05:01.278 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 13:05:18.283 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 13:05:18.532 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 13:05:19.016 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 13:07:07.691 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 13:07:09.673 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 13:08:35.480 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 13:08:35.730 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 14:32:27.803 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 14:38:49.049 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 14:38:54.701 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 14:39:29.757 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 14:39:31.170 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 14:39:58.311 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-24 14:40:04.019 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/responsable.py
+2025-04-24 14:40:37.374 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/responsable.py
+2025-04-24 14:40:50.833 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py

@@ -3,27 +3,27 @@
 # REFERENCIA: https://codeberg.org/explosion-mental/wallust-templates/src/branch/master/wezterm.toml
 
 [colors]
-background = "#111318" # Color de fondo por defecto.
-foreground = "#e1e2e9" # Color del texto por defecto.
-cursor_bg = "#111318"
-cursor_border = "#c4c6cf"
-cursor_fg = "#e1e2e9"
+background = "#15140c" # Color de fondo por defecto.
+foreground = "#e7e2d5" # Color del texto por defecto.
+cursor_bg = "#d3c972"
+cursor_border = "#cbc7b5"
+cursor_fg = "#e7e2d5"
 
-selection_bg = "#121c2b"
-selection_fg = "#273141"
+selection_bg = "#1f1c05"
+selection_fg = "#343117"
 
-scrollbar_thumb = "#e1e2e9"  # Color de la barra de desplazamiento.
+scrollbar_thumb = "#e7e2d5"  # Color de la barra de desplazamiento.
 
-split = "#43474e" # Color de las líneas de división entre paneles.
+split = "#49473a" # Color de las líneas de división entre paneles.
 
 ansi = [
     "#181818", 
     "#ffb4ab",
-    "#a8c8ff",
-    "#3f5f90",
-    "#a8c8ff",
-    "#dbbce1",
-    "#bdc7dc",
+    "#d3c972",
+    "#676013",
+    "#d3c972",
+    "#a6d0b8",
+    "#cdc7a3",
     "#BAC2DE" 
 ]
 

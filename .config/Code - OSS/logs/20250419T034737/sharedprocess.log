@@ -1,7 +1,0 @@
-2025-04-19 03:48:13.147 [info] Getting Manifest... dlasagno.wal-theme
-2025-04-19 03:48:14.153 [info] Installing extension: dlasagno.wal-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kh/.vscode-oss/extensions/extensions.json","path":"/home/kh/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.99.3","date":"2025-04-16T19:59:52.773Z"}}
-2025-04-19 03:48:15.242 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
-2025-04-19 03:48:15.242 [info] Extension signature verification is not done: dlasagno.wal-theme
-2025-04-19 03:48:15.307 [info] Extracted extension to file:///home/kh/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal: dlasagno.wal-theme
-2025-04-19 03:48:15.312 [info] Renamed to /home/kh/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal
-2025-04-19 03:48:15.319 [info] Extension installed successfully: dlasagno.wal-theme vscode-userdata:/home/kh/.vscode-oss/extensions/extensions.json

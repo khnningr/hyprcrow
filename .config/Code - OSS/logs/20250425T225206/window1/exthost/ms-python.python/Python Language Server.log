@@ -1,0 +1,564 @@
+2025-04-25 23:24:27.601 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 18 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/kh/Proyectos/PE2/ProyectoTareas/gestor.py'), position=89:31, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 389, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+                     '(0-%d) for line %d (%r).' % (
+                         column, line_len, line, line_string))
+ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+
+2025-04-25 23:24:27.613 [info] [Error - 11:24:27 p. m.] Request textDocument/documentHighlight failed.
+2025-04-25 23:24:27.613 [info]   Message: ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+  Code: -32603 
+[object Object]
+2025-04-25 23:24:38.730 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 22 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/kh/Proyectos/PE2/ProyectoTareas/gestor.py'), position=89:31, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 389, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+                     '(0-%d) for line %d (%r).' % (
+                         column, line_len, line, line_string))
+ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+
+2025-04-25 23:24:38.731 [info] [Error - 11:24:38 p. m.] Request textDocument/documentHighlight failed.
+2025-04-25 23:24:38.731 [info]   Message: ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+  Code: -32603 
+[object Object]
+2025-04-25 23:24:40.338 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 24 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/kh/Proyectos/PE2/ProyectoTareas/gestor.py'), position=89:31, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 389, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+                     '(0-%d) for line %d (%r).' % (
+                         column, line_len, line, line_string))
+ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+
+2025-04-25 23:24:40.339 [info] [Error - 11:24:40 p. m.] Request textDocument/documentHighlight failed.
+2025-04-25 23:24:40.339 [info]   Message: ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+  Code: -32603 
+[object Object]
+2025-04-25 23:24:40.908 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 26 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/kh/Proyectos/PE2/ProyectoTareas/gestor.py'), position=89:31, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 389, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+                     '(0-%d) for line %d (%r).' % (
+                         column, line_len, line, line_string))
+ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+
+2025-04-25 23:24:40.908 [info] [Error - 11:24:40 p. m.] Request textDocument/documentHighlight failed.
+2025-04-25 23:24:40.908 [info]   Message: ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+  Code: -32603 
+[object Object]
+2025-04-25 23:25:02.832 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 28 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/kh/Proyectos/PE2/ProyectoTareas/gestor.py'), position=89:31, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 389, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+                     '(0-%d) for line %d (%r).' % (
+                         column, line_len, line, line_string))
+ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+
+2025-04-25 23:25:02.832 [info] [Error - 11:25:02 p. m.] Request textDocument/documentHighlight failed.
+2025-04-25 23:25:02.832 [info]   Message: ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+  Code: -32603 
+[object Object]
+2025-04-25 23:25:04.422 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 32 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/kh/Proyectos/PE2/ProyectoTareas/gestor.py'), position=89:31, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 389, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+                     '(0-%d) for line %d (%r).' % (
+                         column, line_len, line, line_string))
+ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+
+2025-04-25 23:25:04.423 [info] [Error - 11:25:04 p. m.] Request textDocument/documentHighlight failed.
+2025-04-25 23:25:04.423 [info]   Message: ValueError: `column` parameter (31) is not in a valid range (0-17) for line 90 ('    def iterador(\n').
+  Code: -32603 
+[object Object]
+2025-04-25 23:34:13.071 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "109"
+
+2025-04-25 23:34:43.249 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "155"
+
+2025-04-25 23:36:10.352 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "278"
+
+2025-04-25 23:36:23.374 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "306"
+
+2025-04-25 23:36:23.429 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "307"
+
+2025-04-25 23:36:23.674 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "308"
+
+2025-04-25 23:38:45.956 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "522"
+
+2025-04-25 23:38:46.011 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "523"
+
+2025-04-25 23:41:28.251 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "745"
+
+2025-04-25 23:42:50.015 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "848"
+
+2025-04-25 23:43:26.157 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "911"
+
+2025-04-25 23:43:29.659 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "919"
+
+2025-04-25 23:43:33.737 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "929"
+
+2025-04-25 23:43:35.671 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "934"
+
+2025-04-25 23:43:38.519 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "941"
+
+2025-04-25 23:44:14.185 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1010"
+
+2025-04-25 23:44:16.629 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1017"
+
+2025-04-25 23:45:54.546 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1153"
+
+2025-04-25 23:46:39.536 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1229"
+
+2025-04-25 23:46:43.142 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1241"
+
+2025-04-25 23:46:57.612 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1279"
+
+2025-04-25 23:49:34.542 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1396"
+
+2025-04-25 23:50:17.410 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1429"
+
+2025-04-25 23:50:19.816 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1443"
+
+2025-04-25 23:50:37.801 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1480"
+
+2025-04-25 23:50:40.884 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1494"
+
+2025-04-25 23:50:46.572 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1511"
+
+2025-04-25 23:52:15.710 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 1626 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/kh/Proyectos/PE2/ProyectoTareas/gestor.py'), position=435:18, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 389, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 429, in get_references
+    return _references(**kwargs)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 423, in _references
+    names = find_references(self._get_module_context(), tree_name, scope == 'file')
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/references.py", line 122, in find_references
+    found_names = _find_defining_names(module_context, tree_name)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/references.py", line 53, in _find_defining_names
+    found_names = _find_names(module_context, tree_name)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/references.py", line 74, in _find_names
+    found_names = set(name.goto())
+                      ~~~~~~~~~^^
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/names.py", line 182, in goto
+    value_set = context.infer_node(to_infer[0])
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+  File "/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 460, in infer_or_test
+    iterator = iter(or_test.children)
+                    ^^^^^^^^^^^^^^^^
+AttributeError: 'Newline' object has no attribute 'children'
+
+2025-04-25 23:52:15.711 [info] [Error - 11:52:15 p. m.] Request textDocument/documentHighlight failed.
+2025-04-25 23:52:15.711 [info]   Message: AttributeError: 'Newline' object has no attribute 'children'
+  Code: -32603 
+[object Object]
+2025-04-25 23:52:38.549 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1654"
+
+2025-04-25 23:53:14.118 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1700"
+
+2025-04-25 23:53:15.678 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1704"
+
+2025-04-25 23:53:18.440 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1709"
+
+2025-04-25 23:53:42.498 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1774"
+
+2025-04-25 23:53:42.777 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1776"
+
+2025-04-25 23:54:17.141 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1835"
+
+2025-04-25 23:54:22.264 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1854"
+
+2025-04-25 23:54:22.930 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1860"
+
+2025-04-25 23:54:23.521 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1865"
+
+2025-04-25 23:54:24.383 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1871"
+
+2025-04-25 23:54:25.740 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1876"
+
+2025-04-25 23:54:32.776 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1895"
+
+2025-04-25 23:54:37.194 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1913"
+
+2025-04-25 23:54:37.447 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1915"
+
+2025-04-25 23:54:37.707 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1917"
+
+2025-04-25 23:54:48.970 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1935"
+
+2025-04-25 23:54:51.983 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1941"
+
+2025-04-25 23:55:03.581 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1969"
+
+2025-04-25 23:55:17.458 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1994"
+
+2025-04-25 23:55:20.162 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2001"
+
+2025-04-25 23:55:21.517 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2002"
+
+2025-04-25 23:56:07.315 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2066"
+
+2025-04-25 23:56:26.942 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2157"
+
+2025-04-25 23:56:27.265 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2159"
+
+2025-04-25 23:56:59.158 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2226"
+
+2025-04-25 23:57:12.275 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2281"
+
+2025-04-25 23:57:15.816 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2295"
+
+2025-04-25 23:57:25.738 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2307"
+
+2025-04-25 23:58:57.020 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2378"
+
+2025-04-26 00:00:41.704 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2478"
+
+2025-04-26 00:00:42.070 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2479"
+
+2025-04-26 00:01:54.001 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2552"
+
+2025-04-26 00:01:55.290 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2557"
+
+2025-04-26 00:02:24.138 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2605"
+
+2025-04-26 00:02:43.170 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2677"
+
+2025-04-26 00:03:49.451 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2754"
+
+2025-04-26 00:04:04.264 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2780"
+
+2025-04-26 00:04:04.277 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2781"
+
+2025-04-26 00:04:54.041 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2861"
+
+2025-04-26 00:05:18.945 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2901"
+
+2025-04-26 00:05:20.825 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2902"
+
+2025-04-26 00:06:35.414 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3042"
+
+2025-04-26 00:07:54.649 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3135"
+
+2025-04-26 00:08:00.057 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3163"
+
+2025-04-26 00:08:00.090 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3164"
+
+2025-04-26 00:08:00.361 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3166"
+
+2025-04-26 00:14:09.071 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3515"
+
+2025-04-26 00:14:37.094 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3555"
+
+2025-04-26 00:14:52.712 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3621"
+
+2025-04-26 00:15:00.226 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3645"
+
+2025-04-26 00:17:34.483 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3780"
+
+2025-04-26 00:17:35.779 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3784"
+
+2025-04-26 00:17:41.230 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3800"
+
+2025-04-26 00:17:43.639 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3809"
+
+2025-04-26 00:18:51.505 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3833"
+
+2025-04-26 00:19:47.892 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3871"
+
+2025-04-26 00:21:57.444 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3925"
+
+2025-04-26 00:22:48.301 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3989"
+
+2025-04-26 00:24:23.644 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4098"
+
+2025-04-26 00:24:24.311 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4101"
+
+2025-04-26 00:24:25.180 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4103"
+
+2025-04-26 00:24:45.929 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4143"
+
+2025-04-26 00:24:53.610 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4165"
+
+2025-04-26 00:24:55.148 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4173"
+
+2025-04-26 00:26:52.090 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4349"
+
+2025-04-26 00:27:01.213 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4373"
+
+2025-04-26 00:27:30.666 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4427"
+
+2025-04-26 00:27:49.699 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4457"
+
+2025-04-26 00:28:11.934 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4497"
+
+2025-04-26 00:28:13.502 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4501"
+
+2025-04-26 00:28:15.176 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4507"
+
+2025-04-26 00:30:04.113 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4608"
+
+2025-04-26 00:30:31.619 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4662"
+
+2025-04-26 00:30:52.790 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4677"
+
+2025-04-26 00:31:07.458 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4696"
+
+2025-04-26 00:32:36.832 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4798"
+
+2025-04-26 00:32:40.866 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4810"
+
+2025-04-26 00:32:41.135 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4811"
+
+2025-04-26 00:32:41.150 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4812"
+
+2025-04-26 00:32:45.926 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4827"
+
+2025-04-26 00:32:46.185 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4828"
+
+2025-04-26 00:33:01.480 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4866"
+
+2025-04-26 00:36:52.579 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5036"
+
+2025-04-26 00:38:47.652 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5113"
+
+2025-04-26 00:39:39.964 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5187"
+
+2025-04-26 00:39:41.656 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5191"
+
+2025-04-26 00:42:08.173 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5409"
+
+2025-04-26 00:42:37.204 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5470"
+
+2025-04-26 00:43:38.761 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5493"
+
+2025-04-26 00:45:12.570 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5570"
+
+2025-04-26 00:45:24.673 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5599"
+
+2025-04-26 00:47:34.112 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5740"
+
+2025-04-26 00:51:45.439 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5875"
+
+2025-04-26 00:51:46.322 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5880"
+
+2025-04-26 00:51:46.337 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5881"
+
+2025-04-26 00:53:00.226 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5985"
+
+2025-04-26 00:55:24.294 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6086"
+
+2025-04-26 00:56:23.085 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6125"
+
+2025-04-26 00:56:44.165 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6179"
+
+2025-04-26 00:56:44.180 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6180"
+
+2025-04-26 00:56:45.679 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6190"
+
+2025-04-26 00:56:45.936 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6192"
+
+2025-04-26 00:56:47.206 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6202"
+
+2025-04-26 00:56:47.221 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6203"
+
+2025-04-26 00:56:48.886 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6213"
+
+2025-04-26 00:56:50.267 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6222"
+
+2025-04-26 00:56:50.282 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6223"
+
+2025-04-26 00:56:51.515 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6230"
+
+2025-04-26 00:58:16.587 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6272"
+
+2025-04-26 00:58:16.889 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6274"
+
+2025-04-26 00:58:46.896 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6341"
+
+2025-04-26 00:58:48.587 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6346"
+
+2025-04-26 00:58:49.634 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6347"
+
+2025-04-26 00:59:11.326 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6444"
+
+2025-04-26 00:59:20.279 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6485"
+
+2025-04-26 00:59:22.923 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6500"
+
+2025-04-26 00:59:22.953 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6501"
+
+2025-04-26 00:59:23.469 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6504"
+
+2025-04-26 00:59:46.436 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6609"
+
+2025-04-26 00:59:46.466 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6610"
+
+2025-04-26 00:59:48.560 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6624"
+
+2025-04-26 00:59:49.714 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6631"
+
+2025-04-26 01:00:22.242 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6723"
+
+2025-04-26 01:00:30.806 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6766"
+
+2025-04-26 01:00:33.605 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6778"
+
+2025-04-26 01:00:41.420 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6817"
+
+2025-04-26 01:00:42.323 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6824"
+
+2025-04-26 01:00:42.590 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6826"
+
+2025-04-26 01:00:58.282 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6902"
+
+2025-04-26 01:00:59.818 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6910"
+
+2025-04-26 01:01:00.145 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6913"
+
+2025-04-26 01:01:38.200 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7008"
+
+2025-04-26 01:01:44.401 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7035"
+
+2025-04-26 01:01:44.429 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7036"
+
+2025-04-26 01:01:44.715 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7038"
+
+2025-04-26 01:01:54.991 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7094"
+
+2025-04-26 01:02:16.637 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7174"
+
+2025-04-26 01:02:27.261 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7207"
+
+2025-04-26 01:02:27.288 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7208"
+
+2025-04-26 01:02:34.613 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7238"
+
+2025-04-26 01:02:35.083 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7241"
+
+2025-04-26 01:02:35.110 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7242"
+
+2025-04-26 01:02:41.053 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7269"
+
+2025-04-26 01:02:43.267 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7283"
+
+2025-04-26 01:02:48.873 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7318"
+
+2025-04-26 01:02:49.145 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7320"
+
+2025-04-26 01:03:09.645 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7370"
+
+2025-04-26 01:03:11.158 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7377"
+
+2025-04-26 01:03:11.183 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7378"
+
+2025-04-26 01:03:12.311 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7382"
+
+2025-04-26 01:03:20.590 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7409"
+
+2025-04-26 01:03:28.809 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7460"
+
+2025-04-26 01:03:30.506 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7468"
+
+2025-04-26 01:03:30.534 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7469"
+
+2025-04-26 01:03:31.014 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7472"
+
+2025-04-26 01:03:37.554 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7497"
+
+2025-04-26 01:03:37.988 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7500"
+
+2025-04-26 01:03:38.016 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7501"
+
+2025-04-26 01:03:41.800 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7520"
+
+2025-04-26 01:03:51.590 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7572"
+
+2025-04-26 01:04:05.969 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7594"
+
+2025-04-26 01:05:39.572 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7663"
+
+2025-04-26 01:05:49.806 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7673"
+
+2025-04-26 01:05:52.233 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7676"
+
+2025-04-26 01:06:45.385 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7700"
+
+2025-04-26 01:06:45.400 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7701"
+
+2025-04-26 01:06:45.932 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7702"
+
+2025-04-26 01:06:45.948 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7703"
+
+2025-04-26 01:06:47.371 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7707"
+

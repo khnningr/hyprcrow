@@ -1,0 +1,568 @@
+2025-04-27 15:13:20.171 [info] Extension host with pid 5284 started
+2025-04-27 15:13:20.171 [info] Skipping acquiring lock for /home/kh/.config/Code - OSS/User/workspaceStorage/8075e445e460a60efe71910f6a02d51c.
+2025-04-27 15:13:20.306 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-27 15:13:20.321 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-04-27 15:13:20.557 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-04-27 15:13:20.599 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-27 15:13:20.607 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-27 15:13:20.657 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-27 15:13:20.715 [error] Activating extension ms-python.debugpy failed due to an error:
+2025-04-27 15:13:20.715 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:48788)
+	at t.registerDebugger (/home/kh/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:846640)
+	at e.activate (/home/kh/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:1098056)
+	at Uw.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:15216)
+	at Uw.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:14923)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:13081
+	at async cw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13359)
+	at async cw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13322)
+	at async cw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:12778)
+2025-04-27 15:13:20.750 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-27 15:13:20.752 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2025-04-27 15:13:20.864 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-27 15:13:20.903 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-27 15:13:20.953 [info] Eager extensions activated
+2025-04-27 15:13:20.973 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-27 15:13:20.975 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-27 15:13:21.782 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)
+2025-04-27 15:44:43.719 [error] [ms-python.python] provider FAILED
+2025-04-27 15:44:43.719 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 15:44:44.170 [error] [ms-python.python] provider FAILED
+2025-04-27 15:44:44.170 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 15:44:44.720 [error] [ms-python.python] provider FAILED
+2025-04-27 15:44:44.721 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 15:45:25.155 [error] [ms-python.python] provider FAILED
+2025-04-27 15:45:25.155 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 15:45:57.906 [error] [ms-python.python] provider FAILED
+2025-04-27 15:45:57.907 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 15:56:28.959 [error] [ms-python.python] provider FAILED
+2025-04-27 15:56:28.959 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 15:56:29.294 [error] [ms-python.python] provider FAILED
+2025-04-27 15:56:29.294 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 16:56:49.171 [error] [ms-python.python] provider FAILED
+2025-04-27 16:56:49.171 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 16:56:49.808 [error] [ms-python.python] provider FAILED
+2025-04-27 16:56:49.808 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 16:56:50.807 [error] [ms-python.python] provider FAILED
+2025-04-27 16:56:50.807 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 17:26:26.330 [error] [ms-python.python] provider FAILED
+2025-04-27 17:26:26.330 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 18:27:59.487 [error] [ms-python.python] provider FAILED
+2025-04-27 18:27:59.487 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 18:27:59.524 [error] [ms-python.python] provider FAILED
+2025-04-27 18:27:59.524 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 18:27:59.683 [error] [ms-python.python] provider FAILED
+2025-04-27 18:27:59.683 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 18:28:00.775 [error] [ms-python.python] provider FAILED
+2025-04-27 18:28:00.775 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 18:28:09.069 [error] [ms-python.python] provider FAILED
+2025-04-27 18:28:09.069 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 18:28:09.105 [error] [ms-python.python] provider FAILED
+2025-04-27 18:28:09.105 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 18:28:09.252 [error] [ms-python.python] provider FAILED
+2025-04-27 18:28:09.252 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 18:28:10.355 [error] [ms-python.python] provider FAILED
+2025-04-27 18:28:10.355 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 19:28:04.997 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:39305)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:856754
+	at new Promise (<anonymous>)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:856667
+2025-04-27 20:02:30.293 [error] [ms-python.python] provider FAILED
+2025-04-27 20:02:30.293 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 21:43:19.004 [error] [ms-python.python] provider FAILED
+2025-04-27 21:43:19.004 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 22:18:45.230 [error] [ms-python.python] provider FAILED
+2025-04-27 22:18:45.230 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 22:18:45.580 [error] [ms-python.python] provider FAILED
+2025-04-27 22:18:45.580 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 22:18:46.748 [error] [ms-python.python] provider FAILED
+2025-04-27 22:18:46.748 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 23:12:33.143 [error] [ms-python.python] provider FAILED
+2025-04-27 23:12:33.143 [error] Error: AttributeError: 'Newline' object has no attribute 'children'
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-27 23:12:48.014 [error] [ms-python.python] provider FAILED
+2025-04-27 23:12:48.014 [error] Error: AttributeError: 'Newline' object has no attribute 'children'
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 00:28:30.413 [error] [ms-python.python] provider FAILED
+2025-04-28 00:28:30.413 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 00:28:31.670 [error] [ms-python.python] provider FAILED
+2025-04-28 00:28:31.670 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 00:30:57.868 [error] [ms-python.python] provider FAILED
+2025-04-28 00:30:57.868 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 00:30:58.517 [error] [ms-python.python] provider FAILED
+2025-04-28 00:30:58.517 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 00:31:03.115 [error] [ms-python.python] provider FAILED
+2025-04-28 00:31:03.115 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 00:31:04.628 [error] [ms-python.python] provider FAILED
+2025-04-28 00:31:04.628 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:06:37.233 [error] [ms-python.python] provider FAILED
+2025-04-28 01:06:37.233 [error] Error: ValueError: `column` parameter (62) is not in a valid range (0-57) for line 988 ('                ("\\n" + tarea.get_nombre_tarea() + " | ")\n').
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:13:40.693 [error] [ms-python.python] provider FAILED
+2025-04-28 01:13:40.693 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:13:49.530 [error] [ms-python.python] provider FAILED
+2025-04-28 01:13:49.530 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:13:49.788 [error] [ms-python.python] provider FAILED
+2025-04-28 01:13:49.788 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:13:51.404 [error] [ms-python.python] provider FAILED
+2025-04-28 01:13:51.404 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:13:54.978 [error] [ms-python.python] provider FAILED
+2025-04-28 01:13:54.978 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:13:55.585 [error] [ms-python.python] provider FAILED
+2025-04-28 01:13:55.585 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:14:06.778 [error] [ms-python.python] provider FAILED
+2025-04-28 01:14:06.779 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:14:07.183 [error] [ms-python.python] provider FAILED
+2025-04-28 01:14:07.183 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:14:12.340 [error] [ms-python.python] provider FAILED
+2025-04-28 01:14:12.340 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:14:18.872 [error] [ms-python.python] provider FAILED
+2025-04-28 01:14:18.872 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:17:33.181 [error] [ms-python.python] provider FAILED
+2025-04-28 01:17:33.181 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:17:34.278 [error] [ms-python.python] provider FAILED
+2025-04-28 01:17:34.278 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:17:35.218 [error] [ms-python.python] provider FAILED
+2025-04-28 01:17:35.218 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:17:35.971 [error] [ms-python.python] provider FAILED
+2025-04-28 01:17:35.971 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:17:36.357 [error] [ms-python.python] provider FAILED
+2025-04-28 01:17:36.357 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:17:44.094 [error] [ms-python.python] provider FAILED
+2025-04-28 01:17:44.094 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:16.189 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:16.189 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:18.581 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:18.581 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:19.794 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:19.794 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:21.855 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:21.856 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:22.307 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:22.308 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:23.306 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:23.306 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:24.998 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:24.999 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:26.876 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:26.876 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:27.545 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:27.545 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:35.750 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:35.751 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:37.015 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:37.015 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:48.572 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:48.572 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:49.593 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:49.593 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:50.428 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:50.428 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:58.753 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:58.753 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:18:59.323 [error] [ms-python.python] provider FAILED
+2025-04-28 01:18:59.323 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:19:02.611 [error] [ms-python.python] provider FAILED
+2025-04-28 01:19:02.611 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:19:12.892 [error] [ms-python.python] provider FAILED
+2025-04-28 01:19:12.892 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:19:17.156 [error] [ms-python.python] provider FAILED
+2025-04-28 01:19:17.157 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:19:18.273 [error] [ms-python.python] provider FAILED
+2025-04-28 01:19:18.273 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:19:18.980 [error] [ms-python.python] provider FAILED
+2025-04-28 01:19:18.980 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:19:19.950 [error] [ms-python.python] provider FAILED
+2025-04-28 01:19:19.950 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:19:21.315 [error] [ms-python.python] provider FAILED
+2025-04-28 01:19:21.315 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:20:43.863 [error] [ms-python.python] provider FAILED
+2025-04-28 01:20:43.863 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:20:45.503 [error] [ms-python.python] provider FAILED
+2025-04-28 01:20:45.503 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:09.621 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:09.621 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:11.675 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:11.675 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:12.656 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:12.656 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:13.390 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:13.391 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:15.386 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:15.387 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:17.644 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:17.644 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:29.972 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:29.972 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:32.480 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:32.480 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:32.933 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:32.933 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:33.480 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:33.480 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:35.787 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:35.787 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:38.775 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:38.775 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-04-28 01:22:39.258 [error] [ms-python.python] provider FAILED
+2025-04-28 01:22:39.258 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)

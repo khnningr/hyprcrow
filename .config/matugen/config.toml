@@ -1,3 +1,6 @@
+[config]
+reload_apps = true
+
 [config.wallpaper]
 command = "swww"
 arguments = ["img", "--transition-type", "wipe", "--transition-fps", "60", "--transition-duration", "0.3", "--transition-angle", "30", "--transition-step", "90"]
@@ -25,47 +28,43 @@ post_hook = 'hyprctl reload'
 # output_path = '../qt6ct/colors/matugen.conf'
 
 [templates.yazi]
-input_path = './templates/yazi-theme.toml'
-output_path = '../yazi/theme.toml'
+input_path = "./templates/yazi-theme.toml"
+output_path = "../yazi/theme.toml"
 
 [templates.waybar]
-input_path = './templates/waybar-colors.css'
-output_path = '../waybar/waybar-colors.css'
-post_hook = 'pkill -SIGUSR2 waybar'
+input_path = "./templates/waybar-colors.css"
+output_path = "../waybar/waybar-colors.css"
+post_hook = "pkill -SIGUSR2 waybar"
 
 [templates.rofi]
-input_path = './templates/rofi-colors.rasi'
-output_path = '../rofi/rofi-colors.rasi'
+input_path = "./templates/rofi-colors.rasi"
+output_path = "../rofi/rofi-colors.rasi"
 
 [templates.wezterm]
-input_path = './templates/wezterm-colors.toml'
-output_path = '../wezterm/colors/wezterm-colors.toml'
+input_path = "./templates/wezterm-colors.toml"
+output_path = "../wezterm/colors/wezterm-colors.toml"
 
 [templates.kitty]
-input_path = './templates/kitty-colors.conf'
-output_path = '../kitty/kitty-colors.conf'
-# post_hook = 'kitty @ set-colors -a -c ~/.config/kitty/kitty-colors.conf'
+input_path = "./templates/kitty-colors.conf"
+output_path = "../kitty/kitty-colors.conf"
 
 [templates.foot]
-input_path = './templates/foot-colors.ini'
-output_path = '../foot/foot-colors.ini'
+input_path = "./templates/foot-colors.ini"
+output_path = "../foot/foot-colors.ini"
 
 [templates.terminal]
-input_path = './templates/terminal.sh'
-output_path = '~/.local/bin/terminal.sh'
+input_path = "./templates/terminal.sh"
+output_path = "~/.local/bin/terminal.sh"
 
 [templates.variables]
-input_path = './templates/variables.sh'
-output_path = '~/.local/bin/variables.sh'
+input_path = "./templates/variables.sh"
+output_path = "~/.local/bin/variables.sh"
 
 [templates.syshud]
-input_path = './templates/syshud-colors.css'
-output_path = '../sys64/hud/syshud-colors.css'
+input_path = "./templates/syshud-colors.css"
+output_path = "../sys64/hud/syshud-colors.css"
 
 [templates.obsidian]
-input_path = './templates/obsidian-theme.css'
-output_path = '~/Obsidian/.obsidian/themes/Walcrow/theme.css'
+input_path = "./templates/obsidian-theme.css"
+output_path = "~/Obsidian/.obsidian/themes/Walcrow/theme.css"
 
-#[templates.vscode]
-#input_path = './templates/vscode-colors.json'
-#output_path = '../Code - OSS/User/settings.json'

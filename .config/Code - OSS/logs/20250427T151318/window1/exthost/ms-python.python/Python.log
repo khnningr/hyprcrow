@@ -1,0 +1,688 @@
+2025-04-27 15:13:20.513 [warning] Dir "/home/kh/Proyectos/PE2/ProyectoTareas/.pixi/envs" is not watchable (directory does not exist)
+2025-04-27 15:13:20.531 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:39305)
+	at new v (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:878107)
+	at ge (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1684812)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688176
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at e.dynamicValue (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1700171)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686348
+	at Ee (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686604)
+	at Se (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688320)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685899
+	at Array.map (<anonymous>)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685870
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at a.get (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:536740)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:451577
+	at async t.activateComponents (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:449857)
+	at async /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642626
+	at async e (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642158)
+	at async cw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13359)
+	at async cw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13322)
+	at async cw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:12778)]
+2025-04-27 15:13:20.540 [info] Python interpreter path: /bin/python
+2025-04-27 15:13:20.557 [info] > pyenv which python
+2025-04-27 15:13:20.557 [info] cwd: .
+2025-04-27 15:13:20.781 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 246ms, has a falsy return value, Arg 1: <Uri:/home/kh/Proyectos/PE2/ProyectoTareas/gestor.py>, Arg 2: {"started":1745788400491}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+  	at C.activate (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+  	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+]
+2025-04-27 15:13:20.781 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-04-27 15:13:20.781 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-04-27 15:13:21.343 [info] Starting Jedi language server for ProyectoTareas.
+2025-04-27 15:14:07.413 [info] CreateEnv Trigger - Skipping for /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:14:07.947 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:31:43.905 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:34:24.276 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:34:26.032 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:35:50.508 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:35:52.945 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:36:01.254 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:36:08.675 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:36:10.149 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:36:15.425 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:36:26.122 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:36:35.146 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 15:49:09.816 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 15:54:47.676 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 15:55:15.301 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 15:55:37.172 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 15:55:46.665 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 15:55:48.821 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 15:56:03.547 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 15:56:04.996 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 15:56:05.791 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 15:56:07.881 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 16:00:01.680 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 16:00:03.276 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 16:02:28.839 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:26:20.687 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:29:26.970 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:29:36.849 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:29:38.783 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:31:37.742 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:31:38.936 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:31:42.489 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:37:36.240 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:37:37.735 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:38:57.698 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:38:59.469 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:41:02.595 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:41:04.566 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:43:10.279 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:43:15.420 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:43:17.771 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:43:20.696 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:44:30.438 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:44:45.326 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 16:44:46.787 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:14:26.771 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:15:34.308 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:16:37.663 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:16:38.936 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:17:25.615 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:17:27.044 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:17:54.692 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:17:56.964 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:18:55.746 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:18:56.912 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:20:17.768 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:20:19.280 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:20:22.027 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:20:32.063 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:20:32.313 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:24:40.329 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:24:41.661 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:26:43.218 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:26:44.391 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:27:37.465 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:27:47.628 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:27:49.271 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:27:56.760 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:27:57.009 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:30:42.347 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:30:53.334 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:30:53.583 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:32:13.511 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:32:13.761 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:32:40.915 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:32:49.691 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:34:57.487 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:34:59.471 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:37:48.765 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:37:54.981 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:37:57.520 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:38:12.246 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:38:13.239 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:39:17.276 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:39:18.305 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:40:58.376 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:40:59.837 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:41:35.227 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:41:36.029 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:43:29.647 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:43:31.018 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:46:04.608 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:46:04.857 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:46:25.655 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:46:27.574 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:48:48.334 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:48:59.399 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:50:09.591 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:50:11.322 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:50:21.523 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:51:23.664 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:51:23.914 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:52:50.811 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:52:51.062 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:52:53.347 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:53:15.055 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:53:15.304 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:55:24.478 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:55:25.537 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:55:31.086 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:57:14.763 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:57:16.134 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 17:57:18.178 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:04:53.671 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:04:53.921 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:04:56.739 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:06:09.830 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:06:10.079 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:06:40.811 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:06:42.807 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:10:03.321 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:10:05.191 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:12:09.129 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:12:10.329 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:12:14.393 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:14:23.391 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-27 18:14:29.560 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:15:22.198 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:15:22.448 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:18:27.314 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:18:28.962 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:18:33.510 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:18:33.760 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:18:34.373 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:18:37.658 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:18:45.879 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:18:47.101 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:21:32.013 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:21:33.738 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:24:14.401 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:24:14.650 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:25:45.302 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:25:45.551 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:26:22.713 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:26:28.909 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:26:30.385 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:28:35.847 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:28:38.506 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:29:55.117 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 18:30:03.729 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:17:27.284 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:17:30.582 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:17:33.299 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:19:09.471 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:19:09.720 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:19:10.321 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:19:40.217 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:19:41.511 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:28:03.952 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/normalizeSelection.py
+2025-04-27 19:28:03.996 [info] Send text to terminal: /bin/python
+2025-04-27 19:39:50.406 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:39:52.233 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:39:53.151 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:39:53.817 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:40:00.348 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:48:05.297 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:48:05.546 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:50:30.241 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:50:30.490 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:50:34.685 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:52:11.490 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:52:11.740 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:53:54.997 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:53:57.724 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:55:08.788 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:55:09.039 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:55:14.379 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:58:46.152 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:58:46.401 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:59:32.779 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 19:59:57.841 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:01:32.967 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:01:34.029 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:04:44.152 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:04:45.573 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:05:13.228 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:05:13.478 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:05:20.612 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:05:52.294 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:06:25.963 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:08:23.809 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:08:24.704 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:08:31.383 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:09:25.998 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:09:27.073 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:09:35.458 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:11:18.015 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:11:19.288 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:13:06.966 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:13:08.229 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:13:29.233 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:13:30.861 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:44:28.720 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:44:28.969 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:53:39.710 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:53:39.959 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:55:44.795 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:55:45.989 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:55:46.668 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:55:49.941 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:56:07.511 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 20:59:06.196 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:00:03.037 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:00:03.287 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:00:03.941 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:00:07.069 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:00:26.715 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:00:27.608 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:00:50.358 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:00:52.148 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:01:15.167 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:01:16.171 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:01:43.466 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:01:44.744 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:07:23.027 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:07:24.345 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:13:48.036 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:14:05.668 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:14:07.125 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:16:53.408 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:16:54.983 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:21:14.530 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:21:15.920 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:24:15.692 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:24:15.942 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:24:21.690 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:25:14.616 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:25:16.181 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:25:20.007 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:27:25.395 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:27:27.196 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:28:16.285 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:28:17.556 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:28:25.135 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:28:29.831 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:30:41.899 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:30:43.129 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:32:07.244 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:32:12.116 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:35:41.014 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:35:42.459 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:36:27.205 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:36:28.211 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:36:33.435 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:37:39.297 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:39:11.587 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:39:12.525 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:39:58.736 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:40:01.884 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:41:00.882 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:41:40.365 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:41:41.815 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:42:27.186 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:42:28.893 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:42:32.286 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:42:40.136 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:42:41.442 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:42:53.392 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:42:55.039 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:43:45.804 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:43:46.053 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:43:53.274 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:44:27.336 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:44:28.768 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:44:31.753 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:45:37.072 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:45:38.414 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:45:41.842 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:46:26.335 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:46:27.774 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:46:30.894 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:47:41.103 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:47:44.525 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:47:47.621 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:49:24.589 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:49:28.064 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:49:30.169 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 21:56:59.170 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:00:10.525 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:00:12.055 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:01:36.914 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:01:38.073 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:01:41.486 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:02:21.445 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:02:22.806 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:04:02.825 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:04:05.375 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:05:34.810 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:05:36.554 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:06:11.064 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:06:31.443 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:06:33.038 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:06:39.619 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:06:44.388 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:06:57.023 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:06:58.633 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:09:21.195 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:09:23.369 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:09:30.759 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:09:32.376 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:09:42.850 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:09:43.100 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:10:58.588 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:10:58.837 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:13:27.858 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:13:29.295 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:13:44.030 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:17:42.738 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:17:44.419 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:18:10.392 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:18:22.080 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:18:23.681 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:18:26.068 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:18:47.788 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:18:49.684 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:18:53.058 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:27:38.691 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:27:40.726 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:27:42.040 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:27:45.270 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:28:47.855 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:28:49.324 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:28:52.123 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:29:34.382 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:29:36.180 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:33:59.333 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:34:00.190 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:35:17.586 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:35:18.812 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:37:27.134 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:37:28.592 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:38:46.876 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:38:48.364 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:42:49.693 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:42:50.901 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:42:59.322 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:48:23.411 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/normalizeSelection.py
+2025-04-27 22:48:32.377 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:48:32.627 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:48:36.008 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:55:35.159 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:56:00.523 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:56:01.665 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:57:03.109 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:57:03.925 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:57:04.784 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:57:08.316 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 22:57:23.335 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:13:06.472 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:13:08.239 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:15:22.221 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:15:24.977 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:17:11.977 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:17:12.226 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:17:34.909 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:17:35.158 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:17:39.582 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:18:43.611 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:18:45.572 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:19:49.439 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:19:52.045 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:20:24.612 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:20:27.553 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:20:31.128 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:24:27.809 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:24:29.987 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:24:58.406 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:25:31.676 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:25:33.378 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:25:36.936 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:29:15.641 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:29:28.133 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:29:41.908 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:29:47.296 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:31:30.828 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:31:32.757 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:31:37.344 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:33:38.198 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:33:39.570 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:36:07.541 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:36:10.606 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:36:40.791 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:36:41.993 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:37:31.980 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:37:32.230 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:39:17.285 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:39:20.520 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:43:07.864 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:43:09.675 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:43:24.896 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:43:26.663 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:44:19.912 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:44:21.198 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:46:13.934 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:46:15.571 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:46:36.719 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:46:39.949 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:48:08.554 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:48:20.145 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:49:31.941 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:49:33.486 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:49:53.861 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:49:55.865 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:49:59.822 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:50:27.125 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:50:28.548 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:50:31.884 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:55:10.113 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:55:12.119 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-27 23:59:09.175 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:59:11.015 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:59:25.793 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-27 23:59:32.383 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:02:10.511 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:02:22.259 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:03:37.257 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:03:41.866 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:03:55.605 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:05:53.418 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:05:54.538 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:08:04.282 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:08:59.686 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:08:59.937 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:10:00.461 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:10:02.603 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:10:38.181 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:11:59.834 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:20:29.000 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-28 00:26:35.217 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:28:43.618 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:28:45.026 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:31:09.494 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:31:10.958 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:33:22.241 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:33:23.417 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:33:26.569 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:33:47.435 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:34:37.333 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:34:37.582 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:40:52.605 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:40:53.738 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:40:56.531 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:44:04.290 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:44:05.438 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:46:00.632 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:46:02.088 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:46:42.650 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:46:43.893 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:48:26.906 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:48:28.891 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:48:32.714 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:48:54.600 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:48:56.503 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:54:20.835 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:54:46.909 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:54:48.327 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:54:51.793 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:55:18.001 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:55:19.466 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:56:01.779 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:56:03.043 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:56:24.665 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:57:47.804 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:57:53.501 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:58:14.196 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:58:15.588 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 00:59:39.578 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:00:41.255 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:03:51.255 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:03:52.729 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:05:30.472 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:05:32.152 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:06:05.329 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:06:08.514 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:06:43.052 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:06:48.726 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:07:01.441 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:07:06.236 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:07:08.678 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:07:22.848 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:07:23.680 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:07:50.642 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:07:59.889 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:10:19.948 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:10:21.268 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:14:48.135 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:14:50.667 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:15:37.692 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:15:45.678 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:16:15.283 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:16:27.023 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:16:42.163 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:17:07.289 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:17:11.990 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:17:50.512 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:17:53.963 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:19:53.528 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-28 01:19:56.631 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:20:09.164 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/responsable.py
+2025-04-28 01:20:49.898 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/responsable.py
+2025-04-28 01:20:51.734 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/responsable.py
+2025-04-28 01:20:52.862 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/responsable.py
+2025-04-28 01:21:03.663 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/responsable.py
+2025-04-28 01:21:05.129 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/responsable.py
+2025-04-28 01:21:14.175 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/responsable.py
+2025-04-28 01:21:15.317 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/responsable.py
+2025-04-28 01:21:32.674 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-28 01:21:37.895 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-28 01:22:41.189 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:22:44.971 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:22:52.592 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:23:43.975 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:23:45.427 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:23:58.014 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:24:22.084 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:24:23.496 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:25:03.600 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:25:05.272 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:25:18.684 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:25:20.610 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:25:21.663 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:25:58.519 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:26:01.293 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:26:03.341 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:26:05.050 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:26:05.814 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:37:17.631 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:37:28.772 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:37:31.354 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:41:54.976 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:41:55.910 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:44:48.396 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-28 01:44:50.168 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:46:11.163 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py
+2025-04-28 01:46:13.642 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:47:00.992 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:47:02.230 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:47:03.194 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:47:04.283 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:47:32.165 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:47:33.325 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:47:48.057 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:48:33.177 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:48:35.075 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:48:49.848 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:49:16.169 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 01:49:28.455 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:06:22.179 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:06:23.660 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:18:01.521 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:18:03.191 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:18:03.842 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:18:07.438 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:18:53.927 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:18:55.379 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:18:59.369 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:19:52.130 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:20:16.159 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:20:17.639 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:20:44.567 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:20:48.584 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-28 02:21:56.101 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:21:58.683 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:23:00.159 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:23:51.942 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:28:00.086 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:28:02.186 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:30:25.236 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:32:47.165 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:32:52.841 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:33:30.470 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:33:33.694 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:34:49.654 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:35:13.778 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 02:35:18.479 [info] Send text to terminal: /bin/python /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 03:11:14.797 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/gestor.py
+2025-04-28 03:11:21.267 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/main.py
+2025-04-28 03:11:35.862 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/responsable.py
+2025-04-28 03:11:49.049 [info] Discover tests for workspace name: ProyectoTareas - uri: /home/kh/Proyectos/PE2/ProyectoTareas/tarea.py

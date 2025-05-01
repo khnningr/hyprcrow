@@ -1,3 +1,9 @@
+# Comando para resetear la configuración del shell: source .zshrc
+
+(( ${+ZSH_HIGHLIGHT_STYLES} )) || typeset -A ZSH_HIGHLIGHT_STYLES
+ZSH_HIGHLIGHT_STYLES[path]=none
+ZSH_HIGHLIGHT_STYLES[path_prefix]=none
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 export PATH="$PATH:$HOME/.cargo/bin"
@@ -127,6 +133,7 @@ alias u="sudo pacman -Syu && paru -Syu"
 alias i="paru -S --needed"
 alias r="paru -Rns"
 alias s="paru"
+alias cd="z"
 alias m="mirror"
 alias hypr="cd ~/hyprcrow/.config/hypr/"
 

@@ -262,8 +262,10 @@ base_virt_manager(){
   # unix_socket_group = "libvirt"
   # unix_socket_rw_perms = "0770"
   # sudo nano /etc/libvirt/libvirtd.conf
-  sudo sed -i '85,108s/^#//' /etc/libvirt/libvirtd.conf
-  
+  sudo sed -i 's/^#unix_socket_rw_perms = "0770"/unix_socket_rw_perms = "0770"/' /etc/libvirt/libvirtd.conf
+  sudo sed -i 's/^#unix_socket_group = "libvirt"/unix_socket_group = "libvirt"/' \
+    /etc/libvirt/qemu.conf
+
   # Añadir el usuario actual al grupo kvm y libvirt.
   sudo usermod -a -G kvm,libvirt $(whoami)
 
@@ -271,10 +273,10 @@ base_virt_manager(){
   #newgrp libvirt 
 
   # Habilitar servicios necesarios.
-  sudo systemctl enable libvirtd.service
+  sudo systemctl enable --now libvirtd.service
 
   # Iniciamos el servicio.
-  sudo systemctl start libvirtd.service
+  #sudo systemctl start libvirtd.service
 
   # Descomentar las líneas 519 y 523.
   # user = "usuario"

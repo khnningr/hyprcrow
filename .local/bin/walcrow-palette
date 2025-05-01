@@ -24,6 +24,8 @@ if [ "$IMAGEN" == "--random" ]; then
   notify-send "Tema aleatorio" "Imagen '${IMAGEN_ALEATORIA}' seleccionada."
 fi
 
+cp $IMAGEN ~/.config/wezterm/background-wez.*
+
 verificar_comando() {
   local PAQUETE="$1"
   command -v "$PAQUETE" > /dev/null 2>&1 || { notify-send "Ejecución detenida" "Paquete $PAQUETE no instalado."; exit 1; }

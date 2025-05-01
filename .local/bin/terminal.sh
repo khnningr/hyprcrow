@@ -3,11 +3,11 @@
 # Colors from 0-15
 printf "\033]4;0;#181818\033\\"
 printf "\033]4;1;#ffb4ab\033\\"
-printf "\033]4;2;#a8c8ff\033\\"
-printf "\033]4;3;#3f5f90\033\\"
-printf "\033]4;4;#a8c8ff\033\\"
-printf "\033]4;5;#dbbce1\033\\"
-printf "\033]4;6;#bdc7dc\033\\"
+printf "\033]4;2;#d3c972\033\\"
+printf "\033]4;3;#676013\033\\"
+printf "\033]4;4;#d3c972\033\\"
+printf "\033]4;5;#a6d0b8\033\\"
+printf "\033]4;6;#cdc7a3\033\\"
 printf "\033]4;7;#BAC2DE\033\\"
 printf "\033]4;8;#585B70\033\\"
 printf "\033]4;9;#F38BA8\033\\"
@@ -19,13 +19,13 @@ printf "\033]4;14;#94E2D5\033\\"
 printf "\033]4;15;#A6ADC8\033\\"
 
 # Background
-printf "\033]11;#111318\033\\";
+printf "\033]11;#15140c\033\\";
 
 # Foreground
-printf "\033]10;#e1e2e9\033\\";
+printf "\033]10;#e7e2d5\033\\";
 
 # Cursor
-printf "\033]12;#e1e2e9\033\\";
+printf "\033]12;#e7e2d5\033\\";
 
 # Border
-printf "\033]7044;#43474e\033\\";
+printf "\033]7044;#49473a\033\\";

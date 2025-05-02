@@ -1713,18 +1713,18 @@
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "rgba(191, 192, 194, 0.6)",
+            "foreground": "rgba(194, 198, 199, 0.6)",
             "background": "#0e1514",
             "editorBackground": "#0e1514",
-            "titleBarBackground": "#00050b",
-            "titleBarBorder": "rgba(83, 91, 101, 0.2)",
-            "activityBarBackground": "#00050b",
-            "activityBarBorder": "rgba(83, 91, 101, 0.2)",
-            "sideBarBackground": "#00050b",
-            "sideBarBorder": "rgba(83, 91, 101, 0.2)",
-            "statusBarBackground": "#00050b",
-            "statusBarBorder": "rgba(83, 91, 101, 0.2)",
-            "statusBarNoFolderBackground": "#00060d"
+            "titleBarBackground": "#0e1b21",
+            "titleBarBorder": "rgba(93, 107, 114, 0.2)",
+            "activityBarBackground": "#0e1b21",
+            "activityBarBorder": "rgba(93, 107, 114, 0.2)",
+            "sideBarBackground": "#0e1b21",
+            "sideBarBorder": "rgba(93, 107, 114, 0.2)",
+            "statusBarBackground": "#0e1b21",
+            "statusBarBorder": "rgba(93, 107, 114, 0.2)",
+            "statusBarNoFolderBackground": "#112028"
         },
         "layoutInfo": {
             "sideBarSide": "left",
@@ -1745,8 +1745,8 @@
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1920,
-                "height": 1080
+                "width": 960,
+                "height": 1055
             }
         },
         "openedWindows": []

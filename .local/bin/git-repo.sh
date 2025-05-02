@@ -1,11 +1,17 @@
 #!/usr/bin/env bash
 
 actualizar_repositorio() {
-  cd $1
+  local REPOSITORIO="$1"
+  cd "$REPOSITORIO"
   git add .
-  git commit -a -m "Cambio realizado: $(date +'%Y/%m/%d a las %I:%M %p')"
+  echo -e "\n$REPOSITORIO"
+  echo -e "Agregar un comentario:"
+  read -p "> " COMMIT
+  echo
+  git commit -m "$COMMIT: $(date +'%Y/%m/%d a las %I:%M %p')"
   git push -u origin main
-  sleep 10
+  echo
+  read -p "Repositorio creado con exito! Presiona cualquier tecla para salir."
 }
 
 actualizar_repositorio ~/Obsidian/

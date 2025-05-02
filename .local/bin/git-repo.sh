@@ -18,6 +18,8 @@ actualizar_repositorio ~/Obsidian/
 
 actualizar_repositorio ~/hyprcrow/
 
+actualizar_repositorio ~/kh
+
 actualizar_repositorio ~/Wallpapers/
 
 #actualizar_repositorio ~/Neovim/

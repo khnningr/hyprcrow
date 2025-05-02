@@ -8,10 +8,10 @@ actualizar_repositorio() {
   echo -e "Agregar un comentario:"
   read -p "> " COMMIT
   echo
-  git commit -m "$COMMIT: $(date +'%Y/%m/%d a las %I:%M %p')"
+  git commit -m "$COMMIT->$(date +'%Y/%m/%d a las %I:%M %p')"
   git push -u origin main
   echo
-  read -p "Repositorio creado con exito! Presiona cualquier tecla para salir."
+  read -p "Repositorio actualizado con exito! Presiona cualquier tecla para salir."
 }
 
 actualizar_repositorio ~/Obsidian/

@@ -36,3 +36,5 @@ Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
 	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
 	at Array.map (<anonymous>)
 	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)
+2025-05-02 00:11:05.215 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-02 00:11:05.227 [info] Extension host with pid 73200 exiting with code 0

@@ -1713,18 +1713,18 @@
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "rgba(194, 198, 199, 0.6)",
+            "foreground": "rgba(195, 195, 197, 0.6)",
             "background": "#0e1514",
             "editorBackground": "#0e1514",
-            "titleBarBackground": "#0e1b21",
-            "titleBarBorder": "rgba(93, 107, 114, 0.2)",
-            "activityBarBackground": "#0e1b21",
-            "activityBarBorder": "rgba(93, 107, 114, 0.2)",
-            "sideBarBackground": "#0e1b21",
-            "sideBarBorder": "rgba(93, 107, 114, 0.2)",
-            "statusBarBackground": "#0e1b21",
-            "statusBarBorder": "rgba(93, 107, 114, 0.2)",
-            "statusBarNoFolderBackground": "#112028"
+            "titleBarBackground": "#0f0f18",
+            "titleBarBorder": "rgba(91, 91, 111, 0.2)",
+            "activityBarBackground": "#0f0f18",
+            "activityBarBorder": "rgba(91, 91, 111, 0.2)",
+            "sideBarBackground": "#0f0f18",
+            "sideBarBorder": "rgba(91, 91, 111, 0.2)",
+            "statusBarBackground": "#0f0f18",
+            "statusBarBorder": "rgba(91, 91, 111, 0.2)",
+            "statusBarNoFolderBackground": "#12121d"
         },
         "layoutInfo": {
             "sideBarSide": "left",

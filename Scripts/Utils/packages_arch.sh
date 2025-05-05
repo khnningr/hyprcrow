@@ -64,6 +64,7 @@ base=(
   "swaync"
   "ttf-ms-fonts"
   "ncdu"
+  "imagemagick"
   )
 
 pkg_ctl=(

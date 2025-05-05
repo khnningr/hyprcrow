@@ -49,7 +49,7 @@ if [[ "$IMAGEN" == *.gif ]]; then
   convert "$IMAGEN[0]" -contrast -blur 0x40 ~/.config/wezterm/assets/bg-blurred-darker.png
 else 
   convert "$IMAGEN" -blur 0x40 ~/.config/wezterm/assets/bg-blurred.png
-  convert "$IMAGEN" -blur 0x40 -contrast ~/.config/wezterm/assets/bg-blurred-darker.png
+  convert "$IMAGEN" -brightness-contrast -30x0 -blur 0x40 ~/.config/wezterm/assets/bg-blurred-darker.png
 
 fi
 

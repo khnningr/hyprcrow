@@ -24,8 +24,6 @@ if [ "$IMAGEN" == "--random" ]; then
   notify-send "Tema aleatorio" "Imagen '${IMAGEN_ALEATORIA}' seleccionada."
 fi
 
-cp $IMAGEN ~/.config/wezterm/background-wez.*
-
 verificar_comando() {
   local PAQUETE="$1"
   command -v "$PAQUETE" > /dev/null 2>&1 || { notify-send "Ejecución detenida" "Paquete $PAQUETE no instalado."; exit 1; }
@@ -45,6 +43,15 @@ swww img "$IMAGEN" --transition-type wipe --transition-fps 60 --transition-durat
 # wallust run "$IMAGEN"
 matugen image "$IMAGEN"
 wal -i "$IMAGEN"
+
+if [[ "$IMAGEN" == *.gif ]]; then
+  convert "$IMAGEN[0]" -blur 0x40 ~/.config/wezterm/assets/bg-blurred.png
+  convert "$IMAGEN[0]" -contrast -blur 0x40 ~/.config/wezterm/assets/bg-blurred-darker.png
+else 
+  convert "$IMAGEN" -blur 0x40 ~/.config/wezterm/assets/bg-blurred.png
+  convert "$IMAGEN" -blur 0x40 -contrast ~/.config/wezterm/assets/bg-blurred-darker.png
+
+fi
 
 # pkill waybar
 # waybar > /dev/null 2>&1 &

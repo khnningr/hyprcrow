@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 killall waybar
+while pgrep -x waybar >/dev/null; do sleep 1; done
 waybar --config config.jsonc --style style.css
 disown
 

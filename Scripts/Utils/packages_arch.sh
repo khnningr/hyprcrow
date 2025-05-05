@@ -63,6 +63,7 @@ base=(
   "pavucontrol"
   "swaync"
   "ttf-ms-fonts"
+  "ncdu"
   )
 
 pkg_ctl=(
@@ -88,6 +89,7 @@ utils=(
   "imv"
   "ffmpegthumbnailer"
   "pinta"
+  "pitivi"
   )
 
 pkg_utils_aur=(

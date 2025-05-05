@@ -262,8 +262,8 @@ base_virt_manager(){
   # unix_socket_group = "libvirt"
   # unix_socket_rw_perms = "0770"
   # sudo nano /etc/libvirt/libvirtd.conf
-  sudo sed -i 's/^#unix_socket_rw_perms = "0770"/unix_socket_rw_perms = "0770"/' /etc/libvirt/libvirtd.conf
-  sudo sed -i 's/^#unix_socket_group = "libvirt"/unix_socket_group = "libvirt"/' \
+  sudo sed -i 's/#unix_socket_rw_perms = "0770"/unix_socket_rw_perms = "0770"/' /etc/libvirt/libvirtd.conf
+  sudo sed -i 's/#unix_socket_group = "libvirt"/unix_socket_group = "libvirt"/' \
     /etc/libvirt/qemu.conf
 
   # Añadir el usuario actual al grupo kvm y libvirt.

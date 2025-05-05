@@ -6,7 +6,9 @@ command -v swaync > /dev/null 2>&1 || {
   exit 1
 }
 
-swaync > /dev/null 2>&1 & disown
+swaync > /dev/null 2>&1
+
+disown
 
 swaync-client -R 
 

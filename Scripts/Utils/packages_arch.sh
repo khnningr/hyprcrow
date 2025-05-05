@@ -41,6 +41,7 @@ pkg_hyprland=(
   "kitty"
   "qt5-wayland"
   "qt6-wayland"
+  "matugen-bin"
   )
 
 base=(

@@ -134,7 +134,7 @@ arch_paquetes_necesarios(){
 
       # Paquetes Hyprland.
       # Paquetes omitidos: waybar, thunar, file-roller, 
-      sudo pacman -S --needed hyprland gcc gnu-free-fonts\
+      sudo pacman -S --needed hyprland waybar gcc gnu-free-fonts\
         xdg-desktop-portal-hyprland xdg-desktop-portal-gtk\
         rofi-wayland rofi-emoji noto-fonts-emoji hyprpicker\
         gtk3 swaync swww slurp grim cliphist wl-clipboard\
@@ -146,7 +146,7 @@ arch_paquetes_necesarios(){
         pipewire-jack pipewire-pulse gst-plugin-pipewire\
         wireplumber pamixer pavucontrol qt5ct qt6ct kvantum\
         kvantum-qt5 qt5-wayland qt6-wayland gtk-engine-murrine
-      paru -S --needed hellwal syshud
+      paru -S --needed hellwal syshud matugen-bin
 
       # Configuración de Yazi como file manager principal.
       # Referencia: https://yazi-rs.github.io/docs/tips/

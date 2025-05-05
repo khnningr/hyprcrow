@@ -30,7 +30,7 @@ verificar_comando() {
 }
 verificar_comando swww
 # verificar_comando hellwal
-verificar_comando wallust
+verificar_comando matugen
 verificar_comando swaync
 verificar_comando syshud
 

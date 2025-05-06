@@ -160,5 +160,5 @@ hy_distro(){
   done
 } 
 
-hy_distro
-
+# hy_distro
+hy_instalacion_manual_arch

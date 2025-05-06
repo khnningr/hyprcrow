@@ -1,0 +1,76 @@
+2025-05-06 12:10:25.774 [info] [main] Log level: Info
+2025-05-06 12:10:25.774 [info] [main] Validating found git in: "git"
+2025-05-06 12:10:25.774 [info] [main] Using git "2.49.0" from "git"
+2025-05-06 12:10:25.774 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-06 12:10:25.774 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-06 12:10:25.775 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-06 12:10:25.781 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-06 12:10:25.781 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-05-06 12:10:27.407 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-06 12:10:38.448 [info] [main] Log level: Info
+2025-05-06 12:10:38.448 [info] [main] Validating found git in: "git"
+2025-05-06 12:10:38.448 [info] [main] Using git "2.49.0" from "git"
+2025-05-06 12:10:38.448 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-06 12:10:38.448 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-06 12:10:38.448 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-06 12:10:38.453 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-06 12:10:38.458 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-05-06 12:10:38.465 [info] [Model][openRepository] Opened repository: /home/kh/.config/ignis/.clone
+2025-05-06 12:10:38.479 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-06 12:10:38.479 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-06 12:10:38.479 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-06 12:10:38.479 [info] > git config --get commit.template [9ms]
+2025-05-06 12:10:38.485 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-06 12:10:38.489 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/.config/ignis/.clone/.git/refs/remotes/origin/main'
+2025-05-06 12:10:38.490 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-06 12:10:38.501 [info] > git status -z -uall [6ms]
+2025-05-06 12:10:38.502 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-06 12:10:38.526 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-05-06 12:10:38.534 [info] > git config --get --local branch.main.vscode-merge-base [3ms]
+2025-05-06 12:10:38.534 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-06 12:10:38.538 [info] > git config --get commit.template [12ms]
+2025-05-06 12:10:38.559 [info] > git reflog main --grep-reflog=branch: Created from *. [21ms]
+2025-05-06 12:10:38.583 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [20ms]
+2025-05-06 12:10:38.587 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2025-05-06 12:10:38.591 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/.config/ignis/.clone/.git/refs/remotes/origin/main'
+2025-05-06 12:10:38.592 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-06 12:10:38.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2025-05-06 12:10:38.606 [info] > git status -z -uall [10ms]
+2025-05-06 12:10:38.606 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-05-06 12:10:38.617 [info] > git config --add --local branch.main.vscode-merge-base origin/main [12ms]
+2025-05-06 12:10:38.622 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-05-06 12:10:38.627 [info] > git config --get commit.template [5ms]
+2025-05-06 12:10:38.632 [info] > git config --get --local branch.main.vscode-merge-base [6ms]
+2025-05-06 12:10:38.637 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-05-06 12:10:38.641 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/.config/ignis/.clone/.git/refs/remotes/origin/main'
+2025-05-06 12:10:38.642 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2025-05-06 12:10:38.647 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2025-05-06 12:10:38.656 [info] > git status -z -uall [5ms]
+2025-05-06 12:10:38.657 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2025-05-06 12:10:38.661 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-05-06 12:10:38.676 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2025-05-06 12:10:38.680 [info] > git diff --name-status -z --diff-filter=ADMR c26cfef8bbfabb89aec5dd7c2cbccbf8b5999030...refs/remotes/origin/main [19ms]
+2025-05-06 12:10:38.683 [info] > git diff --name-status -z --diff-filter=ADMR c26cfef8bbfabb89aec5dd7c2cbccbf8b5999030...refs/remotes/origin/main [3ms]
+2025-05-06 12:10:38.683 [info] > git merge-base refs/heads/main refs/remotes/origin/main [9ms]
+2025-05-06 12:10:38.688 [info] > git diff --name-status -z --diff-filter=ADMR c26cfef8bbfabb89aec5dd7c2cbccbf8b5999030...refs/remotes/origin/main [1ms]
+2025-05-06 12:10:38.985 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-06 12:10:39.151 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-06 12:10:39.151 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-06 12:10:39.698 [info] > git config --get commit.template [5ms]
+2025-05-06 12:10:39.699 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-06 12:10:39.703 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kh/.config/ignis/.clone/.git/refs/remotes/origin/main'
+2025-05-06 12:10:39.704 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-06 12:10:39.713 [info] > git status -z -uall [5ms]
+2025-05-06 12:10:39.714 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-06 12:10:39.878 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-06 12:10:39.878 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-06 12:11:08.799 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-06 12:11:08.799 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-06 12:11:09.564 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-06 12:11:09.564 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

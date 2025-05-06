@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 
 actualizar_repositorio() {
+  # Hacer ifs
+  #grep "email" ~/.gitconfig
+  #grep "name" ~/.gitconfig
+  #git config --global user.email "$MAIL"
+  #git config --global user.name "$USUARIO"
   local REPOSITORIO="$1"
   cd "$REPOSITORIO"
   git add .

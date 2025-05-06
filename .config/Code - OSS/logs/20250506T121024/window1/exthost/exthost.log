@@ -1,0 +1,56 @@
+2025-05-06 12:10:25.355 [info] Extension host with pid 309451 started
+2025-05-06 12:10:25.355 [info] Skipping acquiring lock for /home/kh/.config/Code - OSS/User/workspaceStorage/bf825990010ec6a05a75dacc90b4179e.
+2025-05-06 12:10:25.356 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-06 12:10:25.364 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-06 12:10:25.409 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-06 12:10:25.457 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-06 12:10:25.656 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-06 12:10:25.658 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-06 12:10:25.691 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-06 12:10:25.733 [info] Eager extensions activated
+2025-05-06 12:10:25.745 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-06 12:10:25.747 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-06 12:10:36.355 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-06 12:10:36.362 [info] Extension host with pid 309451 exiting with code 0
+2025-05-06 12:10:37.104 [info] Extension host with pid 309598 started
+2025-05-06 12:10:37.104 [info] Skipping acquiring lock for /home/kh/.config/Code - OSS/User/workspaceStorage/0cefadd2ea4a4b0e5024ca10057e16cd.
+2025-05-06 12:10:37.132 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-06 12:10:37.140 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-06 12:10:37.189 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-06 12:10:37.230 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-06 12:10:37.423 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-05-06 12:10:37.425 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-06 12:10:37.443 [info] Eager extensions activated
+2025-05-06 12:10:37.444 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-06 12:10:37.445 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-06 12:10:38.376 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-05-06 12:10:38.509 [warning] [Decorations] CAPPING events from decorations provider vscode.git 332
+2025-05-06 12:10:38.538 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-06 12:10:38.610 [warning] [Decorations] CAPPING events from decorations provider vscode.git 332
+2025-05-06 12:10:38.665 [warning] [Decorations] CAPPING events from decorations provider vscode.git 332
+2025-05-06 12:10:39.717 [warning] [Decorations] CAPPING events from decorations provider vscode.git 332
+2025-05-06 12:11:08.851 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-05-06 12:11:09.052 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-05-06 12:11:09.097 [error] Activating extension ms-python.debugpy failed due to an error:
+2025-05-06 12:11:09.097 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:48788)
+	at t.registerDebugger (/home/kh/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:846640)
+	at e.activate (/home/kh/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:1098056)
+	at Uw.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:15216)
+	at Uw.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:14923)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:13081
+	at async cw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13359)
+	at async cw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13322)
+	at async cw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:12778)
+2025-05-06 12:11:10.161 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/kh/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)

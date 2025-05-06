@@ -334,8 +334,7 @@ base_intalacion_fabric(){
     fi
   done
 }
-read -p "> " elegir_fabric
-base_intalacion_fabric "$elegir_fabric"
+
 #base_intalacion_fabric
 
 # fabric wallust y hellwal estan en nix

@@ -130,7 +130,7 @@ arch_paquetes_necesarios(){
         zathura-pdf-mupdf vlc telegram-desktop jdk-openjdk\
         obs-studio kooha obsidian fragments handbrake\
         downgrade vesktop ncspot mission-center stow\
-        android-tools tree tutanota-desktop zen-browser-bin
+        android-tools tree tutanota-desktop vivaldi
 
       # Paquetes Hyprland.
       # Paquetes omitidos: waybar, thunar, file-roller, 

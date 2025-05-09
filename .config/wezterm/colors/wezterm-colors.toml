@@ -4,26 +4,26 @@
 
 [colors]
 background = "#121318" # Color de fondo por defecto.
-foreground = "#e3e1e9" # Color del texto por defecto.
-cursor_bg = "#bac3ff"
-cursor_border = "#c6c5d0"
-cursor_fg = "#e3e1e9"
+foreground = "#e2e2e9" # Color del texto por defecto.
+cursor_bg = "#afc6ff"
+cursor_border = "#c5c6d0"
+cursor_fg = "#e2e2e9"
 
-selection_bg = "#171a2c"
-selection_fg = "#2c2f42"
+selection_bg = "#141b2c"
+selection_fg = "#293042"
 
-scrollbar_thumb = "#e3e1e9"  # Color de la barra de desplazamiento.
+scrollbar_thumb = "#e2e2e9"  # Color de la barra de desplazamiento.
 
-split = "#46464f" # Color de las líneas de división entre paneles.
+split = "#44464f" # Color de las líneas de división entre paneles.
 
 ansi = [
     "#181818", 
     "#ffb4ab",
-    "#bac3ff",
-    "#515b92",
-    "#bac3ff",
-    "#e5bad8",
-    "#c3c5dd",
+    "#afc6ff",
+    "#465d91",
+    "#afc6ff",
+    "#dfbbde",
+    "#bfc6dc",
     "#BAC2DE" 
 ]
 

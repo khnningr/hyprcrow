@@ -42,7 +42,7 @@ swww img "$IMAGEN" --transition-type wipe --transition-fps 60 --transition-durat
 # hellwal -i "$IMAGEN"
 # wallust run "$IMAGEN"
 matugen image "$IMAGEN"
-wal -i "$IMAGEN"
+#wal -i "$IMAGEN"
 
 if [[ "$IMAGEN" == *.gif ]]; then
   convert "$IMAGEN[0]" -blur 0x40 ~/.config/wezterm/assets/bg-blurred.png

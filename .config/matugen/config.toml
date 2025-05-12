@@ -3,29 +3,13 @@ reload_apps = true
 
 [config.wallpaper]
 command = "swww"
-arguments = ["img", "--transition-type", "wipe", "--transition-fps", "60", "--transition-duration", "0.3", "--transition-angle", "30", "--transition-step", "90"]
+arguments = [ "img", "-t", "outer", "--transition-duration", "1.5", "--transition-step", "255", "--transition-fps", "60", "-f", "Nearest",]
 set = true
 
 [templates.hyprland]
-input_path = './templates/hyprland-colors.conf'
-output_path = '../hypr/hyprland-colors.conf'
-post_hook = 'hyprctl reload'
-
-# [templates.gtk3]
-# input_path = './templates/gtk-colors.css'
-# output_path = '~/.themes/Tokyonight-Dark/gtk-3.0/colors.css'
-
-# [templates.gtk4]
-# input_path = './templates/gtk-colors.css'
-# output_path = '../gtk-4.0/colors.css'
-
-# [templates.qt5ct]
-# input_path = './templates/qtct-colors.conf'
-# output_path = '../qt5ct/colors/matugen.conf'
-
-# [templates.qt6ct]
-# input_path = './templates/qtct-colors.conf'
-# output_path = '../qt6ct/colors/matugen.conf'
+input_path = "~/.config/Ax-Shell/config/matugen/templates/hyprland-colors.conf"
+output_path = "~/.config/Ax-Shell/config/hypr/colors.conf"
+post_hook = "hyprctl reload"
 
 [templates.yazi]
 input_path = "./templates/yazi-theme.toml"
@@ -68,3 +52,35 @@ output_path = "../sys64/hud/syshud-colors.css"
 input_path = "./templates/obsidian-theme.css"
 output_path = "~/Obsidian/.obsidian/themes/Walcrow/theme.css"
 
+[templates.ax-shell]
+input_path = "~/.config/Ax-Shell/config/matugen/templates/ax-shell.css"
+output_path = "~/.config/Ax-Shell/styles/colors.css"
+post_hook = "fabric-cli exec ax-shell 'app.set_css()' &"
+
+[config.custom_colors.red]
+color = "#FF0000"
+blend = true
+
+[config.custom_colors.green]
+color = "#00FF00"
+blend = true
+
+[config.custom_colors.yellow]
+color = "#FFFF00"
+blend = true
+
+[config.custom_colors.blue]
+color = "#0000FF"
+blend = true
+
+[config.custom_colors.magenta]
+color = "#FF00FF"
+blend = true
+
+[config.custom_colors.cyan]
+color = "#00FFFF"
+blend = true
+
+[config.custom_colors.white]
+color = "#FFFFFF"
+blend = true

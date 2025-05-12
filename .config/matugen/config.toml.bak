@@ -1,71 +1,86 @@
+[config]
+reload_apps = true
+
 [config.wallpaper]
 command = "swww"
-arguments = ["img", "--transition-type", "wipe", "--transition-fps", "60", "--transition-duration", "0.3", "--transition-angle", "30", "--transition-step", "90"]
+arguments = [ "img", "-t", "outer", "--transition-duration", "1.5", "--transition-step", "255", "--transition-fps", "60", "-f", "Nearest",]
 set = true
 
 [templates.hyprland]
-input_path = './templates/hyprland-colors.conf'
-output_path = '../hypr/hyprland-colors.conf'
-post_hook = 'hyprctl reload'
-
-# [templates.gtk3]
-# input_path = './templates/gtk-colors.css'
-# output_path = '~/.themes/Tokyonight-Dark/gtk-3.0/colors.css'
-
-# [templates.gtk4]
-# input_path = './templates/gtk-colors.css'
-# output_path = '../gtk-4.0/colors.css'
-
-# [templates.qt5ct]
-# input_path = './templates/qtct-colors.conf'
-# output_path = '../qt5ct/colors/matugen.conf'
-
-# [templates.qt6ct]
-# input_path = './templates/qtct-colors.conf'
-# output_path = '../qt6ct/colors/matugen.conf'
+input_path = "~/.config/Ax-Shell/config/matugen/templates/hyprland-colors.conf"
+output_path = "~/.config/Ax-Shell/config/hypr/colors.conf"
+post_hook = "hyprctl reload"
 
 [templates.yazi]
-input_path = './templates/yazi-theme.toml'
-output_path = '../yazi/theme.toml'
+input_path = "./templates/yazi-theme.toml"
+output_path = "../yazi/theme.toml"
 
 [templates.waybar]
-input_path = './templates/waybar-colors.css'
-output_path = '../waybar/waybar-colors.css'
-post_hook = 'pkill -SIGUSR2 waybar'
+input_path = "./templates/waybar-colors.css"
+output_path = "../waybar/waybar-colors.css"
+post_hook = "pkill -SIGUSR2 waybar"
 
 [templates.rofi]
-input_path = './templates/rofi-colors.rasi'
-output_path = '../rofi/rofi-colors.rasi'
+input_path = "./templates/rofi-colors.rasi"
+output_path = "../rofi/rofi-colors.rasi"
 
 [templates.wezterm]
-input_path = './templates/wezterm-colors.toml'
-output_path = '../wezterm/colors/wezterm-colors.toml'
+input_path = "./templates/wezterm-colors.toml"
+output_path = "../wezterm/colors/wezterm-colors.toml"
 
 [templates.kitty]
-input_path = './templates/kitty-colors.conf'
-output_path = '../kitty/kitty-colors.conf'
-# post_hook = 'kitty @ set-colors -a -c ~/.config/kitty/kitty-colors.conf'
+input_path = "./templates/kitty-colors.conf"
+output_path = "../kitty/kitty-colors.conf"
 
 [templates.foot]
-input_path = './templates/foot-colors.ini'
-output_path = '../foot/foot-colors.ini'
+input_path = "./templates/foot-colors.ini"
+output_path = "../foot/foot-colors.ini"
 
 [templates.terminal]
-input_path = './templates/terminal.sh'
-output_path = '~/.local/bin/terminal.sh'
+input_path = "./templates/terminal.sh"
+output_path = "~/.local/bin/terminal.sh"
 
 [templates.variables]
-input_path = './templates/variables.sh'
-output_path = '~/.local/bin/variables.sh'
+input_path = "./templates/variables.sh"
+output_path = "~/.local/bin/variables.sh"
 
 [templates.syshud]
-input_path = './templates/syshud-colors.css'
-output_path = '../sys64/hud/syshud-colors.css'
+input_path = "./templates/syshud-colors.css"
+output_path = "../sys64/hud/syshud-colors.css"
 
 [templates.obsidian]
-input_path = './templates/obsidian-theme.css'
-output_path = '~/Obsidian/.obsidian/themes/Walcrow/theme.css'
+input_path = "./templates/obsidian-theme.css"
+output_path = "~/Obsidian/.obsidian/themes/Walcrow/theme.css"
 
-#[templates.vscode]
-#input_path = './templates/vscode-colors.json'
-#output_path = '../Code - OSS/User/settings.json'
+[templates.ax-shell]
+input_path = "~/.config/Ax-Shell/config/matugen/templates/ax-shell.css"
+output_path = "~/.config/Ax-Shell/styles/colors.css"
+post_hook = "fabric-cli exec ax-shell 'app.set_css()' &"
+
+[config.custom_colors.red]
+color = "#FF0000"
+blend = true
+
+[config.custom_colors.green]
+color = "#00FF00"
+blend = true
+
+[config.custom_colors.yellow]
+color = "#FFFF00"
+blend = true
+
+[config.custom_colors.blue]
+color = "#0000FF"
+blend = true
+
+[config.custom_colors.magenta]
+color = "#FF00FF"
+blend = true
+
+[config.custom_colors.cyan]
+color = "#00FFFF"
+blend = true
+
+[config.custom_colors.white]
+color = "#FFFFFF"
+blend = true

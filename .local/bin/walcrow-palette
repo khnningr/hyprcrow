@@ -31,8 +31,8 @@ verificar_comando() {
 verificar_comando swww
 # verificar_comando hellwal
 verificar_comando matugen
-verificar_comando swaync
-verificar_comando syshud
+#verificar_comando swaync
+#verificar_comando syshud
 
 # Notificar cambio de fondo.
 notify-send "Cambiando tema" "Aplicando nuevo fondo y actualizando paleta de colores, espera mientras se procesa la imagen..."
@@ -59,8 +59,8 @@ fi
 #pkill swaync
 #swaync > /dev/null 2>&1 &
 
-pkill syshud
-sleep 0.1
-syshud -p middle-right -o v -W 350 -H 50 -i 25 -t 2 > /dev/null 2>&1 &
+#pkill syshud
+#sleep 0.1
+#syshud -p middle-right -o v -W 350 -H 50 -i 25 -t 2 > /dev/null 2>&1 &
 
 notify-send "Tema aplicado" "Wallpaper y paleta de colores actualizando."

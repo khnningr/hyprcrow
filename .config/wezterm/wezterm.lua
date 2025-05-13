@@ -53,7 +53,7 @@ config = {
   -- Dim inactive panes 
   inactive_pane_hsb = {
 
-  }
+  },
 
   -- keys
   leader = { key = "a", mods = "ALT" },

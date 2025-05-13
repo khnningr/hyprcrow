@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 actualizar_repositorio() {
-  git pull || exit 1
+  #git pull || exit 1
   if ! grep "email" ~/.gitconfig > /dev/null 2>&1; then
 	echo -e "\nIngrese el nombre de usuario"
 	read -p "> " MAIL

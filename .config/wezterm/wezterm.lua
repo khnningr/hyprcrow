@@ -49,9 +49,16 @@ config = {
   --default_prog = { 'zellij' }, -- Inicializa un programa con el terminal.
   --front_end = "Software", -- Renderiza el terminal con CPU en lugar de GPU.
   
+  -- 7.38
+  -- Dim inactive panes 
+  inactive_pane_hsb = {
+
+  }
+
   -- keys
   leader = { key = "a", mods = "ALT" },
   keys = {
+    -- 
     { 
       key = "a", 
       mods = "LEADER", 
@@ -62,6 +69,7 @@ config = {
       mods = "LEADER", 
       action = act.ActivateCopyMode,
     },
+    --
     { 
       key = "|", 
       mods = "LEADER", 
@@ -72,6 +80,7 @@ config = {
       mods = "LEADER", 
       action = act.SplitHorizontal { domain = "CurrentPaneDomain" },
     },
+    --
     { 
       key = "h",
       mods = "LEADER", 
@@ -92,17 +101,65 @@ config = {
       mods = "LEADER", 
       action = act.ActivatePaneDirection("Right"),
     },
--- 4.30
+    -- Cierra el panel actual.
+    { 
+      key = "x",
+      mods = "LEADER", 
+      action = act.CloseCurrentPane { confirm = true },
+    },
+    --
+    { 
+      key = "z",
+      mods = "LEADER", 
+      action = act.TogglePaneZoomState,
+    },
+    --
+    { 
+      key = "s",
+      mods = "LEADER", 
+      action = act.RotatePanes "Clockwise",
+    },
+    --
+    { 
+      key = "r",
+      mods = "LEADER", 
+      action = act.ActivateKeyTable { name = "resize_pane", one_shot = false },
+    },
+  },
 
-
-
+  key_tables = {
+    resize_pane = {
+      {
+        key = "h",
+        action = act.AdjustPaneSize { "Left", 1 }
+      },
+      {
+        key = "j",
+        action = act.AdjustPaneSize { "Down", 1 }
+      },
+      {
+        key = "k",
+        action = act.AdjustPaneSize { "Up", 1 }
+      },
+      {
+        key = "l",
+        action = act.AdjustPaneSize { "Right", 1 }
+      },
+      {
+        key = "Escape",
+        action = "PopKeyTable"
+      },
+      {
+        key = "Enter",
+        action = "PopKeyTable"
+      },
+    },
   },
 
   
   -- Custom commands
   wezterm.on("augment-command-palette", function()
     return commands
-
   end),
 
 

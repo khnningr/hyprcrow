@@ -6,9 +6,6 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/kh/Proyectos/PE2/ProyectoTareas"
-            },
-            {
                 "folderUri": "file:///home/kh/.config/ignis"
             }
         ],
@@ -1750,10 +1747,22 @@
                 "x": 0,
                 "y": 0,
                 "width": 960,
-                "height": 527
+                "height": 1040
             }
         },
         "openedWindows": []
     },
-    "windowControlHeight": 35
+    "windowControlHeight": 35,
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "0cefadd2ea4a4b0e5024ca10057e16cd": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
 }

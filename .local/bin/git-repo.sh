@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 
 actualizar_repositorio() {
-  #git pull || exit 1
-  if ! grep "email" ~/.gitconfig > /dev/null 2>&1; then
-	echo -e "\nIngrese el nombre de usuario"
-	read -p "> " MAIL
-	git config --global user.email "$MAIL"
+  if ! grep "email" ~/.gitconfig > /dev/null 2>&1; then 
+    echo -e "\nIngrese el nombre de usuario"
+    read -p "> " MAIL 
+    git config --global user.email "$MAIL"
   fi
   if ! grep "name" ~/.gitconfig  > /dev/null 2>&1; then
 	  echo -e "\nIngrese el nombre de usuario"
@@ -14,18 +13,19 @@ actualizar_repositorio() {
   fi
   local REPOSITORIO="$1"
   cd "$REPOSITORIO"
+  git pull
   git add .
   echo -e "\n$REPOSITORIO"
   echo -e "Agregar un comentario:"
   read -p "> " COMMIT
   echo
-  git commit -m "$COMMIT->$(date +'%Y/%m/%d a las %I:%M %p')"
+  git commit -a -m "$COMMIT"
   git push -u origin main
   echo
   read -p "Repositorio actualizado con exito! Presiona cualquier tecla para salir."
 }
 
-actualizar_repositorio ~/Obsidian/
+#actualizar_repositorio ~/Obsidian/
 
 actualizar_repositorio ~/hyprcrow/
 

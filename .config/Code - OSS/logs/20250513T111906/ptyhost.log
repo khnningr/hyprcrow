@@ -1,0 +1,1 @@
+2025-05-13 11:19:07.846 [error] Failed to set sticky bit on /tmp/kh-code-oss-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/kh-code-oss-zsh'

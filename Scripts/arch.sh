@@ -145,7 +145,8 @@ arch_paquetes_necesarios(){
         blueman pipewire pipewire-alsa pipewire-audio\
         pipewire-jack pipewire-pulse gst-plugin-pipewire\
         wireplumber pamixer pavucontrol qt5ct qt6ct kvantum\
-        kvantum-qt5 qt5-wayland qt6-wayland gtk-engine-murrine
+        kvantum-qt5 qt5-wayland qt6-wayland gtk-engine-murrine\
+        libsecret gnome-keyring 
       paru -S --needed hellwal syshud matugen-bin
 
       # Configuración de Yazi como file manager principal.

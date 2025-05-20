@@ -130,7 +130,8 @@ arch_paquetes_necesarios(){
         zathura-pdf-mupdf vlc telegram-desktop jdk-openjdk\
         obs-studio kooha obsidian fragments handbrake\
         downgrade vesktop ncspot mission-center stow\
-        android-tools tree tutanota-desktop vivaldi
+        android-tools tree tutanota-desktop vivaldi\
+        cameractrls
 
       # Paquetes Hyprland.
       # Paquetes omitidos: waybar, thunar, file-roller, 
@@ -146,7 +147,7 @@ arch_paquetes_necesarios(){
         pipewire-jack pipewire-pulse gst-plugin-pipewire\
         wireplumber pamixer pavucontrol qt5ct qt6ct kvantum\
         kvantum-qt5 qt5-wayland qt6-wayland gtk-engine-murrine\
-        libsecret gnome-keyring 
+        libsecret gnome-keyring playerctl 
       paru -S --needed hellwal syshud matugen-bin
 
       # Configuración de Yazi como file manager principal.
@@ -190,7 +191,7 @@ arch_paquetes_videojuegos(){
       # Comando necesario en steam modo lazamiento: mangohud %command%
       # Referencia: github.com/flightlessmango/MangoHud
       sudo pacman -S --needed mangohud lib32-mangohud
-      paru -S --needed mangojuice nexusmods-app-bin
+      paru -S --needed mangojuice nexusmods-app-bin limo-git
       break
 
     elif [[ "$elegir" == "n" || "$elegir" == "N" ]]; then 

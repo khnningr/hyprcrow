@@ -44,13 +44,19 @@ output_path = "~/.local/bin/terminal.sh"
 input_path = "./templates/variables.sh"
 output_path = "~/.local/bin/variables.sh"
 
+# Volver habilitar syshud
 [templates.syshud]
 input_path = "./templates/syshud-colors.css"
 output_path = "../sys64/hud/syshud-colors.css"
 
-[templates.obsidian]
-input_path = "./templates/obsidian-theme.css"
-output_path = "~/Obsidian/.obsidian/themes/Walcrow/theme.css"
+#[templates.obsidian]
+#input_path = "./templates/obsidian-theme.css"
+#output_path = "~/Obsidian/.obsidian/themes/Walcrow/theme.css"
+
+# Habilitar paletas de web.
+#[templates.web]
+#input_path = '~/.config/matugen/templates/web-colors.css'
+#output_path = '/path/to/startpage/directory'
 
 [templates.ax-shell]
 input_path = "~/.config/Ax-Shell/config/matugen/templates/ax-shell.css"

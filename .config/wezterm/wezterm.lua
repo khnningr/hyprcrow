@@ -161,8 +161,8 @@ config = {
   wezterm.on("augment-command-palette", function()
     return commands
   end),
-
-
+ 
+  
   }
 
 return config -- Es necesario retornar el objeto creado.

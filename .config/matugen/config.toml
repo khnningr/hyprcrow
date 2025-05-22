@@ -7,8 +7,8 @@ arguments = [ "img", "-t", "outer", "--transition-duration", "1.5", "--transitio
 set = true
 
 [templates.hyprland]
-input_path = "~/.config/Ax-Shell/config/matugen/templates/hyprland-colors.conf"
-output_path = "~/.config/Ax-Shell/config/hypr/colors.conf"
+input_path = "./templates/hyprland-colors.conf"
+output_path = "../hypr/extra/colors.conf"
 post_hook = "hyprctl reload"
 
 [templates.yazi]

@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+# Este script me permite descomprimir archivos,
+# según su extensión de archivo.
+
+if [ "$#" -ne 1 ]; then
+  echo "Usa: $0 «ARCHIVO»"
+  exit 1
+fi
+
+archivo="$1"
+dir_ex="${archivo%.*}"
+
+case "$archivo" in 
+  *.tar.bz2) tar xjf "$archivo" ;;
+
+	*.tar.gz)	tar xzf "$archivo" ;;
+
+  *.bz2) bunzip2 "$archivo"	;;
+
+	*.rar) unrar x "$archivo"	;;
+
+	*.gz)	gunzip "$archivo"	;;
+
+  *.tar) tar xf "$archivo" ;;
+
+	*.tbz2)	tar xjf "$archivo" ;;
+
+	*.tgz) tar xzf "$archivo" ;;
+
+	*.zip) unzip "$archivo" -d ./"$dir_ex" ;;
+
+	*.7z)	7z x "$archivo"	;;
+
+	*.tar.xz) tar xf "$archivo" ;;
+
+	*.tar.zst) unzstd "$archivo" ;;
+
+	*) echo "'$archivo' extensión no valida para ex()." ;;
+esac

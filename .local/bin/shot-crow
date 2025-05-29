@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+dir="$HOME/.config/rofi"
+rofi_command="rofi -theme $dir/config.rasi"
+
+# Options
+screen=""
+area=""
+window=""
+
+# Variable passed to rofi
+options="$screen\n$area\n$window"
+
+chosen="$(echo -e "$options" | $rofi_command -p '' -dmenu -selected-row 1)"
+case $chosen in
+    $screen) hyprshot -m output ;;
+    $area) hyprshot -m region ;;
+    $window) hyprshot -m window ;;
+esac
+

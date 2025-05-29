@@ -238,7 +238,7 @@ assistant .sidebar {
 }
 
 assistant .sidebar label {
-  min-height: 36px;
+  min-height: 34px;
   padding: 0 12px;
   color: rgba(26, 27, 38, 0.38);
   font-weight: 500;
@@ -328,7 +328,7 @@ window.background.csd > box.horizontal > box.vertical > scrolledwindow.view > vi
 
 spinbutton.vertical, spinbutton:not(.vertical),
 entry {
-  min-height: 36px;
+  min-height: 34px;
   padding: 0 8px;
   border-radius: 12px;
   caret-color: currentColor;
@@ -383,14 +383,14 @@ entry image:disabled {
 
 spinbutton.vertical image.left, spinbutton:not(.vertical) image.left,
 entry image.left {
-  margin-left: 2px;
+  margin-left: 1px;
   margin-right: 6px;
 }
 
 spinbutton.vertical image.right, spinbutton:not(.vertical) image.right,
 entry image.right {
   margin-left: 6px;
-  margin-right: 2px;
+  margin-right: 1px;
 }
 
 spinbutton.vertical undershoot.left, spinbutton:not(.vertical) undershoot.left,
@@ -642,7 +642,7 @@ window.solid-csd > box.vertical > box.vertical > toolbar.horizontal > toolitem >
 button {
   min-height: 24px;
   min-width: 16px;
-  padding: 6px 10px;
+  padding: 5px 9px;
   border-radius: 12px;
   font-weight: 500;
 }
@@ -741,29 +741,29 @@ button.text-button {
 
 button.image-button {
   min-width: 24px;
-  padding: 6px;
+  padding: 5px;
 }
 
 button.text-button.image-button {
   min-width: 24px;
-  padding: 6px;
+  padding: 5px;
   border-radius: 12px;
 }
 
 button.text-button.image-button label:first-child {
-  margin-left: 10px;
+  margin-left: 11px;
 }
 
 button.text-button.image-button label:last-child {
-  margin-right: 10px;
+  margin-right: 11px;
 }
 
 button.text-button.image-button.flat label:first-child {
-  margin-left: 6px;
+  margin-left: 7px;
 }
 
 button.text-button.image-button.flat label:last-child {
-  margin-right: 6px;
+  margin-right: 7px;
 }
 
 button.text-button.image-button image:not(:only-child) {
@@ -777,7 +777,7 @@ button.text-button.image-button image:not(:only-child) {
 button.osd {
   min-width: 24px;
   min-width: 24px;
-  padding: 6px;
+  padding: 5px;
   background-color: #1a1b26;
   color: #e9e9ed;
 }
@@ -801,7 +801,7 @@ button.osd:disabled {
 }
 
 button.osd.image-button, button.osd.circular {
-  padding: 12px;
+  padding: 11px;
 }
 
 button.osd.image-button > image, button.osd.circular > image {
@@ -915,8 +915,8 @@ button.destructive-action.flat:checked {
 }
 
 button.close, button.circular {
-  min-width: 36px;
-  min-height: 36px;
+  min-width: 34px;
+  min-height: 34px;
   padding: 0;
 }
 
@@ -970,7 +970,7 @@ spinbutton:not(.vertical) {
 }
 
 spinbutton:not(.vertical) entry {
-  min-width: 32px;
+  min-width: 30px;
   margin: 0;
   border-image: none;
   border-radius: 0;
@@ -1009,8 +1009,8 @@ spinbutton.vertical entry {
   border-radius: 0;
   box-shadow: none;
   background-color: transparent;
-  min-height: 36px;
-  min-width: 42px;
+  min-height: 34px;
+  min-width: 40px;
   padding: 0;
 }
 
@@ -1057,11 +1057,11 @@ combobox decoration {
 }
 
 combobox button.combo cellview:dir(ltr) {
-  margin-left: -2px;
+  margin-left: -1px;
 }
 
 combobox button.combo cellview:dir(rtl) {
-  margin-right: -2px;
+  margin-right: -1px;
 }
 
 combobox.linked button:nth-child(2):dir(ltr) {
@@ -1079,25 +1079,25 @@ combobox > .linked:not(.vertical) > entry:not(:only-child) {
 }
 
 combobox > .linked:not(.vertical) > entry:not(:only-child):first-child {
-  margin-right: -36px;
-  padding-right: 36px;
+  margin-right: -34px;
+  padding-right: 34px;
 }
 
 combobox > .linked:not(.vertical) > entry:not(:only-child):last-child {
-  margin-left: -36px;
-  padding-left: 36px;
+  margin-left: -34px;
+  padding-left: 34px;
 }
 
 combobox > .linked:not(.vertical) > button:not(:only-child) {
   min-height: 16px;
   min-width: 16px;
-  margin: 6px;
+  margin: 5px;
   padding: 4px;
   border-radius: 12px;
 }
 
 combobox > .linked > button.combo {
-  padding: 6px 10px;
+  padding: 5px 9px;
 }
 
 .linked:not(.vertical) > combobox:not(:first-child) > box > button.combo {
@@ -1483,8 +1483,8 @@ searchbar > revealer > box {
 .titlebar .path-bar
 button:not(.suggested-action):not(.destructive-action).text-button {
   min-width: 0;
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .titlebar.selection-mode {
@@ -1597,7 +1597,7 @@ button:not(.suggested-action):not(.destructive-action).text-button {
 }
 
 headerbar {
-  min-height: 48px;
+  min-height: 46px;
   padding: 0 6px;
 }
 
@@ -1620,14 +1620,14 @@ headerbar > box.right {
 
 headerbar separator.titlebutton,
 headerbar separator.sidebar {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 11.5px;
+  margin-bottom: 11.5px;
   background-color: transparent;
 }
 
 headerbar switch {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 11px;
+  margin-bottom: 11px;
 }
 
 headerbar spinbutton button {
@@ -1699,8 +1699,8 @@ headerbar.windowhandle viewswitchertitle > squeezer > viewswitcher > box.horizon
  ************/
 .caja-pathbar button,
 .path-bar.linked:not(.vertical) > button {
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
   border-radius: 6px;
   margin-left: 1px;
   margin-right: 1px;
@@ -2823,23 +2823,23 @@ scale {
 }
 
 scale.horizontal {
-  padding: 17px 12px;
+  padding: 16px 12px;
 }
 
 scale.vertical {
-  padding: 12px 17px;
+  padding: 12px 16px;
 }
 
 scale.fine-tune.horizontal {
   min-height: 4px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 scale.fine-tune.vertical {
   min-width: 4px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 scale.fine-tune slider {
@@ -3043,7 +3043,7 @@ levelbar.horizontal block {
 }
 
 levelbar.horizontal.discrete block {
-  min-width: 36px;
+  min-width: 34px;
 }
 
 levelbar.horizontal.discrete block:not(:last-child) {
@@ -3055,7 +3055,7 @@ levelbar.vertical block {
 }
 
 levelbar.vertical.discrete block {
-  min-height: 36px;
+  min-height: 34px;
 }
 
 levelbar.vertical.discrete block:not(:last-child) {
@@ -4339,8 +4339,8 @@ stackswitcher button.text-button {
 
 stackswitcher button.circular,
 stackswitcher button.text-button.circular {
-  min-width: 36px;
-  min-height: 36px;
+  min-width: 34px;
+  min-height: 34px;
   padding: 0;
 }
 
@@ -4546,8 +4546,8 @@ popover.emoji-completion .emoji:hover {
 
 .path-bar-box .linked.nautilus-path-bar
 button:not(.suggested-action):not(.destructive-action) {
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 11px;
+  padding-right: 11px;
   margin-left: 1px;
   margin-right: 1px;
 }
@@ -5211,7 +5211,7 @@ window.solid-csd > box.vertical > box.vertical > toolbar.horizontal > toolitem >
 window.solid-csd > box.vertical > box.vertical > toolbar.horizontal > toolitem > box.horizontal > button {
   min-height: 24px;
   min-width: 24px;
-  padding: 6px;
+  padding: 5px;
   margin: 0;
 }
 
@@ -5388,7 +5388,7 @@ layouttabbar {
 }
 
 layouttabbar > box > button {
-  margin: 2px 0;
+  margin: 3px 0;
 }
 
 layouttab {
@@ -5617,16 +5617,16 @@ window.workbench preferences preferencesgroup list entry {
 }
 
 button.run-arrow-button {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 
 button.dzlmenubutton image {
-  min-width: 30px;
+  min-width: 28px;
 }
 
 button.dzlmenubutton image.arrow {
-  min-width: 27px;
+  min-width: 25px;
 }
 
 button.dzlmenubuttonitem {
@@ -5948,7 +5948,7 @@ task-list-view taskrow image.dim-label {
 }
 
 task-list-view > box > revealer > box > button {
-  margin: -6px;
+  margin: -5px;
 }
 
 task-list-view > box > revealer > box > button .dim-label {
@@ -5968,7 +5968,7 @@ tasklistview taskrow image.dim-label {
 }
 
 tasklistview > box > revealer > box > button {
-  margin: -6px;
+  margin: -5px;
 }
 
 tasklistview > box > revealer > box > button .dim-label {
@@ -6033,7 +6033,7 @@ list.categories {
  * Calculator *
  **************/
 button.title label {
-  min-height: 36px;
+  min-height: 34px;
 }
 
 /*********
@@ -6295,7 +6295,7 @@ overlay > revealer.right > scrolledwindow.frame {
 }
 
 button.image-button.session-new-button {
-  min-width: 32px;
+  min-width: 30px;
 }
 
 notebook.tilix-background tab > box > stack {
@@ -6992,7 +6992,7 @@ na-tray-applet {
 
 #mate-menu entry + button {
   margin: 0 4px 4px;
-  padding: 6px;
+  padding: 5px;
 }
 
 .brisk-menu {
@@ -7031,7 +7031,7 @@ na-tray-applet {
 }
 
 .brisk-menu .session-button {
-  padding: 12px;
+  padding: 11px;
 }
 
 .brisk-menu .frame {
@@ -7783,7 +7783,7 @@ frame.raven-frame > border {
 }
 
 .raven .raven-header {
-  min-height: 36px;
+  min-height: 34px;
   padding: 3px;
 }
 
@@ -7827,7 +7827,7 @@ frame.raven-frame > border {
 
 .raven .powerstrip button {
   margin: 2px 0 1px;
-  padding: 12px;
+  padding: 11px;
   border-radius: 9999px;
 }
 
@@ -7889,7 +7889,7 @@ calendar.raven-calendar:selected {
 }
 
 .raven-mpris button.image-button {
-  padding: 12px;
+  padding: 11px;
 }
 
 image.raven-mpris {

@@ -213,7 +213,7 @@ window.assistant .sidebar {
 }
 
 window.assistant .sidebar label {
-  min-height: 36px;
+  min-height: 34px;
   padding: 0 12px;
   color: rgba(233, 233, 237, 0.5);
   font-weight: 500;
@@ -276,7 +276,7 @@ spinner:checked:disabled {
 entry headerbar popover.background entry,
 headerbar popover.background entry entry,
 entry {
-  min-height: 36px;
+  min-height: 34px;
   padding: 0 8px;
   border-spacing: 6px;
   border-radius: 12px;
@@ -375,14 +375,14 @@ entry image:disabled {
 entry headerbar popover.background entry image.left,
 headerbar popover.background entry entry image.left,
 entry image.left {
-  margin: 0 6px 0 2px;
+  margin: 0 6px 0 1px;
 }
 
 
 entry headerbar popover.background entry image.right,
 headerbar popover.background entry entry image.right,
 entry image.right {
-  margin: 0 2px 0 6px;
+  margin: 0 1px 0 6px;
 }
 
 
@@ -997,7 +997,7 @@ button.opaque:checked.keyboard-activating, button.opaque:checked:active {
 button {
   min-height: 24px;
   min-width: 16px;
-  padding: 6px 10px;
+  padding: 5px 9px;
   border-radius: 9px;
   font-weight: 500;
 }
@@ -1025,12 +1025,12 @@ button.text-button {
 
 button.image-button {
   min-width: 24px;
-  padding: 6px;
+  padding: 5px;
 }
 
 button.text-button.image-button, button.image-text-button {
   min-width: 24px;
-  padding: 6px;
+  padding: 5px;
   border-radius: 12px;
 }
 
@@ -1048,19 +1048,19 @@ button.image-text-button > box > box > label {
 }
 
 button.text-button.image-button label:first-child, button.image-text-button label:first-child {
-  margin-left: 10px;
+  margin-left: 11px;
 }
 
 button.text-button.image-button label:last-child, button.image-text-button label:last-child {
-  margin-right: 10px;
+  margin-right: 11px;
 }
 
 button.text-button.image-button.flat label:first-child, button.image-text-button.flat label:first-child {
-  margin-left: 6px;
+  margin-left: 7px;
 }
 
 button.text-button.image-button.flat label:last-child, button.image-text-button.flat label:last-child {
-  margin-right: 6px;
+  margin-right: 7px;
 }
 
 button.text-button.image-button image:not(:only-child), button.image-text-button image:not(:only-child) {
@@ -1171,7 +1171,7 @@ button.card:drop(active) {
 button.osd {
   min-width: 24px;
   min-width: 24px;
-  padding: 6px;
+  padding: 5px;
   box-shadow: none;
   background-color: rgba(0, 0, 0, 0.35);
   color: #e9e9ed;
@@ -1304,11 +1304,11 @@ button.font > box > box > label, button.file > box > box > label {
   font-weight: bold;
 }
 
-windowcontrols button:not(.suggested-action):not(.destructive-action), filechooser #pathbarbox > stack > box > button, menubutton.circular > button, button.close, button.circular {
+windowcontrols > button:not(.suggested-action):not(.destructive-action), filechooser #pathbarbox > stack > box > button, menubutton.circular > button, button.close, button.circular {
   border-radius: 9999px;
 }
 
-windowcontrols button:not(.suggested-action):not(.destructive-action) label, filechooser #pathbarbox > stack > box > button label, menubutton.circular > button label, button.close label, button.circular label {
+windowcontrols > button:not(.suggested-action):not(.destructive-action) label, filechooser #pathbarbox > stack > box > button label, menubutton.circular > button label, button.close label, button.circular label {
   padding: 0;
 }
 
@@ -1394,7 +1394,7 @@ splitbutton > separator {
 }
 
 splitbutton > menubutton > button {
-  padding: 6px 10px;
+  padding: 5px 9px;
 }
 
 splitbutton.image-button > button {
@@ -1871,7 +1871,7 @@ spinbutton > button:focus:not(:hover):not(:active):not(:disabled) {
 }
 
 spinbutton:not(.vertical) > text {
-  min-width: 32px;
+  min-width: 30px;
   padding-left: 12px;
 }
 
@@ -1912,14 +1912,14 @@ cell.activatable spinbutton:not(.vertical) > button.up:dir(rtl), cell.activatabl
 }
 
 spinbutton.vertical > text {
-  min-height: 36px;
-  min-width: 42px;
+  min-height: 34px;
+  min-width: 40px;
   padding: 0;
 }
 
 spinbutton.vertical > button {
   padding: 0;
-  margin: 6px 9px;
+  margin: 6px 8px;
 }
 
 /**************
@@ -1944,12 +1944,12 @@ combobox > popover.menu > contents modelbutton {
 
 dropdown button.combo cellview:dir(ltr),
 combobox button.combo cellview:dir(ltr) {
-  margin-left: -2px;
+  margin-left: -1px;
 }
 
 dropdown button.combo cellview:dir(rtl),
 combobox button.combo cellview:dir(rtl) {
-  margin-right: -2px;
+  margin-right: -1px;
 }
 
 dropdown popover,
@@ -1998,21 +1998,21 @@ combobox > .linked:not(.vertical) > entry:not(:only-child) {
 
 dropdown > .linked:not(.vertical) > entry:not(:only-child):first-child,
 combobox > .linked:not(.vertical) > entry:not(:only-child):first-child {
-  margin-right: -36px;
-  padding-right: 36px;
+  margin-right: -34px;
+  padding-right: 34px;
 }
 
 dropdown > .linked:not(.vertical) > entry:not(:only-child):last-child,
 combobox > .linked:not(.vertical) > entry:not(:only-child):last-child {
-  margin-left: -36px;
-  padding-left: 36px;
+  margin-left: -34px;
+  padding-left: 34px;
 }
 
 dropdown > .linked:not(.vertical) > button:not(:only-child),
 combobox > .linked:not(.vertical) > button:not(:only-child) {
   min-height: 16px;
   min-width: 16px;
-  margin: 6px;
+  margin: 5px;
   padding: 4px;
   border-radius: 12px;
 }
@@ -2297,7 +2297,7 @@ headerbar {
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1), color 75ms cubic-bezier(0, 0, 0.2, 1);
   background-color: transparent;
   color: #e9e9ed;
-  min-height: 48px;
+  min-height: 46px;
   border: none;
   box-shadow: none;
   padding: 0;
@@ -2465,7 +2465,7 @@ headerbar separator:not(.sidebar) {
 }
 
 headerbar switch {
-  margin: 12px 6px;
+  margin: 11px 6px;
 }
 
 headerbar.selection-mode {
@@ -2492,7 +2492,7 @@ headerbar.selection-mode .selection-menu .arrow {
 }
 
 headerbar.default-decoration {
-  min-height: 36px;
+  min-height: 34px;
   padding: 0;
   margin: 0;
   border-radius: 12px 12px 0 0;
@@ -2528,8 +2528,8 @@ window.devel headerbar:backdrop {
  ************/
 
 pathbar > button {
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
   border-radius: 12px;
   background-color: alpha(currentColor, 0.08);
   border: none;
@@ -2768,7 +2768,7 @@ treeview.view acceleditor > label {
 }
 
 stack.view treeview.view {
-  min-height: 36px;
+  min-height: 34px;
 }
 
 /*********
@@ -3229,7 +3229,7 @@ tabbar > revealer > box {
 }
 
 tabbar .box {
-  min-height: 36px;
+  min-height: 34px;
   background-color: rgba(233, 233, 237, 0.04);
   background-image: none;
   padding: 0;
@@ -3880,11 +3880,11 @@ scale {
 }
 
 scale.horizontal {
-  padding: 17px 12px;
+  padding: 16px 12px;
 }
 
 scale.vertical {
-  padding: 12px 17px;
+  padding: 12px 16px;
 }
 
 scale > trough {
@@ -3941,14 +3941,14 @@ scale > trough > slider:disabled {
 
 scale.fine-tune.horizontal {
   min-height: 4px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 scale.fine-tune.vertical {
   min-width: 4px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 scale.fine-tune > trough > slider {
@@ -4069,7 +4069,7 @@ levelbar.horizontal block {
 }
 
 levelbar.horizontal.discrete block {
-  min-width: 36px;
+  min-width: 34px;
 }
 
 levelbar.horizontal.discrete block:not(:last-child) {
@@ -4081,7 +4081,7 @@ levelbar.vertical block {
 }
 
 levelbar.vertical.discrete block {
-  min-height: 36px;
+  min-height: 34px;
 }
 
 levelbar.vertical.discrete block:not(:last-child) {
@@ -4416,7 +4416,7 @@ row label.subtitle {
 row > box.header {
   margin-left: 12px;
   margin-right: 12px;
-  min-height: 48px;
+  min-height: 46px;
 }
 
 row > box.header > .icon:disabled {
@@ -5547,37 +5547,44 @@ window.ssd {
   box-shadow: inset 0 1px rgba(233, 233, 237, 0.1);
 }
 
-windowcontrols button:not(.suggested-action):not(.destructive-action) {
+windowcontrols > button:not(.suggested-action):not(.destructive-action) {
   min-height: 22px;
   min-width: 22px;
-  padding: 0;
-  margin: 18px 0px;
-  /* margin: 0 $space-size - 4px; */
+  padding: 6px 0;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-windowcontrols button.minimize:not(.suggested-action):not(.destructive-action), windowcontrols button.maximize:not(.suggested-action):not(.destructive-action), windowcontrols button.close:not(.suggested-action):not(.destructive-action) {
+windowcontrols > button.minimize:not(.suggested-action):not(.destructive-action), windowcontrols > button.maximize:not(.suggested-action):not(.destructive-action), windowcontrols > button.close:not(.suggested-action):not(.destructive-action) {
   color: rgba(233, 233, 237, 0.7);
-  background-color: alpha(currentColor, 0.1);
 }
 
-windowcontrols button.minimize:not(.suggested-action):not(.destructive-action) image, windowcontrols button.maximize:not(.suggested-action):not(.destructive-action) image, windowcontrols button.close:not(.suggested-action):not(.destructive-action) image {
-  padding: 0;
+windowcontrols > button.minimize:not(.suggested-action):not(.destructive-action), windowcontrols > button.maximize:not(.suggested-action):not(.destructive-action), windowcontrols > button.close:not(.suggested-action):not(.destructive-action) {
   background: none;
   box-shadow: none;
 }
 
-windowcontrols button.minimize:hover:not(.suggested-action):not(.destructive-action), windowcontrols button.maximize:hover:not(.suggested-action):not(.destructive-action), windowcontrols button.close:hover:not(.suggested-action):not(.destructive-action) {
-  color: #e9e9ed;
-  background-color: alpha(currentColor, 0.15);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), inset 0 1px rgba(233, 233, 237, 0.1);
+windowcontrols > button.minimize:not(.suggested-action):not(.destructive-action) > image, windowcontrols > button.maximize:not(.suggested-action):not(.destructive-action) > image, windowcontrols > button.close:not(.suggested-action):not(.destructive-action) > image {
+  background-color: alpha(currentColor, 0.1);
 }
 
-windowcontrols button.minimize:active:not(.suggested-action):not(.destructive-action), windowcontrols button.maximize:active:not(.suggested-action):not(.destructive-action), windowcontrols button.close:active:not(.suggested-action):not(.destructive-action) {
+windowcontrols > button.minimize:hover:not(.suggested-action):not(.destructive-action), windowcontrols > button.maximize:hover:not(.suggested-action):not(.destructive-action), windowcontrols > button.close:hover:not(.suggested-action):not(.destructive-action) {
   color: #e9e9ed;
+}
+
+windowcontrols > button.minimize:hover:not(.suggested-action):not(.destructive-action) > image, windowcontrols > button.maximize:hover:not(.suggested-action):not(.destructive-action) > image, windowcontrols > button.close:hover:not(.suggested-action):not(.destructive-action) > image {
+  background-color: alpha(currentColor, 0.15);
+}
+
+windowcontrols > button.minimize:active:not(.suggested-action):not(.destructive-action), windowcontrols > button.maximize:active:not(.suggested-action):not(.destructive-action), windowcontrols > button.close:active:not(.suggested-action):not(.destructive-action) {
+  color: #e9e9ed;
+}
+
+windowcontrols > button.minimize:active:not(.suggested-action):not(.destructive-action) > image, windowcontrols > button.maximize:active:not(.suggested-action):not(.destructive-action) > image, windowcontrols > button.close:active:not(.suggested-action):not(.destructive-action) > image {
   background-color: alpha(currentColor, 0.2);
 }
 
-windowcontrols button.minimize:backdrop:not(.suggested-action):not(.destructive-action), windowcontrols button.maximize:backdrop:not(.suggested-action):not(.destructive-action), windowcontrols button.close:backdrop:not(.suggested-action):not(.destructive-action) {
+windowcontrols > button.minimize:backdrop:not(.suggested-action):not(.destructive-action), windowcontrols > button.maximize:backdrop:not(.suggested-action):not(.destructive-action), windowcontrols > button.close:backdrop:not(.suggested-action):not(.destructive-action) {
   opacity: 0.65;
 }
 
@@ -5586,13 +5593,18 @@ windowcontrols {
 }
 
 windowcontrols:not(.empty).start:dir(ltr), windowcontrols:not(.empty).end:dir(rtl) {
-  margin-right: 4px;
-  margin-left: 4px;
+  margin-right: 6px;
+  margin-left: 6px;
 }
 
 windowcontrols:not(.empty).start:dir(rtl), windowcontrols:not(.empty).end:dir(ltr) {
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+windowcontrols > button:not(.suggested-action):not(.destructive-action) > image {
+  border-radius: 100%;
+  padding: 0;
 }
 
 
@@ -5703,8 +5715,8 @@ stackswitcher button.text-button {
 
 stackswitcher button.circular,
 stackswitcher button.text-button.circular {
-  min-width: 36px;
-  min-height: 36px;
+  min-width: 34px;
+  min-height: 34px;
   padding: 0;
 }
 
@@ -6241,8 +6253,8 @@ datechooser navigator label {
 
 datechooser navigator button.flat,
 datechooser navigator button.image-button {
-  min-height: 36px;
-  min-width: 36px;
+  min-height: 34px;
+  min-width: 34px;
   padding: 0;
 }
 
@@ -6257,8 +6269,8 @@ datechooser button.day {
   font-weight: normal;
   margin: 3px;
   padding: 0;
-  min-height: 36px;
-  min-width: 36px;
+  min-height: 34px;
+  min-width: 34px;
   transition: none;
 }
 
@@ -7155,7 +7167,7 @@ spinner.fade-in:checked {
 
 window > contents > leaflet > box > stack.background {
   background-color: transparent;
-  background-image: linear-gradient(to bottom, transparent, transparent 48px, #1a1b26 48px, #1a1b26);
+  background-image: linear-gradient(to bottom, transparent, transparent 46px, #1a1b26 46px, #1a1b26);
 }
 
 @define-color weather_temp_chart_fill_color rgba(140, 108, 62, 0.5);
@@ -7272,8 +7284,8 @@ scrolledwindow.inline undershoot.top {
 }
 
 image.circular {
-  min-width: 36px;
-  min-height: 36px;
+  min-width: 34px;
+  min-height: 34px;
   padding: 0;
   border-radius: 9999px;
 }
@@ -7674,13 +7686,13 @@ viewswitcher.wide button.toggle {
 }
 
 viewswitcher.wide button.toggle:first-child {
-  border-top-left-radius: 18px;
-  border-bottom-left-radius: 18px;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
 }
 
 viewswitcher.wide button.toggle:last-child {
-  border-top-right-radius: 18px;
-  border-bottom-right-radius: 18px;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
 }
 
 viewswitcher.narrow button.toggle {

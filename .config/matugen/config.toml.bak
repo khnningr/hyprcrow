@@ -48,10 +48,6 @@ output_path = "~/.local/bin/variables.sh"
 input_path = "./templates/syshud-colors.css"
 output_path = "../sys64/hud/syshud-colors.css"
 
-[templates.obsidian]
-input_path = "./templates/obsidian-theme.css"
-output_path = "~/Obsidian/.obsidian/themes/Walcrow/theme.css"
-
 [templates.ax-shell]
 input_path = "~/.config/Ax-Shell/config/matugen/templates/ax-shell.css"
 output_path = "~/.config/Ax-Shell/styles/colors.css"

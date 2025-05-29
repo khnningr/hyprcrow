@@ -5,7 +5,7 @@
   font-size: 15ptpt;
 }
 
-.workspace-switch-osd {
+.workspace-switch-osd, .media-keys-osd {
   font-weight: 700;
   font-size: 13ptpt;
 }
@@ -483,8 +483,8 @@ StScrollBar StButton#hhandle:active {
 
 #panel {
   font-weight: bold;
-  height: 36px;
-  width: 42px;
+  height: 34px;
+  width: 40px;
 }
 
 #panel:highlight {
@@ -1751,6 +1751,61 @@ StScrollBar StButton#hhandle:active {
 .menu-search-entry-icon {
   icon-size: 1em;
   color: rgba(26, 27, 38, 0.87);
+}
+
+.media-keys-osd {
+  color: rgba(26, 27, 38, 0.87);
+  background-color: rgba(233, 233, 237, 0.99);
+  border: 1px solid rgba(26, 27, 38, 0.11);
+  border-radius: 12px;
+  text-align: center;
+  padding: 24px;
+}
+
+.media-keys-osd {
+  margin-bottom: 1em;
+  border-radius: 9999px;
+  font-weight: bold;
+  spacing: 12px;
+  padding: 12px 24px;
+}
+
+.media-keys-osd > * {
+  spacing: 12px;
+}
+
+.media-keys-osd StIcon {
+  icon-size: 32px;
+}
+
+.media-keys-osd StLabel:ltr {
+  margin-right: 6px;
+}
+
+.media-keys-osd StLabel:rtl {
+  margin-left: 6px;
+}
+
+.media-keys-osd .level {
+  min-width: 160px;
+  -barlevel-height: 6px;
+  -barlevel-background-color: #d2d2da;
+  -barlevel-active-background-color: rgba(26, 27, 38, 0.87);
+  -barlevel-amplify-color: #e0af68;
+  -barlevel-amplify-separator-width: 3px;
+}
+
+.media-keys-osd .level:ltr {
+  margin-right: 6px;
+}
+
+.media-keys-osd .level:rtl {
+  margin-left: 6px;
+}
+
+.media-keys-osd .level-bar {
+  border-radius: 12px;
+  background-color: rgba(26, 27, 38, 0.87);
 }
 
 .info-osd {

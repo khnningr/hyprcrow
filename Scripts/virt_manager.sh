@@ -1,3 +1,12 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if command -v pacman &> /dev/null; then
+    . ./list_arch.sh
+    sudo pacman -S --needed --noconfirm "${pkg_virt_manager[@]}"
+fi
+
 # Descomentar las lineas 85 y 108.
 # unix_socket_group = "libvirt"
 # unix_socket_rw_perms = "0770"

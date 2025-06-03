@@ -11,7 +11,7 @@ light = ""
 
 # : Manager
 
-[mgr]
+[manager]
 cwd = { fg = "#e5e1e9" }
 
 # Hovered

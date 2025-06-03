@@ -64,9 +64,9 @@ echo "...agrega el paquete openrazer."
 read -p "> " elegir_razer
 echo ""
 
-echo -e "Habilitar soporte para plugins de Hyprland? (s/n)"
-read -p "> " elegir_plugins
-echo ""
+#echo -e "Habilitar soporte para plugins de Hyprland? (s/n)"
+#read -p "> " elegir_plugins
+#echo ""
 
 elegir_graficos=${elegir_graficos:="S"}
 elegir_display=${elegir_display:="1"}
@@ -80,7 +80,7 @@ elegir_android=${elegir_android:="S"}
 elegir_libreoffice=${elegir_libreoffice:="S"}
 elegir_corsair=${elegir_corsair:="S"}
 elegir_razer=${elegir_razer:="S"}
-elegir_plugins=${elegir_plugins:="S"}
+elegir_plugins=${elegir_plugins:="n"}
 
 if command -v pacman &> /dev/null; then
     . ./pacman.sh

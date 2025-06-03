@@ -127,7 +127,6 @@ pkg_mango_aur=(
 
 pkg_mods_aur=(
 	"nexusmods-app-bin"
-	"limo-git"
 )
 
 # Navegadores
@@ -166,16 +165,25 @@ pkg_utils_aur=(
 )
 
 pkg_android=(
-	"android-tool"
+	"android-tools"
 )
 
-pkg_amdgpu=(
+pkg_mesa_git=(
 	"mesa-git"
 	"lib32-mesa-git"
 	"vulkan-radeon-git"
 	"lib32-vulkan-radeon-git"
 	"llvm-libs-git"
 	"lib32-llvm-libs-git"
+)
+
+pkg_mesa=(
+    "mesa"
+    "lib32-mesa"
+    "vulkan-radeon"
+	"lib32-vulkan-radeon"
+	"llvm-libs"
+	"lib32-llvm-libs"
 )
 
 pkg_base=(

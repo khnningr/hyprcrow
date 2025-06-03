@@ -2,7 +2,8 @@
 
 set -euo pipefail
 
-
+tempdir=$(mktemp -d)
+trap "rm -rf $tempdir" EXIT
 
 # Menu de selección de paquetes: retro, mango y mods.
 

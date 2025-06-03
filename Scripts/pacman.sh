@@ -21,7 +21,7 @@ fi
 # Chaotic
 # Referencia: https://aur.chaotic.cx
 # Acá el codigo.
-if ! grep "chaotic-aur" /etc/pacman.conf &> /dev/null; then
+if ! grep -q "chaotic-aur" /etc/pacman.conf; then
     sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
     sudo pacman-key --lsign-key 3056513887B78AEB
     sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
@@ -33,5 +33,5 @@ fi
 # rate-mirrors
 sudo pacman -S --needed --noconfirm rate-mirrors
 
-#rate-mirrors --allow-root --protocol https arch | \
-#sudo tee /etc/pacman.d/mirrorlist
+rate-mirrors --allow-root --protocol https arch | \
+sudo tee /etc/pacman.d/mirrorlist

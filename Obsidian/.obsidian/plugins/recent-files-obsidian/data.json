@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "28 Redirección de salida",
+      "path": "01 Linux/Bitácora Bash/28 Redirección de salida.md"
+    },
+    {
       "basename": "27 Clausuras de guarda",
       "path": "01 Linux/Bitácora Bash/27 Clausuras de guarda.md"
     },
@@ -103,10 +107,6 @@
     {
       "basename": "42 Plugins de Hyprland",
       "path": "06 Roadmap Hyprland/42 Plugins de Hyprland.md"
-    },
-    {
-      "basename": "28 Redirección de salida",
-      "path": "01 Linux/Bitácora Bash/28 Redirección de salida.md"
     },
     {
       "basename": "Documentar Virt Manager",

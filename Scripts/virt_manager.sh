@@ -4,7 +4,7 @@ set -euo pipefail
 
 if command -v pacman &> /dev/null; then
     . ./list_arch.sh
-    sudo pacman -S --needed --noconfirm "${pkg_virt_manager[@]}"
+    sudo pacman -S --needed "${pkg_virt_manager[@]}"
 fi
 
 # Descomentar las lineas 85 y 108.

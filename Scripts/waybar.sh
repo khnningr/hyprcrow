@@ -8,3 +8,5 @@ if command -v pacman &> /dev/null; then
 fi
 
 cargo install gpu-usage-waybar
+
+. ./rofi.sh

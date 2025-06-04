@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Documentar pip y venv",
+      "path": "00 Python/Documentar pip y venv.md"
+    },
+    {
+      "basename": "Documentar bash scripting",
+      "path": "01 Linux/Documentar bash scripting.md"
+    },
+    {
+      "basename": "11 Condicional - comparación entre números",
+      "path": "01 Linux/Bitácora Bash/11 Condicional - comparación entre números.md"
+    },
+    {
+      "basename": "22 Bucle - while",
+      "path": "01 Linux/Bitácora Bash/22 Bucle - while.md"
+    },
+    {
+      "basename": "21 Bucle - for",
+      "path": "01 Linux/Bitácora Bash/21 Bucle - for.md"
+    },
+    {
       "basename": "28 Redirección de salida",
       "path": "01 Linux/Bitácora Bash/28 Redirección de salida.md"
     },
@@ -31,18 +51,6 @@
     {
       "basename": "Documentar NixOS",
       "path": "01 Linux/Documentar NixOS.md"
-    },
-    {
-      "basename": "22 Bucle - while",
-      "path": "01 Linux/Bitácora Bash/22 Bucle - while.md"
-    },
-    {
-      "basename": "21 Bucle - for",
-      "path": "01 Linux/Bitácora Bash/21 Bucle - for.md"
-    },
-    {
-      "basename": "Documentar bash scripting",
-      "path": "01 Linux/Documentar bash scripting.md"
     },
     {
       "basename": "05 Paquetes favoritos (Arch)",
@@ -129,10 +137,6 @@
       "path": "01 Linux/Bitácora Bash/00 Conceptos básicos.md"
     },
     {
-      "basename": "11 Condicional - comparación entre números",
-      "path": "01 Linux/Bitácora Bash/11 Condicional - comparación entre números.md"
-    },
-    {
       "basename": "00.0 Proceso de creación de un script",
       "path": "01 Linux/Bitácora Bash/00.0 Proceso de creación de un script.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Documentar Arch",
       "path": "01 Linux/Arch/Documentar Arch.md"
-    },
-    {
-      "basename": "19 Ejecución condicional - con AND y OR",
-      "path": "01 Linux/Bitácora Bash/19 Ejecución condicional - con AND y OR.md"
     }
   ],
   "omittedPaths": [],

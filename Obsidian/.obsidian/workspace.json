@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Linux/Bitácora Bash/28 Redirección de salida.md",
+                "file": "00 Python/Documentar pip y venv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "28 Redirección de salida"
+              "title": "Documentar pip y venv"
             }
           }
         ]
@@ -211,6 +211,11 @@
   },
   "active": "0ebd0c22807c8cff",
   "lastOpenFiles": [
+    "01 Linux/Documentar bash scripting.md",
+    "01 Linux/Bitácora Bash/11 Condicional - comparación entre números.md",
+    "01 Linux/Bitácora Bash/22 Bucle - while.md",
+    "01 Linux/Bitácora Bash/21 Bucle - for.md",
+    "01 Linux/Bitácora Bash/28 Redirección de salida.md",
     "01 Linux/Bitácora Bash/27 Clausuras de guarda.md",
     "01 Linux/Bitácora Bash/05 Variables.md",
     "01 Linux/Bitácora Bash/08 Sentencias - if elif else.md",
@@ -218,9 +223,6 @@
     "01 Linux/Bitácora Bash/29 Bash Select.md",
     "01 Linux/Documentar Neovim.md",
     "01 Linux/Documentar NixOS.md",
-    "01 Linux/Bitácora Bash/22 Bucle - while.md",
-    "01 Linux/Bitácora Bash/21 Bucle - for.md",
-    "01 Linux/Documentar bash scripting.md",
     "06 Roadmap Hyprland/05 Paquetes favoritos (Arch).md",
     "06 Roadmap Hyprland/Listo/20 Ly - Display manager (en proceso de Script).md",
     "01 Linux/Bitácora Bash/23 Multiple archivos.md",
@@ -236,8 +238,6 @@
     "\"$val\" == \"a\".md",
     "07 Formación /Universidad/Calculo I/Semana 1/00 Límite de una función en punto.md",
     "07 Formación /Universidad/Calculo I/adjuntos/Prompt-1748627529922.webp",
-    "06 Roadmap Hyprland/08 Default applications.md",
-    "06 Roadmap Hyprland/00.2 Chaotic.md",
     "01 Linux/Bitácora Bash/400comandos.pdf",
     "07 Formación /Universidad/Calculo I/Semana 1/adjuntos/00 Límite de una función en punto-1748066043919.webp",
     "07 Formación /Universidad/Calculo I/Semana 1/adjuntos",

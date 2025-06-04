@@ -10,7 +10,7 @@ if command -v pacman &> /dev/null; then
     sudo pacman -S --needed --noconfirm "${pkg_fonts[@]}"
 fi
 
-[[ ! -d ~/.local/share/fonts ]] || mkdir -p ~/.local/share/fonts
+mkdir -p ~/.local/share/fonts/
 
 wget -O "$tempdir/IosevkaTerm.zip" https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/IosevkaTerm.zip
 

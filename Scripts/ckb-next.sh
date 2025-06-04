@@ -4,7 +4,7 @@ set -euo pipefail
 
 if command -v pacman &> /dev/null; then
     . ./list_arch.sh
-    sudo pacman -S --needed --noconfirm "${pkg_ckb-next[@]}"
+    sudo pacman -S --needed --noconfirm "${pkg_ckb_next[@]}"
 fi
 
 # Si sale el mensaje: "Unit ckb-next-daemon.service is masked.", ejecutar

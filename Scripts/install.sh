@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-
+clear
 
 echo -e "Agregar controladores AMD? (s/n)"
 read -p "> " elegir_graficos

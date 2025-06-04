@@ -3,12 +3,13 @@
 set -euo pipefail
 
 dotfiles="$HOME/hyprcrow/"
+dir_obsidian="$HOME/Obsidian"
 
-[[ ! -d ~/Obsidian/.obsidian/plugins/ ]] || mkdir -p ~/Obsidian/.obsidian/plugins/
+mkdir -p "$dir_obsidian/.obsidian/plugins/" "$HOME/.config/obsidian/"
 
-[[ ! -d ~/.local/share/bin/ ]] || mkdir -p ~/.local/share/bin/
+mkdir -p ~/.local/share/bin/
 
-[[ ! -d ~/.local/share/fonts/ ]] || mkdir -p ~/.local/share/fonts/
+mkdir -p ~/.local/share/fonts/
 
 (
     cd "$dotfiles"

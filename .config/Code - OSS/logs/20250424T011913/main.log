@@ -1,4 +1,0 @@
-2025-04-24 01:19:14.011 [info] update#setState disabled
-2025-04-24 01:19:14.011 [info] update#ctor - updates are disabled as there is no update URL
-2025-04-24 03:25:48.474 [info] Extension host with pid 61890 exited with code: 0, signal: unknown.
-2025-04-24 03:26:27.474 [error] Invalid path provided: /home/kh/Documentos/Integración de Conocimientos 1/Integración_1_Kendal_Barrios.py, ENOENT: no such file or directory, stat '/home/kh/Documentos/Integración de Conocimientos 1/Integración_1_Kendal_Barrios.py'

@@ -2,6 +2,8 @@
 
 set -euo pipefail
 
+[[ -f "$HOME/.zprofile" ]] || touch "$HOME/.zprofile"
+
 if ! grep -q "exec Hyprland" $HOME/.zprofile; then
 cat << EOF >> "$HOME/.zprofile"
 # Establece el tty1, como si fuese un display manager.

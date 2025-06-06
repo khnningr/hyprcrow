@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Firewall - firewalld",
+      "path": "01 Linux/Firewall - firewalld.md"
+    },
+    {
+      "basename": "12 Condicional - existencia de variables",
+      "path": "01 Linux/Bitácora Bash/12 Condicional - existencia de variables.md"
+    },
+    {
+      "basename": "10 Condicional - comparación entre Strings",
+      "path": "01 Linux/Bitácora Bash/10 Condicional - comparación entre Strings.md"
+    },
+    {
+      "basename": "Documentar Fedora",
+      "path": "01 Linux/Fedora/Documentar Fedora.md"
+    },
+    {
+      "basename": "Documentar Virt Manager",
+      "path": "01 Linux/Documentar Virt Manager.md"
+    },
+    {
+      "basename": "00 Plantilla para Comandos",
+      "path": "99 Plantillas/00 Plantilla para Comandos.md"
+    },
+    {
       "basename": "Documentar pip y venv",
       "path": "00 Python/Documentar pip y venv.md"
     },
@@ -61,10 +85,6 @@
       "path": "01 Linux/Bitácora Bash/23 Multiple archivos.md"
     },
     {
-      "basename": "10 Condicional - comparación entre Strings",
-      "path": "01 Linux/Bitácora Bash/10 Condicional - comparación entre Strings.md"
-    },
-    {
       "basename": "18 Control de errores en Bash Scripting",
       "path": "01 Linux/Bitácora Bash/18 Control de errores en Bash Scripting.md"
     },
@@ -115,10 +135,6 @@
     {
       "basename": "42 Plugins de Hyprland",
       "path": "06 Roadmap Hyprland/42 Plugins de Hyprland.md"
-    },
-    {
-      "basename": "Documentar Virt Manager",
-      "path": "01 Linux/Documentar Virt Manager.md"
     },
     {
       "basename": "Viejos apuntes de virt manager",
@@ -183,22 +199,6 @@
     {
       "basename": "02 Funciones en Python",
       "path": "02 Bitácoras/Python/02 Funciones en Python.md"
-    },
-    {
-      "basename": "20 Arrays",
-      "path": "01 Linux/Bitácora Bash/20 Arrays.md"
-    },
-    {
-      "basename": "Documentar UFW",
-      "path": "01 Linux/Documentar UFW.md"
-    },
-    {
-      "basename": "01 Verificar firmas",
-      "path": "01 Linux/Arch/01 Verificar firmas.md"
-    },
-    {
-      "basename": "Documentar Arch",
-      "path": "01 Linux/Arch/Documentar Arch.md"
     }
   ],
   "omittedPaths": [],

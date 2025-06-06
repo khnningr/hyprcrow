@@ -3,50 +3,12 @@ reload_apps = true
 
 [config.wallpaper]
 command = "swww"
-arguments = [ "img", "-t", "outer", "--transition-duration", "1.5", "--transition-step", "255", "--transition-fps", "60", "-f", "Nearest",]
+arguments = [ "img", "--transition-type" "wipe" "--transition-fps" "60" "--transition-duration" "0.3" "--transition-angle" "30" "--transition-step" "90" ]
 set = true
 
 [templates.hyprland]
 input_path = "~/.config/Ax-Shell/config/matugen/templates/hyprland-colors.conf"
 output_path = "~/.config/Ax-Shell/config/hypr/colors.conf"
-post_hook = "hyprctl reload"
-
-[templates.yazi]
-input_path = "./templates/yazi-theme.toml"
-output_path = "../yazi/theme.toml"
-
-[templates.waybar]
-input_path = "./templates/waybar-colors.css"
-output_path = "../waybar/waybar-colors.css"
-post_hook = "pkill -SIGUSR2 waybar"
-
-[templates.rofi]
-input_path = "./templates/rofi-colors.rasi"
-output_path = "../rofi/rofi-colors.rasi"
-
-[templates.wezterm]
-input_path = "./templates/wezterm-colors.toml"
-output_path = "../wezterm/colors/wezterm-colors.toml"
-
-[templates.kitty]
-input_path = "./templates/kitty-colors.conf"
-output_path = "../kitty/kitty-colors.conf"
-
-[templates.foot]
-input_path = "./templates/foot-colors.ini"
-output_path = "../foot/foot-colors.ini"
-
-[templates.terminal]
-input_path = "./templates/terminal.sh"
-output_path = "~/.local/bin/terminal.sh"
-
-[templates.variables]
-input_path = "./templates/variables.sh"
-output_path = "~/.local/bin/variables.sh"
-
-[templates.syshud]
-input_path = "./templates/syshud-colors.css"
-output_path = "../sys64/hud/syshud-colors.css"
 
 [templates.ax-shell]
 input_path = "~/.config/Ax-Shell/config/matugen/templates/ax-shell.css"

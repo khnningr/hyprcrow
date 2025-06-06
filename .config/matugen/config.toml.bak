@@ -3,7 +3,7 @@ reload_apps = true
 
 [config.wallpaper]
 command = "swww"
-arguments = [ "img", "-t", "outer", "--transition-duration", "1.5", "--transition-step", "255", "--transition-fps", "60", "-f", "Nearest",]
+arguments = [ "img", "--transition-type" "wipe" "--transition-fps" "60" "--transition-duration" "0.3" "--transition-angle" "30" "--transition-step" "90" ]
 set = true
 
 [templates.hyprland]
@@ -47,36 +47,3 @@ output_path = "~/.local/bin/variables.sh"
 [templates.syshud]
 input_path = "./templates/syshud-colors.css"
 output_path = "../sys64/hud/syshud-colors.css"
-
-[templates.ax-shell]
-input_path = "~/.config/Ax-Shell/config/matugen/templates/ax-shell.css"
-output_path = "~/.config/Ax-Shell/styles/colors.css"
-post_hook = "fabric-cli exec ax-shell 'app.set_css()' &"
-
-[config.custom_colors.red]
-color = "#FF0000"
-blend = true
-
-[config.custom_colors.green]
-color = "#00FF00"
-blend = true
-
-[config.custom_colors.yellow]
-color = "#FFFF00"
-blend = true
-
-[config.custom_colors.blue]
-color = "#0000FF"
-blend = true
-
-[config.custom_colors.magenta]
-color = "#FF00FF"
-blend = true
-
-[config.custom_colors.cyan]
-color = "#00FFFF"
-blend = true
-
-[config.custom_colors.white]
-color = "#FFFFFF"
-blend = true

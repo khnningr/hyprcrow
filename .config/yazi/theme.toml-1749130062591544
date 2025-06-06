@@ -11,8 +11,8 @@ light = ""
 
 # : Manager
 
-[mgr]
-cwd = { fg = "#e3e1e9" }
+[manager]
+cwd = { fg = "#e3e2e9" }
 
 # Hovered
 hovered         = { reversed = true }
@@ -26,8 +26,8 @@ find_position = { fg = "#ffb4ab", bg = "#e2bbdb", bold = true, italic = true }
 symlink_target = { italic = true }
 
 # Marker
-marker_copied = { fg = "#ff70e3", bg = "#ff70e3" }
-marker_cut = { fg = "#ffd6f7", bg = "#ffd6f7" }
+marker_copied = { fg = "#ff70e7", bg = "#ff70e7" }
+marker_cut = { fg = "#ffd6f8", bg = "#ffd6f8" }
 marker_marked = { fg = "#ffb4ab", bg = "#ffb4ab" }
 marker_selected = { fg = "#e2bbdb", bg = "#e2bbdb" }
 
@@ -37,13 +37,13 @@ tab_inactive = {}
 tab_width    = 1
 
 # Count
-count_copied = { fg = "#2b122a", bg = "#ffd6f7" }
-count_cut = { fg = "#2b122a", bg = "#ffd6f7" }
-count_selected = { fg = "#1c2d61", bg = "#e2bbdb" }
+count_copied = { fg = "#2b122b", bg = "#ffd6f8" }
+count_cut = { fg = "#2b122b", bg = "#ffd6f8" }
+count_selected = { fg = "#1a2d60", bg = "#e2bbdb" }
 
 # Border
 border_symbol = "│"
-border_style  = { fg = "#b5c4ff" }
+border_style  = { fg = "#b4c5ff" }
 
 # Highlighting
 syntect_theme = ""
@@ -53,16 +53,16 @@ syntect_theme = ""
 
 [mode]
 # Mode
-normal_main = { bg = "#b5c4ff", bold = true }
-normal_alt  = { fg = "#c6c6d0", bg = "#45464f" }
+normal_main = { bg = "#b4c5ff", bold = true }
+normal_alt  = { fg = "#c5c6d0", bg = "#45464f" }
 
 # Select mode
 select_main = { bg = "#c1c5dd", bold = true }
-select_alt  = { fg = "#c6c6d0", bg = "#45464f" }
+select_alt  = { fg = "#c5c6d0", bg = "#45464f" }
 
 # Unset mode
 unset_main = { bg = "#e2bbdb", bold = true }
-unset_alt  = { fg = "#c6c6d0", bg = "#45464f" }
+unset_alt  = { fg = "#c5c6d0", bg = "#45464f" }
 
 # : Status bar
 
@@ -74,13 +74,13 @@ sep_right = { open = "", close = "" }
 # Permissions
 perm_sep   = { fg = "#4261ff" }
 perm_type  = { fg = "#5e69a7" }
-perm_read  = { fg = "#ff3dd9" }
+perm_read  = { fg = "#ff3dde" }
 perm_write = { fg = "#b450a2" }
 perm_exec  = { fg = "#ff2b12" }
 
 # Progress
 progress_label  = { bold = true }
-progress_normal = { fg = "#b5c4ff", bg = "#38393f" }
+progress_normal = { fg = "#b4c5ff", bg = "#38393f" }
 progress_error = { fg = "#ffb4ab", bg = "#38393f" }
 
 # : Which
@@ -88,11 +88,11 @@ progress_error = { fg = "#ffb4ab", bg = "#38393f" }
 [which]
 cols            = 3
 mask            = { bg = "#38393f" }
-cand            = { fg = "#b5c4ff" }
-rest            = { fg = "#1c2d61" }
-desc            = { fg = "#e3e1e9" }
+cand            = { fg = "#b4c5ff" }
+rest            = { fg = "#1a2d60" }
+desc            = { fg = "#e3e2e9" }
 separator       = "  "
-separator_style = { fg = "#e3e1e9" }
+separator_style = { fg = "#e3e2e9" }
 
 # : Confirmation
 
@@ -113,13 +113,13 @@ title  = { fg = "#e2bbdb" }
 
 # Table
 tbl_col  = { fg = "#e2bbdb" }
-tbl_cell = { fg = "#1c2d61", reversed = true }
+tbl_cell = { fg = "#1a2d60", reversed = true }
 
 # : Notification
 
 [notify]
 title_info = { fg = "#e2bbdb" }
-title_warn = { fg = "#b5c4ff" }
+title_warn = { fg = "#b4c5ff" }
 title_error = { fg = "#ffb4ab" }
 
 # Icons
@@ -131,13 +131,13 @@ icon_error = ""
 
 [pick]
 border   = { fg = "#e2bbdb" }
-active   = { fg = "#1c2d61", bold = true }
+active   = { fg = "#1a2d60", bold = true }
 inactive = {}
 
 # : Input
 
 [input]
-border   = { fg = "#b5c4ff" }
+border   = { fg = "#b4c5ff" }
 title    = {}
 value    = {}
 selected = { reversed = true }
@@ -145,7 +145,7 @@ selected = { reversed = true }
 # : Completion
 
 [cmp]
-border   = { fg = "#b5c4ff" }
+border   = { fg = "#b4c5ff" }
 active   = { reversed = true }
 inactive = {}
 
@@ -157,15 +157,15 @@ icon_command = ""
 # : Task manager
 
 [tasks]
-border = { fg = "#b5c4ff" }
+border = { fg = "#b4c5ff" }
 title   = {}
-hovered = { fg = "#ffd6f7", underline = true }
+hovered = { fg = "#ffd6f8", underline = true }
 
 # : Help
 
 [help]
-on      = { fg = "#e3e1e9" }
-run     = { fg = "#e3e1e9" }
+on      = { fg = "#e3e2e9" }
+run     = { fg = "#e3e2e9" }
 desc    = {}
 hovered = { reversed = true, bold = true }
 footer  = { fg = "#2b3042", bg = "#c1c5dd" }
@@ -192,8 +192,8 @@ rules = [
   { name = "*", is = "exec", fg = "#ffdad6" },
 
   # Fallback
-  # { name = "*", fg = "#e3e1e9" },
-  { name = "*/", fg = "#b5c4ff" },
+  # { name = "*", fg = "#e3e2e9" },
+  { name = "*/", fg = "#b4c5ff" },
 ]
 
 # Icons

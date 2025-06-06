@@ -21,12 +21,12 @@ if [ "$IMAGEN" == "--random" ]; then
   IMAGENES=($(ls "$DIR_WALL"))
   IMAGEN_ALEATORIA="${IMAGENES[$RANDOM % ${#IMAGENES[@]}]}"
   IMAGEN="${DIR_WALL}/${IMAGEN_ALEATORIA}"
-  notify-send "Tema aleatorio" "Imagen '${IMAGEN_ALEATORIA}' seleccionada."
+  echo "Imagen '${IMAGEN_ALEATORIA}' seleccionada."
 fi
 
 verificar_comando() {
   local PAQUETE="$1"
-  command -v "$PAQUETE" > /dev/null 2>&1 || { notify-send "Ejecución detenida" "Paquete $PAQUETE no instalado."; exit 1; }
+  command -v "$PAQUETE" > /dev/null 2>&1 || { echo "Ejecución detenida. Paquete $PAQUETE no instalado."; exit 1; }
 }
 verificar_comando swww
 # verificar_comando hellwal
@@ -35,7 +35,7 @@ verificar_comando matugen
 #verificar_comando syshud
 
 # Notificar cambio de fondo.
-notify-send "Cambiando tema" "Aplicando nuevo fondo y actualizando paleta de colores, espera mientras se procesa la imagen..."
+echo "Aplicando nuevo fondo y actualizando paleta de colores, espera mientras se procesa la imagen..."
 
 swww img "$IMAGEN" --transition-type wipe --transition-fps 60 --transition-duration 0.3 --transition-angle 30 --transition-step 90
 
@@ -43,15 +43,6 @@ swww img "$IMAGEN" --transition-type wipe --transition-fps 60 --transition-durat
 # wallust run "$IMAGEN"
 matugen image "$IMAGEN"
 #wal -i "$IMAGEN"
-
-if [[ "$IMAGEN" == *.gif ]]; then
-  convert "$IMAGEN[0]" -blur 0x40 ~/.config/wezterm/assets/bg-blurred.png
-  convert "$IMAGEN[0]" -contrast -blur 0x40 ~/.config/wezterm/assets/bg-blurred-darker.png
-else 
-  convert "$IMAGEN" -blur 0x40 ~/.config/wezterm/assets/bg-blurred.png
-  convert "$IMAGEN" -brightness-contrast -30x0 -blur 0x40 ~/.config/wezterm/assets/bg-blurred-darker.png
-
-fi
 
 # pkill waybar
 # waybar > /dev/null 2>&1 &
@@ -63,4 +54,4 @@ fi
 #sleep 0.1
 #syshud -p middle-right -o v -W 350 -H 50 -i 25 -t 2 > /dev/null 2>&1 &
 
-notify-send "Tema aplicado" "Wallpaper y paleta de colores actualizando."
+echo "Wallpaper y paleta de colores actualizando."

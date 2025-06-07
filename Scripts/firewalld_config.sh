@@ -31,15 +31,23 @@ if ! firewall-cmd --get-default | grep -qw "crow"; then
     sudo firewall-cmd --set-default=crow
 fi
 
+# Array con los puertos
 puertos=(
     "53"
 
 )
+# For que itere entre los puertos
+# if con firewall-cmd --list-port | grep -qw ${puerto}
+if ! sudo firewall-cmd --list-port | grep -qw "53/tcp"; then
+    sudo firewall-cmd --add-port=53/tcp # DNS
+fi
+# anidado en el if, comando para definir puertos
+
+# Hacer lo mismo con los servicios
 
 # HTTPS
 sudo firewall-cmd --add-service=https
-# DNS
-sudo firewall-cmd --add-port=53/tcp
+
 # Warframe
 sudo firewall-cmd --add-port=4950/tcp
 sudo firewall-cmd --add-port=4955/tcp

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Documentar Arch",
+      "path": "01 Linux/Arch/Documentar Arch.md"
+    },
+    {
       "basename": "Firewall - firewalld",
       "path": "01 Linux/Firewall - firewalld.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "15 Operadores de comparación u Operadores relacionales",
       "path": "02 Bitácoras/Python/15 Operadores de comparación u Operadores relacionales.md"
-    },
-    {
-      "basename": "02 Funciones en Python",
-      "path": "02 Bitácoras/Python/02 Funciones en Python.md"
     }
   ],
   "omittedPaths": [],

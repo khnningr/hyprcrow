@@ -31,37 +31,42 @@ if ! firewall-cmd --get-default | grep -qw "crow"; then
     sudo firewall-cmd --set-default=crow
 fi
 
-# Array con los puertos
 puertos=(
-    "53"
-
+    "53" # DNS
+    # Warframe
+    "4950"
+    "4955"
+    "6695"
+    "6696"
+    "6697"
+    "6698"
+    "6699"
+    "51413" # Torrents
 )
-# For que itere entre los puertos
-# if con firewall-cmd --list-port | grep -qw ${puerto}
-if ! sudo firewall-cmd --list-port | grep -qw "53/tcp"; then
-    sudo firewall-cmd --add-port=53/tcp # DNS
+
+for puerto in ${puertos[@]}; do
+    if ! sudo firewall-cmd --list-port | grep -qw "$puerto/tcp"; then
+        sudo firewall-cmd --add-port=${puerto}/tcp
+    fi
+done
+
+servicios=(
+    "https"
+)
+
+for servicio in ${servicios[@]}; do
+    if ! sudo firewall-cmd --list-service | grep -qw "$servicio"; then
+        sudo firewall-cmd --add-service=${servicio}
+    fi
+done
+
+if ! firewall-cmd --list-icmp-blocks | grep -qw "echo-request"; then
+    # Block ping
+    sudo firewall-cmd --add-icmp-block=echo-request
 fi
-# anidado en el if, comando para definir puertos
-
-# Hacer lo mismo con los servicios
-
-# HTTPS
-sudo firewall-cmd --add-service=https
-
-# Warframe
-sudo firewall-cmd --add-port=4950/tcp
-sudo firewall-cmd --add-port=4955/tcp
-sudo firewall-cmd --add-port=6695/tcp
-sudo firewall-cmd --add-port=6696/tcp
-sudo firewall-cmd --add-port=6697/tcp
-sudo firewall-cmd --add-port=6698/tcp
-sudo firewall-cmd --add-port=6699/tcp
-# torrents
-sudo firewall-cmd --add-port=51413/tcp
-# Block ping
-sudo firewall-cmd --add-icmp-block=echo-request
 
 sudo firewall-cmd --runtime-to-permanent
 
 sudo firewall-cmd --reload
+
 sudo systemctl restart firewalld

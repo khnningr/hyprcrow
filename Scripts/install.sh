@@ -36,9 +36,14 @@ echo "...permite ejecutar maquinas virtuales."
 read -p "> " elegir_virt_manager
 echo ""
 
-echo -e "Instalar UFW? (s/n)"
+# echo -e "Instalar UFW? (s/n)"
+# echo "...es un firewall"
+# read -p "> " elegir_ufw
+# echo ""
+
+echo -e "Instalar firewalld? (s/n)"
 echo "...es un firewall"
-read -p "> " elegir_ufw
+read -p "> " elegir_firewalld
 echo ""
 
 echo -e "Soporte a videojuegos? (s/n)"
@@ -75,6 +80,7 @@ elegir_file_manager=${elegir_file_manager:="2"}
 elegir_utils=${elegir_utils:="S"}
 elegir_virt_manager=${elegir_virt_manager:="S"}
 elegir_ufw=${elegir_ufw:="S"}
+elegir_firewalld=${elegir_firewalld:="S"}
 elegir_juegos=${elegir_juegos:="S"}
 elegir_android=${elegir_android:="S"}
 elegir_libreoffice=${elegir_libreoffice:="S"}
@@ -127,8 +133,12 @@ if [[ "$elegir_virt_manager" == "s" ]] || [[ "$elegir_virt_manager" == "S" ]]; t
     . ./virt_manager.sh
 fi
 
-if [[ "$elegir_ufw" == "s" ]] || [[ "$elegir_ufw" == "S" ]]; then
-    . ./ufw.sh
+# if [[ "$elegir_ufw" == "s" ]] || [[ "$elegir_ufw" == "S" ]]; then
+#    . ./ufw.sh
+# fi
+
+if [[ "$elegir_firewalld" == "s" ]] || [[ "$elegir_firewalld" == "S" ]]; then
+    . ./firewalld.sh
 fi
 
 if [[ "$elegir_juegos" == "s" ]] || [[ "$elegir_juegos" == "S" ]]; then

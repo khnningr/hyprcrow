@@ -347,6 +347,10 @@ pkg_ufw_aur=(
 	"ufw-docker-git"
 )
 
+pkg_firewalld=(
+    "firewalld"
+)
+
 # sudo pacman -S --needed --noconfirm "${pkg_ufw_aur[@]}"
 
 pkg_brightness=(

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Linux/Arch/Documentar Arch.md",
+                "file": "01 Linux/Firewall - firewalld.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Documentar Arch"
+              "title": "Firewall - firewalld"
             }
           },
           {
@@ -225,6 +225,8 @@
   },
   "active": "ce2aff16ca73496f",
   "lastOpenFiles": [
+    "01 Linux/Bitácora Bash/21 Bucle - for.md",
+    "01 Linux/Arch/Documentar Arch.md",
     "01 Linux/Firewall - firewalld.md",
     "01 Linux/Bitácora Bash/12 Condicional - existencia de variables.md",
     "01 Linux/Bitácora Bash/10 Condicional - comparación entre Strings.md",
@@ -236,7 +238,6 @@
     "01 Linux/Documentar bash scripting.md",
     "01 Linux/Bitácora Bash/11 Condicional - comparación entre números.md",
     "01 Linux/Bitácora Bash/22 Bucle - while.md",
-    "01 Linux/Bitácora Bash/21 Bucle - for.md",
     "01 Linux/Bitácora Bash/28 Redirección de salida.md",
     "01 Linux/Bitácora Bash/27 Clausuras de guarda.md",
     "01 Linux/Bitácora Bash/05 Variables.md",
@@ -250,7 +251,6 @@
     "01 Linux/Bitácora Bash/23 Multiple archivos.md",
     "01 Linux/Bitácora Bash/18 Control de errores en Bash Scripting.md",
     "01 Linux/Bitácora Bash/02 La primera línea - shebang.md",
-    "07 Formación /Universidad/Calculo I/Prompt.md",
     "07 Formación /Universidad/Calculo I/adjuntos/Prompt-1748627529922.webp",
     "01 Linux/Bitácora Bash/400comandos.pdf",
     "07 Formación /Universidad/Calculo I/Semana 1/adjuntos/00 Límite de una función en punto-1748066043919.webp",

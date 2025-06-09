@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Documentar Arch",
-      "path": "01 Linux/Arch/Documentar Arch.md"
-    },
-    {
       "basename": "Firewall - firewalld",
       "path": "01 Linux/Firewall - firewalld.md"
+    },
+    {
+      "basename": "21 Bucle - for",
+      "path": "01 Linux/Bitácora Bash/21 Bucle - for.md"
+    },
+    {
+      "basename": "Documentar Arch",
+      "path": "01 Linux/Arch/Documentar Arch.md"
     },
     {
       "basename": "12 Condicional - existencia de variables",
@@ -43,10 +47,6 @@
     {
       "basename": "22 Bucle - while",
       "path": "01 Linux/Bitácora Bash/22 Bucle - while.md"
-    },
-    {
-      "basename": "21 Bucle - for",
-      "path": "01 Linux/Bitácora Bash/21 Bucle - for.md"
     },
     {
       "basename": "28 Redirección de salida",

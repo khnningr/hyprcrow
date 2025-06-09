@@ -126,4 +126,4 @@ export JAVA_TOOL_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
 #source ~/.local/bin/variables.sh
 #sh ~/.local/bin/terminal.sh
 
-pokemon-colorscripts --no-title -r 1,3,6
+#pokemon-colorscripts --no-title -r 1,3,6

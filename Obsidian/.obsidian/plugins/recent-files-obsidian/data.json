@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Documentar Network Manager",
+      "path": "01 Linux/Documentar Network Manager.md"
+    },
+    {
+      "basename": "Documentar bash scripting",
+      "path": "01 Linux/Documentar bash scripting.md"
+    },
+    {
+      "basename": "06 Zed",
+      "path": "06 Roadmap Hyprland/06 Zed.md"
+    },
+    {
+      "basename": "03 Yazi",
+      "path": "06 Roadmap Hyprland/03 Yazi.md"
+    },
+    {
       "basename": "Firewall - firewalld",
       "path": "01 Linux/Firewall - firewalld.md"
     },
@@ -35,10 +51,6 @@
     {
       "basename": "Documentar pip y venv",
       "path": "00 Python/Documentar pip y venv.md"
-    },
-    {
-      "basename": "Documentar bash scripting",
-      "path": "01 Linux/Documentar bash scripting.md"
     },
     {
       "basename": "11 Condicional - comparación entre números",
@@ -187,18 +199,6 @@
     {
       "basename": "Documentar fonts",
       "path": "01 Linux/Documentar fonts.md"
-    },
-    {
-      "basename": "Documentar cursors e icons",
-      "path": "01 Linux/Documentar cursors e icons.md"
-    },
-    {
-      "basename": "24 Funciones",
-      "path": "01 Linux/Bitácora Bash/24 Funciones.md"
-    },
-    {
-      "basename": "15 Operadores de comparación u Operadores relacionales",
-      "path": "02 Bitácoras/Python/15 Operadores de comparación u Operadores relacionales.md"
     }
   ],
   "omittedPaths": [],

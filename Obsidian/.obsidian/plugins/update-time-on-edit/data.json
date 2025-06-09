@@ -10,7 +10,7 @@
   "ignoreCreatedFolder": [],
   "enableExperimentalHash": false,
   "fileHashMap": {
-    "01 Linux/Documentar bash scripting.md": "a9a97fd96c57487e026e90a5157a752c91220ae8f2b1e58e012f8c142d642166",
+    "01 Linux/Documentar bash scripting.md": "61861ea314b3feba81a05ebb3a837ccdb93789349d476b03ca15b617cee81c58",
     "01 Linux/Bitácora Bash/00 Conceptos básicos.md": "cf65397efaf0c302dd24f87ba988adf1f98d2f25031e9b1caae1bec3b5b2b669",
     "10 Windows/Documentar Windows.md": "0bb6699b737382d70a52057fa140786f6a0aba083d64286dcb856344cdd7e897",
     "01 Linux/Fedora/Documentar Fedora.md": "22f0effefd5736df7f7ad3010008abee3ee7be03bfef8bff211566db66d800b7",
@@ -56,7 +56,7 @@
     "01 Linux/Documentar NDG - S.O Intermedio.md": "e571b35bf03912acde025dd8354d9c048def0e40fbac2acb19ff7b929d81f102",
     "06 Roadmap Hyprland/00 Documentación general.md": "b16eb2602e48506b0365342cce6fad21007b8f185cd58ca83de9d56766e8b4cc",
     "06 Roadmap Hyprland/00.1 Guías de cero de Hyprland.md": "37c752179b86e7059ba9d5cdb0bae591db41dc097ea3e333db527c2732a0d17a",
-    "06 Roadmap Hyprland/03 Yazi.md": "918708f4537a833d52d2ccb6af7e195eb5d68c13cd2a9f4acf3e76b8446632a4",
+    "06 Roadmap Hyprland/03 Yazi.md": "71d719b18811a4cbdd51b0a0f973b2ad57a95a74e2bcb4e70c1f5a659aea9ce4",
     "06 Roadmap Hyprland/04 Arch.md": "330b53c83f50bfc6091c348f7713abaa1de2f3817f27f55467e18505252110cf",
     "06 Roadmap Hyprland/04.1 Fedora.md": "0b03559dfac645e3ab94cbd127c86672f278578be76a34590faa322710f67b12",
     "06 Roadmap Hyprland/05 Paquetes favoritos (Arch).md": "ec641bc2eb6e5f7cc5b819592d59d7434c3261d232fda423b2734bc648225a4d",
@@ -205,7 +205,6 @@
     "01 Linux/Cisco Packet Tracer - Copilar programa.md": "b3d29eaa8474bda8cd19af7be26f2d9c3a4d4cc33e78af5f05c03fdb1a4f3191",
     "01 Linux/Arch/Documentar bitácora.md": "835e5f3fdbcbdf87e80fdedfb31ffd95f025702bb69ac91530a11d6c9a4c4e4e",
     "01 Linux/Viejos apuntes de virt manager.md": "109f941e7a32ff826902ccaeda859e5c9959addf90aed535562ec45b0bc33656",
-    "01 Linux/Documentar Systemctl.md": "066eb631538b853e0f690b1205fc9d5b51b1062a2401ac09f9c109a8d12be052",
     "06 Roadmap Hyprland/77 Implementar Plymouth - Boot Gráfico.md": "a260b968a04b2ea1281e10b8c0fde5330daca56c2412e12651bbbc7293261805",
     "01 Linux/Arch/00.1 archinstall.md": "63ca15549a8259fa92c99837b52efb04db37512a0f47c19794f4b5e4d0d31485",
     "01 Linux/Arch/00 Comandos básicos.md": "351ebedc70cda7ec353ed12303a313c9f73f4a9d6a1db5293cb5473fde48f105",
@@ -268,6 +267,8 @@
     "01 Linux/Bitácora Bash/28 Redirección de salida.md": "7698a65817c3cfbfb126561051720c01991474e8676e8efccbc7f27f195d30e5",
     "01 Linux/Bitácora Bash/29 Bash Select.md": "f18ce1702e543ea37ca5a9e1651835da0c9dcf3dbc5c51793b566daed43741d7",
     "07 Formación /Universidad/Calculo I/Prompt.md": "541bb3fba60b4cdf4e8424dda65be31d73e79a4c8cb776c9a275ea675c3cd958",
-    "01 Linux/Firewall - firewalld.md": "24f86a341dda924e0d67695a55c7a6b2cc1668dfacfd5835f458bedf679370d1"
+    "01 Linux/Firewall - firewalld.md": "24f86a341dda924e0d67695a55c7a6b2cc1668dfacfd5835f458bedf679370d1",
+    "06 Roadmap Hyprland/06 Zed.md": "791c078f9d81a79c8e1af4ab130098f4b0d120f33bd17d763b962a4ca9b1dcc9",
+    "01 Linux/Documentar Network Manager.md": "0d0fff9114932ae0aee442904a6a19445b12a9abf33974c86b2325a7bb408545"
   }
 }

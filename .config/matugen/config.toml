@@ -3,7 +3,7 @@ reload_apps = true
 
 [config.wallpaper]
 command = "swww"
-arguments = [ "img", "--transition-type" "wipe" "--transition-fps" "60" "--transition-duration" "0.3" "--transition-angle" "30" "--transition-step" "90" ]
+arguments = [ "img", "-t", "fade", "--transition-duration", "0.5", "--transition-step", "255", "--transition-fps", "60", "-f", "Nearest",]
 set = true
 
 [templates.hyprland]

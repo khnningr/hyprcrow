@@ -60,7 +60,7 @@ for servicio in ${servicios[@]}; do
     fi
 done
 
-if ! firewall-cmd --list-icmp-blocks | grep -qw "echo-request"; then
+if ! sudo firewall-cmd --list-icmp-blocks | grep -qw "echo-request"; then
     # Block ping
     sudo firewall-cmd --add-icmp-block=echo-request
 fi

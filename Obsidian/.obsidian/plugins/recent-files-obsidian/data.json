@@ -1,6 +1,162 @@
 {
   "recentFiles": [
     {
+      "basename": "00 Documentación general",
+      "path": "06 Roadmap Hyprland/00 Documentación general.md"
+    },
+    {
+      "basename": "Builds pendientes",
+      "path": "05 Videojuegos/Warframe/Builds pendientes.md"
+    },
+    {
+      "basename": "Sin título",
+      "path": "Sin título.md"
+    },
+    {
+      "basename": "11 Quickshell",
+      "path": "06 Roadmap Hyprland/11 Quickshell.md"
+    },
+    {
+      "basename": "02 GRUB",
+      "path": "06 Roadmap Hyprland/02 GRUB.md"
+    },
+    {
+      "basename": "79 Waybar acomodar carpetas",
+      "path": "06 Roadmap Hyprland/79 Waybar acomodar carpetas.md"
+    },
+    {
+      "basename": "80 Waybar modulos",
+      "path": "06 Roadmap Hyprland/80 Waybar modulos.md"
+    },
+    {
+      "basename": "83 Waybar base",
+      "path": "06 Roadmap Hyprland/83 Waybar base.md"
+    },
+    {
+      "basename": "78 Estética KDE",
+      "path": "06 Roadmap Hyprland/78 Estética KDE.md"
+    },
+    {
+      "basename": "Documentar Python",
+      "path": "00 Python/Documentar Python.md"
+    },
+    {
+      "basename": "02 Tipos de ondas",
+      "path": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/02 Tipos de ondas.md"
+    },
+    {
+      "basename": "00 Conceptos básicos de electrónica",
+      "path": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/00 Conceptos básicos de electrónica.md"
+    },
+    {
+      "basename": "Documentar Python con POO",
+      "path": "00 Python/Documentar Python con POO.md"
+    },
+    {
+      "basename": "06 Zed",
+      "path": "06 Roadmap Hyprland/06 Zed.md"
+    },
+    {
+      "basename": "01 Wezterm",
+      "path": "06 Roadmap Hyprland/01 Wezterm.md"
+    },
+    {
+      "basename": "Documentar NixOS",
+      "path": "01 Linux/Documentar NixOS.md"
+    },
+    {
+      "basename": "Documentar desde cero",
+      "path": "00 Python/Documentar desde cero.md"
+    },
+    {
+      "basename": "00.2 Chaotic",
+      "path": "06 Roadmap Hyprland/00.2 Chaotic.md"
+    },
+    {
+      "basename": "01 Ley de Ohm",
+      "path": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/01 Ley de Ohm.md"
+    },
+    {
+      "basename": "00.1 Simuladores de circuito",
+      "path": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/00.1 Simuladores de circuito.md"
+    },
+    {
+      "basename": "Documentar pip y venv",
+      "path": "00 Python/Documentar pip y venv.md"
+    },
+    {
+      "basename": "Documentar nano - Editor de texto plano-1747685074101",
+      "path": "01 Linux/adjuntos/Documentar nano - Editor de texto plano-1747685074101.webp"
+    },
+    {
+      "basename": "Documentar bash scripting-1747414990522",
+      "path": "01 Linux/adjuntos/Documentar bash scripting-1747414990522.webp"
+    },
+    {
+      "basename": "Documentar nano - Editor de texto plano-1747685063848",
+      "path": "01 Linux/adjuntos/Documentar nano - Editor de texto plano-1747685063848.webp"
+    },
+    {
+      "basename": "Documentar nano - Editor de texto plano-1747685092269",
+      "path": "01 Linux/adjuntos/Documentar nano - Editor de texto plano-1747685092269.webp"
+    },
+    {
+      "basename": "Documentar nano - Editor de texto plano-1747685083736",
+      "path": "01 Linux/adjuntos/Documentar nano - Editor de texto plano-1747685083736.webp"
+    },
+    {
+      "basename": "Documentar nano - Editor de texto plano-1747685098129",
+      "path": "01 Linux/adjuntos/Documentar nano - Editor de texto plano-1747685098129.webp"
+    },
+    {
+      "basename": "Documentar themes-1747685148819",
+      "path": "01 Linux/adjuntos/Documentar themes-1747685148819.webp"
+    },
+    {
+      "basename": "24 Funciones",
+      "path": "01 Linux/Bitácora Bash/24 Funciones.md"
+    },
+    {
+      "basename": "23 Multiple archivos",
+      "path": "01 Linux/Bitácora Bash/23 Multiple archivos.md"
+    },
+    {
+      "basename": "28 Redirección de salida",
+      "path": "01 Linux/Bitácora Bash/28 Redirección de salida.md"
+    },
+    {
+      "basename": "12 Condicional - existencia de variables",
+      "path": "01 Linux/Bitácora Bash/12 Condicional - existencia de variables.md"
+    },
+    {
+      "basename": "08 Default applications",
+      "path": "06 Roadmap Hyprland/08 Default applications.md"
+    },
+    {
+      "basename": "Proyecto de calculo I",
+      "path": "Proyecto de calculo I.md"
+    },
+    {
+      "basename": "Compras del  mes",
+      "path": "Compras del  mes.md"
+    },
+    {
+      "basename": "Documentar DWL - DWM",
+      "path": "01 Linux/Documentar DWL - DWM.md"
+    },
+    {
+      "basename": "Documentar Docker",
+      "path": "01 Linux/Documentar Docker.md"
+    },
+    {
+      "basename": "Streaming",
+      "path": "98 Descargas/Streaming.md"
+    },
+    {
+      "basename": "00.1 Guías de cero de Hyprland",
+      "path": "06 Roadmap Hyprland/00.1 Guías de cero de Hyprland.md"
+    },
+    {
       "basename": "03 Yazi",
       "path": "06 Roadmap Hyprland/03 Yazi.md"
     },
@@ -13,10 +169,6 @@
       "path": "01 Linux/Documentar bash scripting.md"
     },
     {
-      "basename": "06 Zed",
-      "path": "06 Roadmap Hyprland/06 Zed.md"
-    },
-    {
       "basename": "Firewall - firewalld",
       "path": "01 Linux/Firewall - firewalld.md"
     },
@@ -27,10 +179,6 @@
     {
       "basename": "Documentar Arch",
       "path": "01 Linux/Arch/Documentar Arch.md"
-    },
-    {
-      "basename": "12 Condicional - existencia de variables",
-      "path": "01 Linux/Bitácora Bash/12 Condicional - existencia de variables.md"
     },
     {
       "basename": "10 Condicional - comparación entre Strings",
@@ -49,156 +197,8 @@
       "path": "99 Plantillas/00 Plantilla para Comandos.md"
     },
     {
-      "basename": "Documentar pip y venv",
-      "path": "00 Python/Documentar pip y venv.md"
-    },
-    {
       "basename": "11 Condicional - comparación entre números",
       "path": "01 Linux/Bitácora Bash/11 Condicional - comparación entre números.md"
-    },
-    {
-      "basename": "22 Bucle - while",
-      "path": "01 Linux/Bitácora Bash/22 Bucle - while.md"
-    },
-    {
-      "basename": "28 Redirección de salida",
-      "path": "01 Linux/Bitácora Bash/28 Redirección de salida.md"
-    },
-    {
-      "basename": "27 Clausuras de guarda",
-      "path": "01 Linux/Bitácora Bash/27 Clausuras de guarda.md"
-    },
-    {
-      "basename": "05 Variables",
-      "path": "01 Linux/Bitácora Bash/05 Variables.md"
-    },
-    {
-      "basename": "08 Sentencias - if elif else",
-      "path": "01 Linux/Bitácora Bash/08 Sentencias - if elif else.md"
-    },
-    {
-      "basename": "17 Comando - read",
-      "path": "01 Linux/Bitácora Bash/17 Comando - read.md"
-    },
-    {
-      "basename": "29 Bash Select",
-      "path": "01 Linux/Bitácora Bash/29 Bash Select.md"
-    },
-    {
-      "basename": "Documentar Neovim",
-      "path": "01 Linux/Documentar Neovim.md"
-    },
-    {
-      "basename": "Documentar NixOS",
-      "path": "01 Linux/Documentar NixOS.md"
-    },
-    {
-      "basename": "05 Paquetes favoritos (Arch)",
-      "path": "06 Roadmap Hyprland/05 Paquetes favoritos (Arch).md"
-    },
-    {
-      "basename": "23 Multiple archivos",
-      "path": "01 Linux/Bitácora Bash/23 Multiple archivos.md"
-    },
-    {
-      "basename": "18 Control de errores en Bash Scripting",
-      "path": "01 Linux/Bitácora Bash/18 Control de errores en Bash Scripting.md"
-    },
-    {
-      "basename": "02 La primera línea - shebang",
-      "path": "01 Linux/Bitácora Bash/02 La primera línea - shebang.md"
-    },
-    {
-      "basename": "Prompt",
-      "path": "07 Formación /Universidad/Calculo I/Prompt.md"
-    },
-    {
-      "basename": "INVEST_1_Kendal M. Barrios Cruz",
-      "path": "07 Formación /Universidad/Calculo I/INVEST_1_Kendal M. Barrios Cruz.md"
-    },
-    {
-      "basename": "Compras del  mes",
-      "path": "Compras del  mes.md"
-    },
-    {
-      "basename": "07",
-      "path": "07.md"
-    },
-    {
-      "basename": "$val -gt 5",
-      "path": "$val -gt 5.md"
-    },
-    {
-      "basename": "[[07",
-      "path": "[[07.md"
-    },
-    {
-      "basename": "\"$val\" == \"a\"",
-      "path": "\"$val\" == \"a\".md"
-    },
-    {
-      "basename": "00 Límite de una función en punto",
-      "path": "07 Formación /Universidad/Calculo I/Semana 1/00 Límite de una función en punto.md"
-    },
-    {
-      "basename": "08 Default applications",
-      "path": "06 Roadmap Hyprland/08 Default applications.md"
-    },
-    {
-      "basename": "00.2 Chaotic",
-      "path": "06 Roadmap Hyprland/00.2 Chaotic.md"
-    },
-    {
-      "basename": "42 Plugins de Hyprland",
-      "path": "06 Roadmap Hyprland/42 Plugins de Hyprland.md"
-    },
-    {
-      "basename": "Viejos apuntes de virt manager",
-      "path": "01 Linux/Viejos apuntes de virt manager.md"
-    },
-    {
-      "basename": "04 Hola, Mundo - echo",
-      "path": "01 Linux/Bitácora Bash/04 Hola, Mundo - echo.md"
-    },
-    {
-      "basename": "26.0 PATH",
-      "path": "01 Linux/Bitácora Bash/26.0 PATH.md"
-    },
-    {
-      "basename": "00 Conceptos básicos",
-      "path": "01 Linux/Bitácora Bash/00 Conceptos básicos.md"
-    },
-    {
-      "basename": "00.0 Proceso de creación de un script",
-      "path": "01 Linux/Bitácora Bash/00.0 Proceso de creación de un script.md"
-    },
-    {
-      "basename": "26 Convención de nombres",
-      "path": "01 Linux/Bitácora Bash/26 Convención de nombres.md"
-    },
-    {
-      "basename": "25 Mantén todo limpio y temporal - mktemp",
-      "path": "01 Linux/Bitácora Bash/25 Mantén todo limpio y temporal - mktemp.md"
-    },
-    {
-      "basename": "Drawing 2025-05-23 23.13.54.excalidraw",
-      "path": "Excalidraw/Drawing 2025-05-23 23.13.54.excalidraw.md"
-    },
-    {
-      "basename": "07 Pasando Argumentos a los Scripts",
-      "path": "01 Linux/Bitácora Bash/07 Pasando Argumentos a los Scripts.md"
-    },
-    {
-      "basename": "05.2 Paquetes favoritos (Fedora)",
-      "path": "06 Roadmap Hyprland/05.2 Paquetes favoritos (Fedora).md"
-    },
-    {
-      "basename": "Documentar themes",
-      "path": "01 Linux/Documentar themes.md"
-    },
-    {
-      "basename": "Documentar fonts",
-      "path": "01 Linux/Documentar fonts.md"
     }
   ],
   "omittedPaths": [],

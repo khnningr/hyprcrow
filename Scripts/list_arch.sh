@@ -17,18 +17,23 @@ pkg_theme=(
 )
 
 pkg_theme_aur=(
+    "qt6ct-kde"
 	"hellwal"
 	"syshud"
 	"matugen-bin"
 )
 
 pkg_thunar=(
+    "xdg-user-dirs"
 	"thunar"
 	"file-roller"
 	"gvfs"
+	"gvfs-mtp"
+	"thunar-archive-plugin"
 	"thunar-media-tags-plugin"
 	"thunar-volman"
 	"tumbler"
+	"ffmpegthumbnailer"
 	"libgsf"
 )
 
@@ -40,7 +45,6 @@ pkg_gtk=(
 	"mission-center"
 	"evince"
 	"gnome-calculator"
-	"nautilus"
 	"loupe"
 )
 
@@ -156,6 +160,7 @@ pkg_utils=(
 	"zathura-cb"
 	"zathura-pdf-mupdf"
 	"imv"
+	"copyq"
 )
 
 pkg_utils_aur=(
@@ -279,6 +284,7 @@ pkg_waybar=(
 	"waybar"
 	"swaync"
 	"blueman"
+	"power-profiles-daemon"
 )
 
 pkg_rofi=(
@@ -316,6 +322,7 @@ pkg_yazi_aur=(
 pkg_bluethooth=(
 	"bluez"
 	"bluez-utils"
+	"blueman"
 )
 
 pkg_pipewire=(
@@ -373,8 +380,6 @@ pkg_python_aur=(
 pkg_libreoffice=(
 	"libreoffice-fresh"
 	"libreoffice-fresh-es"
-	"libreoffice-fresh-es"
-	"hunspell-es_any"
 	"hyphen"
 	"hyphen-es"
 	"mythes-es"

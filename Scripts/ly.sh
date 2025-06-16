@@ -28,7 +28,7 @@ done
 
 if whereis ly &> /dev/null; then
     echo -e "Activando ly service..."
-    systemctl enable ly.service 2>&1
+    sudo systemctl enable ly.service 2>&1
 
     sudo sed -i 's/animation = none/animation = doom/' /etc/ly/config.ini
     sudo sed -i 's/clear_password = false/clear_password = true/' /etc/ly/config.ini

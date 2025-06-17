@@ -1,12 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "00 Documentación general",
-      "path": "06 Roadmap Hyprland/00 Documentación general.md"
+      "basename": "65 Rofi",
+      "path": "06 Roadmap Hyprland/65 Rofi.md"
     },
     {
       "basename": "Builds pendientes",
       "path": "05 Videojuegos/Warframe/Builds pendientes.md"
+    },
+    {
+      "basename": "Documentar bash scripting",
+      "path": "01 Linux/Documentar bash scripting.md"
+    },
+    {
+      "basename": "38 thunar",
+      "path": "06 Roadmap Hyprland/38 thunar.md"
+    },
+    {
+      "basename": "Documentar Rust",
+      "path": "04 Programación - Lógica/Documentar Rust.md"
+    },
+    {
+      "basename": "00 Documentación general",
+      "path": "06 Roadmap Hyprland/00 Documentación general.md"
+    },
+    {
+      "basename": "05.1 CLI",
+      "path": "06 Roadmap Hyprland/05.1 CLI.md"
+    },
+    {
+      "basename": "05 Paquetes favoritos (Arch)",
+      "path": "06 Roadmap Hyprland/05 Paquetes favoritos (Arch).md"
+    },
+    {
+      "basename": "04.1 Fedora",
+      "path": "06 Roadmap Hyprland/04.1 Fedora.md"
+    },
+    {
+      "basename": "04 Arch",
+      "path": "06 Roadmap Hyprland/04 Arch.md"
+    },
+    {
+      "basename": "02 GRUB",
+      "path": "06 Roadmap Hyprland/02 GRUB.md"
+    },
+    {
+      "basename": "01 Wezterm",
+      "path": "06 Roadmap Hyprland/01 Wezterm.md"
+    },
+    {
+      "basename": "00.2 Chaotic",
+      "path": "06 Roadmap Hyprland/00.2 Chaotic.md"
+    },
+    {
+      "basename": "00.1 Guías de cero de Hyprland",
+      "path": "06 Roadmap Hyprland/00.1 Guías de cero de Hyprland.md"
+    },
+    {
+      "basename": "59 Matugen",
+      "path": "06 Roadmap Hyprland/59 Matugen.md"
+    },
+    {
+      "basename": "90 Vivaldi",
+      "path": "06 Roadmap Hyprland/90 Vivaldi.md"
+    },
+    {
+      "basename": "Documentar NixOS",
+      "path": "01 Linux/Documentar NixOS.md"
     },
     {
       "basename": "Sin título",
@@ -15,10 +75,6 @@
     {
       "basename": "11 Quickshell",
       "path": "06 Roadmap Hyprland/11 Quickshell.md"
-    },
-    {
-      "basename": "02 GRUB",
-      "path": "06 Roadmap Hyprland/02 GRUB.md"
     },
     {
       "basename": "79 Waybar acomodar carpetas",
@@ -57,20 +113,8 @@
       "path": "06 Roadmap Hyprland/06 Zed.md"
     },
     {
-      "basename": "01 Wezterm",
-      "path": "06 Roadmap Hyprland/01 Wezterm.md"
-    },
-    {
-      "basename": "Documentar NixOS",
-      "path": "01 Linux/Documentar NixOS.md"
-    },
-    {
       "basename": "Documentar desde cero",
       "path": "00 Python/Documentar desde cero.md"
-    },
-    {
-      "basename": "00.2 Chaotic",
-      "path": "06 Roadmap Hyprland/00.2 Chaotic.md"
     },
     {
       "basename": "01 Ley de Ohm",
@@ -129,10 +173,6 @@
       "path": "01 Linux/Bitácora Bash/12 Condicional - existencia de variables.md"
     },
     {
-      "basename": "08 Default applications",
-      "path": "06 Roadmap Hyprland/08 Default applications.md"
-    },
-    {
       "basename": "Proyecto de calculo I",
       "path": "Proyecto de calculo I.md"
     },
@@ -153,52 +193,12 @@
       "path": "98 Descargas/Streaming.md"
     },
     {
-      "basename": "00.1 Guías de cero de Hyprland",
-      "path": "06 Roadmap Hyprland/00.1 Guías de cero de Hyprland.md"
-    },
-    {
       "basename": "03 Yazi",
       "path": "06 Roadmap Hyprland/03 Yazi.md"
     },
     {
       "basename": "Documentar Network Manager",
       "path": "01 Linux/Documentar Network Manager.md"
-    },
-    {
-      "basename": "Documentar bash scripting",
-      "path": "01 Linux/Documentar bash scripting.md"
-    },
-    {
-      "basename": "Firewall - firewalld",
-      "path": "01 Linux/Firewall - firewalld.md"
-    },
-    {
-      "basename": "21 Bucle - for",
-      "path": "01 Linux/Bitácora Bash/21 Bucle - for.md"
-    },
-    {
-      "basename": "Documentar Arch",
-      "path": "01 Linux/Arch/Documentar Arch.md"
-    },
-    {
-      "basename": "10 Condicional - comparación entre Strings",
-      "path": "01 Linux/Bitácora Bash/10 Condicional - comparación entre Strings.md"
-    },
-    {
-      "basename": "Documentar Fedora",
-      "path": "01 Linux/Fedora/Documentar Fedora.md"
-    },
-    {
-      "basename": "Documentar Virt Manager",
-      "path": "01 Linux/Documentar Virt Manager.md"
-    },
-    {
-      "basename": "00 Plantilla para Comandos",
-      "path": "99 Plantillas/00 Plantilla para Comandos.md"
-    },
-    {
-      "basename": "11 Condicional - comparación entre números",
-      "path": "01 Linux/Bitácora Bash/11 Condicional - comparación entre números.md"
     }
   ],
   "omittedPaths": [],

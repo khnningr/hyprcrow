@@ -167,4 +167,6 @@ fi
 
 . ./stow.sh
 
+. ./default_applications.sh
+
 . ./zsh.sh

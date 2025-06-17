@@ -161,6 +161,7 @@ pkg_utils=(
 	"zathura-pdf-mupdf"
 	"imv"
 	"copyq"
+	"wf-recorder"
 )
 
 pkg_utils_aur=(
@@ -404,4 +405,9 @@ pkg_virt_manager=(
     "dmidecode"
     "qemu-common"
     "libvirt"
+)
+
+pkg_mimetype=(
+    "xdg-utils"
+    "plocate" # locate -i «programa»
 )

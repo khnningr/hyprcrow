@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ce2aff16ca73496f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06 Roadmap Hyprland/08 Default applications.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "08 Default applications"
-            }
-          },
-          {
             "id": "ab580eb19309c746",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Roadmap Hyprland/00 Documentación general.md",
+                "file": "06 Roadmap Hyprland/65 Rofi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 Documentación general"
+              "title": "65 Rofi"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "virt manager",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,8 +104,7 @@
               "title": "File Tree"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -238,16 +222,34 @@
   "active": "ab580eb19309c746",
   "lastOpenFiles": [
     "05 Videojuegos/Warframe/Builds pendientes.md",
-    "Sin título.md",
+    "01 Linux/Documentar bash scripting.md",
+    "06 Roadmap Hyprland/38 thunar.md",
+    "04 Programación - Lógica/Documentar Rust.md",
     "06 Roadmap Hyprland/00 Documentación general.md",
-    "06 Roadmap Hyprland/11 Quickshell.md",
+    "06 Roadmap Hyprland/08 Default applications.md",
+    "06 Roadmap Hyprland/18 Modular dir configs Hyprland.md",
+    "06 Roadmap Hyprland/05.1 CLI.md",
+    "06 Roadmap Hyprland/05 Paquetes favoritos (Arch).md",
+    "06 Roadmap Hyprland/04.1 Fedora.md",
+    "06 Roadmap Hyprland/04 Arch.md",
     "06 Roadmap Hyprland/02 GRUB.md",
+    "06 Roadmap Hyprland/01 Wezterm.md",
+    "06 Roadmap Hyprland/00.2 Chaotic.md",
+    "06 Roadmap Hyprland/00.1 Guías de cero de Hyprland.md",
+    "06 Roadmap Hyprland/59 Matugen.md",
+    "06 Roadmap Hyprland/adjuntos/59 Matugen-1750179286169.webp",
+    "06 Roadmap Hyprland/65 Rofi.md",
+    "06 Roadmap Hyprland/adjuntos/65 Rofi-1750179213268.webp",
+    "06 Roadmap Hyprland/adjuntos/65 Rofi-1750179015779.webp",
+    "06 Roadmap Hyprland/90 Vivaldi.md",
+    "01 Linux/Documentar NixOS.md",
+    "Sin título.md",
+    "06 Roadmap Hyprland/11 Quickshell.md",
     "06 Roadmap Hyprland/79 Waybar acomodar carpetas.md",
     "06 Roadmap Hyprland/80 Waybar modulos.md",
     "06 Roadmap Hyprland/83 Waybar base.md",
     "06 Roadmap Hyprland/78 Estética KDE.md",
     "00 Python/Documentar Python.md",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/02 Tipos de ondas.md",
     "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1749760846185.webp",
     "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1749760763189.webp",
     "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1749760488847.webp",
@@ -255,26 +257,8 @@
     "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1749759878009.webp",
     "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1749759543562.webp",
     "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1749759240445.webp",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/00 Conceptos básicos de electrónica.md",
-    "00 Python/Documentar Python con POO.md",
-    "06 Roadmap Hyprland/06 Zed.md",
-    "06 Roadmap Hyprland/01 Wezterm.md",
-    "01 Linux/Documentar NixOS.md",
-    "00 Python/Documentar desde cero.md",
-    "06 Roadmap Hyprland/00.2 Chaotic.md",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/01 Ley de Ohm.md",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/00.1 Simuladores de circuito.md",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/01 Ley de Ohm-1749748027338.webp",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/01 Ley de Ohm-1749747822280.webp",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/01 Ley de Ohm-1749746936897.webp",
-    "00 Python/Documentar pip y venv.md",
     "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos",
     "07 Formación /Universidad/Eléctronica digital y Microprocesadores",
-    "01 Linux/Bitácora Bash/24 Funciones.md",
-    "01 Linux/Bitácora Bash/23 Multiple archivos.md",
-    "01 Linux/Bitácora Bash/28 Redirección de salida.md",
-    "01 Linux/Bitácora Bash/12 Condicional - existencia de variables.md",
-    "06 Roadmap Hyprland/08 Default applications.md",
     "adjuntos",
     "Excalidraw",
     "99 Plantillas",

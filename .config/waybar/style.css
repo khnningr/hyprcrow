@@ -1,5 +1,5 @@
-@import './styles/waybar-colors.css';
-@import './styles/workspaces.css';
+@import "./styles/waybar-colors.css";
+@import "./styles/workspaces.css";
 
 @define-color transparent   rgba(0, 0, 0, 0.3);
 
@@ -16,11 +16,11 @@ window#waybar {
     background: @transparent;
     box-shadow: inset 0 -3px @color5;
     transition-property: background-color;
-    transition-duration: .5s;
+    transition-duration: 0.5s;
 }
 
 /*  */
-window#waybar>box {
+window#waybar > box {
     margin: 0.2em 0em 0.2em 0em;
     padding: 0;
 }
@@ -75,22 +75,27 @@ tooltip {
 #custom-launcher {
     color: @color12;
     background: @color3;
-    margin: /*Arriba*/ -0.4em /*Derecha*/ 1em /*Abajo*/ -0.4em /*Izquierda*/ -0.1em; /*Espacio fuera del cuadro*/
-    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 2em /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 0em;
+    margin: /*Arriba*/ -0.4em /*Derecha*/ 1em /*Abajo*/ -0.4em
+        /*Izquierda*/ -0.1em; /*Espacio fuera del cuadro*/
+    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 2em
+        /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 0em;
     padding: /*Arriba*/ 0em /*Derecha*/ 1em /*Abajo*/ 0em /*Izquierda*/ 1em;
 }
 
 #custom-power {
     color: @color3;
     background: @color12;
-    margin: /*Arriba*/ -0.4em /*Derecha*/ -0.1em /*Abajo*/ -0.4em /*Izquierda*/ 1em; /*Espacio fuera del cuadro*/
-    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 0em /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 2em;
+    margin: /*Arriba*/ -0.4em /*Derecha*/ -0.1em /*Abajo*/ -0.4em /*Izquierda*/
+        1em; /*Espacio fuera del cuadro*/
+    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 0em
+        /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 2em;
     padding: /*Arriba*/ 0em /*Derecha*/ 1em /*Abajo*/ 0em /*Izquierda*/ 1em;
 }
 
 #memory {
     margin: /*Arriba*/ 0.2em /*Derecha*/ 0em /*Abajo*/ 0.2em /*Izquierda*/ 0.3em; /*Espacio fuera del cuadro*/
-    border-radius: /*Arriba-Izquierda*/ 0.2em /*Arriba-Derecha*/ 0em /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 0.2em;
+    border-radius: /*Arriba-Izquierda*/ 0.2em /*Arriba-Derecha*/ 0em
+        /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 0.2em;
 }
 
 /* Espacio de Disk */
@@ -100,18 +105,19 @@ tooltip {
 
 #cpu {
     margin: /*Arriba*/ 0.2em /*Derecha*/ 0em /*Abajo*/ 0.2em /*Izquierda*/ 0em; /*Espacio fuera del cuadro*/
-    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 0em /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 0em;
+    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 0em
+        /*Abajo-Derecha*/ 0em /*Abajo-Izquierda*/ 0em;
 }
 
 #custom-gpu-usage {
     margin: /*Arriba*/ 0.2em /*Derecha*/ 0.3em /*Abajo*/ 0.2em /*Izquierda*/ 0em; /*Espacio fuera del cuadro*/
-    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 0.2em /*Abajo-Derecha*/ 0.2em /*Abajo-Izquierda*/ 0em;
+    border-radius: /*Arriba-Izquierda*/ 0em /*Arriba-Derecha*/ 0.2em
+        /*Abajo-Derecha*/ 0.2em /*Abajo-Izquierda*/ 0em;
 }
 
 #window {
     background: none;
 }
-
 
 #tray menu {
     background: @color10;
@@ -124,7 +130,15 @@ tooltip {
     color: @color10;
 }
 
-#tray menu * { min-height: 10px; font-weight: bold; padding: 2px; font-size: 16px; color: @font_color; border-radius: 15px; font-size: 15px;}
+#tray menu * {
+    min-height: 10px;
+    font-weight: bold;
+    padding: 2px;
+    font-size: 16px;
+    color: @font_color;
+    border-radius: 15px;
+    font-size: 15px;
+}
 
 #custom-swaync {
     padding-right: 15px;

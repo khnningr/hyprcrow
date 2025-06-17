@@ -4,6 +4,7 @@ set -euo pipefail
 
 pkg_utils=(
     "ventoy" # sudo dnf copr enable karlisk/ventoy
+    "wf-recorder"
 )
 
 # Firewall

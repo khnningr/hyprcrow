@@ -74,3 +74,5 @@ xdg-mime default vlc.desktop video/x-matroska
 
 xdg-mime default org.gnome.FileRoller.desktop application/zip
 xdg-mime default org.gnome.FileRoller.desktop application/x-tar
+
+xdg-mime default kitty-open.desktop inode/directory

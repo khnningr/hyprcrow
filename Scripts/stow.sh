@@ -2,6 +2,10 @@
 
 set -euo pipefail
 
+if command -v "pacman" &> /dev/null; then
+    sudo pacman -S --needed stow
+fi
+
 dotfiles="$HOME/hyprcrow/"
 dir_obsidian="$HOME/Obsidian"
 

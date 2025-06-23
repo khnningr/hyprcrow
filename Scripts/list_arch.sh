@@ -5,7 +5,7 @@ set -euo pipefail
 # Apariencia
 pkg_theme=(
 	"qt5ct"
-	"qt6ct"
+	"qt6ct-kde"
 	"kvantum"
 	"kvantum-qt5"
 	"qt5-wayland"
@@ -17,7 +17,6 @@ pkg_theme=(
 )
 
 pkg_theme_aur=(
-    "qt6ct-kde"
 	"hellwal"
 	"syshud"
 	"matugen-bin"
@@ -51,6 +50,7 @@ pkg_gtk=(
 pkg_dolphin=(
 	"dolphin"
 	"ark"
+	"archlinux-xdg-menu"
 )
 
 # sudo pacman -S --needed --noconfirm "${pkg_dolphin[@]}"
@@ -61,6 +61,7 @@ pkg_kde=(
 	"gwenview"
 	"okular"
 	"kdenlive"
+	"kcalc"
 )
 
 # sudo pacman -S --needed --noconfirm "${pkg_kde[@]}"
@@ -84,6 +85,7 @@ pkg_zsh=(
     "zoxide"
     "oh-my-posh-bin"
     "exa"
+    "bat"
     "pokemon-colorscripts-git"
 )
 
@@ -177,15 +179,21 @@ pkg_android=(
 pkg_mesa_git=(
 	"mesa-git"
 	"lib32-mesa-git"
-	"vulkan-radeon-git"
-	"lib32-vulkan-radeon-git"
-	"llvm-libs-git"
-	"lib32-llvm-libs-git"
 )
 
 pkg_mesa=(
     "mesa"
     "lib32-mesa"
+)
+
+pkg_amd_git=(
+    "vulkan-radeon-git"
+	"lib32-vulkan-radeon-git"
+	"llvm-libs-git"
+	"lib32-llvm-libs-git"
+)
+
+pkg_amd=(
     "vulkan-radeon"
 	"lib32-vulkan-radeon"
 	"llvm-libs"
@@ -387,8 +395,13 @@ pkg_libreoffice=(
 )
 
 pkg_libreoffice_aur=(
-	"libreoffice-extension-languagetool"
-	"languagetool-ngrams-es"
+	"ttf-ms-fonts"
+	"ttf-vista-fonts"
+	"ttf-office-2007-fonts"
+	"ttf-win7-fonts"
+	"ttf-ms-win8"
+	"ttf-ms-win10"
+	"ttf-ms-win11"
 )
 
 pkg_virt_manager=(

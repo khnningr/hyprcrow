@@ -107,7 +107,10 @@ alias s='paru'
 alias u='sudo pacman -Syu && paru -Syu' # dnf upgrade
 alias i='paru -S --needed' # dnf install
 alias r='paru -Rns' # dnf remove
-# alias ls='exa --icons --color=always'
+alias lz='exa --icons --color=always'
+alias parus="paru -Slq | fzf --multi --preview 'paru -Si {1}' | xargs -ro paru -S --needed"
+alias parux="paru -Qq | fzf --preview 'paru -Qil {}' --layout=reverse --bind 'enter:execute(paru -Qil {} | bat)'"
+alias parui="paru -Qe | fzf --preview 'paru -Qil | awk {$1}' --layout=reverse --bind 'enter:execute(paru -Qil | awk {$1} | bat)'"
 
 # Shell integrations
 eval "$(fzf --zsh)" # <CTRL>R.

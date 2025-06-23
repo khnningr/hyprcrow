@@ -23,3 +23,6 @@ if ! pactl info | grep -q "Server Name: PulseAudio (on PipeWire"; then
     systemctl --user enable --now pipewire-pulse.socket
     systemctl --user enable --now wireplumber.service
 fi
+
+
+balooctl6 disable # Desactiva el indexador y buscador de archivos KDE

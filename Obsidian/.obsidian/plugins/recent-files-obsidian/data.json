@@ -1,36 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "65 Rofi",
-      "path": "06 Roadmap Hyprland/65 Rofi.md"
+      "basename": "Documentar CSS",
+      "path": "01 Linux/Documentar/Documentar CSS.md"
     },
     {
-      "basename": "Builds pendientes",
-      "path": "05 Videojuegos/Warframe/Builds pendientes.md"
-    },
-    {
-      "basename": "Documentar bash scripting",
-      "path": "01 Linux/Documentar bash scripting.md"
-    },
-    {
-      "basename": "38 thunar",
-      "path": "06 Roadmap Hyprland/38 thunar.md"
-    },
-    {
-      "basename": "Documentar Rust",
-      "path": "04 Programación - Lógica/Documentar Rust.md"
+      "basename": "Documentar Arch",
+      "path": "01 Linux/Arch/Documentar/Documentar Arch.md"
     },
     {
       "basename": "00 Documentación general",
       "path": "06 Roadmap Hyprland/00 Documentación general.md"
     },
     {
-      "basename": "05.1 CLI",
-      "path": "06 Roadmap Hyprland/05.1 CLI.md"
+      "basename": "Documentar bitácora",
+      "path": "01 Linux/Arch/Documentar/Documentar bitácora.md"
     },
     {
-      "basename": "05 Paquetes favoritos (Arch)",
-      "path": "06 Roadmap Hyprland/05 Paquetes favoritos (Arch).md"
+      "basename": "Documentar Snapshots",
+      "path": "01 Linux/Arch/Documentar/Documentar Snapshots.md"
+    },
+    {
+      "basename": "Documentar rate mirrors",
+      "path": "01 Linux/Arch/Documentar/Documentar rate mirrors.md"
+    },
+    {
+      "basename": "Documentar Conexión inalámbrica",
+      "path": "01 Linux/Arch/Documentar/Documentar Conexión inalámbrica.md"
+    },
+    {
+      "basename": "00 Comandos básicos",
+      "path": "01 Linux/Arch/00 Comandos básicos.md"
+    },
+    {
+      "basename": "00.1 archinstall",
+      "path": "01 Linux/Arch/00.1 archinstall.md"
+    },
+    {
+      "basename": "01 Verificar firmas",
+      "path": "01 Linux/Arch/01 Verificar firmas.md"
+    },
+    {
+      "basename": "06 chaotic - repositorio AUR",
+      "path": "01 Linux/Arch/Post/06 chaotic - repositorio AUR.md"
+    },
+    {
+      "basename": "Documentar Fedora",
+      "path": "01 Linux/Fedora/Documentar/Documentar Fedora.md"
+    },
+    {
+      "basename": "10 Controlador gráfico",
+      "path": "01 Linux/Arch/Post/10 Controlador gráfico.md"
+    },
+    {
+      "basename": "16 kernel",
+      "path": "01 Linux/Arch/Post/16 kernel.md"
+    },
+    {
+      "basename": "29 Bash Select",
+      "path": "01 Linux/Bitácora Bash/29 Bash Select.md"
+    },
+    {
+      "basename": "28 Redirección de salida",
+      "path": "01 Linux/Bitácora Bash/28 Redirección de salida.md"
+    },
+    {
+      "basename": "25 Revisar programas",
+      "path": "06 Roadmap Hyprland/25 Revisar programas.md"
+    },
+    {
+      "basename": "25 Revisar programas",
+      "path": "_fit/06 Roadmap Hyprland/25 Revisar programas.md"
+    },
+    {
+      "basename": "Prompt para ejercicios",
+      "path": "07 Formación /Universidad/Calculo I/Prompt para ejercicios.md"
+    },
+    {
+      "basename": "Documentar SSH",
+      "path": "01 Linux/Documentar SSH.md"
+    },
+    {
+      "basename": "00.0 nueva shell",
+      "path": "06 Roadmap Hyprland/00.0 nueva shell.md"
+    },
+    {
+      "basename": "00.1 Guías de cero de Hyprland",
+      "path": "06 Roadmap Hyprland/00.1 Guías de cero de Hyprland.md"
     },
     {
       "basename": "04.1 Fedora",
@@ -41,164 +97,108 @@
       "path": "06 Roadmap Hyprland/04 Arch.md"
     },
     {
-      "basename": "02 GRUB",
-      "path": "06 Roadmap Hyprland/02 GRUB.md"
+      "basename": "05.2 Paquetes favoritos (Fedora)",
+      "path": "06 Roadmap Hyprland/05.2 Paquetes favoritos (Fedora).md"
     },
     {
-      "basename": "01 Wezterm",
-      "path": "06 Roadmap Hyprland/01 Wezterm.md"
+      "basename": "05.1 CLI",
+      "path": "06 Roadmap Hyprland/05.1 CLI.md"
     },
     {
-      "basename": "00.2 Chaotic",
-      "path": "06 Roadmap Hyprland/00.2 Chaotic.md"
+      "basename": "05 Paquetes favoritos (Arch)",
+      "path": "06 Roadmap Hyprland/05 Paquetes favoritos (Arch).md"
     },
     {
-      "basename": "00.1 Guías de cero de Hyprland",
-      "path": "06 Roadmap Hyprland/00.1 Guías de cero de Hyprland.md"
+      "basename": "17 UFW",
+      "path": "06 Roadmap Hyprland/17 UFW.md"
     },
     {
-      "basename": "59 Matugen",
-      "path": "06 Roadmap Hyprland/59 Matugen.md"
+      "basename": "14 Rendimiento en SSD",
+      "path": "01 Linux/Arch/Post/14 Rendimiento en SSD.md"
     },
     {
-      "basename": "90 Vivaldi",
-      "path": "06 Roadmap Hyprland/90 Vivaldi.md"
+      "basename": "15 ntp - Network Time Protocol",
+      "path": "01 Linux/Arch/Post/15 ntp - Network Time Protocol.md"
     },
     {
-      "basename": "Documentar NixOS",
-      "path": "01 Linux/Documentar NixOS.md"
+      "basename": "17 Configuraciones de Pacman",
+      "path": "01 Linux/Arch/Post/17 Configuraciones de Pacman.md"
     },
     {
-      "basename": "Sin título",
-      "path": "Sin título.md"
+      "basename": "12 Agregar un usuario",
+      "path": "01 Linux/Arch/Post/12 Agregar un usuario.md"
     },
     {
-      "basename": "11 Quickshell",
-      "path": "06 Roadmap Hyprland/11 Quickshell.md"
+      "basename": "09 KDE x11 - entorno de escritorio",
+      "path": "01 Linux/Arch/Post/09 KDE x11 - entorno de escritorio.md"
     },
     {
-      "basename": "79 Waybar acomodar carpetas",
-      "path": "06 Roadmap Hyprland/79 Waybar acomodar carpetas.md"
+      "basename": "11 fonts",
+      "path": "01 Linux/Arch/Post/11 fonts.md"
     },
     {
-      "basename": "80 Waybar modulos",
-      "path": "06 Roadmap Hyprland/80 Waybar modulos.md"
+      "basename": "13 ntfs - formato de discos de Windows",
+      "path": "01 Linux/Arch/Post/13 ntfs - formato de discos de Windows.md"
     },
     {
-      "basename": "83 Waybar base",
-      "path": "06 Roadmap Hyprland/83 Waybar base.md"
+      "basename": "04 paquetes escenciales",
+      "path": "01 Linux/Arch/Post/04 paquetes escenciales.md"
     },
     {
-      "basename": "78 Estética KDE",
-      "path": "06 Roadmap Hyprland/78 Estética KDE.md"
+      "basename": "08 yay - repositorio AUR",
+      "path": "01 Linux/Arch/Post/08 yay - repositorio AUR.md"
     },
     {
-      "basename": "Documentar Python",
-      "path": "00 Python/Documentar Python.md"
+      "basename": "07 paru - repositorio AUR",
+      "path": "01 Linux/Arch/Post/07 paru - repositorio AUR.md"
     },
     {
-      "basename": "02 Tipos de ondas",
-      "path": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/02 Tipos de ondas.md"
+      "basename": "05 mesa-git - repositorio",
+      "path": "01 Linux/Arch/Post/05 mesa-git - repositorio.md"
     },
     {
-      "basename": "00 Conceptos básicos de electrónica",
-      "path": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/00 Conceptos básicos de electrónica.md"
+      "basename": "01 Conexión a internet",
+      "path": "01 Linux/Arch/Post/01 Conexión a internet.md"
     },
     {
-      "basename": "Documentar Python con POO",
-      "path": "00 Python/Documentar Python con POO.md"
+      "basename": "00.0 Referencias post-instalación",
+      "path": "01 Linux/Arch/Post/00.0 Referencias post-instalación.md"
     },
     {
-      "basename": "06 Zed",
-      "path": "06 Roadmap Hyprland/06 Zed.md"
+      "basename": "03 multilib - repositorio",
+      "path": "01 Linux/Arch/Post/03 multilib - repositorio.md"
     },
     {
-      "basename": "Documentar desde cero",
-      "path": "00 Python/Documentar desde cero.md"
+      "basename": "02 Mirrorlist - reflector",
+      "path": "01 Linux/Arch/Post/02 Mirrorlist - reflector.md"
     },
     {
-      "basename": "01 Ley de Ohm",
-      "path": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/01 Ley de Ohm.md"
+      "basename": "Builds pendientes",
+      "path": "05 Videojuegos/Warframe/Builds pendientes.md"
     },
     {
-      "basename": "00.1 Simuladores de circuito",
-      "path": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/00.1 Simuladores de circuito.md"
-    },
-    {
-      "basename": "Documentar pip y venv",
-      "path": "00 Python/Documentar pip y venv.md"
-    },
-    {
-      "basename": "Documentar nano - Editor de texto plano-1747685074101",
-      "path": "01 Linux/adjuntos/Documentar nano - Editor de texto plano-1747685074101.webp"
-    },
-    {
-      "basename": "Documentar bash scripting-1747414990522",
-      "path": "01 Linux/adjuntos/Documentar bash scripting-1747414990522.webp"
-    },
-    {
-      "basename": "Documentar nano - Editor de texto plano-1747685063848",
-      "path": "01 Linux/adjuntos/Documentar nano - Editor de texto plano-1747685063848.webp"
-    },
-    {
-      "basename": "Documentar nano - Editor de texto plano-1747685092269",
-      "path": "01 Linux/adjuntos/Documentar nano - Editor de texto plano-1747685092269.webp"
-    },
-    {
-      "basename": "Documentar nano - Editor de texto plano-1747685083736",
-      "path": "01 Linux/adjuntos/Documentar nano - Editor de texto plano-1747685083736.webp"
-    },
-    {
-      "basename": "Documentar nano - Editor de texto plano-1747685098129",
-      "path": "01 Linux/adjuntos/Documentar nano - Editor de texto plano-1747685098129.webp"
-    },
-    {
-      "basename": "Documentar themes-1747685148819",
-      "path": "01 Linux/adjuntos/Documentar themes-1747685148819.webp"
-    },
-    {
-      "basename": "24 Funciones",
-      "path": "01 Linux/Bitácora Bash/24 Funciones.md"
-    },
-    {
-      "basename": "23 Multiple archivos",
-      "path": "01 Linux/Bitácora Bash/23 Multiple archivos.md"
-    },
-    {
-      "basename": "28 Redirección de salida",
-      "path": "01 Linux/Bitácora Bash/28 Redirección de salida.md"
-    },
-    {
-      "basename": "12 Condicional - existencia de variables",
-      "path": "01 Linux/Bitácora Bash/12 Condicional - existencia de variables.md"
-    },
-    {
-      "basename": "Proyecto de calculo I",
-      "path": "Proyecto de calculo I.md"
-    },
-    {
-      "basename": "Compras del  mes",
-      "path": "Compras del  mes.md"
-    },
-    {
-      "basename": "Documentar DWL - DWM",
-      "path": "01 Linux/Documentar DWL - DWM.md"
+      "basename": "Prueba corta 2",
+      "path": "07 Formación /Universidad/Calculo I/Prueba corta 2.md"
     },
     {
       "basename": "Documentar Docker",
       "path": "01 Linux/Documentar Docker.md"
     },
     {
-      "basename": "Streaming",
-      "path": "98 Descargas/Streaming.md"
+      "basename": "85 EWW",
+      "path": "06 Roadmap Hyprland/85 EWW.md"
     },
     {
-      "basename": "03 Yazi",
-      "path": "06 Roadmap Hyprland/03 Yazi.md"
+      "basename": "Documentar comando lsblk",
+      "path": "01 Linux/Documentar comando lsblk.md"
     },
     {
-      "basename": "Documentar Network Manager",
-      "path": "01 Linux/Documentar Network Manager.md"
+      "basename": "Documentar comando df",
+      "path": "01 Linux/Documentar comando df.md"
+    },
+    {
+      "basename": "Documentar comando free",
+      "path": "01 Linux/Documentar comando free.md"
     }
   ],
   "omittedPaths": [],

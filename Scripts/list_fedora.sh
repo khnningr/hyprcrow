@@ -23,3 +23,10 @@ pkg_waybar=(
 pkg_rofi=(
 	"rofi-wayland"
 )
+
+pkg_libreoffice=(
+    "curl"
+    "cabextract"
+    "xorg-x11-font-utils"
+    "fontconfig"
+)

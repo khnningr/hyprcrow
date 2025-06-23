@@ -32,6 +32,6 @@ if whereis ly &> /dev/null; then
 
     sudo sed -i 's/animation = none/animation = doom/' /etc/ly/config.ini
     sudo sed -i 's/clear_password = false/clear_password = true/' /etc/ly/config.ini
-    sudo sed -i 's/clock = null/clock = clock = %I:%M %P/' /etc/ly/config.ini
+    sudo sed -i 's/clock = null/clock = %I:%M %P/' /etc/ly/config.ini
     sudo sed -i 's/lang = en/lang = es/' /etc/ly/config.ini
 fi

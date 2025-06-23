@@ -27,16 +27,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Linux/Documentar/Documentar CSS.md",
+                "file": "01 Linux/Hyprland/0 Documentación general.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Documentar CSS"
+              "title": "0 Documentación general"
+            }
+          },
+          {
+            "id": "61be74f5db815196",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Linux/Cisco Packet Tracer - Copilar programa.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cisco Packet Tracer - Copilar programa"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,38 +227,39 @@
       "fit:Fit Sync": false
     }
   },
-  "active": "891e7129212c92c8",
+  "active": "ab580eb19309c746",
   "lastOpenFiles": [
-    "01 Linux/Arch/Documentar/Documentar Arch.md",
-    "01 Linux/Documentar/Documentar CSS.md",
-    "01 Linux/Documentar",
+    "01 Linux/Hyprland/0 Documentación general.md",
     "06 Roadmap Hyprland/00 Documentación general.md",
-    "01 Linux/Arch/Documentar/Documentar bitácora.md",
-    "01 Linux/Arch/Documentar/Documentar Snapshots.md",
-    "01 Linux/Arch/Documentar/Documentar rate mirrors.md",
-    "01 Linux/Arch/Documentar/Documentar Conexión inalámbrica.md",
-    "01 Linux/Arch/00 Comandos básicos.md",
-    "01 Linux/Arch/00.1 archinstall.md",
-    "01 Linux/Arch/01 Verificar firmas.md",
-    "01 Linux/Arch/Post/06 chaotic - repositorio AUR.md",
-    "01 Linux/Arch/AUR-Helpers.md",
-    "01 Linux/Fedora/Documentar/Documentar Fedora.md",
-    "01 Linux/Arch/Post/10 Controlador gráfico.md",
+    "01 Linux/Documentar/Documentar cfdisk.md",
+    "01 Linux/Hyprland",
+    "01 Linux/Cisco Packet Tracer - Copilar programa.md",
+    "01 Linux/Páginas de Wallpapers.md",
+    "01 Linux/Flatpak.md",
+    "01 Linux/Firewall - firewalld.md",
+    "01 Linux/Configuración en Gnome.md",
+    "01 Linux/Documentar/Documentar CSS.md",
+    "01 Linux/Documentar/Viejos apuntes de virt manager.md",
+    "01 Linux/Documentar/Documentar Zsh.md",
+    "01 Linux/Documentar/Documentar xon.sh - Shell con Python en Linux.md",
+    "01 Linux/Documentar/Documentar winapps.md",
+    "01 Linux/Documentar/Documentar vmware.md",
+    "01 Linux/Documentar/Documentar Virt Manager.md",
+    "01 Linux/Documentar/Documentar UFW.md",
+    "01 Linux/Documentar/Documentar themes.md",
+    "01 Linux/Documentar/Documentar su - (comando).md",
+    "01 Linux/Documentar/Documentar strftime.md",
+    "01 Linux/Documentar/Documentar SSH.md",
+    "01 Linux/Documentar/Documentar rm - comando.md",
+    "01 Linux/Documentar/Documentar Podman.md",
+    "01 Linux/Documentar/Documentar PATH in ZSH.md",
+    "01 Linux/Documentar/Documentar NixOS.md",
+    "01 Linux/Documentar/documentar nftables - reemplazo de iptables.md",
+    "01 Linux/Documentar/Documentar Network Manager.md",
+    "01 Linux/Documentar",
     "01 Linux/Fedora/Documentar",
-    "01 Linux/Arch/Post/16 kernel.md",
-    "01 Linux/Bitácora Bash/29 Bash Select.md",
-    "01 Linux/Bitácora Bash/28 Redirección de salida.md",
-    "06 Roadmap Hyprland/25 Revisar programas.md",
-    "_fit/06 Roadmap Hyprland/25 Revisar programas.md",
-    "07 Formación /Universidad/Calculo I/Prompt para ejercicios.md",
     "01 Linux/Arch/Documentar",
-    "01 Linux/Documentar SSH.md",
     "01 Linux/Arch/Instalación manual",
-    "06 Roadmap Hyprland/00.0 nueva shell.md",
-    "06 Roadmap Hyprland/00.1 Guías de cero de Hyprland.md",
-    "06 Roadmap Hyprland/04.1 Fedora.md",
-    "06 Roadmap Hyprland/04 Arch.md",
-    "06 Roadmap Hyprland/05.2 Paquetes favoritos (Fedora).md",
     "01 Linux/Arch/Post",
     "06 Roadmap Hyprland/Sin confirmar 417751.crdownload",
     "_fit/06 Roadmap Hyprland",
@@ -253,7 +267,6 @@
     "07 Formación /Universidad/Calculo I/adjuntos/Prompt-1750351867415.webp",
     "_fit/05 Videojuegos/Warframe",
     "_fit/05 Videojuegos",
-    "_fit",
     "06 Roadmap Hyprland/adjuntos/59 Matugen-1750179286169.webp",
     "06 Roadmap Hyprland/adjuntos/65 Rofi-1750179213268.webp",
     "06 Roadmap Hyprland/adjuntos/65 Rofi-1750179015779.webp",

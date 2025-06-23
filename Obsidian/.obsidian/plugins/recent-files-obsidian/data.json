@@ -1,16 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "00 Documentación general",
+      "path": "06 Roadmap Hyprland/00 Documentación general.md"
+    },
+    {
+      "basename": "0 Documentación general",
+      "path": "01 Linux/Hyprland/0 Documentación general.md"
+    },
+    {
+      "basename": "Documentar cfdisk",
+      "path": "01 Linux/Documentar/Documentar cfdisk.md"
+    },
+    {
+      "basename": "Cisco Packet Tracer - Copilar programa",
+      "path": "01 Linux/Cisco Packet Tracer - Copilar programa.md"
+    },
+    {
+      "basename": "Páginas de Wallpapers",
+      "path": "01 Linux/Páginas de Wallpapers.md"
+    },
+    {
+      "basename": "Flatpak",
+      "path": "01 Linux/Flatpak.md"
+    },
+    {
+      "basename": "Firewall - firewalld",
+      "path": "01 Linux/Firewall - firewalld.md"
+    },
+    {
+      "basename": "Configuración en Gnome",
+      "path": "01 Linux/Configuración en Gnome.md"
+    },
+    {
       "basename": "Documentar CSS",
       "path": "01 Linux/Documentar/Documentar CSS.md"
     },
     {
-      "basename": "Documentar Arch",
-      "path": "01 Linux/Arch/Documentar/Documentar Arch.md"
+      "basename": "Documentar comando free",
+      "path": "01 Linux/Documentar/Documentar comando free.md"
     },
     {
-      "basename": "00 Documentación general",
-      "path": "06 Roadmap Hyprland/00 Documentación general.md"
+      "basename": "Documentar Fedora",
+      "path": "01 Linux/Fedora/Documentar/Documentar Fedora.md"
+    },
+    {
+      "basename": "Documentar comando df",
+      "path": "01 Linux/Documentar/Documentar comando df.md"
+    },
+    {
+      "basename": "Documentar 7z",
+      "path": "01 Linux/Documentar/Documentar 7z.md"
+    },
+    {
+      "basename": "Documentar alias",
+      "path": "01 Linux/Documentar/Documentar alias.md"
+    },
+    {
+      "basename": "Documentar Arch",
+      "path": "01 Linux/Arch/Documentar/Documentar Arch.md"
     },
     {
       "basename": "Documentar bitácora",
@@ -45,10 +93,6 @@
       "path": "01 Linux/Arch/Post/06 chaotic - repositorio AUR.md"
     },
     {
-      "basename": "Documentar Fedora",
-      "path": "01 Linux/Fedora/Documentar/Documentar Fedora.md"
-    },
-    {
       "basename": "10 Controlador gráfico",
       "path": "01 Linux/Arch/Post/10 Controlador gráfico.md"
     },
@@ -75,10 +119,6 @@
     {
       "basename": "Prompt para ejercicios",
       "path": "07 Formación /Universidad/Calculo I/Prompt para ejercicios.md"
-    },
-    {
-      "basename": "Documentar SSH",
-      "path": "01 Linux/Documentar SSH.md"
     },
     {
       "basename": "00.0 nueva shell",
@@ -159,46 +199,6 @@
     {
       "basename": "01 Conexión a internet",
       "path": "01 Linux/Arch/Post/01 Conexión a internet.md"
-    },
-    {
-      "basename": "00.0 Referencias post-instalación",
-      "path": "01 Linux/Arch/Post/00.0 Referencias post-instalación.md"
-    },
-    {
-      "basename": "03 multilib - repositorio",
-      "path": "01 Linux/Arch/Post/03 multilib - repositorio.md"
-    },
-    {
-      "basename": "02 Mirrorlist - reflector",
-      "path": "01 Linux/Arch/Post/02 Mirrorlist - reflector.md"
-    },
-    {
-      "basename": "Builds pendientes",
-      "path": "05 Videojuegos/Warframe/Builds pendientes.md"
-    },
-    {
-      "basename": "Prueba corta 2",
-      "path": "07 Formación /Universidad/Calculo I/Prueba corta 2.md"
-    },
-    {
-      "basename": "Documentar Docker",
-      "path": "01 Linux/Documentar Docker.md"
-    },
-    {
-      "basename": "85 EWW",
-      "path": "06 Roadmap Hyprland/85 EWW.md"
-    },
-    {
-      "basename": "Documentar comando lsblk",
-      "path": "01 Linux/Documentar comando lsblk.md"
-    },
-    {
-      "basename": "Documentar comando df",
-      "path": "01 Linux/Documentar comando df.md"
-    },
-    {
-      "basename": "Documentar comando free",
-      "path": "01 Linux/Documentar comando free.md"
     }
   ],
   "omittedPaths": [],

@@ -56,6 +56,7 @@ pkg_dolphin=(
 # sudo pacman -S --needed --noconfirm "${pkg_dolphin[@]}"
 
 pkg_kde=(
+    "polkit-kde-agent"
 	"qbittorrent"
 	"pavucontrol-qt"
 	"gwenview"

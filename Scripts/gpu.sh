@@ -29,6 +29,12 @@ case "$elegir_drivers" in
         sudo sed -i \
             's/Exec=Hyprland/Exec=env WLR_NO_HARDWARE_CURSORS=1 WLR_RENDERER_ALLOW_SOFTWARE=1 Hyprland/' \
             /usr/share/wayland-sessions/hyprland.desktop
+        # Configurar resolución
+        echo "monitor = pendiente, 1920x1080@pendiente, auto, auto" > .config/hypr/extra/monitors/VM.conf
+        sed -i 's/source = ../extra/monitors/*.conf/source = ../extra/monitors/VM.conf/' \
+            "$HOME/.config/hypr/core/monitor.conf"
+
+
         ;;
     *) # Opción no válida.
         echo "Opción no válida."

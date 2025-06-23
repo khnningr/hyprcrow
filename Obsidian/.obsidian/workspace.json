@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Roadmap Hyprland/00 Documentación general.md",
+                "file": "06 Roadmap Hyprland/25 Revisar programas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 Documentación general"
+              "title": "25 Revisar programas"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Linux/Hyprland/0 Documentación general.md",
+                "file": "01 Linux/Hyprland/00 Documentación general.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0 Documentación general"
+              "title": "00 Documentación general"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Linux/Cisco Packet Tracer - Copilar programa.md",
+                "file": "01 Linux/Bitácora Bash/28 Redirección de salida.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cisco Packet Tracer - Copilar programa"
+              "title": "28 Redirección de salida"
             }
           }
         ]
@@ -229,11 +229,12 @@
   },
   "active": "ab580eb19309c746",
   "lastOpenFiles": [
-    "01 Linux/Hyprland/0 Documentación general.md",
+    "01 Linux/Hyprland/00 Documentación general.md",
     "06 Roadmap Hyprland/00 Documentación general.md",
+    "01 Linux/Bitácora Bash/28 Redirección de salida.md",
+    "01 Linux/Cisco Packet Tracer - Copilar programa.md",
     "01 Linux/Documentar/Documentar cfdisk.md",
     "01 Linux/Hyprland",
-    "01 Linux/Cisco Packet Tracer - Copilar programa.md",
     "01 Linux/Páginas de Wallpapers.md",
     "01 Linux/Flatpak.md",
     "01 Linux/Firewall - firewalld.md",
@@ -255,7 +256,6 @@
     "01 Linux/Documentar/Documentar PATH in ZSH.md",
     "01 Linux/Documentar/Documentar NixOS.md",
     "01 Linux/Documentar/documentar nftables - reemplazo de iptables.md",
-    "01 Linux/Documentar/Documentar Network Manager.md",
     "01 Linux/Documentar",
     "01 Linux/Fedora/Documentar",
     "01 Linux/Arch/Documentar",

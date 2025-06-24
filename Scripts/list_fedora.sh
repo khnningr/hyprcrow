@@ -7,11 +7,6 @@ pkg_utils=(
     "wf-recorder"
 )
 
-# Firewall
-pkg_firewalld=(
-    "firewalld"
-)
-
 pkg_hyprland=(
 	"hyprland"
 )
@@ -22,11 +17,4 @@ pkg_waybar=(
 
 pkg_rofi=(
 	"rofi-wayland"
-)
-
-pkg_libreoffice=(
-    "curl"
-    "cabextract"
-    "xorg-x11-font-utils"
-    "fontconfig"
 )

@@ -239,7 +239,7 @@
     "06 Roadmap Hyprland/38 thunar.md": "ee6d86ce28931387216cc71814f9a10e99742aa45578aa9b2b7f0919ec67ec9b",
     "07 Formación /Universidad/Calculo I/Prompt para ejercicios.md": "cfc8a56d4e811fd9d13c14a90188b371de2103b8ab0653a84424db26b7b78a2d",
     "07 Formación /Universidad/Calculo I/Prueba corta 2.md": "0179738ec29ba5ef5b593092de4d05caf9f31c63e93b247536141224e78fa3b4",
-    "06 Roadmap Hyprland/00 Documentación general.md": "802cf377f28f015cb0e3ec23a2bfb5684e3ee537cc8f497c7faa8e4e190e2541",
+    "06 Roadmap Hyprland/00 Documentación general.md": "1036982de7c7b76a062c028d5343566573a2afc07d6ab5443fea4706198f7f92",
     "01 Linux/Arch/Post/01 Conexión a internet.md": "58aceabb82b3e8fa266389a3943a8d6e0915ce39af2244bfd2820d6789721ca0",
     "01 Linux/Arch/Post/02 Mirrorlist - reflector.md": "937cdd115ca8c1291c2d369f7e9bdeb4ed57da8efa65f999efefed1d3fa5e374",
     "01 Linux/Arch/Post/03 multilib - repositorio.md": "619e26f9ec3bf17a6c4274517fa42a5f8c1c0f82b90a162667ab4f769378ab0b",
@@ -252,7 +252,7 @@
     "01 Linux/Arch/Post/13 ntfs - formato de discos de Windows.md": "10d747177478dd4a10348382834f5aa373242600f4b8cd54174f25051e820284",
     "01 Linux/Arch/Post/10 Controlador gráfico.md": "06a7325a23bb9b98376e4c2f832de2ab6f881bfdd5c080dc2c8dac867dbeda4b",
     "01 Linux/Arch/Post/11 fonts.md": "aeb292b75f1c08d836e0391d21185e381459e0584ce4a5cf9356e3ffcb5584e8",
-    "01 Linux/Arch/Post/12 Agregar un usuario.md": "37b8d40793c550d79187429c7e237ce5e5642697efc6dd6784362a60a816c858",
+    "01 Linux/Arch/Post/12 Agregar un usuario.md": "4e3d695a2dbf8455e3c514eafb87fa092af36c4121cf329e720cd5e94a3e5254",
     "01 Linux/Arch/Post/14 Rendimiento en SSD.md": "19bafbaf5e8404749847450e30bab2e39febe423c6bb76fe2dbb15812567ff80",
     "01 Linux/Arch/Post/15 ntp - Network Time Protocol.md": "b594411d69c9dd42fabc4c9b2154876e1af37ed2915f7937dfe1acf291f6398a",
     "01 Linux/Arch/Post/16 kernel.md": "3c88ce32767d5f6bbcaff2ce731fef2554e3bfa140983773be5f2c6a1c94bfda",
@@ -272,6 +272,7 @@
     "01 Linux/Documentar/Documentar comando free.md": "da694e38ff014abc603b50e5cc3a0bc083b3407009276de812b1c5577c0c0af9",
     "01 Linux/Fedora/Documentar/Documentar Conceptos básicos de Linux.md": "e4dbf9b0c07a8d8de59bfc1bb91053111750924b276068bfc1b09bf90a176136",
     "01 Linux/Documentar/Documentar comando df.md": "b8a9a935ab261ba6bcb04269c5f0be3e7be82fd6a6d33672264ead67f66e4798",
-    "01 Linux/Hyprland/00 Documentación general.md": "bad0f5c1514465a010e85f8a5c645f4df886510de60401db7ad1fcab9e4564c5"
+    "01 Linux/Hyprland/00 Documentación general.md": "bad0f5c1514465a010e85f8a5c645f4df886510de60401db7ad1fcab9e4564c5",
+    "01 Linux/Documentar/Documentar iwctl - comando.md": "495c2049ad7be13fd635ede0d91bb30f6cca156c656b869efdb46ddb9ac71291"
   }
 }

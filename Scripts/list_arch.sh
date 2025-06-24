@@ -67,16 +67,7 @@ pkg_kde=(
 
 # sudo pacman -S --needed --noconfirm "${pkg_kde[@]}"
 
-pkg_fonts=(
-    "zip"
-	"unzip"
-	"wget"
-	"noto-fonts"
-	"noto-fonts-emoji"
-	"noto-fonts-cjk"
-	"noto-fonts-extra"
-	"ttf-ms-fonts"
-)
+
 
 pkg_zsh=(
     "stow"
@@ -177,57 +168,9 @@ pkg_android=(
 	"android-tools"
 )
 
-pkg_mesa_git=(
-	"mesa-git"
-	"lib32-mesa-git"
-)
 
-pkg_mesa=(
-    "mesa"
-    "lib32-mesa"
-)
 
-pkg_amd_git=(
-    "vulkan-radeon-git"
-	"lib32-vulkan-radeon-git"
-	"llvm-libs-git"
-	"lib32-llvm-libs-git"
-)
 
-pkg_amd=(
-    "vulkan-radeon"
-	"lib32-vulkan-radeon"
-	"llvm-libs"
-	"lib32-llvm-libs"
-)
-
-pkg_base=(
-	"wezterm-git"
-	"zellij"
-	"git"
-	"github-cli"
-	"curl"
-	"wget"
-	"nano"
-	"neovim"
-	"man-db"
-	"man-pages"
-	"man-pages-es"
-	"tldr"
-	"p7zip"
-	"zip"
-	"unzip"
-	"unrar"
-	"vlc"
-	"rate-mirrors"
-	"cameractrls"
-	"btop"
-	"downgrade"
-	"ncspot"
-	"stow"
-	"python-pip"
-	"zed"
-)
 
 pkg_openrazer=(
 	"linux-zen-headers"
@@ -264,7 +207,6 @@ pkg_hyprland=(
 	"hyprland"
 	"gcc"
 	"jq"
-	"gnu-free-fonts"
 	"xdg-desktop-portal-hyprland"
 	"xdg-desktop-portal-gtk"
 	"xdg-desktop-portal"
@@ -329,22 +271,9 @@ pkg_yazi_aur=(
 )
 
 # Services
-pkg_bluethooth=(
-	"bluez"
-	"bluez-utils"
-	"blueman"
-)
 
-pkg_pipewire=(
-	"pipewire"
-	"pipewire-alsa"
-	"pipewire-audio"
-	"pipewire-jack"
-	"pipewire-pulse"
-	"gst-plugin-pipewire"
-	"wireplumber"
-	"pamixer"
-)
+
+
 
 pkg_nm=(
 	"networkmanager"
@@ -364,9 +293,7 @@ pkg_ufw_aur=(
 	"ufw-docker-git"
 )
 
-pkg_firewalld=(
-    "firewalld"
-)
+
 
 # sudo pacman -S --needed --noconfirm "${pkg_ufw_aur[@]}"
 
@@ -387,23 +314,9 @@ pkg_python_aur=(
 
 # paru -S --needed --noconfirm "${pkg_python_aur[@]}"
 
-pkg_libreoffice=(
-	"libreoffice-fresh"
-	"libreoffice-fresh-es"
-	"hyphen"
-	"hyphen-es"
-	"mythes-es"
-)
 
-pkg_libreoffice_aur=(
-	"ttf-ms-fonts"
-	"ttf-vista-fonts"
-	"ttf-office-2007-fonts"
-	"ttf-win7-fonts"
-	"ttf-ms-win8"
-	"ttf-ms-win10"
-	"ttf-ms-win11"
-)
+
+
 
 pkg_virt_manager=(
     "virt-manager"

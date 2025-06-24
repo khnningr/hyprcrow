@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Roadmap Hyprland/25 Revisar programas.md",
+                "file": "01 Linux/Arch/Post/08 yay - repositorio AUR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "25 Revisar programas"
+              "title": "08 yay - repositorio AUR"
             }
           },
           {
@@ -229,8 +229,14 @@
   },
   "active": "ab580eb19309c746",
   "lastOpenFiles": [
-    "01 Linux/Hyprland/00 Documentación general.md",
+    "01 Linux/Arch/Post/10 Controlador gráfico.md",
+    "01 Linux/Bitácora Bash/27 Clausuras de guarda.md",
+    "01 Linux/Arch/Post/02 Mirrorlist - reflector.md",
     "06 Roadmap Hyprland/00 Documentación general.md",
+    "01 Linux/Arch/Post/12 Agregar un usuario.md",
+    "01 Linux/Documentar/Documentar iwctl - comando.md",
+    "06 Roadmap Hyprland/25 Revisar programas.md",
+    "01 Linux/Hyprland/00 Documentación general.md",
     "01 Linux/Bitácora Bash/28 Redirección de salida.md",
     "01 Linux/Cisco Packet Tracer - Copilar programa.md",
     "01 Linux/Documentar/Documentar cfdisk.md",
@@ -250,12 +256,6 @@
     "01 Linux/Documentar/Documentar themes.md",
     "01 Linux/Documentar/Documentar su - (comando).md",
     "01 Linux/Documentar/Documentar strftime.md",
-    "01 Linux/Documentar/Documentar SSH.md",
-    "01 Linux/Documentar/Documentar rm - comando.md",
-    "01 Linux/Documentar/Documentar Podman.md",
-    "01 Linux/Documentar/Documentar PATH in ZSH.md",
-    "01 Linux/Documentar/Documentar NixOS.md",
-    "01 Linux/Documentar/documentar nftables - reemplazo de iptables.md",
     "01 Linux/Documentar",
     "01 Linux/Fedora/Documentar",
     "01 Linux/Arch/Documentar",

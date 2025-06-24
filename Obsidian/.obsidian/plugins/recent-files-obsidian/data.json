@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "08 yay - repositorio AUR",
+      "path": "01 Linux/Arch/Post/08 yay - repositorio AUR.md"
+    },
+    {
+      "basename": "10 Controlador gráfico",
+      "path": "01 Linux/Arch/Post/10 Controlador gráfico.md"
+    },
+    {
+      "basename": "27 Clausuras de guarda",
+      "path": "01 Linux/Bitácora Bash/27 Clausuras de guarda.md"
+    },
+    {
+      "basename": "02 Mirrorlist - reflector",
+      "path": "01 Linux/Arch/Post/02 Mirrorlist - reflector.md"
+    },
+    {
+      "basename": "00 Documentación general",
+      "path": "06 Roadmap Hyprland/00 Documentación general.md"
+    },
+    {
+      "basename": "12 Agregar un usuario",
+      "path": "01 Linux/Arch/Post/12 Agregar un usuario.md"
+    },
+    {
+      "basename": "Documentar iwctl - comando",
+      "path": "01 Linux/Documentar/Documentar iwctl - comando.md"
+    },
+    {
       "basename": "25 Revisar programas",
       "path": "06 Roadmap Hyprland/25 Revisar programas.md"
     },
     {
       "basename": "00 Documentación general",
       "path": "01 Linux/Hyprland/00 Documentación general.md"
-    },
-    {
-      "basename": "00 Documentación general",
-      "path": "06 Roadmap Hyprland/00 Documentación general.md"
     },
     {
       "basename": "28 Redirección de salida",
@@ -101,10 +125,6 @@
       "path": "01 Linux/Arch/Post/06 chaotic - repositorio AUR.md"
     },
     {
-      "basename": "10 Controlador gráfico",
-      "path": "01 Linux/Arch/Post/10 Controlador gráfico.md"
-    },
-    {
       "basename": "16 kernel",
       "path": "01 Linux/Arch/Post/16 kernel.md"
     },
@@ -165,10 +185,6 @@
       "path": "01 Linux/Arch/Post/17 Configuraciones de Pacman.md"
     },
     {
-      "basename": "12 Agregar un usuario",
-      "path": "01 Linux/Arch/Post/12 Agregar un usuario.md"
-    },
-    {
       "basename": "09 KDE x11 - entorno de escritorio",
       "path": "01 Linux/Arch/Post/09 KDE x11 - entorno de escritorio.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "04 paquetes escenciales",
       "path": "01 Linux/Arch/Post/04 paquetes escenciales.md"
-    },
-    {
-      "basename": "08 yay - repositorio AUR",
-      "path": "01 Linux/Arch/Post/08 yay - repositorio AUR.md"
-    },
-    {
-      "basename": "07 paru - repositorio AUR",
-      "path": "01 Linux/Arch/Post/07 paru - repositorio AUR.md"
-    },
-    {
-      "basename": "05 mesa-git - repositorio",
-      "path": "01 Linux/Arch/Post/05 mesa-git - repositorio.md"
-    },
-    {
-      "basename": "01 Conexión a internet",
-      "path": "01 Linux/Arch/Post/01 Conexión a internet.md"
     }
   ],
   "omittedPaths": [],

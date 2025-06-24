@@ -2,8 +2,7 @@
 
 set -euo pipefail
 
-# Agregar:
-# 1. Selección de drivers de vídeo (AMD | Nvidia | Virtual Machine)
+# Selección de drivers de vídeo (AMD | Nvidia | Virtual Machine)
 echo -e "Tarjeta gráfica (elija una opción)"
 echo "1. AMD"
 echo "2. Intel"
@@ -16,13 +15,13 @@ elegir_drivers=${elegir_drivers:="1"}
 
 case "$elegir_drivers" in
     1) # Opción AMD
-        . ./amd.sh
+        ./amd.sh
         ;;
     2) # Opción Intel
-        echo "No disponibles."
+        ./intel.sh
         ;;
     3) # Opción Nvidia
-        echo "No disponibles."
+        ./nvidia.sh
         ;;
     4)
         echo "Agregar paquetes de VM drivers."
@@ -37,6 +36,7 @@ case "$elegir_drivers" in
 
         ;;
     *) # Opción no válida.
-        echo "Opción no válida."
+        echo -e "Opción no válida. Intente de nuevo.\n"
+        ./graphics.sh
         ;;
 esac

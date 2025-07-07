@@ -36,5 +36,7 @@
   "update-time-on-edit",
   "vscode-editor",
   "obsidian-style-settings",
-  "auto-bullet"
+  "auto-bullet",
+  "obsidian-minimal-settings",
+  "fontsource"
 ]

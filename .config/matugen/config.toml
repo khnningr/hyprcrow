@@ -2,43 +2,64 @@
 reload_apps = true
 
 [config.wallpaper]
+arguments = [
+    "img",
+    "--transition-type",
+    "wipe",
+    "--transition-fps",
+    "60",
+    "--transition-duration",
+    "0.3",
+    "--transition-angle",
+    "30",
+    "--transition-step",
+    "90",
+]
 command = "swww"
-arguments = [ "img", "-t", "fade", "--transition-duration", "0.5", "--transition-step", "255", "--transition-fps", "60", "-f", "Nearest",]
 set = true
 
 [templates.hyprland]
-input_path = "~/.config/Ax-Shell/config/matugen/templates/hyprland-colors.conf"
-output_path = "~/.config/Ax-Shell/config/hypr/colors.conf"
+input_path = "./templates/hyprland-colors.conf"
+output_path = "../hypr/extra/colors.conf"
+post_hook = "hyprctl reload"
 
-[templates.ax-shell]
-input_path = "~/.config/Ax-Shell/config/matugen/templates/ax-shell.css"
-output_path = "~/.config/Ax-Shell/styles/colors.css"
-post_hook = "fabric-cli exec ax-shell 'app.set_css()' &"
+[templates.yazi]
+input_path = "./templates/yazi-theme.toml"
+output_path = "../yazi/theme.toml"
 
-[config.custom_colors.red]
-color = "#FF0000"
-blend = true
+#[templates.waybar]
+#input_path = "./templates/waybar-colors.css"
+#output_path = "../waybar/waybar-colors.css"
+#post_hook = "pkill -SIGUSR2 waybar"
 
-[config.custom_colors.green]
-color = "#00FF00"
-blend = true
+[templates.quickshell]
+input_path = "./templates/quickshell-colors.qml"
+output_path = "../quickshell/Data/Colors.qml"
 
-[config.custom_colors.yellow]
-color = "#FFFF00"
-blend = true
+[templates.rofi]
+input_path = "./templates/rofi-colors.rasi"
+output_path = "../rofi/rofi-colors.rasi"
 
-[config.custom_colors.blue]
-color = "#0000FF"
-blend = true
+[templates.wezterm]
+input_path = "./templates/wezterm-colors.toml"
+output_path = "../wezterm/colors/wezterm-colors.toml"
 
-[config.custom_colors.magenta]
-color = "#FF00FF"
-blend = true
+[templates.kitty]
+input_path = "./templates/kitty-colors.conf"
+output_path = "../kitty/kitty-colors.conf"
 
-[config.custom_colors.cyan]
-color = "#00FFFF"
-blend = true
+[templates.foot]
+input_path = "./templates/foot-colors.ini"
+output_path = "../foot/foot-colors.ini"
 
-[config.custom_colors.white]
-color = "#FFFFFF"
-blend = true
+[templates.terminal]
+input_path = "./templates/terminal.sh"
+output_path = "~/.local/bin/terminal.sh"
+
+[templates.variables]
+input_path = "./templates/variables.sh"
+output_path = "~/.local/bin/variables.sh"
+
+[templates.syshud]
+input_path = "./templates/syshud-colors.css"
+output_path = "../sys64/hud/syshud-colors.css"

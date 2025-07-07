@@ -37,7 +37,7 @@ verificar_comando matugen
 # Notificar cambio de fondo.
 echo "Aplicando nuevo fondo y actualizando paleta de colores, espera mientras se procesa la imagen..."
 
-swww img "$IMAGEN" --transition-type wipe --transition-fps 60 --transition-duration 0.3 --transition-angle 30 --transition-step 90
+# swww img "$IMAGEN" --transition-type wipe --transition-fps 60 --transition-duration 0.3 --transition-angle 30 --transition-step 90
 
 # hellwal -i "$IMAGEN"
 # wallust run "$IMAGEN"

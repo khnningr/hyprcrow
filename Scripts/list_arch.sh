@@ -230,6 +230,7 @@ pkg_hyprland=(
 	"udiskie"
 	"nwg-dock-hyprland"
 	"imagemagick"
+	"hyprsunset"
 )
 
 pkg_waybar=(

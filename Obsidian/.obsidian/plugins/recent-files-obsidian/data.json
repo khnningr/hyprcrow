@@ -1,6 +1,70 @@
 {
   "recentFiles": [
     {
+      "basename": "Documentar programas favoritos",
+      "path": "10 Windows/Documentar programas favoritos.md"
+    },
+    {
+      "basename": "Sin título 1",
+      "path": "Sin título 1.md"
+    },
+    {
+      "basename": "03 Álgebra de Boole",
+      "path": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/03 Álgebra de Boole.md"
+    },
+    {
+      "basename": "11 Quickshell",
+      "path": "06 Roadmap Hyprland/11 Quickshell.md"
+    },
+    {
+      "basename": "00 Conceptos básicos de electrónica",
+      "path": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/00 Conceptos básicos de electrónica.md"
+    },
+    {
+      "basename": "02 Tipos de ondas",
+      "path": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/02 Tipos de ondas.md"
+    },
+    {
+      "basename": "02 Comandos",
+      "path": "01 Linux/Eww/02 Comandos.md"
+    },
+    {
+      "basename": "01 Bases",
+      "path": "01 Linux/Eww/01 Bases.md"
+    },
+    {
+      "basename": "00 Documentar Eww",
+      "path": "01 Linux/Eww/00 Documentar Eww.md"
+    },
+    {
+      "basename": "monitor - propiedad",
+      "path": "01 Linux/Eww/monitor - propiedad.md"
+    },
+    {
+      "basename": "Tasoma",
+      "path": "05 Videojuegos/Warframe/Tasoma.md"
+    },
+    {
+      "basename": "85 EWW",
+      "path": "06 Roadmap Hyprland/85 EWW.md"
+    },
+    {
+      "basename": "Investigación 2",
+      "path": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/Investigación 2.md"
+    },
+    {
+      "basename": "Formato APA",
+      "path": "07 Formación /APA7/Formato APA.md"
+    },
+    {
+      "basename": "Prompt para ejercicios",
+      "path": "07 Formación /Universidad/Calculo I/Prompt para ejercicios.md"
+    },
+    {
+      "basename": "28 Redirección de salida",
+      "path": "01 Linux/Bitácora Bash/28 Redirección de salida.md"
+    },
+    {
       "basename": "08 yay - repositorio AUR",
       "path": "01 Linux/Arch/Post/08 yay - repositorio AUR.md"
     },
@@ -35,10 +99,6 @@
     {
       "basename": "00 Documentación general",
       "path": "01 Linux/Hyprland/00 Documentación general.md"
-    },
-    {
-      "basename": "28 Redirección de salida",
-      "path": "01 Linux/Bitácora Bash/28 Redirección de salida.md"
     },
     {
       "basename": "Cisco Packet Tracer - Copilar programa",
@@ -137,68 +197,8 @@
       "path": "_fit/06 Roadmap Hyprland/25 Revisar programas.md"
     },
     {
-      "basename": "Prompt para ejercicios",
-      "path": "07 Formación /Universidad/Calculo I/Prompt para ejercicios.md"
-    },
-    {
       "basename": "00.0 nueva shell",
       "path": "06 Roadmap Hyprland/00.0 nueva shell.md"
-    },
-    {
-      "basename": "00.1 Guías de cero de Hyprland",
-      "path": "06 Roadmap Hyprland/00.1 Guías de cero de Hyprland.md"
-    },
-    {
-      "basename": "04.1 Fedora",
-      "path": "06 Roadmap Hyprland/04.1 Fedora.md"
-    },
-    {
-      "basename": "04 Arch",
-      "path": "06 Roadmap Hyprland/04 Arch.md"
-    },
-    {
-      "basename": "05.2 Paquetes favoritos (Fedora)",
-      "path": "06 Roadmap Hyprland/05.2 Paquetes favoritos (Fedora).md"
-    },
-    {
-      "basename": "05.1 CLI",
-      "path": "06 Roadmap Hyprland/05.1 CLI.md"
-    },
-    {
-      "basename": "05 Paquetes favoritos (Arch)",
-      "path": "06 Roadmap Hyprland/05 Paquetes favoritos (Arch).md"
-    },
-    {
-      "basename": "17 UFW",
-      "path": "06 Roadmap Hyprland/17 UFW.md"
-    },
-    {
-      "basename": "14 Rendimiento en SSD",
-      "path": "01 Linux/Arch/Post/14 Rendimiento en SSD.md"
-    },
-    {
-      "basename": "15 ntp - Network Time Protocol",
-      "path": "01 Linux/Arch/Post/15 ntp - Network Time Protocol.md"
-    },
-    {
-      "basename": "17 Configuraciones de Pacman",
-      "path": "01 Linux/Arch/Post/17 Configuraciones de Pacman.md"
-    },
-    {
-      "basename": "09 KDE x11 - entorno de escritorio",
-      "path": "01 Linux/Arch/Post/09 KDE x11 - entorno de escritorio.md"
-    },
-    {
-      "basename": "11 fonts",
-      "path": "01 Linux/Arch/Post/11 fonts.md"
-    },
-    {
-      "basename": "13 ntfs - formato de discos de Windows",
-      "path": "01 Linux/Arch/Post/13 ntfs - formato de discos de Windows.md"
-    },
-    {
-      "basename": "04 paquetes escenciales",
-      "path": "01 Linux/Arch/Post/04 paquetes escenciales.md"
     }
   ],
   "omittedPaths": [],

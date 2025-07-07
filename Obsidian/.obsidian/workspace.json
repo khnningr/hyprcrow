@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Linux/Arch/Post/08 yay - repositorio AUR.md",
+                "file": "01 Linux/Eww/00 Documentar Eww.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08 yay - repositorio AUR"
+              "title": "00 Documentar Eww"
             }
           },
           {
@@ -41,15 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Linux/Bitácora Bash/28 Redirección de salida.md",
+                "file": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/03 Álgebra de Boole.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "28 Redirección de salida"
+              "title": "03 Álgebra de Boole"
+            }
+          },
+          {
+            "id": "424632a34e10ca0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10 Windows/Documentar programas favoritos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Documentar programas favoritos"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -227,35 +242,43 @@
       "fit:Fit Sync": false
     }
   },
-  "active": "ab580eb19309c746",
+  "active": "424632a34e10ca0a",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Sin título 1.md",
+    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/03 Álgebra de Boole.md",
+    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/03 Álgebra de Boole-1751696748431.webp",
+    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/03 Álgebra de Boole-1751696581969.webp",
+    "06 Roadmap Hyprland/11 Quickshell.md",
+    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/00 Conceptos básicos de electrónica.md",
+    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/02 Tipos de ondas.md",
+    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1751656971383.webp",
+    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1751656881231.webp",
+    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1751656736503.webp",
+    "06 Roadmap Hyprland/Wallpapers.md",
+    "01 Linux/Eww/02 Comandos.md",
+    "01 Linux/Eww/01 Bases.md",
+    "01 Linux/Eww/00 Documentar Eww.md",
+    "01 Linux/Eww/monitor - propiedad.md",
+    "05 Videojuegos/Warframe/Tasoma.md",
+    "05 Videojuegos/Warframe/adjuntos/Tasoma-1751354227154.webp",
+    "05 Videojuegos/Warframe/adjuntos",
+    "06 Roadmap Hyprland/85 EWW.md",
+    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/Investigación 2.md",
+    "07 Formación /APA7/Formato APA.md",
+    "07 Formación /Universidad/Calculo I/Prompt para ejercicios.md",
+    "01 Linux/Documentar/Documentar Systemd.md",
+    "10 Windows/Documentar programas favoritos.md",
+    "01 Linux/Bitácora Bash/28 Redirección de salida.md",
+    "01 Linux/Eww",
+    "01 Linux/Arch/Post/08 yay - repositorio AUR.md",
     "01 Linux/Arch/Post/10 Controlador gráfico.md",
     "01 Linux/Bitácora Bash/27 Clausuras de guarda.md",
     "01 Linux/Arch/Post/02 Mirrorlist - reflector.md",
     "06 Roadmap Hyprland/00 Documentación general.md",
     "01 Linux/Arch/Post/12 Agregar un usuario.md",
     "01 Linux/Documentar/Documentar iwctl - comando.md",
-    "06 Roadmap Hyprland/25 Revisar programas.md",
-    "01 Linux/Hyprland/00 Documentación general.md",
-    "01 Linux/Bitácora Bash/28 Redirección de salida.md",
-    "01 Linux/Cisco Packet Tracer - Copilar programa.md",
-    "01 Linux/Documentar/Documentar cfdisk.md",
     "01 Linux/Hyprland",
-    "01 Linux/Páginas de Wallpapers.md",
-    "01 Linux/Flatpak.md",
-    "01 Linux/Firewall - firewalld.md",
-    "01 Linux/Configuración en Gnome.md",
-    "01 Linux/Documentar/Documentar CSS.md",
-    "01 Linux/Documentar/Viejos apuntes de virt manager.md",
-    "01 Linux/Documentar/Documentar Zsh.md",
-    "01 Linux/Documentar/Documentar xon.sh - Shell con Python en Linux.md",
-    "01 Linux/Documentar/Documentar winapps.md",
-    "01 Linux/Documentar/Documentar vmware.md",
-    "01 Linux/Documentar/Documentar Virt Manager.md",
-    "01 Linux/Documentar/Documentar UFW.md",
-    "01 Linux/Documentar/Documentar themes.md",
-    "01 Linux/Documentar/Documentar su - (comando).md",
-    "01 Linux/Documentar/Documentar strftime.md",
     "01 Linux/Documentar",
     "01 Linux/Fedora/Documentar",
     "01 Linux/Arch/Documentar",
@@ -265,16 +288,8 @@
     "_fit/06 Roadmap Hyprland",
     "07 Formación /Universidad/Calculo I/adjuntos/Prompt-1750351883202.webp",
     "07 Formación /Universidad/Calculo I/adjuntos/Prompt-1750351867415.webp",
-    "_fit/05 Videojuegos/Warframe",
-    "_fit/05 Videojuegos",
     "06 Roadmap Hyprland/adjuntos/59 Matugen-1750179286169.webp",
     "06 Roadmap Hyprland/adjuntos/65 Rofi-1750179213268.webp",
-    "06 Roadmap Hyprland/adjuntos/65 Rofi-1750179015779.webp",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1749760846185.webp",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1749760763189.webp",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1749760488847.webp",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1749759893481.webp",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1749759878009.webp",
     "Sin título.canvas"
   ]
 }

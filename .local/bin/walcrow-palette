@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -euo pipefail
 
@@ -14,6 +14,7 @@ verificar_swww_daemon() {
 }
 verificar_swww_daemon
 
+# No hace falta que exista o copiar un archivo, puede ser un enlace.
 IMAGEN="$1"
 
 if [ "$IMAGEN" == "--random" ]; then
@@ -36,6 +37,9 @@ verificar_comando matugen
 
 # Notificar cambio de fondo.
 echo "Aplicando nuevo fondo y actualizando paleta de colores, espera mientras se procesa la imagen..."
+
+# Podriamos usar Magick convert, para reducir el tamaño de una imagen, si fuese necesario.
+# magick convert «input.jpg» -quality 90 «output.jpg»
 
 # swww img "$IMAGEN" --transition-type wipe --transition-fps 60 --transition-duration 0.3 --transition-angle 30 --transition-step 90
 

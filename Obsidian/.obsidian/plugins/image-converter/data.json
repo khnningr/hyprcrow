@@ -89,8 +89,8 @@
       "ffmpegPreset": "medium"
     },
     {
-      "name": "PNGQUANT (65-80, no resizing)",
-      "outputFormat": "PNGQUANT",
+      "name": "PNG",
+      "outputFormat": "PNG",
       "quality": 75,
       "colorDepth": 1,
       "resizeMode": "None",
@@ -107,7 +107,7 @@
       "ffmpegPreset": "medium"
     }
   ],
-  "selectedConversionPreset": "WEBP (75, no resizing)",
+  "selectedConversionPreset": "PNG",
   "globalPresets": [
     {
       "name": "WebP 75",
@@ -216,7 +216,7 @@
   "dropPasteCursorLocation": "back",
   "neverProcessFilenames": "",
   "modalBehavior": "never",
-  "ProcessCurrentNoteconvertTo": "webp",
+  "ProcessCurrentNoteconvertTo": "png",
   "ProcessCurrentNotequality": 0.75,
   "ProcessCurrentNoteResizeModalresizeMode": "None",
   "ProcessCurrentNoteresizeModaldesiredWidth": 600,

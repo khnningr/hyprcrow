@@ -78,6 +78,7 @@ bindkey -e
 bindkey '^k' history-search-backward
 bindkey '^j' history-search-forward
 bindkey '^[w' kill-region
+# bindkey '^\n' backward-kill-word # Por defecto, se hace con «ctrl»del
 
 # Historial
 HISTSIZE=5000
@@ -111,6 +112,7 @@ alias lz='exa --icons --color=always'
 alias parus="paru -Slq | fzf --multi --preview 'paru -Si {1}' | xargs -ro paru -S --needed"
 alias parux="paru -Qq | fzf --preview 'paru -Qil {}' --layout=reverse --bind 'enter:execute(paru -Qil {} | bat)'"
 alias parui="paru -Qe | fzf --preview 'paru -Qil | awk {$1}' --layout=reverse --bind 'enter:execute(paru -Qil | awk {$1} | bat)'"
+alias zed="xdg-open"
 
 # Shell integrations
 eval "$(fzf --zsh)" # <CTRL>R.

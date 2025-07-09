@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "comando ln -sf",
+      "path": "01 Linux/Documentar/comando ln -sf.md"
+    },
+    {
+      "basename": "06 Zed",
+      "path": "06 Roadmap Hyprland/06 Zed.md"
+    },
+    {
+      "basename": "Avance 2 electrónica",
+      "path": "Avance 2 electrónica.md"
+    },
+    {
+      "basename": "Proyecto de calculo I",
+      "path": "Proyecto de calculo I.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Documentar bitácora de Java",
+      "path": "02 Bitácoras/Java/Documentar bitácora de Java.md"
+    },
+    {
+      "basename": "Documentar Estructuras de decisión",
+      "path": "02 Bitácoras/Java/Documentar Estructuras de decisión.md"
+    },
+    {
+      "basename": "Documentar Java",
+      "path": "04 Programación - Lógica/Java/Documentar Java.md"
+    },
+    {
+      "basename": "Prompt para ejercicios",
+      "path": "07 Formación /Universidad/Calculo I/Prompt para ejercicios.md"
+    },
+    {
       "basename": "Documentar programas favoritos",
       "path": "10 Windows/Documentar programas favoritos.md"
     },
@@ -55,10 +91,6 @@
     {
       "basename": "Formato APA",
       "path": "07 Formación /APA7/Formato APA.md"
-    },
-    {
-      "basename": "Prompt para ejercicios",
-      "path": "07 Formación /Universidad/Calculo I/Prompt para ejercicios.md"
     },
     {
       "basename": "28 Redirección de salida",
@@ -167,38 +199,6 @@
     {
       "basename": "Documentar Conexión inalámbrica",
       "path": "01 Linux/Arch/Documentar/Documentar Conexión inalámbrica.md"
-    },
-    {
-      "basename": "00 Comandos básicos",
-      "path": "01 Linux/Arch/00 Comandos básicos.md"
-    },
-    {
-      "basename": "00.1 archinstall",
-      "path": "01 Linux/Arch/00.1 archinstall.md"
-    },
-    {
-      "basename": "01 Verificar firmas",
-      "path": "01 Linux/Arch/01 Verificar firmas.md"
-    },
-    {
-      "basename": "06 chaotic - repositorio AUR",
-      "path": "01 Linux/Arch/Post/06 chaotic - repositorio AUR.md"
-    },
-    {
-      "basename": "16 kernel",
-      "path": "01 Linux/Arch/Post/16 kernel.md"
-    },
-    {
-      "basename": "29 Bash Select",
-      "path": "01 Linux/Bitácora Bash/29 Bash Select.md"
-    },
-    {
-      "basename": "25 Revisar programas",
-      "path": "_fit/06 Roadmap Hyprland/25 Revisar programas.md"
-    },
-    {
-      "basename": "00.0 nueva shell",
-      "path": "06 Roadmap Hyprland/00.0 nueva shell.md"
     }
   ],
   "omittedPaths": [],

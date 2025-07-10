@@ -173,5 +173,36 @@
         }
       }
     }
+  },
+
+  // Extensiones. Este comando muestra el nombre de las extensiones:
+  // ls ~/.local/share/zed/extensions/installed
+  "auto_install_extensions": {
+    "asciidoc": true,
+    "basher": true,
+    "colored-zed-icons-theme": true,
+    "fish": true,
+    "github-theme": true,
+    "html": true,
+    "hyprlang": true,
+    "java": true,
+    "lua": true,
+    "markdown-oxide": true,
+    "meson": true,
+    "nix": true,
+    "plantuml": true,
+    "powershell": true,
+    "pylsp": true,
+    "python": true,
+    "python-snippets": true,
+    "qml": true,
+    "rpmspec": true,
+    "scss": true,
+    "ssh-config": true,
+    "tmux": true,
+    "tokyo-night": true,
+    "toml": true,
+    "tree-sitter-query": true,
+    "xml": true
   }
 }

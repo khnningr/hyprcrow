@@ -53,9 +53,9 @@ xdg-mime default ${open_doc} application/vnd.oasis.opendocument.presentation
 
 # Zed
 open_ide="dev.zed.Zed.desktop"
-xdg-mime ${open_ide} text/plain
-xdg-mime ${open_ide} application/x-shellscript
-xdg-mime ${open_ide} text/x-python
+xdg-mime default ${open_ide} text/plain
+xdg-mime default ${open_ide} application/x-shellscript
+xdg-mime default ${open_ide} text/x-python
 
 # Open PDFs with the Document Viewer
 open_doc_viewer="org.gnome.Evince.desktop"
@@ -72,14 +72,14 @@ xdg-mime default ${open_browser} text/html
 # Archivo de imagen
 open_visor="org.gnome.Loupe.desktop"
 # visor="imv.desktop"
-xdg-mime default ${visor} image/png
-xdg-mime default ${visor} image/jpeg
-xdg-mime default ${visor} image/jpg
-xdg-mime default ${visor} image/gif
-xdg-mime default ${visor} image/webp
-xdg-mime default ${visor} image/bmp
-xdg-mime default ${visor} image/tiff
-xdg-mime default ${visor} image/svg+xml
+xdg-mime default ${open_visor} image/png
+xdg-mime default ${open_visor} image/jpeg
+xdg-mime default ${open_visor} image/jpg
+xdg-mime default ${open_visor} image/gif
+xdg-mime default ${open_visor} image/webp
+xdg-mime default ${open_visor} image/bmp
+xdg-mime default ${open_visor} image/tiff
+xdg-mime default ${open_visor} image/svg+xml
 
 # Torrents
 open_torrents="de.haeckerfelix.Fragments.desktop"

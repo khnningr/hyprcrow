@@ -47,7 +47,7 @@ source "${ZINIT_HOME}/zinit.zsh"
 export TERM=wezterm
 export EDITOR=zed # nvim
 export VISUAL=zed
-export BROWSER=vivaldi
+#export BROWSER=vivaldi
 export SHELL="/bin/zsh"
 
 # Añadir ZSH plugins

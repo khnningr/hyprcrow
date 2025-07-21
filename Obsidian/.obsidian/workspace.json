@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Linux/Bitácora Bash/05 Variables.md",
+                "file": "06 Roadmap Hyprland/00 Documentación general.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 Variables"
+              "title": "00 Documentación general"
             }
           },
           {
@@ -229,6 +229,7 @@
   },
   "active": "ab580eb19309c746",
   "lastOpenFiles": [
+    "01 Linux/Bitácora Bash/05 Variables.md",
     "06 Roadmap Hyprland/00 Documentación general.md",
     "05 Videojuegos/Oxygen Not Incluted/Volcán compacto - Diseño.md",
     "05 Videojuegos/Oxygen Not Incluted/Cool steam vent - Diseño.md",
@@ -256,7 +257,6 @@
     "10 Windows/08 Cliente de torrents.md",
     "10 Windows/07 Prompt (Rices).md",
     "10 Windows/Documentar Windows.md",
-    "10 Windows/06 Launchers.md",
     "04 Programación - Lógica/Documentar",
     "05 Videojuegos/Retrogaming",
     "05 Videojuegos/Oxygen Not Incluted/adjuntos/Diseño de cabina - Cohete-1752826237411.png",

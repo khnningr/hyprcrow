@@ -1,0 +1,4 @@
+chrome-extension-scheme
+moz-extension-scheme
+www.qwant.com
+

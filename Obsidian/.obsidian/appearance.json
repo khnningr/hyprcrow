@@ -2,7 +2,7 @@
   "cssTheme": "GitHub Theme",
   "theme": "obsidian",
   "nativeMenus": false,
-  "interfaceFontFamily": "Times New Roman",
+  "interfaceFontFamily": "Mononoki Nerd Font Propo",
   "enabledCssSnippets": [
     "Colored Sidebar Items",
     "CyanVoxel's General Tweaks",
@@ -11,6 +11,6 @@
     "RuneScape",
     "fonts"
   ],
-  "textFontFamily": "Times New Roman",
-  "monospaceFontFamily": "Times New Roman"
+  "textFontFamily": "Mononoki Nerd Font Propo",
+  "monospaceFontFamily": "Mononoki Nerd Font Propo"
 }

@@ -41,7 +41,7 @@ echo "Aplicando nuevo fondo y actualizando paleta de colores, espera mientras se
 # Podriamos usar Magick convert, para reducir el tamaño de una imagen, si fuese necesario.
 # magick convert «input.jpg» -quality 90 «output.jpg»
 
-# swww img "$IMAGEN" --transition-type wipe --transition-fps 60 --transition-duration 0.3 --transition-angle 30 --transition-step 90
+swww img "$IMAGEN" --transition-type wipe --transition-fps 60 --transition-duration 0.3 --transition-angle 30 --transition-step 90
 
 # hellwal -i "$IMAGEN"
 # wallust run "$IMAGEN"

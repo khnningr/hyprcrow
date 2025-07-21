@@ -37,42 +37,75 @@ set -euo pipefail
 
 if command -v pacman &> /dev/null; then
     . ./list_arch.sh
-    sudo pacman -S --needed --noconfirm "${pkg_mimetype[@]}"
+    # Al instalar plocate, para usar el siguiente comando: locate -i «programa»
+    sudo pacman -S --needed --noconfirm xdg-utils plocate
 fi
 
 sudo updatedb
 
+update-desktop-database ~/.local/share/applications
+
 # LibreOffice
-xdg-mime default libreoffice-writer.desktop application/vnd.oasis.opendocument.text
-xdg-mime default libreoffice-calc.desktop application/vnd.oasis.opendocument.spreadsheet
-xdg-mime default libreoffice-impress.desktop application/vnd.oasis.opendocument.presentation
+open_doc="libreoffice-writer.desktop"
+xdg-mime default ${open_doc} application/vnd.oasis.opendocument.text
+xdg-mime default ${open_doc} application/vnd.oasis.opendocument.spreadsheet
+xdg-mime default ${open_doc} application/vnd.oasis.opendocument.presentation
 
 # Zed
-xdg-mime default dev.zed.Zed.desktop text/plain
-xdg-mime default dev.zed.Zed.desktop application/x-shellscript
-xdg-mime default dev.zed.Zed.desktop text/x-python
+open_ide="dev.zed.Zed.desktop"
+xdg-mime ${open_ide} text/plain
+xdg-mime ${open_ide} application/x-shellscript
+xdg-mime ${open_ide} text/x-python
 
-xdg-mime default org.gnome.Evince.desktop application/pdf
+# Open PDFs with the Document Viewer
+open_doc_viewer="org.gnome.Evince.desktop"
+xdg-mime default ${open_doc_viewer} application/pdf
 
-xdg-mime default vivaldi-stable.desktop text/html
+# Default browser
+open_browser="zen.desktop"
+# open_browser="vivaldi-stable.desktop"
+xdg-settings set default-web-browser ${open_browser}
+xdg-mime default ${open_browser} x-scheme-handler/http
+xdg-mime default ${open_browser} x-scheme-handler/https
+xdg-mime default ${open_browser} text/html
 
 # Archivo de imagen
-xdg-mime default org.gnome.Loupe.desktop image/bmp
-xdg-mime default org.gnome.Loupe.desktop image/gif
-xdg-mime default org.gnome.Loupe.desktop image/jpg
-xdg-mime default org.gnome.Loupe.desktop image/jpeg
-xdg-mime default org.gnome.Loupe.desktop image/png
-xdg-mime default org.gnome.Loupe.desktop image/svg+xml
-xdg-mime default org.gnome.Loupe.desktop image/tiff
+open_visor="org.gnome.Loupe.desktop"
+# visor="imv.desktop"
+xdg-mime default ${visor} image/png
+xdg-mime default ${visor} image/jpeg
+xdg-mime default ${visor} image/jpg
+xdg-mime default ${visor} image/gif
+xdg-mime default ${visor} image/webp
+xdg-mime default ${visor} image/bmp
+xdg-mime default ${visor} image/tiff
+xdg-mime default ${visor} image/svg+xml
 
-xdg-mime default de.haeckerfelix.Fragments.desktop application/x-bittorrent
-xdg-mime default de.haeckerfelix.Fragments.desktop x-scheme-handler/magneta
+# Torrents
+open_torrents="de.haeckerfelix.Fragments.desktop"
+xdg-mime default ${open_torrents} application/x-bittorrent
+xdg-mime default ${open_torrents} x-scheme-handler/magneta
 
-xdg-mime default vlc.desktop audio/mpeg
-xdg-mime default vlc.desktop video/mp4
-xdg-mime default vlc.desktop video/x-matroska
+# Open video files
+open_video="vlc.desktop"
+xdg-mime default ${open_video} video/mp4
+xdg-mime default ${open_video} video/x-msvideo
+xdg-mime default ${open_video} video/x-matroska
+xdg-mime default ${open_video} video/x-flv
+xdg-mime default ${open_video} video/x-ms-wmv
+xdg-mime default ${open_video} audio/mpeg
+xdg-mime default ${open_video} video/ogg
+xdg-mime default ${open_video} video/webm
+xdg-mime default ${open_video} video/quicktime
+xdg-mime default ${open_video} video/3gpp
+xdg-mime default ${open_video} video/3gpp2
+xdg-mime default ${open_video} video/x-ms-asf
+xdg-mime default ${open_video} video/x-ogm+ogg
+xdg-mime default ${open_video} video/x-theora+ogg
+xdg-mime default ${open_video} application/ogg
 
-xdg-mime default org.gnome.FileRoller.desktop application/zip
-xdg-mime default org.gnome.FileRoller.desktop application/x-tar
+open_file="org.gnome.FileRoller.desktop"
+xdg-mime default ${open_file} application/zip
+xdg-mime default ${open_file} application/x-tar
 
 xdg-mime default kitty-open.desktop inode/directory

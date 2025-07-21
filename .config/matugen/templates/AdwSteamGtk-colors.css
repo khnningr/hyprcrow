@@ -1,0 +1,24 @@
+/* ------------------ */
+/* --- Custom CSS --- */
+/* ------------------ */
+
+/* --- EXAMPLE: Override Theme Colors --- */
+
+/* The main accent color and the matching text value */
+@define-color accent_color {{ colors.primary_fixed_dim.default.rgb | replace: "rgb(", "" | replace: ")", "" }};
+@define-color accent_fg_color {{ colors.on_primary_fixed.default.rgb | replace: "rgb(", "" | replace: ")", "" }};
+@define-color accent_bg_color {{ colors.primary_fixed_dim.default.rgb | replace: "rgb(", "" | replace: ")", "" }};
+
+/* Window */
+@define-color window_bg_color {{ colors.surface_dim.default.rgb | replace: "rgb(", "" | replace: ")", "" }};
+@define-color window_fg_color {{ colors.on_surface.default.rgb | replace: "rgb(", "" | replace: ")", "" }};
+
+:root {
+    --adw-accent-bg-rgb: @accent_bg_color;
+    --adw-accent-fg-rgb: @accent_fg_color;
+    --adw-accent-rgb: @accent_color;
+
+    /* Window */
+	--adw-window-bg-rgb: @window_bg_color;
+	--adw-window-fg-rgb: @window_fg_color;
+}

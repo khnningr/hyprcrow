@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Linux/Eww/00 Documentar Eww.md",
+                "file": "01 Linux/Bitácora Bash/05 Variables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 Documentar Eww"
+              "title": "05 Variables"
             }
           },
           {
@@ -41,30 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07 Formación /Universidad/Eléctronica digital y Microprocesadores/03 Álgebra de Boole.md",
+                "file": "01 Linux/Bitácora Bash/10 Condicional - comparación entre Strings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 Álgebra de Boole"
-            }
-          },
-          {
-            "id": "424632a34e10ca0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Linux/Documentar/comando ln -sf.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "comando ln -sf"
+              "title": "10 Condicional - comparación entre Strings"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "firefox",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -242,54 +227,54 @@
       "fit:Fit Sync": false
     }
   },
-  "active": "424632a34e10ca0a",
+  "active": "ab580eb19309c746",
   "lastOpenFiles": [
-    "06 Roadmap Hyprland/06 Zed.md",
-    "01 Linux/Documentar/comando ln -sf.md",
-    "Avance 2 electrónica.md",
-    "Proyecto de calculo I.md",
-    "Untitled.md",
-    "02 Bitácoras/Java/Documentar bitácora de Java.md",
-    "02 Bitácoras/Java/Documentar Estructuras de decisión.md",
-    "04 Programación - Lógica/Java/Documentar Java.md",
+    "06 Roadmap Hyprland/00 Documentación general.md",
+    "05 Videojuegos/Oxygen Not Incluted/Volcán compacto - Diseño.md",
+    "05 Videojuegos/Oxygen Not Incluted/Cool steam vent - Diseño.md",
     "07 Formación /Universidad/Calculo I/Prompt para ejercicios.md",
-    "10 Windows/Documentar programas favoritos.md",
-    "00 Python/Documentar/Cursos desde cero.md",
+    "05 Videojuegos/Oxygen Not Incluted/Semillas.md",
+    "01 Linux/Eww/Rices de ejemplo.md",
+    "01 Linux/Eww/adjuntos/Rices de ejemplo-1753058600322.png",
+    "01 Linux/Eww/adjuntos",
+    "01 Linux/Eww/monitor - propiedad.md",
+    "01 Linux/Eww/00 Documentar Eww.md",
+    "01 Linux/Eww/01 Bases.md",
+    "01 Linux/Eww/85 EWW.md",
+    "01 Linux/Eww/02 Comandos.md",
+    "03 Ética/Privacidad - Referencias.md",
+    "11 Manual de manejo/Referencias.md",
+    "10 Windows/11 Antivirus.md",
+    "10 Windows/09 Desinstalar o cleaner.md",
+    "10 Windows/10 Limpieza de Metadata.md",
+    "10 Windows/05 Ofimática.md",
+    "10 Windows/02 Drivers o controladores.md",
+    "10 Windows/02.1 DirectX Runtime.md",
+    "10 Windows/02.2 Visual C++ Redistributable Runtimes.md",
+    "10 Windows/02.3 Desinstalar drivers o controladores (GPU).md",
+    "10 Windows/00.1 Scripts para debloat.md",
+    "10 Windows/08 Cliente de torrents.md",
+    "10 Windows/07 Prompt (Rices).md",
+    "10 Windows/Documentar Windows.md",
+    "10 Windows/06 Launchers.md",
+    "04 Programación - Lógica/Documentar",
+    "05 Videojuegos/Retrogaming",
+    "05 Videojuegos/Oxygen Not Incluted/adjuntos/Diseño de cabina - Cohete-1752826237411.png",
+    "05 Videojuegos/Oxygen Not Incluted/adjuntos/Diseño de cabina - Cohete-1752826227094.png",
+    "05 Videojuegos/Oxygen Not Incluted/adjuntos/Diseño de cabina - Cohete-1752826214869.png",
+    "05 Videojuegos/Oxygen Not Incluted/adjuntos/Diseño de cabina - Cohete-1752826204048.png",
+    "05 Videojuegos/Oxygen Not Incluted/adjuntos/Diseño de cabina - Cohete-1752826190344.png",
+    "05 Videojuegos/Oxygen Not Incluted/adjuntos/Diseño de cabina - Cohete-1752826056888.png",
+    "05 Videojuegos/Genshin",
+    "05 Videojuegos/Project Zomboid",
+    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/04 Compuertas lógicas-1752172581373.png",
     "00 Python/Documentar",
     "10 Windows/adjuntos/Documentar programas favoritos-1751917354804.png",
     "10 Windows/adjuntos",
-    "Sin título 1.md",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/03 Álgebra de Boole.md",
     "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/03 Álgebra de Boole-1751696748431.png",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/03 Álgebra de Boole-1751696581969.png",
-    "06 Roadmap Hyprland/11 Quickshell.md",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/00 Conceptos básicos de electrónica.md",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/02 Tipos de ondas.md",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1751656971383.png",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1751656881231.png",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/adjuntos/02 Tipos de ondas-1751656736503.png",
-    "06 Roadmap Hyprland/Wallpapers.md",
-    "01 Linux/Eww/02 Comandos.md",
-    "01 Linux/Eww/01 Bases.md",
-    "01 Linux/Eww/00 Documentar Eww.md",
-    "01 Linux/Eww/monitor - propiedad.md",
-    "05 Videojuegos/Warframe/Tasoma.md",
-    "05 Videojuegos/Warframe/adjuntos/Tasoma-1751354227154.webp",
     "05 Videojuegos/Warframe/adjuntos",
-    "06 Roadmap Hyprland/85 EWW.md",
-    "07 Formación /Universidad/Eléctronica digital y Microprocesadores/Investigación 2.md",
-    "07 Formación /APA7/Formato APA.md",
-    "01 Linux/Documentar/Documentar Systemd.md",
     "01 Linux/Eww",
     "01 Linux/Hyprland",
-    "01 Linux/Documentar",
-    "01 Linux/Fedora/Documentar",
-    "01 Linux/Arch/Documentar",
-    "01 Linux/Arch/Instalación manual",
-    "01 Linux/Arch/Post",
-    "07 Formación /Universidad/Calculo I/adjuntos/Prompt-1750351883202.png",
-    "07 Formación /Universidad/Calculo I/adjuntos/Prompt-1750351867415.png",
-    "06 Roadmap Hyprland/adjuntos/59 Matugen-1750179286169.png",
     "Sin título.canvas"
   ]
 }

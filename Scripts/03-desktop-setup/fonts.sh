@@ -9,6 +9,7 @@ pkg_fonts=(
 	"noto-fonts-emoji"
 	"noto-fonts-extra"
 	"nerd-fonts"
+	"ttf-nerd-fonts-symbols"
 )
 
 if command -v "pacman" &> /dev/null; then

@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "08 limpiar home",
+      "path": "06 Roadmap Hyprland/08 limpiar home.md"
+    },
+    {
+      "basename": "07 repositorio blackarch",
+      "path": "06 Roadmap Hyprland/07 repositorio blackarch.md"
+    },
+    {
+      "basename": "Material Handler DL I",
+      "path": "Material Handler DL I.md"
+    },
+    {
+      "basename": "Zen",
+      "path": "06 Roadmap Hyprland/Zen.md"
+    },
+    {
+      "basename": "06 Zed",
+      "path": "06 Roadmap Hyprland/06 Zed.md"
+    },
+    {
+      "basename": "02 Panel",
+      "path": "01 Linux/Quickshell/02 Panel.md"
+    },
+    {
+      "basename": "01 Comandos básicos",
+      "path": "01 Linux/Quickshell/01 Comandos básicos.md"
+    },
+    {
+      "basename": "00 Referencias importantes",
+      "path": "01 Linux/Quickshell/00 Referencias importantes.md"
+    },
+    {
+      "basename": "11 Quickshell",
+      "path": "01 Linux/Quickshell/11 Quickshell.md"
+    },
+    {
+      "basename": "Rices de ejemplo",
+      "path": "01 Linux/Eww/Rices de ejemplo.md"
+    },
+    {
       "basename": "00 Documentación general",
       "path": "06 Roadmap Hyprland/00 Documentación general.md"
     },
@@ -19,10 +59,6 @@
     {
       "basename": "Prompt para ejercicios",
       "path": "07 Formación /Universidad/Calculo I/Prompt para ejercicios.md"
-    },
-    {
-      "basename": "Rices de ejemplo",
-      "path": "01 Linux/Eww/Rices de ejemplo.md"
     },
     {
       "basename": "monitor - propiedad",
@@ -163,42 +199,6 @@
     {
       "basename": "Hack Wii",
       "path": "05 Videojuegos/Retrogaming/Hack Wii.md"
-    },
-    {
-      "basename": "Compresión de roms",
-      "path": "05 Videojuegos/Retrogaming/Compresión de roms.md"
-    },
-    {
-      "basename": "Blogs",
-      "path": "05 Videojuegos/Retrogaming/Blogs.md"
-    },
-    {
-      "basename": "Roms",
-      "path": "05 Videojuegos/Retrogaming/Roms.md"
-    },
-    {
-      "basename": "Parches de LibCrypt",
-      "path": "05 Videojuegos/Retrogaming/Parches de LibCrypt.md"
-    },
-    {
-      "basename": "Parches de idiomas",
-      "path": "05 Videojuegos/Retrogaming/Parches de idiomas.md"
-    },
-    {
-      "basename": "Emuladores",
-      "path": "05 Videojuegos/Retrogaming/Emuladores.md"
-    },
-    {
-      "basename": "Main Base",
-      "path": "05 Videojuegos/Oxygen Not Incluted/Main Base.md"
-    },
-    {
-      "basename": "Gym",
-      "path": "05 Videojuegos/Oxygen Not Incluted/Gym.md"
-    },
-    {
-      "basename": "Referencias para diseños",
-      "path": "05 Videojuegos/Oxygen Not Incluted/Referencias para diseños.md"
     }
   ],
   "omittedPaths": [],

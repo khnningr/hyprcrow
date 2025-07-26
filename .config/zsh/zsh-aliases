@@ -1,0 +1,56 @@
+# Confirm before overwriting something
+alias cp="cp -iv"
+alias mv="mv -iv"
+alias rm="rm -I"
+
+alias cd="z"
+alias zz="z -"
+alias ..='cd ..'
+alias cat='bat'
+alias v='nvim'
+alias p="sudo pacman"
+alias yt-dl="yt-dlp -f mp4"
+
+# git
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+alias gl= 'git log'
+
+# Colorize grep output
+alias grep="grep --color=auto"
+
+# Colorize ls output
+alias ls="exa --icons"
+alias l='ls -lh'
+alias la='ls -a'
+alias lla='ls -lah'
+alias lt='ls -T'
+
+# Easier to read disk
+alias df='df -h'
+alias free='free -m'
+
+# get top process eating cpu
+alias pscpu='ps auxf | sort -nr -k 3 | head -5'
+# get top process eating memory
+alias pscpu='ps auxf | sort -nr -k 4 | head -5'
+
+# Traversing fast through directories
+alias uni='cd ~/Documents/uni/'
+alias cod='cd ~/Documents/coding/'
+
+# Flex on em
+alias pf='pfetch'
+alias nf='neofetch'
+
+# Devour windows
+alias mpv="devour mpv"
+alias nsxiv="devour nsxiv"
+alias zathura="devour zathura"
+
+alias pyenv='python3 -m venv venv && source venv/bin/activate'
+alias copy='xclip -selection clipboard'
+alias mount-thinkpad='sudo sshfs -o allow_other,default_permissions rafa@192.168.1.23:/home/rafa /mnt/'
+alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"'

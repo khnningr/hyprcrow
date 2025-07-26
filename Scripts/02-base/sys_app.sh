@@ -30,6 +30,7 @@ pkg_base=(
 	"python-pip"
 	"zed"
 	"openssh"
+	"wiremix"
 )
 
 dir_obsidian="$HOME/Obsidian"

@@ -27,6 +27,7 @@ pkg_mesa=(
 )
 
 if command -v "pacman" &> /dev/null; then
+    sudo pacman -S --needed gum
     if grep -q "mesa-git" /etc/pacman.conf; then
         sudo pacman -S --needed "${pkg_mesa_git[@]}"
     else
@@ -41,15 +42,19 @@ else
     exit 1
 fi
 
-echo -e "Posees una gráfica AMD Radeon 7000 series? (s/n)"
-read -p "> " confirmar_serie
-echo ""
+CONFIRMAR_SERIE=$(gum choose --header="Posees una gráfica AMD Radeon 7000 series? (s/n):" "Sí" "No")
 
-confirmar_serie=${confirmar_serie:="N"}
+if [[ "$CONFIRMAR_SERIE" != "Sí" ]]; then
+    exit 1
+fi
 
-if [[ "$confirmar_serie" == "s" ]] || [[ "$confirmar_serie" == "S" ]]; then
-    sudo sed -i 's/GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet"/GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet amdgpu.vm_update_mode=3"' \
-        /etc/default/grub
+if ! grep -q "amdgpu.vm_update_mode=3" /etc/default/grub; then
+    sudo sed -i '/^GRUB_CMDLINE_LINUX_DEFAULT=/ s/"$/ amdgpu.vm_update_mode=3"/' /etc/default/grub
+    echo "Es necesario reiniciar la configuración del GRUB..."
+fi
+
+if gum confirm --affirmative="Sí" --timeout="10s" "Deseas reiniciar la configuración del GRUB? (y/n)"; then
+    sudo grub-mkconfig -o /boot/grub/grub.cfgs
 fi
 
 echo -e "\nEs necesario un reboot."

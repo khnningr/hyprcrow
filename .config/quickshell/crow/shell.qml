@@ -1,13 +1,48 @@
 //@ pragma UseQApplication
-// Le dice a Quickshell que utilice QApplication en lugar de Q GUI; esto para el
-// correcto comportamiento en administradores de ventana.
+// to the top of your root QML file and restart quickshell.
 
-import qtQuick // Importa el módulo de qtQuick; para componentes básiocos de QML como Rectangle, Text...
+import QtQuick
+import QtQuick.Controls
 import Quickshell
-import "./modules/bar/"
+import Quickshell.Hyprland
 
-shellroot {
-  id: root
+// Módulos
+import qs.Modules.StatusBar
+import qs.Modules.Wallpaper
 
+import qs.Test // Así es como se importa un modulo; sintaxis: 'import qs.<dir/al/modulo> [as <Namespace>]'
+import qs.Test.ReutilizarCodigo
+import qs.Test.Workspace
+import qs.Test.QtObject
+
+ShellRoot {
+
+    //TestAppLauncher {}
+    //TestNotificationServer {}
+    //TestNotification {}
+    //TestWorkspacesNumber {}
+    //Workspaces {}
+    //TestWorkspacesIcon {}
+    //
+    //
+    //ReutilizarCodigo {}
+    //WindowManager {}
+    //
+    //Workspace {}
+
+    //TestNotidications {}
+    // TestButton {}
+    // TestCheckBox {}
+    // TestComboBox {}
+    // TestRepeater {}
+    // TestRowLayout {}
+    //
+    //TestQtObject {}
+
+    // TestLabel {} // Label con 'Hola mundo'
+
+    //
+    // Modulos
+    Bar {}
+    Wallpaper {}
 }
-// 5min

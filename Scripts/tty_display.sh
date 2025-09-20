@@ -2,15 +2,7 @@
 
 set -euo pipefail
 
-
-if [[ "$SHELL" == "/bin/zsh" ]]; then
-    [[ -f "$HOME/.zprofile" ]] || touch "$HOME/.zprofile"
-    if ! grep -q "[[ -z $DISPLAY && $(tty) == /dev/tty1 ]] && exec Hyprland" $HOME/.zprofile; then
-        echo "[[ -z "\${DISPLAY}" && \$(tty) == /dev/tty1 ]] && exec Hyprland" >~/.zprofile
-    fi
-fi
-
-
+echo "[[ -z "\${DISPLAY}" && \$(tty) == /dev/tty1 ]] && exec Hyprland" | sudo tee -a /etc/zsh/zlogin
 
 # if ! grep -q "exec Hyprland" $HOME/.zprofile; then
     # cat << EOF >> "$HOME/.zprofile"

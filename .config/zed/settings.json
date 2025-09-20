@@ -18,7 +18,7 @@
   // Configuración del tema del IDE.
   "theme": {
     "mode": "system",
-    "light": "Github Light",
+    "light": "Github Dark",
     "dark": "Github Dark" // Extensión: github-theme
     // "dark": "Tokyo Night"
   },

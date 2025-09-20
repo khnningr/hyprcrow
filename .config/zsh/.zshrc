@@ -1,7 +1,7 @@
 # source .zshrc - comando para resetear la configuración del shell.
 
 # Add the usual stuff
-zsh_add_file "zsh-icons"
+[ -f "$ZDOTDIR/zsh-aliases" ] && source "$ZDOTDIR/zsh-aliases"
 
 if [ -n "$TTY" ]; then
   export GPG_TTY=$(tty)
@@ -63,14 +63,9 @@ eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/kh.toml)"
 
 # Keybindings
 bindkey -e
-# bindkey '^k' history-search-backward
-# bindkey '^j' history-search-forward
+bindkey '^k' history-search-backward
+bindkey '^j' history-search-forward
 bindkey '^[w' kill-region
-# Use vim keys in tab complete menu:
-bindkey -M menuselect 'h' vi-backward-char
-bindkey -M menuselect 'k' vi-up-line-or-history
-bindkey -M menuselect 'l' vi-forward-char
-bindkey -M menuselect 'j' vi-down-line-or-history
 
 # Historial
 HISTSIZE=5000
@@ -92,21 +87,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
-
-# Aliases
-alias ls='ls --color'
-alias nvim='nvim'
-alias c='clear'
-alias m='mirror'
-alias s='paru'
-alias u='sudo pacman -Syu && paru -Syu' # dnf upgrade
-alias i='paru -S --needed' # dnf install
-alias r='paru -Rns' # dnf remove
-alias lz='exa --icons --color=always'
-alias parus="paru -Slq | fzf --multi --preview 'paru -Si {1}' | xargs -ro paru -S --needed"
-alias parux="paru -Qq | fzf --preview 'paru -Qil {}' --layout=reverse --bind 'enter:execute(paru -Qil {} | bat)'"
-alias parui="paru -Qe | fzf --preview 'paru -Qil | awk {$1}' --layout=reverse --bind 'enter:execute(paru -Qil | awk {$1} | bat)'"
-alias op="xdg-open"
 
 # Shell integrations
 eval "$(fzf --zsh)" # <CTRL>R.

@@ -69,17 +69,7 @@ pkg_kde=(
 
 
 
-pkg_zsh=(
-    "stow"
-    "zsh"
-    "git"
-    "fzf"
-    "zoxide"
-    "oh-my-posh-bin"
-    "exa"
-    "bat"
-    "pokemon-colorscripts-git"
-)
+
 
 # Juegos
 

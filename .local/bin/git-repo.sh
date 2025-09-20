@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 actualizar_repositorio() {
-  if ! grep "email" ~/.gitconfig > /dev/null 2>&1; then 
+  if ! grep "email" ~/.gitconfig > /dev/null 2>&1; then
     echo -e "\nIngrese el nombre de usuario"
-    read -p "> " MAIL 
+    read -p "> " MAIL
     git config --global user.email "$MAIL"
   fi
   if ! grep "name" ~/.gitconfig  > /dev/null 2>&1; then

@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ab580eb19309c746",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06 Roadmap Hyprland/08 limpiar home.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "08 limpiar home"
-            }
-          },
-          {
             "id": "891e7129212c92c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Linux/Hyprland/00 Documentación general.md",
+                "file": "12 Redes/Bitácora IOS de Cisco/##Apuntes 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 Documentación general"
+              "title": "##Apuntes 2"
             }
           },
           {
@@ -41,15 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Linux/Bitácora Bash/10 Condicional - comparación entre Strings.md",
+                "file": "07 Formación /Universidad/CCNA II/02 SSH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 Condicional - comparación entre Strings"
+              "title": "02 SSH"
+            }
+          },
+          {
+            "id": "e3958e2c33cf04ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_fit/Materiales de cama.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Materiales de cama"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,16 +63,6 @@
         "id": "d438d804324e951a",
         "type": "tabs",
         "children": [
-          {
-            "id": "6beb7dfdca4168fa",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {},
-              "icon": "sheets-in-box",
-              "title": "File Tree"
-            }
-          },
           {
             "id": "4cc807ec454a6e31",
             "type": "leaf",
@@ -111,8 +102,19 @@
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
+          },
+          {
+            "id": "d3a92113faadd28b",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -208,6 +210,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Crear nueva base": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "templates:Insertar plantilla": false,
@@ -227,54 +230,54 @@
       "fit:Fit Sync": false
     }
   },
-  "active": "ab580eb19309c746",
+  "active": "61be74f5db815196",
   "lastOpenFiles": [
-    "06 Roadmap Hyprland/07 repositorio blackarch.md",
-    "06 Roadmap Hyprland/08 limpiar home.md",
-    "Material Handler DL I.md",
-    "05 Videojuegos/Oxygen Not Incluted/Mecánicas de filtro.md",
-    "05 Videojuegos/Oxygen Not Incluted/Aquatuner sin steel ni oil - Diseño.md",
-    "adjuntos/material-1753474792849.png",
-    "adjuntos/material-1753474699216.png",
-    "adjuntos/material-1753474661344.png",
-    "06 Roadmap Hyprland/Zen.md",
-    "06 Roadmap Hyprland/06 Zed.md",
-    "Materiales de cama.md",
-    "05 Videojuegos/Oxygen Not Incluted/Generador de gas - diseño.md",
-    "Bienvenido.md",
-    "05 Videojuegos/Oxygen Not Incluted/Mods.md",
-    "05 Videojuegos/Oxygen Not Incluted/Agua inicio.md",
-    "01 Linux/Quickshell/02 Panel.md",
-    "Lista de compras - Kanban 1.md",
-    "06 Roadmap Hyprland/adjuntos/Screenshot_2025-07-23-07-54-05-041_com.google.android.youtube.jpg",
-    "06 Roadmap Hyprland/adjuntos/Screenshot_2025-07-23-07-53-06-648_com.google.android.youtube.jpg",
-    "06 Roadmap Hyprland/adjuntos/Screenshot_2025-07-23-07-52-23-900_com.google.android.youtube.jpg",
-    "05 Videojuegos/Oxygen Not Incluted/Volcán energía y roca ígnea - Diseño.md",
-    "05 Videojuegos/Oxygen Not Incluted/Hidrógeno steam vent - Diseño.md",
-    "05 Videojuegos/Oxygen Not Incluted/Desplazar gases - Tips.md",
-    "05 Videojuegos/Oxygen Not Incluted/Carbón spinner - diseño.md",
-    "01 Linux/Quickshell/01 Comandos básicos.md",
-    "01 Linux/Quickshell/00 Referencias importantes.md",
-    "01 Linux/Quickshell/11 Quickshell.md",
-    "01 Linux/Eww/Rices de ejemplo.md",
-    "01 Linux/Quickshell",
-    "06 Roadmap Hyprland/00 Documentación general.md",
-    "01 Linux/Bitácora Bash/05 Variables.md",
-    "05 Videojuegos/Oxygen Not Incluted/Volcán compacto - Diseño.md",
-    "05 Videojuegos/Oxygen Not Incluted/Cool steam vent - Diseño.md",
-    "01 Linux/Eww/adjuntos/Rices de ejemplo-1753058600322.png",
-    "01 Linux/Eww/adjuntos",
-    "04 Programación - Lógica/Documentar",
-    "05 Videojuegos/Retrogaming",
-    "05 Videojuegos/Oxygen Not Incluted/adjuntos/Diseño de cabina - Cohete-1752826237411.png",
-    "05 Videojuegos/Oxygen Not Incluted/adjuntos/Diseño de cabina - Cohete-1752826227094.png",
-    "05 Videojuegos/Oxygen Not Incluted/adjuntos/Diseño de cabina - Cohete-1752826214869.png",
-    "05 Videojuegos/Genshin",
-    "05 Videojuegos/Project Zomboid",
-    "00 Python/Documentar",
-    "10 Windows/adjuntos",
-    "05 Videojuegos/Warframe/adjuntos",
-    "01 Linux/Eww",
+    "07 Formación /Universidad/CCNA II/01 Configuración básica.md",
+    "07 Formación /Universidad/CCNA II/02 SSH.md",
+    "07 Formación /Universidad/CCNA II/adjuntos/01 Configuración básica-1757999266906.png",
+    "07 Formación /Universidad/CCNA II/adjuntos/01 Configuración básica-1757996816240.png",
+    "07 Formación /Universidad/CCNA II/adjuntos/01 Configuración básica-1757992655947.png",
+    "12 Redes/Bitácora IOS de Cisco/##Apuntes 2.md",
+    "12 Redes/Bitácora IOS de Cisco/##Apuntes.md",
+    "05 Videojuegos/Oxygen Not Incluted/01 Crear un mundo.md",
+    "12 Redes/Bitácora IOS de Cisco/Resumen de configuraciones (CCNA 1).md",
+    "12 Redes/Bitácora IOS de Cisco/Resumen de configuraciones (CCNA 1).pdf",
+    "12 Redes/Bitácora IOS de Cisco/Principios de Redes y Comunicaciones.md",
+    "12 Redes/Bitácora IOS de Cisco/##Bitácora IOS de Cisco.md",
+    "12 Redes/Bitácora IOS de Cisco/##Comandos.md",
+    "12 Redes/Documentar Redes.md",
+    "12 Redes/Protocolos y modelos/El modelo de referencia OSI/adjuntos/Pasted image 20240605102952.png",
+    "12 Redes/Protocolos y modelos/adjuntos/Pasted image 20240605104329.png",
+    "12 Redes/Protocolos y modelos/Modelo de protocolo TCP IP/Capas TCP IP.png",
+    "12 Redes/Protocolos y modelos/Modelo de protocolo TCP IP/4) Capa de Acceso de Red.md",
+    "12 Redes/Protocolos y modelos/Modelo de protocolo TCP IP/3) Capa de Internet.md",
+    "12 Redes/Protocolos y modelos/Modelo de protocolo TCP IP/2) Capa de transporte.md",
+    "12 Redes/Protocolos y modelos/Modelo de protocolo TCP IP/1) Capa de aplicación.md",
+    "12 Redes/Protocolos y modelos/Modelo de protocolo TCP IP/0) Conjunto de TCP IP.md",
+    "12 Redes/Protocolos y modelos/El modelo de referencia OSI/adjuntos",
+    "12 Redes/Protocolos y modelos/El modelo de referencia OSI/El modelo de referencia OSI.md",
+    "12 Redes/Protocolos y modelos/adjuntos",
+    "12 Redes/Protocolos y modelos/Modelo de protocolo TCP IP",
+    "12 Redes/Protocolos y modelos/El modelo de referencia OSI",
+    "12 Redes/Protocolos y modelos/Comparación del modelo OSI y el modelo TCP IP.md",
+    "12 Redes/Protocolos y modelos",
+    "12 Redes/Organizaciones de estandarización/adjuntos/Pasted image 20240605102557.png",
+    "12 Redes/Organizaciones de estandarización/adjuntos/Pasted image 20240605102440.png",
+    "12 Redes/Organizaciones de estandarización/adjuntos",
+    "12 Redes/Organizaciones de estandarización/Organizaciones de estándares para comunicaciones y electrónica.md",
+    "12 Redes/Organizaciones de estandarización/Estándares de Internet.md",
+    "12 Redes/Organizaciones de estandarización",
+    "12 Redes/Encapsulamiento de datos/adjuntos/Pasted image 20240605105638.png",
+    "12 Redes/Encapsulamiento de datos/adjuntos",
+    "12 Redes/Encapsulamiento de datos/Unidades de datos de protocolo.md",
+    "12 Redes/Encapsulamiento de datos/Segmentación del mensaje.md",
+    "12 Redes/Encapsulamiento de datos/Ejemplo de encapsulamiento.md",
+    "12 Redes/Encapsulamiento de datos/Ejemplo de desencapsulamiento.md",
+    "12 Redes/Encapsulamiento de datos",
+    "12 Redes/Capa fisica/Capa física.md",
+    "12 Redes/Bitácora IOS de Cisco/Teclas de acceso rápido y métodos abreviados.md",
+    "12 Redes/Bitácora IOS de Cisco/##Nueva Bitácora de IOS de Cisco.md",
+    "12 Redes/adjuntos/Pasted image 20240603130649.png",
     "Sin título.canvas"
   ]
 }

@@ -2,19 +2,23 @@
 
 set -euo pipefail
 
+if command -v "pacman" &> /dev/null; then
+    sudo pacman -S --needed gum
+fi
+
 # Selección de drivers de vídeo (AMD | Nvidia | Virtual Machine)
-echo -e "Tarjeta gráfica (elija una opción)"
-echo "1. AMD"
-echo "2. Intel"
-echo "3. Nvidia"
-echo "4. Máquina Virtual"
-read -p "> " elegir_drivers
-echo ""
 
-elegir_drivers=${elegir_drivers:="1"}
+GPU=(
+    "AMD"
+    "Intel"
+    "Nvidia"
+    "Máquina virtual"
+)
 
-case "$elegir_drivers" in
-    1) # Opción AMD
+ELEGIR_GPU=$(gum choose --header "Tarjeta gráfica (elija una opción):" "${GPU[@]}")
+
+case "$ELEGIR_GPU" in
+    "AMD") # Opción AMD
         ./amd.sh
         ;;
     2) # Opción Intel

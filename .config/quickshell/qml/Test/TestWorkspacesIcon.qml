@@ -1,28 +1,54 @@
 import QtQuick
 import QtQuick.Controls
-import QtQuick.Layouts  // Necesario para RowLayout
+import QtQuick.Layouts
 import Quickshell
 import Quickshell.Hyprland
 import Quickshell.Widgets
 
 TestPanelWindow {
-    Rectangle {
-        id: rectBack
-        RowLayout {
-            // Cambiado de Row a RowLayout
-            //anchors.centerIn: parent
-            //spacing: 20 // Espacio entre rect
+    id: root
+    property var modelData
+
+    WrapperRectangle {
+        color: "black"
+        radius: 4
+        anchors.centerIn: parent
+
+        leftMargin: 10
+        rightMargin: 10
+        topMargin: 5
+        bottomMargin: 5
+
+        Behavior on implicitWidth {
+            NumberAnimation {
+                duration: 200
+            }
+        }
+
+        child: RowLayout {
+            spacing: 5
 
             Repeater {
                 model: Hyprland.workspaces
 
-                Rectangle {
-                    id: numberWorkspace
+                WrapperRectangle {
+                    id: workspaceRect
                     readonly property var workspace: modelData
                     readonly property var toplevels: workspace.toplevels
 
-                    Layout.preferredWidth: 30  // Ancho del Rect
-                    Layout.preferredHeight: 30  // Alto del Rect
+                    leftMargin: 2
+                    rightMargin: 2
+                    topMargin: 2
+                    bottomMargin: 2
+
+                    Layout.minimumWidth: 50
+                    Layout.minimumHeight: 50
+
+                    Behavior on implicitWidth {
+                        NumberAnimation {
+                            duration: 150
+                        }
+                    }
 
                     color: {
                         if (workspace.focused)
@@ -32,76 +58,72 @@ TestPanelWindow {
                         return "gray";
                     }
 
-                    Text {
-                        anchors.centerIn: parent
-                        text: workspace.id
-                        color: "white"
-                        opacity: toplevels.length === 0 ? 1 : 0.7
-                    }
+                    radius: 8
 
-                    MouseArea {
-                        anchors.fill: parent
-                        onClicked: workspace.activate()
-                    }
+                    child: RowLayout {
+                        spacing: 2
 
-                    // Iconos
-                    RowLayout {  // Cambiado de Row a RowLayout
-                        id: windowIcons
-                        // Cambia la pocision de los iconos
-                        anchors {
-                            right: parent.right
-                            bottom: parent.bottom
-                            margins: 2
+                        // Mostrar ID del workspace
+                        Text {
+                            text: workspace.id
+                            color: "white"
+                            font.pixelSize: 12
+                            font.bold: true
+                            Layout.alignment: Qt.AlignCenter
                         }
-                        spacing: 1 // Espacio entre iconos
 
+                        // Iconos individuales por aplicación
                         Repeater {
-                            model: toplevels
+                            model: toplevels.values || []
 
-                            Item {
-                                Layout.preferredWidth: 12  // Ancho iconos
-                                Layout.preferredHeight: 12  // Alto iconos
+                            Rectangle {
+                                Layout.preferredWidth: 24
+                                Layout.preferredHeight: 24
+                                color: "transparent"
+                                radius: 4
 
-                                property var desktopEntry: {
-                                    if (!modelData.wayland)
-                                        return null;
-                                    var appId = modelData.wayland.appId;
-                                    return DesktopEntries.heuristicLookup(appId) || DesktopEntries.byId(appId);
-                                }
+                                property var toplevel: modelData
+                                property var identifier: (toplevel.lastIpcObject && toplevel.lastIpcObject.class) || (toplevel.wayland && toplevel.wayland.appId) || "unknown"
 
                                 IconImage {
                                     anchors.fill: parent
+                                    anchors.margins: 2
+
                                     source: {
-                                        if (desktopEntry && desktopEntry.icon) {
-                                            return Quickshell.iconPath(desktopEntry.icon);
-                                        }
-                                        return "";
+                                        var desktopEntry = DesktopEntries.heuristicLookup(identifier) || DesktopEntries.byId(identifier);
+                                        return desktopEntry && desktopEntry.icon ? Quickshell.iconPath(desktopEntry.icon) : "";
                                     }
-                                    mipmap: true
 
                                     Rectangle {
                                         anchors.fill: parent
                                         visible: parent.status === Image.Error || parent.source === ""
                                         color: {
-                                            if (modelData.urgent)
+                                            if (toplevel.urgent)
                                                 return "red";
-                                            if (modelData.activated)
+                                            if (toplevel.activated)
                                                 return "yellow";
                                             return "white";
                                         }
                                         radius: 2
+                                        opacity: 0.7
                                     }
                                 }
 
-                                ToolTip.text: modelData.title + (modelData.wayland ? " (" + modelData.wayland.appId + ")" : "")
-                                ToolTip.visible: mouseArea.containsMouse
-
                                 MouseArea {
-                                    id: mouseArea
                                     anchors.fill: parent
-                                    hoverEnabled: true
+                                    onClicked: {
+                                        if (toplevel.wayland) {
+                                            toplevel.wayland.activate();
+                                        }
+                                    }
                                 }
                             }
+                        }
+
+                        MouseArea {
+                            Layout.fillWidth: true
+                            Layout.fillHeight: true
+                            onClicked: workspace.activate()
                         }
                     }
                 }

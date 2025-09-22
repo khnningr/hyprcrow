@@ -5,8 +5,9 @@ import Quickshell
 import Quickshell.Hyprland
 import Quickshell.Widgets
 
-TestPanelWindow {
+Item {
     id: root
+    anchors.centerIn: parent
 
     Connections {
         target: DesktopEntries
@@ -33,7 +34,7 @@ TestPanelWindow {
         }
 
         child: RowLayout {
-            spacing: 5
+            spacing: 2
 
             Repeater {
                 model: Hyprland.workspaces
@@ -73,8 +74,10 @@ TestPanelWindow {
                         Text {
                             text: workspace.id
                             color: "white"
-                            font.pixelSize: 12
+                            font.pixelSize: 18
                             font.bold: true
+                            font.family: "Mononoki Nerd Font"
+
                             Layout.alignment: Qt.AlignCenter
                         }
 

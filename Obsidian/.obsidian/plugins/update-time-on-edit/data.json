@@ -379,6 +379,13 @@
     "01 Linux/Quickshell/06 Layouts.md": "db418538502a4ab7753abea6799f65c2a0c8f0df6eb2582d631baea07b8434ba",
     "mes.md": "41811bcb3be1e523bead9f47f3b8c50b3f334e845e1f5d0f8bd553a58d00cdff",
     "07 Formación /Universidad/CCNA II/01 Configuración básica.md": "72fc684b63f1ee0fa56ff9683c32b49785599224dc81a092979c1293e27fc9b4",
-    "07 Formación /Universidad/CCNA II/02 SSH.md": "c579f120b9f5cccdb24db8902886e6cad61dde28c244babfb1d9e5037b056004"
+    "07 Formación /Universidad/CCNA II/02 SSH (line vty).md": "fed8f437a9cfb88feb666f4b4ffe2e09e4c3e840068f67bdf9f2ae1eb257de15",
+    "07 Formación /Universidad/CCNA II/03 Estructuras de las VLANs.md": "d0cd10368cecfa9e42ce3a91d9bb98ed060df6a43bacede001bb4b1335cd81dc",
+    "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/01 Estadística Descriptiva.md": "8ab093ab8517fbcae10e9c68ba03198d691d43354bf8606d64e430a8ce77545a",
+    "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/02 Conceptos básicos - Elementos de estadística.md": "a42d149d1824ad1c1ca385891247056dd6c056aa959024af2cccd85ff73d21dc",
+    "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/03 Escalas de medición.md": "7e224942fc016fc9fb8ec47f0993b87b3d07fb13112cb5a2a0d581b6ba9750f5",
+    "07 Formación /Universidad/CCNA II/04 Configurar VLAN - CAPA 2.md": "7c2a72c966d3f5b0019c914b29c098b63197c08d9848f5975b1a882f1b595c06",
+    "07 Formación /Universidad/CCNA II/05 Comunicación de VLANs - CAPA 2.md": "97330d6135ba9f607bbafc156d0208c195203f52a8a3e5efc667c06cf57f04ae",
+    "07 Formación /Universidad/CCNA II/06 Interface VLAN - VLAN de CAPA 3.md": "15b6a37209469b8ca5bb056af195de7e9a6c266d7dd4e3245223c93c845e7097"
   }
 }

@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "02 SSH",
-      "path": "07 Formación /Universidad/CCNA II/02 SSH.md"
+      "basename": "06 Interface VLAN - VLAN de CAPA 3",
+      "path": "07 Formación /Universidad/CCNA II/06 Interface VLAN - VLAN de CAPA 3.md"
+    },
+    {
+      "basename": "04 Configurar VLAN - CAPA 2",
+      "path": "07 Formación /Universidad/CCNA II/04 Configurar VLAN - CAPA 2.md"
+    },
+    {
+      "basename": "02 SSH (line vty)",
+      "path": "07 Formación /Universidad/CCNA II/02 SSH (line vty).md"
+    },
+    {
+      "basename": "03 Estructuras de las VLANs",
+      "path": "07 Formación /Universidad/CCNA II/03 Estructuras de las VLANs.md"
+    },
+    {
+      "basename": "05 Comunicación de VLANs - CAPA 2",
+      "path": "07 Formación /Universidad/CCNA II/05 Comunicación de VLANs - CAPA 2.md"
     },
     {
       "basename": "01 Configuración básica",
@@ -11,6 +27,22 @@
     {
       "basename": "##Apuntes 2",
       "path": "12 Redes/Bitácora IOS de Cisco/##Apuntes 2.md"
+    },
+    {
+      "basename": "Documentar git",
+      "path": "01 Linux/Documentar/Documentar git.md"
+    },
+    {
+      "basename": "02 Conceptos básicos - Elementos de estadística",
+      "path": "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/02 Conceptos básicos - Elementos de estadística.md"
+    },
+    {
+      "basename": "01 Estadística Descriptiva",
+      "path": "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/01 Estadística Descriptiva.md"
+    },
+    {
+      "basename": "03 Escalas de medición",
+      "path": "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/03 Escalas de medición.md"
     },
     {
       "basename": "##Apuntes",
@@ -167,38 +199,6 @@
     {
       "basename": "02.1 Minerales, criaturas - Recursos",
       "path": "05 Videojuegos/Oxygen Not Incluted/02.1 Minerales, criaturas - Recursos.md"
-    },
-    {
-      "basename": "12 Smoker",
-      "path": "05 Videojuegos/Oxygen Not Incluted/12 Smoker.md"
-    },
-    {
-      "basename": "Desde cero",
-      "path": "05 Videojuegos/Oxygen Not Incluted/Documentar/Desde cero.md"
-    },
-    {
-      "basename": "16 Crear un punto de almacenaje",
-      "path": "05 Videojuegos/Oxygen Not Incluted/16 Crear un punto de almacenaje.md"
-    },
-    {
-      "basename": "03 Ajustes de dentro de la partida",
-      "path": "05 Videojuegos/Oxygen Not Incluted/03 Ajustes de dentro de la partida.md"
-    },
-    {
-      "basename": "15 Crear un almacenamiento de agua",
-      "path": "05 Videojuegos/Oxygen Not Incluted/15 Crear un almacenamiento de agua.md"
-    },
-    {
-      "basename": "7 Comedor",
-      "path": "05 Videojuegos/Oxygen Not Incluted/7 Comedor.md"
-    },
-    {
-      "basename": "14 Rock Crusher",
-      "path": "05 Videojuegos/Oxygen Not Incluted/14 Rock Crusher.md"
-    },
-    {
-      "basename": "15 Blastshot Maker",
-      "path": "05 Videojuegos/Oxygen Not Incluted/15 Blastshot Maker.md"
     }
   ],
   "omittedPaths": [],

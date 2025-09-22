@@ -3,6 +3,11 @@ import Quickshell
 import Quickshell.Wayland
 
 ShellRoot {
-    WlrLayershell.namespace: "quickshell:bar"
-    System {}
+    //WlrLayershell.namespace: "quickshell:bar"
+    //System {}
+    TestWorkspaces {}
+    //TestWorkspacesIcon {}
+
+    //Overview {}
+    //TestAppLauncher {}
 }

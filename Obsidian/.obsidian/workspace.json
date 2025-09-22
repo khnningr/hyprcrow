@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "61be74f5db815196",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07 Formación /Universidad/CCNA II/02 SSH.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02 SSH"
-            }
-          },
-          {
             "id": "e3958e2c33cf04ba",
             "type": "leaf",
             "state": {
@@ -48,9 +34,37 @@
               "icon": "lucide-file",
               "title": "Materiales de cama"
             }
+          },
+          {
+            "id": "2706ed5675b947d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07 Formación /Universidad/CCNA II/04 Configurar VLAN - CAPA 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04 Configurar VLAN - CAPA 2"
+            }
+          },
+          {
+            "id": "746e8f275afa3dd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07 Formación /Universidad/CCNA II/06 Interface VLAN - VLAN de CAPA 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06 Interface VLAN - VLAN de CAPA 3"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "firefox",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,13 +126,23 @@
               "icon": "sheets-in-box",
               "title": "File Tree"
             }
+          },
+          {
+            "id": "adb5aae180c687c0",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook",
+              "title": "Navegador de Cuadernos"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 689.5
   },
   "right": {
     "id": "af8e0101731ddd3a",
@@ -196,8 +220,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Complemento no activo"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -227,17 +251,36 @@
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "templater-obsidian:Templater": false,
       "vscode-editor:Create Code File": false,
-      "fit:Fit Sync": false
+      "fit:Fit Sync": false,
+      "notebook-navigator:Navegador de Cuadernos": false
     }
   },
-  "active": "61be74f5db815196",
+  "active": "746e8f275afa3dd6",
   "lastOpenFiles": [
+    "07 Formación /Universidad/CCNA II/adjuntos/06 Interface VLAN - VLAN de CAPA 3-1758573329960.png",
+    "07 Formación /Universidad/CCNA II/04 Configurar VLAN - CAPA 2.md",
+    "07 Formación /Universidad/CCNA II/06 Interface VLAN - VLAN de CAPA 3.md",
+    "07 Formación /Universidad/CCNA II/02 SSH (line vty).md",
+    "07 Formación /Universidad/CCNA II/03 Estructuras de las VLANs.md",
+    "07 Formación /Universidad/CCNA II/05 Comunicación de VLANs - CAPA 2.md",
     "07 Formación /Universidad/CCNA II/01 Configuración básica.md",
-    "07 Formación /Universidad/CCNA II/02 SSH.md",
-    "07 Formación /Universidad/CCNA II/adjuntos/01 Configuración básica-1757999266906.png",
-    "07 Formación /Universidad/CCNA II/adjuntos/01 Configuración básica-1757996816240.png",
-    "07 Formación /Universidad/CCNA II/adjuntos/01 Configuración básica-1757992655947.png",
+    "07 Formación /Universidad/CCNA II/adjuntos/05 Comunicación de VLANs - CAPA 2-1758555512914.png",
+    "07 Formación /Universidad/CCNA II/adjuntos/05 Comunicación de VLANs - CAPA 2-1758555458004.png",
     "12 Redes/Bitácora IOS de Cisco/##Apuntes 2.md",
+    "01 Linux/Documentar/Documentar git.md",
+    "07 Formación /Universidad/CCNA II/adjuntos/05 Comunicación de VLANs - CAPA 2-1758526136172.png",
+    "07 Formación /Universidad/CCNA II/adjuntos/03 Estructuras de las VLANs-1758517234827.png",
+    "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/02 Conceptos básicos - Elementos de estadística.md",
+    "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/01 Estadística Descriptiva.md",
+    "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/03 Escalas de medición.md",
+    "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/adjuntos/01 Conceptos-1758503236436.png",
+    "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/adjuntos/01 Conceptos-1758502310431.png",
+    "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/adjuntos/01 Conceptos-1758501106232.png",
+    "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/adjuntos",
+    "07 Formación /Universidad/Probabilidad y Estadística Descriptiva",
+    "07 Formación /Universidad/CCNA II/adjuntos/03 Estructuras de las VLANs-1758496385329.png",
+    "07 Formación /Universidad/CCNA II/adjuntos/03 Estructuras de las VLANs-1758495708196.png",
+    "07 Formación /Universidad/CCNA II/adjuntos/03 Estructuras de las VLANs-1758495455258.png",
     "12 Redes/Bitácora IOS de Cisco/##Apuntes.md",
     "05 Videojuegos/Oxygen Not Incluted/01 Crear un mundo.md",
     "12 Redes/Bitácora IOS de Cisco/Resumen de configuraciones (CCNA 1).md",
@@ -246,9 +289,6 @@
     "12 Redes/Bitácora IOS de Cisco/##Bitácora IOS de Cisco.md",
     "12 Redes/Bitácora IOS de Cisco/##Comandos.md",
     "12 Redes/Documentar Redes.md",
-    "12 Redes/Protocolos y modelos/El modelo de referencia OSI/adjuntos/Pasted image 20240605102952.png",
-    "12 Redes/Protocolos y modelos/adjuntos/Pasted image 20240605104329.png",
-    "12 Redes/Protocolos y modelos/Modelo de protocolo TCP IP/Capas TCP IP.png",
     "12 Redes/Protocolos y modelos/Modelo de protocolo TCP IP/4) Capa de Acceso de Red.md",
     "12 Redes/Protocolos y modelos/Modelo de protocolo TCP IP/3) Capa de Internet.md",
     "12 Redes/Protocolos y modelos/Modelo de protocolo TCP IP/2) Capa de transporte.md",
@@ -261,23 +301,8 @@
     "12 Redes/Protocolos y modelos/El modelo de referencia OSI",
     "12 Redes/Protocolos y modelos/Comparación del modelo OSI y el modelo TCP IP.md",
     "12 Redes/Protocolos y modelos",
-    "12 Redes/Organizaciones de estandarización/adjuntos/Pasted image 20240605102557.png",
-    "12 Redes/Organizaciones de estandarización/adjuntos/Pasted image 20240605102440.png",
     "12 Redes/Organizaciones de estandarización/adjuntos",
-    "12 Redes/Organizaciones de estandarización/Organizaciones de estándares para comunicaciones y electrónica.md",
-    "12 Redes/Organizaciones de estandarización/Estándares de Internet.md",
     "12 Redes/Organizaciones de estandarización",
-    "12 Redes/Encapsulamiento de datos/adjuntos/Pasted image 20240605105638.png",
-    "12 Redes/Encapsulamiento de datos/adjuntos",
-    "12 Redes/Encapsulamiento de datos/Unidades de datos de protocolo.md",
-    "12 Redes/Encapsulamiento de datos/Segmentación del mensaje.md",
-    "12 Redes/Encapsulamiento de datos/Ejemplo de encapsulamiento.md",
-    "12 Redes/Encapsulamiento de datos/Ejemplo de desencapsulamiento.md",
-    "12 Redes/Encapsulamiento de datos",
-    "12 Redes/Capa fisica/Capa física.md",
-    "12 Redes/Bitácora IOS de Cisco/Teclas de acceso rápido y métodos abreviados.md",
-    "12 Redes/Bitácora IOS de Cisco/##Nueva Bitácora de IOS de Cisco.md",
-    "12 Redes/adjuntos/Pasted image 20240603130649.png",
     "Sin título.canvas"
   ]
 }

@@ -29,7 +29,7 @@ actualizar_repositorio() {
 
 actualizar_repositorio ~/hyprcrow/
 
-actualizar_repositorio ~/.dotfiles/
+#actualizar_repositorio ~/.dotfiles/
 
 actualizar_repositorio ~/Wallpapers/
 
@@ -37,4 +37,7 @@ actualizar_repositorio ~/Wallpapers/
 
 #actualizar_repositorio ~/Biblioteca/
 
-actualizar_repositorio ~/Proyectos/
+#actualizar_repositorio ~/Proyectos/
+
+actualizar_repositorio ~/kh-home
+

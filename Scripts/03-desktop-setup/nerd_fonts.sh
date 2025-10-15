@@ -5,7 +5,9 @@ set -euo pipefail
 tempdir=$(mktemp -d)
 trap "rm -rf $tempdir" EXIT
 
-mkdir -p ~/.local/share/fonts/
+FONT_DIR="~/.local/share/fonts/"
+
+mkdir -p "${FONT_DIR}"
 
 dir_fonts=(
     "IosevkaTerm"
@@ -55,6 +57,15 @@ fi
 if [[ "$elegir_actualizar_fonts" == "S" ]] || [[ ! -d ~/.local/share/fonts/Mononoki/ ]]; then
     wget -O "$tempdir/Mononoki.zip" https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Mononoki.zip
     unzip -o "$tempdir/Mononoki.zip" -d ~/.local/share/fonts/Mononoki/
+fi
+
+if ! fc-list | grep -qi "IosevkaTerm"; then
+
+    curl -fLo "${tempdir}/IosevkaTerm.zip" \
+      https://github.com/ryanoasis/nerd-fonts/releases/latest/download/IosevkaTerm.zip
+
+    unzip -o IosevkaTerm.zip -d "${FONT_DIR}"
+
 fi
 
 fc-cache -fv

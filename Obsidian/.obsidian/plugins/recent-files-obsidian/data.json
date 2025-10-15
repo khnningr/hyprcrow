@@ -1,6 +1,170 @@
 {
   "recentFiles": [
     {
+      "basename": "Documentar cfdisk",
+      "path": "01 Linux/Documentar/Documentar cfdisk.md"
+    },
+    {
+      "basename": "05 mesa-git - repositorio",
+      "path": "01 Linux/Arch/Post/05 mesa-git - repositorio.md"
+    },
+    {
+      "basename": "00.0 Referencias post-instalación",
+      "path": "01 Linux/Arch/Post/00.0 Referencias post-instalación.md"
+    },
+    {
+      "basename": "13 ntfs - formato de discos de Windows",
+      "path": "01 Linux/Arch/Post/13 ntfs - formato de discos de Windows.md"
+    },
+    {
+      "basename": "12 Agregar un usuario",
+      "path": "01 Linux/Arch/Post/12 Agregar un usuario.md"
+    },
+    {
+      "basename": "10 Controlador gráfico",
+      "path": "01 Linux/Arch/Post/10 Controlador gráfico.md"
+    },
+    {
+      "basename": "01 Conexión a internet",
+      "path": "01 Linux/Arch/Post/01 Conexión a internet.md"
+    },
+    {
+      "basename": "02 Mirrorlist - reflector",
+      "path": "01 Linux/Arch/Post/02 Mirrorlist - reflector.md"
+    },
+    {
+      "basename": "03 multilib - repositorio",
+      "path": "01 Linux/Arch/Post/03 multilib - repositorio.md"
+    },
+    {
+      "basename": "01 Verificar firmas",
+      "path": "01 Linux/Arch/01 Verificar firmas.md"
+    },
+    {
+      "basename": "00 Comandos básicos",
+      "path": "01 Linux/Arch/00 Comandos básicos.md"
+    },
+    {
+      "basename": "00.1 archinstall",
+      "path": "01 Linux/Arch/00.1 archinstall.md"
+    },
+    {
+      "basename": "08 Comandos de Diagnostico",
+      "path": "02 Bitácoras/Packet Tracer/08 Comandos de Diagnostico.md"
+    },
+    {
+      "basename": "07 Archivos de Configuración",
+      "path": "02 Bitácoras/Packet Tracer/07 Archivos de Configuración.md"
+    },
+    {
+      "basename": "06 Configurar Contraseñas",
+      "path": "02 Bitácoras/Packet Tracer/06 Configurar Contraseñas.md"
+    },
+    {
+      "basename": "06 Configuración de IPv6",
+      "path": "02 Bitácoras/Packet Tracer/06 Configuración de IPv6.md"
+    },
+    {
+      "basename": "05 Mensajes de aviso - Banner MOTD",
+      "path": "02 Bitácoras/Packet Tracer/05 Mensajes de aviso - Banner MOTD.md"
+    },
+    {
+      "basename": "04 Asignar un nombre de Host",
+      "path": "02 Bitácoras/Packet Tracer/04 Asignar un nombre de Host.md"
+    },
+    {
+      "basename": "02 Bitácora de Comandos",
+      "path": "02 Bitácoras/Packet Tracer/02 Bitácora de Comandos.md"
+    },
+    {
+      "basename": "##Nueva Bitácora de IOS de Cisco",
+      "path": "02 Bitácoras/Packet Tracer/Viejos/##Nueva Bitácora de IOS de Cisco.md"
+    },
+    {
+      "basename": "Interfaces",
+      "path": "02 Bitácoras/Packet Tracer/Interfaces.md"
+    },
+    {
+      "basename": "09 Configuración básica - Router",
+      "path": "02 Bitácoras/Packet Tracer/09 Configuración básica - Router.md"
+    },
+    {
+      "basename": "10 Configurar el Desktop - IP Add PC",
+      "path": "02 Bitácoras/Packet Tracer/10 Configurar el Desktop - IP Add PC.md"
+    },
+    {
+      "basename": "11 Configuración de VLAN - Switch",
+      "path": "02 Bitácoras/Packet Tracer/11 Configuración de VLAN - Switch.md"
+    },
+    {
+      "basename": "09 Configuración de SVI (VLAN)",
+      "path": "02 Bitácoras/Packet Tracer/09 Configuración de SVI (VLAN).md"
+    },
+    {
+      "basename": "Guión",
+      "path": "Guión.md"
+    },
+    {
+      "basename": "Start Wars Despecialized Edition HD",
+      "path": "98 Descargas/Start Wars Despecialized Edition HD.md"
+    },
+    {
+      "basename": "Contenido a descargar",
+      "path": "98 Descargas/Contenido a descargar.md"
+    },
+    {
+      "basename": "Streaming",
+      "path": "98 Descargas/Streaming.md"
+    },
+    {
+      "basename": "Mitología nordica",
+      "path": "98 Descargas/Mitología nordica.md"
+    },
+    {
+      "basename": "Manga",
+      "path": "98 Descargas/Manga.md"
+    },
+    {
+      "basename": "Resumen de configuraciones (CCNA 1)",
+      "path": "02 Bitácoras/Packet Tracer/Viejos/Resumen de configuraciones (CCNA 1).md"
+    },
+    {
+      "basename": "Práctica 2",
+      "path": "02 Bitácoras/Packet Tracer/Viejos/Práctica 2.md"
+    },
+    {
+      "basename": "Los componentes de red Topologia",
+      "path": "02 Bitácoras/Packet Tracer/Viejos/Los componentes de red Topologia.md"
+    },
+    {
+      "basename": "Configuración de Packet Tracer",
+      "path": "02 Bitácoras/Packet Tracer/Viejos/Configuración de Packet Tracer.md"
+    },
+    {
+      "basename": "Comandos necesarios para Practica 3 - Gestión de configuración con IPv6",
+      "path": "02 Bitácoras/Packet Tracer/Viejos/Comandos necesarios para Practica 3 - Gestión de configuración con IPv6.md"
+    },
+    {
+      "basename": "3) Configuración Básica",
+      "path": "02 Bitácoras/Packet Tracer/Viejos/3) Configuración Básica.md"
+    },
+    {
+      "basename": "1 y 2) Configuración IOS",
+      "path": "02 Bitácoras/Packet Tracer/Viejos/1 y 2) Configuración IOS.md"
+    },
+    {
+      "basename": "01 Acceso rápido y métodos abreviados",
+      "path": "02 Bitácoras/Packet Tracer/01 Acceso rápido y métodos abreviados.md"
+    },
+    {
+      "basename": "Documentar Redes",
+      "path": "12 Redes/Documentar Redes.md"
+    },
+    {
+      "basename": "Comandos",
+      "path": "01 Linux/Chromium/Comandos.md"
+    },
+    {
       "basename": "06 Interface VLAN - VLAN de CAPA 3",
       "path": "07 Formación /Universidad/CCNA II/06 Interface VLAN - VLAN de CAPA 3.md"
     },
@@ -9,196 +173,32 @@
       "path": "07 Formación /Universidad/CCNA II/04 Configurar VLAN - CAPA 2.md"
     },
     {
-      "basename": "02 SSH (line vty)",
-      "path": "07 Formación /Universidad/CCNA II/02 SSH (line vty).md"
-    },
-    {
       "basename": "03 Estructuras de las VLANs",
       "path": "07 Formación /Universidad/CCNA II/03 Estructuras de las VLANs.md"
     },
     {
-      "basename": "05 Comunicación de VLANs - CAPA 2",
-      "path": "07 Formación /Universidad/CCNA II/05 Comunicación de VLANs - CAPA 2.md"
+      "basename": "02 SSH (line vty)",
+      "path": "07 Formación /Universidad/CCNA II/02 SSH (line vty).md"
     },
     {
-      "basename": "01 Configuración básica",
-      "path": "07 Formación /Universidad/CCNA II/01 Configuración básica.md"
+      "basename": "Practicas pendientes",
+      "path": "02 Bitácoras/Packet Tracer/Practicas pendientes.md"
     },
     {
-      "basename": "##Apuntes 2",
-      "path": "12 Redes/Bitácora IOS de Cisco/##Apuntes 2.md"
+      "basename": "Práctica 2 - Notas de la práctica",
+      "path": "02 Bitácoras/Packet Tracer/Práctica 2 - Notas de la práctica.md"
     },
     {
-      "basename": "Documentar git",
-      "path": "01 Linux/Documentar/Documentar git.md"
+      "basename": "00 boot system - Comando",
+      "path": "02 Bitácoras/Packet Tracer/00 boot system - Comando.md"
     },
     {
-      "basename": "02 Conceptos básicos - Elementos de estadística",
-      "path": "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/02 Conceptos básicos - Elementos de estadística.md"
-    },
-    {
-      "basename": "01 Estadística Descriptiva",
-      "path": "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/01 Estadística Descriptiva.md"
-    },
-    {
-      "basename": "03 Escalas de medición",
-      "path": "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/03 Escalas de medición.md"
-    },
-    {
-      "basename": "##Apuntes",
-      "path": "12 Redes/Bitácora IOS de Cisco/##Apuntes.md"
-    },
-    {
-      "basename": "01 Crear un mundo",
-      "path": "05 Videojuegos/Oxygen Not Incluted/01 Crear un mundo.md"
-    },
-    {
-      "basename": "Resumen de configuraciones (CCNA 1)",
-      "path": "12 Redes/Bitácora IOS de Cisco/Resumen de configuraciones (CCNA 1).md"
-    },
-    {
-      "basename": "Resumen de configuraciones (CCNA 1)",
-      "path": "12 Redes/Bitácora IOS de Cisco/Resumen de configuraciones (CCNA 1).pdf"
-    },
-    {
-      "basename": "Principios de Redes y Comunicaciones",
-      "path": "12 Redes/Bitácora IOS de Cisco/Principios de Redes y Comunicaciones.md"
-    },
-    {
-      "basename": "##Bitácora IOS de Cisco",
-      "path": "12 Redes/Bitácora IOS de Cisco/##Bitácora IOS de Cisco.md"
-    },
-    {
-      "basename": "##Comandos",
-      "path": "12 Redes/Bitácora IOS de Cisco/##Comandos.md"
-    },
-    {
-      "basename": "Documentar Redes",
-      "path": "12 Redes/Documentar Redes.md"
-    },
-    {
-      "basename": "mes",
-      "path": "mes.md"
-    },
-    {
-      "basename": "Cisco Packet Tracer - Copilar programa",
-      "path": "01 Linux/Cisco Packet Tracer - Copilar programa.md"
-    },
-    {
-      "basename": "06 Layouts",
-      "path": "01 Linux/Quickshell/06 Layouts.md"
-    },
-    {
-      "basename": "05 Button",
-      "path": "01 Linux/Quickshell/05 Button.md"
-    },
-    {
-      "basename": "03 Rectangle",
-      "path": "01 Linux/Quickshell/03 Rectangle.md"
-    },
-    {
-      "basename": "03 FloatingWindow",
-      "path": "01 Linux/Quickshell/03 FloatingWindow.md"
-    },
-    {
-      "basename": "02 Panel",
-      "path": "01 Linux/Quickshell/02 Panel.md"
-    },
-    {
-      "basename": "Mi build Samurai",
-      "path": "05 Videojuegos/Cyberpunk 2077/Mi build Samurai.md"
-    },
-    {
-      "basename": "Mi build Samurai-1757092193848",
-      "path": "05 Videojuegos/Cyberpunk 2077/adjuntos/Mi build Samurai-1757092193848.png"
-    },
-    {
-      "basename": "10 Condicional - comparación entre Strings",
-      "path": "01 Linux/Bitácora Bash/10 Condicional - comparación entre Strings.md"
-    },
-    {
-      "basename": "Materiales de cama",
-      "path": "Materiales de cama.md"
+      "basename": "30",
+      "path": "30.md"
     },
     {
       "basename": "Materiales de cama",
       "path": "_fit/Materiales de cama.md"
-    },
-    {
-      "basename": "Guión de la presentación de Electrónica",
-      "path": "Guión de la presentación de Electrónica.md"
-    },
-    {
-      "basename": "Lista de compras - Kanban",
-      "path": "99 Plantillas/Lista de compras - Kanban.md"
-    },
-    {
-      "basename": "Enlace de la presentación - Cálculo I",
-      "path": "Enlace de la presentación - Cálculo I.md"
-    },
-    {
-      "basename": "Desenso por gradiente",
-      "path": "Desenso por gradiente.md"
-    },
-    {
-      "basename": "CV",
-      "path": "CV.md"
-    },
-    {
-      "basename": "Cocina",
-      "path": "05 Videojuegos/Oxygen Not Incluted/Documentar/Cocina.md"
-    },
-    {
-      "basename": "Mid Game",
-      "path": "05 Videojuegos/Oxygen Not Incluted/Sin clasificar/Mid Game.md"
-    },
-    {
-      "basename": "Prompt para ejercicios",
-      "path": "07 Formación /Universidad/Calculo I/Prompt para ejercicios.md"
-    },
-    {
-      "basename": "Químicos - Tip",
-      "path": "15 Boston/Químicos - Tip.md"
-    },
-    {
-      "basename": "Prueba corta 2",
-      "path": "07 Formación /Universidad/Calculo I/Prueba corta 2.md"
-    },
-    {
-      "basename": "Preguntas",
-      "path": "15 Boston/Preguntas.md"
-    },
-    {
-      "basename": "Snars",
-      "path": "15 Boston/Snars.md"
-    },
-    {
-      "basename": "Materiales que se repiten",
-      "path": "15 Boston/Materiales que se repiten.md"
-    },
-    {
-      "basename": "Kamban Board",
-      "path": "15 Boston/Kamban Board.md"
-    },
-    {
-      "basename": "Conceptos",
-      "path": "15 Boston/Conceptos.md"
-    },
-    {
-      "basename": "Áreas",
-      "path": "15 Boston/Áreas.md"
-    },
-    {
-      "basename": "04 Orden de investigación - Etapa temprana",
-      "path": "05 Videojuegos/Oxygen Not Incluted/04 Orden de investigación - Etapa temprana.md"
-    },
-    {
-      "basename": "13 Investigar con cuidado",
-      "path": "05 Videojuegos/Oxygen Not Incluted/13 Investigar con cuidado.md"
-    },
-    {
-      "basename": "02.1 Minerales, criaturas - Recursos",
-      "path": "05 Videojuegos/Oxygen Not Incluted/02.1 Minerales, criaturas - Recursos.md"
     }
   ],
   "omittedPaths": [],

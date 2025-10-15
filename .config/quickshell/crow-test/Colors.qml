@@ -1,0 +1,60 @@
+pragma Singleton
+import Quickshell
+import QtQuick
+
+Singleton {
+  readonly property color background: "#0f1417"
+  readonly property color error: "#ffb4ab"
+  readonly property color error_container: "#93000a"
+  readonly property color inverse_on_surface: "#2c3135"
+  readonly property color inverse_primary: "#206487"
+  readonly property color inverse_surface: "#dfe3e7"
+  readonly property color on_background: "#dfe3e7"
+  readonly property color on_error: "#690005"
+  readonly property color on_error_container: "#ffdad6"
+  readonly property color on_primary: "#00344b"
+  readonly property color on_primary_container: "#c6e7ff"
+  readonly property color on_primary_fixed: "#001e2d"
+  readonly property color on_primary_fixed_variant: "#004c6b"
+  readonly property color on_secondary: "#21333e"
+  readonly property color on_secondary_container: "#d2e5f4"
+  readonly property color on_secondary_fixed: "#0a1d28"
+  readonly property color on_secondary_fixed_variant: "#374955"
+  readonly property color on_surface: "#dfe3e7"
+  readonly property color on_surface_variant: "#c1c7ce"
+  readonly property color on_tertiary: "#332c4b"
+  readonly property color on_tertiary_container: "#e8ddff"
+  readonly property color on_tertiary_fixed: "#1e1735"
+  readonly property color on_tertiary_fixed_variant: "#4a4263"
+  readonly property color outline: "#8b9198"
+  readonly property color outline_variant: "#41484d"
+  readonly property color primary: "#91cef5"
+  readonly property color primary_container: "#004c6b"
+  readonly property color primary_fixed: "#c6e7ff"
+  readonly property color primary_fixed_dim: "#91cef5"
+  readonly property color scrim: "#000000"
+  readonly property color secondary: "#b6c9d8"
+  readonly property color secondary_container: "#374955"
+  readonly property color secondary_fixed: "#d2e5f4"
+  readonly property color secondary_fixed_dim: "#b6c9d8"
+  readonly property color shadow: "#000000"
+  readonly property color surface: "#0f1417"
+  readonly property color surface_bright: "#353a3d"
+  readonly property color surface_container: "#1c2024"
+  readonly property color surface_container_high: "#262b2e"
+  readonly property color surface_container_highest: "#313539"
+  readonly property color surface_container_low: "#181c1f"
+  readonly property color surface_container_lowest: "#0a0f12"
+  readonly property color surface_dim: "#0f1417"
+  readonly property color surface_tint: "#91cef5"
+
+  readonly property color surface_variant: "#41484d"
+  readonly property color tertiary: "#ccc1e9"
+  readonly property color tertiary_container: "#4a4263"
+  readonly property color tertiary_fixed: "#e8ddff"
+  readonly property color tertiary_fixed_dim: "#ccc1e9"
+
+  function withAlpha(color: color, alpha: real): color {
+    return Qt.rgba(color.r, color.g, color.b, alpha)
+  }
+}

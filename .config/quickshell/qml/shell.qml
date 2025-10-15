@@ -5,8 +5,10 @@ import Quickshell.Wayland
 ShellRoot {
     //WlrLayershell.namespace: "quickshell:bar"
     //System {}
-    TestWorkspaces {}
+    //TestWorkspaces {}
     //TestWorkspacesIcon {}
+    //Float {}
+    Usb {}
 
     //Overview {}
     //TestAppLauncher {}

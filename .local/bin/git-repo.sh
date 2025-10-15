@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
 actualizar_repositorio() {
-  if ! grep "email" ~/.gitconfig > /dev/null 2>&1; then
-    echo -e "\nIngrese el nombre de usuario"
-    read -p "> " MAIL
-    git config --global user.email "$MAIL"
-  fi
-  if ! grep "name" ~/.gitconfig  > /dev/null 2>&1; then
-	  echo -e "\nIngrese el nombre de usuario"
-	  read -p "> " USUARIO
-	  git config --global user.name "$USUARIO"
-  fi
+  #if ! grep "email" ~/.gitconfig > /dev/null 2>&1; then
+   # echo -e "\nIngrese el nombre de usuario"
+    #read -p "> " MAIL
+    #git config --global user.email "$MAIL"
+  #fi
+  #if ! grep "name" ~/.gitconfig  > /dev/null 2>&1; then
+	  #echo -e "\nIngrese el nombre de usuario"
+	  #read -p "> " USUARIO
+	  #git config --global user.name "$USUARIO"
+  #fi
   local REPOSITORIO="$1"
   cd "$REPOSITORIO"
   git pull

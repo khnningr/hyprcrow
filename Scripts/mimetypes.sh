@@ -51,6 +51,9 @@ xdg-mime default ${open_doc} application/vnd.oasis.opendocument.text
 xdg-mime default ${open_doc} application/vnd.oasis.opendocument.spreadsheet
 xdg-mime default ${open_doc} application/vnd.oasis.opendocument.presentation
 
+open_pka="cisco-pt.desktop"
+xdg-mime default ${open_pka} application/pka
+
 # Zed
 open_ide="dev.zed.Zed.desktop"
 xdg-mime default ${open_ide} text/plain

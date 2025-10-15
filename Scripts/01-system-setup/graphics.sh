@@ -28,7 +28,7 @@ case "$ELEGIR_GPU" in
         ./nvidia.sh
         ;;
     4)
-        echo "Agregar paquetes de VM drivers."
+        echo "Agregar paquetes de VM drivers." # sudo pacman -S mesa xf86-video-vesa xf86-video-fbdev qemu-guest-agent spice-vdagent
         sudo sed -i \
             's/Exec=Hyprland/Exec=env WLR_NO_HARDWARE_CURSORS=1 WLR_RENDERER_ALLOW_SOFTWARE=1 Hyprland/' \
             /usr/share/wayland-sessions/hyprland.desktop

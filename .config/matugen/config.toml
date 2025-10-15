@@ -17,7 +17,7 @@ output_path = "../yazi/theme.toml"
 
 [templates.quickshell]
 input_path = "./templates/quickshell-colors.qml"
-output_path = "../quickshell/Data/Colors.qml"
+output_path = "../quickshell/crow-test/Config/Colors.qml"
 
 [templates.rofi]
 input_path = "./templates/rofi-colors.rasi"
@@ -51,3 +51,12 @@ output_path = "../sys64/hud/syshud-colors.css"
 input_path = "./templates/AdwSteamGtk-colors.css"
 output_path = "../AdwSteamGtk/custom.css"
 post_hook = "killall steam"
+
+[templates.gtk3]
+input_path = './templates/gtk-colors.css'
+output_path = '~/.config/gtk-3.0/colors.css'
+post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-{{mode}}'
+
+[templates.gtk4]
+input_path = './templates/gtk-colors.css'
+output_path = '~/.config/gtk-4.0/colors.css'

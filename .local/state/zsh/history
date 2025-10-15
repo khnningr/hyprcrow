@@ -1,0 +1,77 @@
+: 1760515758:0;cd .config/hypr
+: 1760515759:0;ls
+: 1760515764:0;cd core
+: 1760515767:0;ls
+: 1760516180:0;s noctalia-shell
+: 1760516196:0;sudo pacman -S noctalia-shell
+: 1760516210:0;sudo pacman -S paru
+: 1760516219:0;sudo pacman -S noctalia-shell
+: 1760516222:0;s noctalia-shell
+: 1760516260:0;cd ..
+: 1760516269:0;vi hyprland.conf
+: 1760516340:0;reboot
+: 1760516806:0;s upower
+: 1760517036:0;git clone https://github.com/khnningr/Wallpapers.git
+: 1760517088:0;rm -rf Wallpapers
+: 1760517090:0;git clone https://github.com/khnningr/Wallpapers.git
+: 1760517127:0;rm -rf Wallpapers
+: 1760517139:0;cd hyprcrow
+: 1760517140:0;ls
+: 1760517144:0;cd Scripts
+: 1760517146:0;ls
+: 1760517151:0;cd 02-base
+: 1760517152:0;ls
+: 1760517159:0;./git_configuration.sh
+: 1760517181:0;cd
+: 1760517196:0;git clone https://github.com/khnningr/Wallpapers.git
+: 1760517216:0;rm -rf Wallpapers
+: 1760517219:0;git clone https://github.com/khnningr/Wallpapers.git
+: 1760517266:0;gh auth login
+: 1760518171:0;s mesa
+: 1760518195:0;s libgbm
+: 1760518224:0;sudo pacman -S libva-intel-driver libva-utils\
+
+: 1760518259:0;sudo pacman -S intel-media-driver\
+
+: 1760518281:0;sudo pacman -S vivaldi-ffmpeg-codecs\
+
+: 1760518320:0;cd hyprcrow
+: 1760518323:0;cd Scripts
+: 1760518324:0;ls
+: 1760518334:0;cd 02
+: 1760518337:0;ls
+: 1760518341:0;cat sys_app.sh
+: 1760518354:0;ls
+: 1760518357:0;cd ..
+: 1760518359:0;ls
+: 1760518387:0;touch browser.sh
+: 1760518394:0;vi browser.sh
+: 1760518507:0;gh auth login
+: 1760518576:0;s vivaldi-widevime
+: 1760518582:0;s vivaldi
+: 1760518654:0;git clone https://github.com/khnningr/Wallpapers.git
+: 1760518659:0;rm -rf Wallpapers
+: 1760518661:0;git clone https://github.com/khnningr/Wallpapers.git
+: 1760518836:0;ls
+: 1760518840:0;git clone https://github.com/khnningr/Wallpapers.git
+: 1760518929:0;ls
+: 1760519033:0;s matugen
+: 1760545127:0;yazi
+: 1760545603:0;sudo pacman -Syu
+: 1760545679:0;vivaldi
+: 1760546280:0;qs -c crow-test
+: 1760546702:0;cd .config/zsh
+: 1760546703:0;ls
+: 1760546722:0;vi .zshenv
+: 1760547357:0;source $ZDOTDIR
+: 1760547516:0;source $ZDOTDIR/.zshrc
+: 1760547681:0;source "$ZDOTDIR/.zshrc"
+: 1760547882:0;source "$ZDOTDIR"/.zshrc
+: 1760547957:0;cd .config
+: 1760547997:0;source "$ZDOTDIR"/.zshrc
+: 1760548081:0;cd .local/share
+: 1760548084:0;ls
+: 1760548089:0;cd cargo
+: 1760548091:0;ls
+: 1760548096:0;cd env
+: 1760548855:0;git-repo.sh

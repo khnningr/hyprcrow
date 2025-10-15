@@ -33,9 +33,5 @@ fi
 echo 'export XDG_CONFIG_HOME="$HOME/.config"' | sudo tee /etc/zsh/zlogin
 echo 'export ZDOTDIR="$XDG_CONFIG_HOME"/zsh' | sudo tee -a /etc/zsh/zlogin
 
-(
-    cd "$dotfiles"
-    stow .
-)
 
 chsh -s $(which zsh)

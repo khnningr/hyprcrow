@@ -66,12 +66,27 @@ actualizar_repositorio() {
   cd "$REPOSITORIO" || return 1
   
   git pull
+
+  if [[ -z $(git status --porcelain) ]]; then  
+    echo "No hay cambios en $REPOSITORIO, omitiendo commit"  
+    return 0  
+  fi 
+
   git add .
 
-  COMMIT=$(gum input --placeholder "Mensaje del commit" --prompt "Commit> ")  
+  COMMIT=$(gum input --placeholder "Mensaje del commit" --prompt "Commit> ")
+
+  if [[ -z "$COMMIT" ]]; then  
+    COMMIT=""  
+  fi
+
+  if [[ -z "$COMMIT" ]]; then  
+    git commit --allow-empty-message -m ""  
+  else  
+    git commit -m "$COMMIT"  
+  fi
 
   if [[ -n "$COMMIT" ]]; then
-    git commit -a -m "$COMMIT"
     git push -u origin main
     echo "$REPOSITORIO actualizado correctamente."
   else

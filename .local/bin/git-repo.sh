@@ -38,7 +38,8 @@ actualizar_repositorio() {
 }
 
 mapfile -t ELEGIR_REPOS < <(printf '%s\n' "${REPOS[@]}" | \
-  gum choose --no-limit --header 'Seleccione los repositorios para actualizar: ')  
+  gum choose --no-limit \
+  --header 'Seleccione los repositorios para actualizar: ')  
 
 for REPOSITORIO in "${ELEGIR_REPOS[@]}"; do  
   if [[ -n "$REPOSITORIO" ]]; then  

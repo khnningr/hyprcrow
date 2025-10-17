@@ -29,7 +29,7 @@ actualizar_repositorio() {
   COMMIT=$(gum input --placeholder "Mensaje del commit" --prompt "Commit> ")  
 
   if [[ -n "$COMMIT" ]]; then
-    git commit -m -a "$COMMIT"
+    git commit -a -m "$COMMIT"
     git push -u origin main
     echo "$REPOSITORIO actualizado correctamente."
   else

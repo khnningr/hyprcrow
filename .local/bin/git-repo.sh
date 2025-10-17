@@ -20,6 +20,16 @@ actualizar_repositorio() {
   #fi
   local REPOSITORIO="$1"
 
+  if ! git config --global user.name > /dev/null 2>&1; then  
+    USER_NAME=$(gum input --placeholder "Nombre de usuario Git" --prompt "Usuario> ")  
+    git config --global user.name "$USER_NAME"  
+  fi  
+    
+  if ! git config --global user.email > /dev/null 2>&1; then  
+    USER_EMAIL=$(gum input --placeholder "email@ejemplo.com" --prompt "Email> ")  
+    git config --global user.email "$USER_EMAIL"  
+  fi  
+
   echo -e "\n$REPOSITORIO"
   cd "$REPOSITORIO" || return 1
   

@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+REPOS=(
+  "${HOME}/hyprcrow/"
+  "${HOME}/Wallpapers/"
+  "${HOME}/kh-home"
+)
+
+
 actualizar_repositorio() {
   #if ! grep "email" ~/.gitconfig > /dev/null 2>&1; then
    # echo -e "\nIngrese el nombre de usuario"
@@ -12,26 +19,42 @@ actualizar_repositorio() {
 	  #git config --global user.name "$USUARIO"
   #fi
   local REPOSITORIO="$1"
-  cd "$REPOSITORIO"
+
+  echo -e "\n$REPOSITORIO"
+  cd "$REPOSITORIO" || return 1
+  
   git pull
   git add .
-  echo -e "\n$REPOSITORIO"
-  echo -e "Agregar un comentario:"
-  read -p "> " COMMIT
-  echo
-  git commit -a -m "$COMMIT"
-  git push -u origin main
-  echo
-  read -p "Repositorio actualizado con exito! Presiona cualquier tecla para salir."
+
+  COMMIT=$(gum input --placeholder "Mensaje del commit" --prompt "Commit> ")  
+
+  if [[ -n "$COMMIT" ]]; then
+    git commit -m "$COMMIT"
+    git push -u origin main
+    echo "$REPOSITORIO actualizado correctamente."
+  else
+    echo "× Commit cancelado para $REPOSITORIO"
+  fi
 }
+
+mapfile -t ELEGIR_REPOS < <(printf '%s\n' "${REPOS[@]}" | gum choose --no-limit --header 'Seleccione los repositorios para actualizar: ')  
+
+for REPOSITORIO in "${ELEGIR_REPOS[@]}"; do  
+  if [[ -n "$REPOSITORIO" ]]; then  
+    actualizar_repositorio "$REPOSITORIO"  
+  fi  
+done
+
+
+
 
 #actualizar_repositorio ~/Obsidian/
 
-actualizar_repositorio ~/hyprcrow/
+#actualizar_repositorio ~/hyprcrow/
 
 #actualizar_repositorio ~/.dotfiles/
 
-actualizar_repositorio ~/Wallpapers/
+#actualizar_repositorio ~/Wallpapers/
 
 #actualizar_repositorio ~/Neovim/
 
@@ -39,5 +62,5 @@ actualizar_repositorio ~/Wallpapers/
 
 #actualizar_repositorio ~/Proyectos/
 
-actualizar_repositorio ~/kh-home
+#actualizar_repositorio ~/kh-home
 

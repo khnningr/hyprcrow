@@ -86,13 +86,10 @@ actualizar_repositorio() {
     git commit -m "$COMMIT"  
   fi
 
-  if [[ -n "$COMMIT" ]]; then
-    git push -u origin main
+  git push -u origin main
+
     echo "$REPOSITORIO actualizado correctamente."
-  else
-    echo "× Commit cancelado para $REPOSITORIO"
-  fi
-}
+ }
 
 mapfile -t ELEGIR_REPOS < <(printf '%s\n' "${REPOS[@]}" | \
   gum choose --no-limit \

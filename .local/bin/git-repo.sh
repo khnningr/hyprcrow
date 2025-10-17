@@ -77,19 +77,17 @@ actualizar_repositorio() {
   COMMIT=$(gum input --placeholder "Mensaje del commit" --prompt "Commit> ")
 
   if [[ -z "$COMMIT" ]]; then  
-    COMMIT=""  
-  fi
+        COMMIT=$(date +"%Y-%m-%d %H:%M:%S")  
+  fi  
 
-  if [[ -z "$COMMIT" ]]; then  
-    git commit --allow-empty-message -m ""  
-  else  
-    git commit -m "$COMMIT"  
-  fi
-
-  git push -u origin main
-
+  if [[ -n "$COMMIT" ]]; then
+    git commit -a -m "$COMMIT"
+    git push -u origin main
     echo "$REPOSITORIO actualizado correctamente."
- }
+  else
+    echo "× Commit cancelado para $REPOSITORIO"
+  fi
+}
 
 mapfile -t ELEGIR_REPOS < <(printf '%s\n' "${REPOS[@]}" | \
   gum choose --no-limit \

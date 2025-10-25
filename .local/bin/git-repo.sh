@@ -96,7 +96,7 @@ mapfile -t ELEGIR_REPOS < <(printf '%s\n' "${REPOS[@]}" | \
 for REPOSITORIO in "${ELEGIR_REPOS[@]}"; do  
   if [[ -n "$REPOSITORIO" ]]; then  
     actualizar_repositorio "$REPOSITORIO"  
-  fi  
+  fi
 done
 
 

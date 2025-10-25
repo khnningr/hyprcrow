@@ -4,9 +4,9 @@ set -euo pipefail
 
 # Dependencias necesarios para mis scripts de Git.
 
-# En está sección se definen funciones para la instalación 
+# En está sección se definen funciones para la instalación
 # de las dependencias según el gestor de paquetes.
-# Sistemas soportados: 
+# Sistemas soportados:
 # - Arch Linux (pacman)
 # - Fedora (dnf)
 
@@ -17,6 +17,7 @@ function instalar_git(){
     sudo dnf install git
   else
     echo "Sistema no soportado"
+    exit 1
   fi
 }
 
@@ -27,6 +28,7 @@ function instalar_github-cli(){
     sudo dnf install git
   else
     echo "Sistema no soportado"
+    exit 1
   fi
 }
 
@@ -37,21 +39,22 @@ function instalar_gum(){
     sudo dnf install gum
   else
     echo "Sistema no soportado"
+    exit 1
   fi
 }
 
-
+# En está sección se verifica si estan instaladas las dependencias.
 
 # Verifica si git está instalado
 if ! command -v git &> /dev/null; then
   echo "Git (git) no está instalado"
-    echo "Instálalo con: sudo pacman -S git"
-    exit 1
+  instalar_git
+  clear
 fi
 
 # Verifica si gum está instalado
 if ! command -v gum &> /dev/null; then
-  echo "Gum (gum) no está instalado"
+  echo "Gum (gum) no está instalado."
   instalar_gum
   clear
   # echo "Instálalo con: sudo pacman -S gum"

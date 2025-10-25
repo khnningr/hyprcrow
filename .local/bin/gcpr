@@ -24,10 +24,10 @@ fi
 # Verificar login en GitHub
 if ! gh auth status &> /dev/null; then
     echo "No estás autenticado en GitHub"
-    if gum confirm "¿Deseas ingresar tu cuenta de GitHub ahora?"; then  
+    if gum confirm "¿Deseas ingresar tu cuenta de GitHub ahora?"; then
         gh auth login
     else
-        echo "Autenticación cancelada. No podrás hacer push a GitHub."  
+        echo "Autenticación cancelada. No podrás hacer push a GitHub."
         exit 1
     fi
 fi
@@ -53,12 +53,12 @@ actualizar_repositorio() {
   local REPOSITORIO="$1"
 
   if ! git config --global user.name > /dev/null 2>&1; then
-    USER_NAME=$(gum input --placeholder "Nombre de usuario Git" --prompt "Usuario> ")  
+    USER_NAME=$(gum input --placeholder "Nombre de usuario Git" --prompt "Usuario> ")
     git config --global user.name "$USER_NAME"
   fi
 
   if ! git config --global user.email > /dev/null 2>&1; then
-    USER_EMAIL=$(gum input --placeholder "email@ejemplo.com" --prompt "Email> ")  
+    USER_EMAIL=$(gum input --placeholder "email@ejemplo.com" --prompt "Email> ")
     git config --global user.email "$USER_EMAIL"
   fi
 

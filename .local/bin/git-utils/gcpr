@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-source git-utils.sh
+source dependencias.sh
 
 # Verificar login en GitHub
 if ! gh auth status &> /dev/null; then

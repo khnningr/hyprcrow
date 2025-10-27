@@ -6,7 +6,6 @@
       {
         "id": "0999b409b334e702",
         "type": "tabs",
-        "dimension": 56.86922060766183,
         "children": [
           {
             "id": "2706ed5675b947d5",
@@ -14,33 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Linux/Documentar/Documentar cfdisk.md",
+                "file": "02 Bitácoras/Excel/02 Fórmulas básicas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Documentar cfdisk"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9bc2b367288c9070",
-        "type": "tabs",
-        "dimension": 43.13077939233817,
-        "children": [
-          {
-            "id": "ab78bab78db1a938",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Bitácoras/Packet Tracer/06 Configuración de IPv6.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "06 Configuración de IPv6"
+              "title": "02 Fórmulas básicas"
             }
           }
         ]
@@ -236,6 +214,23 @@
   },
   "active": "2706ed5675b947d5",
   "lastOpenFiles": [
+    "02 Bitácoras/Excel/00 Conceptos básicos.md",
+    "02 Bitácoras/Excel/adjuntos/00 Conceptos básicos-1761531915898.png",
+    "02 Bitácoras/Excel/adjuntos/00 Conceptos básicos-1761531334753.png",
+    "02 Bitácoras/Excel/adjuntos/00 Conceptos básicos-1761531326038.png",
+    "02 Bitácoras/Excel/adjuntos/00 Conceptos básicos-1761531310061.png",
+    "02 Bitácoras/Excel/adjuntos/00 Conceptos básicos-1761530528830.png",
+    "02 Bitácoras/Excel/02 Fórmulas básicas.md",
+    "02 Bitácoras/Excel/03 Gráficas.md",
+    "02 Bitácoras/Excel/01 Elementos básicos de Excel.md",
+    "02 Bitácoras/Excel/adjuntos/01 Elementos básicos de Excel-1761512999013.png",
+    "02 Bitácoras/Excel/adjuntos/01 Elementos básicos de Excel-1761510128454.png",
+    "02 Bitácoras/Excel/adjuntos/01 Elementos básicos de Excel-1761512150469.png",
+    "02 Bitácoras/Excel/adjuntos/01 Elementos básicos de Excel-1761511756292.png",
+    "02 Bitácoras/Excel/adjuntos/01 Elementos básicos de Excel-1761511073360.png",
+    "02 Bitácoras/Excel/adjuntos",
+    "01 Linux/Documentar/Documentar cfdisk.md",
+    "02 Bitácoras/Excel",
     "01 Linux/Arch/Post/05 mesa-git - repositorio.md",
     "01 Linux/Arch/Post/00.0 Referencias post-instalación.md",
     "01 Linux/Arch/Post/13 ntfs - formato de discos de Windows.md",
@@ -256,22 +251,6 @@
     "02 Bitácoras/Packet Tracer/02 Bitácora de Comandos.md",
     "02 Bitácoras/Packet Tracer/Viejos/##Nueva Bitácora de IOS de Cisco.md",
     "02 Bitácoras/Packet Tracer/Interfaces.md",
-    "02 Bitácoras/Packet Tracer/09 Configuración básica - Router.md",
-    "02 Bitácoras/Packet Tracer/10 Configurar el Desktop - IP Add PC.md",
-    "02 Bitácoras/Packet Tracer/11 Configuración de VLAN - Switch.md",
-    "02 Bitácoras/Packet Tracer/09 Configuración de SVI (VLAN).md",
-    "Guión.md",
-    "98 Descargas/Start Wars Despecialized Edition HD.md",
-    "02 Bitácoras/Packet Tracer/adjuntos/03 Bitácora de Comandos-1760034519920.png",
-    "02 Bitácoras/Packet Tracer/Viejos/adjuntos/Pasted image 20240527133208.png",
-    "02 Bitácoras/Packet Tracer/Viejos/adjuntos/Pasted image 20240527110633.png",
-    "02 Bitácoras/Packet Tracer/Viejos/adjuntos/Pasted image 20240527095628.png",
-    "02 Bitácoras/Packet Tracer/Viejos/adjuntos/Pasted image 20240527134319.png",
-    "02 Bitácoras/Packet Tracer/Viejos/adjuntos/Pasted image 20240527095407.png",
-    "02 Bitácoras/Packet Tracer/Viejos/adjuntos/Pasted image 20240527132602.png",
-    "02 Bitácoras/Packet Tracer/Viejos/adjuntos/Pasted image 20240527095005.png",
-    "02 Bitácoras/Packet Tracer/Viejos/adjuntos/Pasted image 20240527143105.png",
-    "02 Bitácoras/Packet Tracer/Viejos/adjuntos/Pasted image 20240527140240.png",
     "02 Bitácoras/Packet Tracer/Viejos/adjuntos",
     "02 Bitácoras/Packet Tracer/Viejos/Resumen de configuraciones (CCNA 1).pdf",
     "01 Linux/Chromium",
@@ -280,8 +259,6 @@
     "02 Bitácoras/Packet Tracer/adjuntos",
     "02 Bitácoras/Packet Tracer",
     "07 Formación /Universidad/Probabilidad y Estadística Descriptiva/adjuntos",
-    "07 Formación /Universidad/Probabilidad y Estadística Descriptiva",
-    "02 Bitácoras/Packet Tracer/Viejos/Bitácora IOS de Cisco/Resumen de configuraciones (CCNA 1).pdf",
     "Sin título.canvas"
   ]
 }

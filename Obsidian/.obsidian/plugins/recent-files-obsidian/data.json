@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "02 Fórmulas básicas",
+      "path": "02 Bitácoras/Excel/02 Fórmulas básicas.md"
+    },
+    {
+      "basename": "00 Conceptos básicos",
+      "path": "02 Bitácoras/Excel/00 Conceptos básicos.md"
+    },
+    {
+      "basename": "03 Gráficas",
+      "path": "02 Bitácoras/Excel/03 Gráficas.md"
+    },
+    {
+      "basename": "01 Elementos básicos de Excel",
+      "path": "02 Bitácoras/Excel/01 Elementos básicos de Excel.md"
+    },
+    {
+      "basename": "01 Elementos básicos de Excel-1761510128454",
+      "path": "02 Bitácoras/Excel/adjuntos/01 Elementos básicos de Excel-1761510128454.png"
+    },
+    {
       "basename": "Documentar cfdisk",
       "path": "01 Linux/Documentar/Documentar cfdisk.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "02 SSH (line vty)",
       "path": "07 Formación /Universidad/CCNA II/02 SSH (line vty).md"
-    },
-    {
-      "basename": "Practicas pendientes",
-      "path": "02 Bitácoras/Packet Tracer/Practicas pendientes.md"
-    },
-    {
-      "basename": "Práctica 2 - Notas de la práctica",
-      "path": "02 Bitácoras/Packet Tracer/Práctica 2 - Notas de la práctica.md"
-    },
-    {
-      "basename": "00 boot system - Comando",
-      "path": "02 Bitácoras/Packet Tracer/00 boot system - Comando.md"
-    },
-    {
-      "basename": "30",
-      "path": "30.md"
-    },
-    {
-      "basename": "Materiales de cama",
-      "path": "_fit/Materiales de cama.md"
     }
   ],
   "omittedPaths": [],

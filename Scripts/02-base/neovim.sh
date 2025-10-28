@@ -10,15 +10,21 @@ echo """
 MASON (Agregar)
 
 LSP:
-→ lua-language-server
-→ efm
-→ stylua (Formatter)
+→ lua-language-server - Lua
+→ efm - Servidor multiproposito
+→ stylua (Formatter) - Lua
+-> pyright - Python
+-> typescript-language-server - Typescript Javascript
 
 Linter:
-→ luacheck
+→ luacheck - Lua
+-> flake8 - Python
+-> eslint_d - Typescript Javascript
 
 Formatter:
-→ stylua (LSP)
+→ stylua (LSP) - Lua
+-> black - Python
+-> prettier - css html json javascript markdown scss typescript yaml
 comm -23 <(printf '%s\n' neovim go htop | sort) <(pacman -Qq | sort)
 """
 

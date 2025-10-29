@@ -25,6 +25,7 @@ Formatter:
 → stylua (LSP) - Lua
 -> black - Python
 -> prettier - css html json javascript markdown scss typescript yaml
+-> fixjason - json
 comm -23 <(printf '%s\n' neovim go htop | sort) <(pacman -Qq | sort)
 """
 

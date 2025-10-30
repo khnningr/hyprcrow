@@ -22,8 +22,8 @@ git commit -m "$COMMIT: $(date +'%Y/%m/%d a las %I:%M %p')"
 git branch -M main
 git remote add origin "https://github.com/$USUARIO/$REPOSITORIO.git"
 git push -u origin main || {
-  echo -e "Verifica que haya algún archivo que subir."
-  exit 1
+	echo -e "Verifica que haya algún archivo que subir."
+	exit 1
 }
 echo
 read -p "Repositorio creado con exito! Presiona cualquier tecla para salir."

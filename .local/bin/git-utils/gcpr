@@ -5,79 +5,78 @@ set -euo pipefail
 source dependencias.sh
 
 # Verificar login en GitHub
-if ! gh auth status &> /dev/null; then
-    echo "No estás autenticado en GitHub"
-    if gum confirm "¿Deseas ingresar tu cuenta de GitHub ahora?"; then
-        gh auth login
-    else
-        echo "Autenticación cancelada. No podrás hacer push a GitHub."
-        exit 1
-    fi
+if ! gh auth status &>/dev/null; then
+	echo "No estás autenticado en GitHub"
+	if gum confirm "¿Deseas ingresar tu cuenta de GitHub ahora?"; then
+		gh auth login
+	else
+		echo "Autenticación cancelada. No podrás hacer push a GitHub."
+		exit 1
+	fi
 fi
 
 REPOS=(
-  "${HOME}/hyprcrow/"
-  "${HOME}/Wallpapers/"
-  "${HOME}/kh-home"
+	"${HOME}/hyprcrow/"
+	"${HOME}/Wallpapers/"
+	"${HOME}/kh-home"
 )
 
-
 actualizar_repositorio() {
-  #if ! grep "email" ~/.gitconfig > /dev/null 2>&1; then
-   # echo -e "\nIngrese el nombre de usuario"
-    #read -p "> " MAIL
-    #git config --global user.email "$MAIL"
-  #fi
-  #if ! grep "name" ~/.gitconfig  > /dev/null 2>&1; then
-	  #echo -e "\nIngrese el nombre de usuario"
-	  #read -p "> " USUARIO
-	  #git config --global user.name "$USUARIO"
-  #fi
-  local REPOSITORIO="$1"
+	#if ! grep "email" ~/.gitconfig > /dev/null 2>&1; then
+	# echo -e "\nIngrese el nombre de usuario"
+	#read -p "> " MAIL
+	#git config --global user.email "$MAIL"
+	#fi
+	#if ! grep "name" ~/.gitconfig  > /dev/null 2>&1; then
+	#echo -e "\nIngrese el nombre de usuario"
+	#read -p "> " USUARIO
+	#git config --global user.name "$USUARIO"
+	#fi
+	local REPOSITORIO="$1"
 
-  if ! git config --global user.name > /dev/null 2>&1; then
-    USER_NAME=$(gum input --placeholder "Nombre de usuario Git" --prompt "Usuario> ")
-    git config --global user.name "$USER_NAME"
-  fi
+	if ! git config --global user.name >/dev/null 2>&1; then
+		USER_NAME=$(gum input --placeholder "Nombre de usuario Git" --prompt "Usuario> ")
+		git config --global user.name "$USER_NAME"
+	fi
 
-  if ! git config --global user.email > /dev/null 2>&1; then
-    USER_EMAIL=$(gum input --placeholder "email@ejemplo.com" --prompt "Email> ")
-    git config --global user.email "$USER_EMAIL"
-  fi
+	if ! git config --global user.email >/dev/null 2>&1; then
+		USER_EMAIL=$(gum input --placeholder "email@ejemplo.com" --prompt "Email> ")
+		git config --global user.email "$USER_EMAIL"
+	fi
 
-  echo -e "\n$REPOSITORIO"
-  cd "$REPOSITORIO" || return 1
+	echo -e "\n$REPOSITORIO"
+	cd "$REPOSITORIO" || return 1
 
-  git pull
+	git pull
 
-  if [[ -z $(git status --porcelain) ]]; then
-    echo "No hay cambios en $REPOSITORIO, omitiendo commit"
-    return 0
-  fi
+	if [[ -z $(git status --porcelain) ]]; then
+		echo "No hay cambios en $REPOSITORIO, omitiendo commit"
+		return 0
+	fi
 
-  git add .
+	git add .
 
-  COMMIT=$(gum input --placeholder "Mensaje del commit" --prompt "Commit> ")
+	COMMIT=$(gum input --placeholder "Mensaje del commit" --prompt "Commit> ")
 
-  if [[ -z "$COMMIT" ]]; then
-        COMMIT=$(date +"%Y/%m/%d a las %I:%M %p")
-  fi
+	if [[ -z "$COMMIT" ]]; then
+		COMMIT=$(date +"%Y/%m/%d a las %I:%M %p")
+	fi
 
-  if [[ -n "$COMMIT" ]]; then
-    git commit -a -m "$COMMIT"
-    git push -u origin main
-    echo "$REPOSITORIO actualizado correctamente."
-  else
-    echo "× Commit cancelado para $REPOSITORIO"
-  fi
+	if [[ -n "$COMMIT" ]]; then
+		git commit -a -m "$COMMIT"
+		git push -u origin main
+		echo "$REPOSITORIO actualizado correctamente."
+	else
+		echo "× Commit cancelado para $REPOSITORIO"
+	fi
 }
 
-mapfile -t ELEGIR_REPOS < <(printf '%s\n' "${REPOS[@]}" | \
-  gum choose --no-limit \
-  --header 'Seleccione los repositorios para actualizar: ')
+mapfile -t ELEGIR_REPOS < <(printf '%s\n' "${REPOS[@]}" |
+	gum choose --no-limit \
+		--header 'Seleccione los repositorios para actualizar: ')
 
 for REPOSITORIO in "${ELEGIR_REPOS[@]}"; do
-  if [[ -n "$REPOSITORIO" ]]; then
-    actualizar_repositorio "$REPOSITORIO"
-  fi
+	if [[ -n "$REPOSITORIO" ]]; then
+		actualizar_repositorio "$REPOSITORIO"
+	fi
 done

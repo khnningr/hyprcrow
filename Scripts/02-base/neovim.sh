@@ -4,7 +4,7 @@ set -euo pipefail
 
 # Nerdfonts son necesarias.
 
-sudo pacman -S --needed git fzf ripgrep luarocks go neovim  
+sudo pacman -S --needed git fzf ripgrep luarocks go neovim tmux 
 
 echo """
 MASON (Agregar)

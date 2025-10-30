@@ -5,23 +5,24 @@ set -euo pipefail
 dotfiles="$HOME/hyprcrow/"
 
 [ -d "$dotfiles" ] || {
-    exit 1
+	exit 1
 }
 
 pkg_zsh=(
-    "stow"
-    "zsh"
-    "git"
-    "fzf"
-    "zoxide"
-    "oh-my-posh-bin"
-    "exa"
-    "bat"
-    # "pokemon-colorscripts-git"
+	"stow"
+	"zsh"
+	"git"
+	"fzf"
+	"zoxide"
+	"curl"
+	#"oh-my-posh-bin"
+	"exa"
+	"bat"
+	# "pokemon-colorscripts-git"
 )
 
-if command -v pacman &> /dev/null; then
-    sudo pacman -S --needed --noconfirm "${pkg_zsh[@]}"
+if command -v pacman &>/dev/null; then
+	sudo pacman -S --needed --noconfirm "${pkg_zsh[@]}"
 fi
 
 [[ ! -f ~/.zshrc ]] || mv ~/.zshrc ~/.zshrc.bak
@@ -32,6 +33,5 @@ fi
 
 echo 'export XDG_CONFIG_HOME="$HOME/.config"' | sudo tee /etc/zsh/zlogin
 echo 'export ZDOTDIR="$XDG_CONFIG_HOME"/zsh' | sudo tee -a /etc/zsh/zlogin
-
 
 chsh -s $(which zsh)

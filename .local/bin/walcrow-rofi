@@ -13,10 +13,10 @@ cd "$DIR_WALL" || exit 1
 
 IFS=$'\n'
 
-IMAGEN=$(for a in *.jpg *.png *.jpeg *.gif; do echo -en "$a\0icon\x1f$a\n" ; done | rofi -dmenu -p "" -theme "$ROFI_THEME")
+IMAGEN=$(for a in *.jpg *.png *.jpeg *.gif; do echo -en "$a\0icon\x1f$a\n"; done | rofi -dmenu -p "" -theme "$ROFI_THEME")
 
 if [ -n "$IMAGEN" ]; then
-  "$HOME"/.local/bin/walcrow-palette "$IMAGEN"
+	"$HOME"/.local/bin/walcrow-palette "$IMAGEN"
 fi
 
 cd "$CWD" || exit

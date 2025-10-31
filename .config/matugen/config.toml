@@ -8,7 +8,7 @@ post_hook = "hyprctl reload"
 
 [templates.yazi]
 input_path = "./templates/yazi-theme.toml"
-output_path = "../yazi/theme.toml"
+output_path = "~/.config/yazi/theme.toml"
 
 #[templates.waybar]
 #input_path = "./templates/waybar-colors.css"
@@ -25,7 +25,7 @@ output_path = "../rofi/rofi-colors.rasi"
 
 [templates.wezterm]
 input_path = "./templates/wezterm-colors.toml"
-output_path = "../wezterm/colors/wezterm-colors.toml"
+output_path = ".~/.config/wezterm/colors/wezterm-colors.toml"
 
 [templates.kitty]
 input_path = "./templates/kitty-colors.conf"

@@ -3,27 +3,8 @@
 set -euo pipefail
 
 source dependencias.sh
+source login.sh
 
-# Verificar login en GitHub
-if ! gh auth status &>/dev/null; then
-	echo "No estás autenticado en GitHub"
-	if gum confirm "¿Deseas ingresar tu cuenta de GitHub ahora?"; then
-		gh auth login
-	else
-		echo "Autenticación cancelada. No podrás hacer push a GitHub."
-		exit 1
-	fi
-fi
-
-if [ -z $(git config --global --get user.name) ]; then
-	USER_NAME=$(gum input --placeholder "Nombre de usuario Git" --prompt "Usuario> ")
-	git config --global user.name "$USER_NAME"
-fi
-
-if [ -z $(git config --global --get user.email) ]; then
-	USER_EMAIL=$(gum input --placeholder "email@ejemplo.com" --prompt "Email> ")
-	git config --global user.email "$USER_EMAIL"
-fi
 
 REPOS=(
 	"${HOME}/hyprcrow/"
@@ -32,16 +13,7 @@ REPOS=(
 )
 
 actualizar_repositorio() {
-	#if ! grep "email" ~/.gitconfig > /dev/null 2>&1; then
-	# echo -e "\nIngrese el nombre de usuario"
-	#read -p "> " MAIL
-	#git config --global user.email "$MAIL"
-	#fi
-	#if ! grep "name" ~/.gitconfig  > /dev/null 2>&1; then
-	#echo -e "\nIngrese el nombre de usuario"
-	#read -p "> " USUARIO
-	#git config --global user.name "$USUARIO"
-	#fi
+
 	local REPOSITORIO="$1"
 
 	echo -e "\n$REPOSITORIO"

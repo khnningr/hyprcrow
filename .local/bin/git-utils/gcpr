@@ -3,12 +3,7 @@
 set -euo pipefail
 
 source login.sh
-
-REPOS=(
-	"${HOME}/hyprcrow/"
-	"${HOME}/Wallpapers/"
-	"${HOME}/kh-home"
-)
+source dir-repos.sh
 
 gum style --border normal \
 	--margin "1" \

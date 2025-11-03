@@ -6,7 +6,7 @@ REPOSITORIO=$1
 
 if [[ -z $(git status --porcelain) ]]; then
 	echo "No hay cambios en $REPOSITORIO, omitiendo commit"
-	return 0
+	exit 0
 fi
 
 git add .
@@ -19,8 +19,7 @@ fi
 
 if [[ -n "$COMMIT" ]]; then
 	git commit -a -m "$COMMIT"
-	git push -u origin main
-	echo "$REPOSITORIO actualizado correctamente."
+	
 else
 	echo "× Commit cancelado para $REPOSITORIO"
 fi

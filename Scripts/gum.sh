@@ -86,3 +86,5 @@ if gum confirm --affirmative="Sí" --timeout="10s" "Deseas reiniciar la configur
 fi
 
 echo -e "\nEs necesario un reboot."
+
+NUEVO_REPO=$(gum input --placeholder "Nombre del repositorio")

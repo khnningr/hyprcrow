@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+source login.sh
+
+REPOSITORIO=$1
+
+if [[ -z $(git status --porcelain) ]]; then
+	echo "No hay cambios en $REPOSITORIO, omitiendo commit"
+	return 0
+fi
+
+git add .
+
+COMMIT=$(gum input --placeholder "Mensaje del commit" --prompt "Commit> ")
+
+if [[ -z "$COMMIT" ]]; then
+	COMMIT=$(date +"%Y/%m/%d a las %I:%M %p")
+fi
+
+if [[ -n "$COMMIT" ]]; then
+	git commit -a -m "$COMMIT"
+	git push -u origin main
+	echo "$REPOSITORIO actualizado correctamente."
+else
+	echo "× Commit cancelado para $REPOSITORIO"
+fi

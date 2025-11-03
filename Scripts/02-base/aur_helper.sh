@@ -15,7 +15,7 @@ echo ""
 
 elegir_helper=${elegir_helper:="1"}
 
-case "$elegir_drivers" in
+case "$elegir_helper" in
     1) # Opción paru
         ./paru.sh
         ;;

@@ -35,15 +35,20 @@ set -euo pipefail
 #
 # Referencias: https://youtu.be/z3F0hTigMvU
 
-if command -v pacman &> /dev/null; then
-    . ./list_arch.sh
-    # Al instalar plocate, para usar el siguiente comando: locate -i «programa»
-    sudo pacman -S --needed --noconfirm xdg-utils plocate
+if command -v pacman &>/dev/null; then
+	. ./list_arch.sh
+	# Al instalar plocate, para usar el siguiente comando: locate -i «programa»
+	sudo pacman -S --needed --noconfirm xdg-utils plocate
 fi
 
 sudo updatedb
 
-update-desktop-database ~/.local/share/applications
+mkdir -p ~/.local/share/applications
+
+# Copiar archivos del sistema
+cp -n /usr/share/applications/*.desktop ~/.local/share/applications/
+
+update-desktop-database "$HOME"/.local/share/applications
 
 # LibreOffice
 open_doc="libreoffice-writer.desktop"
@@ -55,7 +60,14 @@ open_pka="cisco-pt.desktop"
 xdg-mime default ${open_pka} application/pka
 
 # Zed
-open_ide="dev.zed.Zed.desktop"
+# open_ide="dev.zed.Zed.desktop"
+open_ide="nvim.desktop"
+
+if [[ "${open_ide}" == "nvim.desktop" ]]; then
+	sed -i 's/Exec=nvim %F/Exec=wezterm -e -- nvim %F/' \
+		"$HOME/.local/share/applications/nvim.desktop"
+fi
+
 xdg-mime default ${open_ide} text/plain
 xdg-mime default ${open_ide} application/x-shellscript
 xdg-mime default ${open_ide} text/x-python

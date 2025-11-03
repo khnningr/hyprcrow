@@ -23,7 +23,7 @@ pkg_theme_aur=(
 )
 
 pkg_thunar=(
-    "xdg-user-dirs"
+	"xdg-user-dirs"
 	"thunar"
 	"file-roller"
 	"gvfs"
@@ -56,7 +56,7 @@ pkg_dolphin=(
 # sudo pacman -S --needed --noconfirm "${pkg_dolphin[@]}"
 
 pkg_kde=(
-    "polkit-kde-agent"
+	"polkit-kde-agent"
 	"qbittorrent"
 	"pavucontrol-qt"
 	"gwenview"
@@ -66,10 +66,6 @@ pkg_kde=(
 )
 
 # sudo pacman -S --needed --noconfirm "${pkg_kde[@]}"
-
-
-
-
 
 # Juegos
 
@@ -158,10 +154,6 @@ pkg_android=(
 	"android-tools"
 )
 
-
-
-
-
 pkg_openrazer=(
 	"linux-zen-headers"
 	"openrazer-daemon"
@@ -175,7 +167,7 @@ pkg_openrazer_aur=(
 # Referencias: https://openrazer.github.io/
 
 pkg_ckb_next=(
-    "base-devel"
+	"base-devel"
 	"cmake"
 	"libsystemd"
 	"qt5-base"
@@ -192,36 +184,6 @@ pkg_ckb_next=(
 )
 
 # Referencias: https://github.com/ckb-next/ckb-next?tab=readme-ov-file
-
-pkg_hyprland=(
-	"hyprland"
-	"gcc"
-	"jq"
-	"xdg-desktop-portal-hyprland"
-	"xdg-desktop-portal-gtk"
-	"xdg-desktop-portal"
-	"xdg-user-dirs"
-	"hyprpicker"
-	"gtk3"
-	"gtk4"
-	"libnotify"
-	"hyprshot"
-	"swww"
-	"slurp"
-	"grim"
-	"cliphist"
-	"wl-clipboard"
-	"hyprcursor"
-	"hyprlock"
-	"hypridle"
-	"libsecret"
-	"gnome-keyring"
-	"playerctl"
-	"udiskie"
-	"nwg-dock-hyprland"
-	"imagemagick"
-	"hyprsunset"
-)
 
 pkg_waybar=(
 	"waybar"
@@ -263,9 +225,6 @@ pkg_yazi_aur=(
 
 # Services
 
-
-
-
 pkg_nm=(
 	"networkmanager"
 	"network-manager-applet"
@@ -284,13 +243,7 @@ pkg_ufw_aur=(
 	"ufw-docker-git"
 )
 
-
-
 # sudo pacman -S --needed --noconfirm "${pkg_ufw_aur[@]}"
-
-pkg_brightness=(
-	"brightnessctl"
-)
 
 # IDE
 pkg_java=(
@@ -305,27 +258,23 @@ pkg_python_aur=(
 
 # paru -S --needed --noconfirm "${pkg_python_aur[@]}"
 
-
-
-
-
 pkg_virt_manager=(
-    "virt-manager"
+	"virt-manager"
 	"qemu-full"
 	"vde2"
 	"virt-viewer"
-    "ebtables"
-    "iptables"
-    "dnsmasq"
-    "bridge-utils"
-    "ovmf"
-    "swtpm"
-    "dmidecode"
-    "qemu-common"
-    "libvirt"
+	"ebtables"
+	"iptables"
+	"dnsmasq"
+	"bridge-utils"
+	"ovmf"
+	"swtpm"
+	"dmidecode"
+	"qemu-common"
+	"libvirt"
 )
 
 pkg_mimetype=(
-    "xdg-utils"
-    "plocate" # locate -i «programa»
+	"xdg-utils"
+	"plocate" # locate -i «programa»
 )

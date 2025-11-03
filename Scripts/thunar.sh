@@ -2,27 +2,31 @@
 
 set -euo pipefail
 
-if command -v "pacman" &> /dev/null; then
-    . ./list_arch.sh
-    sudo pacman -S --needed --noconfirm "${pkg_thunar[@]}"
+if command -v "pacman" &>/dev/null; then
+	. ./list_arch.sh
+	sudo pacman -S --needed --noconfirm "${pkg_thunar[@]}"
 fi
+
+bookmarks="$HOME/.config/gtk-3.0/bookmarks"
 
 mkdir -p "$HOME/.config/gtk-3.0"
 
-[[ -f "$HOME/.config/gtk-3.0/bookmarks" ]] || touch "$HOME/.config/gtk-3.0/bookmarks"
+[[ -f "${bookmarks}" ]] || touch "${bookmarks}"
 
-function acceso_directo () {
-    local dir_acceso=$1
-    if [[ -d "$HOME/$dir_acceso" ]] && [[ ! grep -q "$dir_acceso" "$HOME/.config/gtk-3.0/bookmarks" ]]; then
-        echo "file:///home/$(whoami)/$dir_acceso" >> "$HOME/.config/gtk-3.0/bookmarks"
-    fi
-}
+dir_acceso=(
+	"Descargas"
+	"Documentos"
+	"Música"
+	"Vídeos"
+	"Imágenes"
+	"Wallpapers"
+	"hyprcrow"
+	".config"
+)
 
-acceso_directo "Descargas"
-acceso_directo "Documentos"
-acceso_directo "Música"
-acceso_directo "Vídeos"
-acceso_directo "Imágenes"
-acceso_directo "Wallpapers"
-acceso_directo "hyprcrow"
-acceso_directo ".config"
+for dir in "${dir_acceso[@]}"; do
+	if [[ -d "$HOME/${dir}" ]] && ! grep -q "${dir}" "${bookmarks}"; then
+
+		echo "file:///home/$(whoami)/${dir}" >>"${bookmarks}"
+	fi
+done

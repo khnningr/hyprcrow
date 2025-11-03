@@ -6,7 +6,6 @@ set -euo pipefail
 
 pkg_base=(
 	"wezterm-git"
-	"zellij"
 	"git"
 	"github-cli"
 	"curl"
@@ -29,8 +28,8 @@ pkg_base=(
 	"ncspot"
 	"stow"
 	"python-pip"
-	"zed"
-	"openssh"
+	# "zed"
+#	"openssh"
 	"wiremix"
 )
 

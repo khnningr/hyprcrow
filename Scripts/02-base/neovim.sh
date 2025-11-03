@@ -4,8 +4,17 @@ set -euo pipefail
 
 # Nerdfonts son necesarias.
 
-sudo pacman -S --needed git fzf ripgrep luarocks go neovim tmux 
-
+pkg_nvim=(
+	"git"
+	"fzf"
+	"ripgrep"
+	"luarocks"
+	"go"
+	"npm"
+	"neovim"
+	"tmux"
+)
+sudo pacman -S --needed "${pkg_nvim[@]}"
 echo """
 MASON (Agregar)
 
@@ -44,5 +53,3 @@ Formatter:
 -> clang-format (keywords: c, c#, c++, json, java, javascript)
 comm -23 <(printf '%s\n' neovim go htop | sort) <(pacman -Qq | sort)
 """
-
-

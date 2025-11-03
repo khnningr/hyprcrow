@@ -11,26 +11,22 @@ USER_NAME=$(git config --global --get user.name)
 echo -e "\nhttps://github.com/${USER_NAME}/REPO.git"
 
 echo "Elija el nombre del nuevo repositorio"
-NUEVO_REPO=$(gum input --placeholder "https://github.com/${USER_NAME}/»REPOSITORIO«.git")
+NOMBRE_REPO=$(gum input --placeholder "https://github.com/${USER_NAME}/»REPOSITORIO«.git")
+
+NUEVO_REPO="https://github.com/${USER_NAME}/${NOMBRE_REPO}.git"
 
 echo -e "\nURL del repositorio:"
-echo -e "> https://github.com/${USER_NAME}/${NUEVO_REPO}.git"
-exit 0
+echo -e "> ${NUEVO_REPO}"
 
 cd "$DIR_NUEVO_REPOSITORIO"
 git init
-git add .
 
-source commit.sh "${NUEVO_REPO}"
-echo -e "\nAgregar un comentario:"
-read -p "> " COMMIT
-echo
-git commit -m "$COMMIT: $(date +'%Y/%m/%d a las %I:%M %p')"
+source commit.sh "${NOMBRE_REPO}"
+
 git branch -M main
-git remote add origin "https://github.com/$USUARIO/$REPOSITORIO.git"
-git push -u origin main || {
-	echo -e "Verifica que haya algún archivo que subir."
-	exit 1
-}
+git remote add origin "https://github.com/${USER_NAME}/${NUEVO_REPO}.git"
+
+source push.sh
+
 echo
 read -p "Repositorio creado con exito! Presiona cualquier tecla para salir."

@@ -10,6 +10,11 @@ REPOS=(
 	"${HOME}/kh-home"
 )
 
+gum style --border normal \
+	--margin "1" \
+	--padding "1 2" \
+	--border-foreground 212 "Actualizar $(gum style --foreground 212 'Repositorios')"
+
 actualizar_repositorio() {
 
 	local REPOSITORIO="$1"
@@ -20,7 +25,7 @@ actualizar_repositorio() {
 	git pull
 
 	source commit.sh "${REPOSITORIO}"
-source push.sh
+	source push.sh
 }
 
 mapfile -t ELEGIR_REPOS < <(printf '%s\n' "${REPOS[@]}" |

@@ -21,7 +21,7 @@ cd "$DIR_NUEVO_REPOSITORIO"
 git init
 git add .
 
-source commit.sh ${NUEVO_REPO}
+source commit.sh "${NUEVO_REPO}"
 echo -e "\nAgregar un comentario:"
 read -p "> " COMMIT
 echo

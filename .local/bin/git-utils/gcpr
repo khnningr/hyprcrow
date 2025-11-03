@@ -18,7 +18,10 @@ actualizar_repositorio() {
 	cd "$REPOSITORIO" || return 1
 
 	git pull
+  
 	source commit.sh "${REPOSITORIO}"
+  git push -u origin main
+	echo "$REPOSITORIO actualizado correctamente."
 }
 
 mapfile -t ELEGIR_REPOS < <(printf '%s\n' "${REPOS[@]}" |

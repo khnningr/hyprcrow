@@ -4,6 +4,7 @@ set -euo pipefail
 
 source login.sh
 source dir-repos.sh
+source local-dir-repos.sh
 
 gum style --border normal \
 	--margin "1" \
@@ -23,7 +24,7 @@ actualizar_repositorio() {
 	source push.sh
 }
 
-mapfile -t ELEGIR_REPOS < <(printf '%s\n' "${REPOS[@]}" |
+mapfile -t ELEGIR_REPOS < <(printf '%s\n' "${repositorios[@]}" |
 	gum choose --no-limit \
 		--header 'Seleccione los repositorios para actualizar: ')
 

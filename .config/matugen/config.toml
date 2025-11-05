@@ -25,7 +25,7 @@ output_path = "../rofi/rofi-colors.rasi"
 
 [templates.wezterm]
 input_path = "./templates/wezterm-colors.toml"
-output_path = ".~/.config/wezterm/colors/wezterm-colors.toml"
+output_path = "~/.config/wezterm/colors/wezterm-colors.toml"
 
 [templates.kitty]
 input_path = "./templates/kitty-colors.conf"
@@ -50,13 +50,14 @@ output_path = "../sys64/hud/syshud-colors.css"
 [templates.steam]
 input_path = "./templates/AdwSteamGtk-colors.css"
 output_path = "../AdwSteamGtk/custom.css"
-post_hook = "killall steam"
+# pre_hook = "killall steam"
+# post_hook = "steam &"
 
 [templates.gtk3]
 input_path = './templates/gtk-colors.css'
-output_path = '~/.config/gtk-3.0/colors.css'
-post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-{{mode}}'
+output_path = '~/.local/share/themes/adw-gtk3-dark/gtk-3.0/colors.css'
+post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-dark'
 
 [templates.gtk4]
 input_path = './templates/gtk-colors.css'
-output_path = '~/.config/gtk-4.0/colors.css'
+output_path = '~/.local/share/themes/adw-gtk3-dark/gtk-4.0/colors.css'

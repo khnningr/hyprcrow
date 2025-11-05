@@ -4,7 +4,6 @@ set -euo pipefail
 
 source login.sh
 source dir-repos.sh
-source local-dir-repos.sh
 
 gum style --border normal \
 	--margin "1" \

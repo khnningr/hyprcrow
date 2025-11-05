@@ -2,17 +2,7 @@
 
 set -euo pipefail
 
-DIR_REPOS=(
-	"${HOME}/hyprcrow/"
-	"${HOME}/Wallpapers/"
-	"${HOME}/kh-home"
-)
-
-REPOS=(
-	"hyprcrow"
-	"Wallpapers"
-	"kh-home"
-)
+source login.sh
 
 declare -A repositorios=(
 	["hyprcrow"]="${HOME}/hyprcrow/"
@@ -20,3 +10,9 @@ declare -A repositorios=(
 	["kh-home"]="${HOME}/kh-home"
 )
 
+for i in "${!repositorios[@]}"; do
+	if [[ ! -d "${repositorios[$i]}" ]]; then
+		echo "$i ${repositorios[$i]}"
+		git clone https://github.com/khnningr/"${i}".git "${repositorios[$i]}"
+	fi
+done

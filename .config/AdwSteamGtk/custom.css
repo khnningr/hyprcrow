@@ -5,13 +5,13 @@
 /* --- EXAMPLE: Override Theme Colors --- */
 
 /* The main accent color and the matching text value */
-@define-color accent_color 144, 213, 173;
-@define-color accent_fg_color 0, 33, 18;
-@define-color accent_bg_color 144, 213, 173;
+@define-color accent_color 128, 212, 218;
+@define-color accent_fg_color 0, 32, 34;
+@define-color accent_bg_color 128, 212, 218;
 
 /* Window */
-@define-color window_bg_color 15, 21, 17;
-@define-color window_fg_color 223, 228, 221;
+@define-color window_bg_color 14, 20, 21;
+@define-color window_fg_color 221, 228, 228;
 
 :root {
     --adw-accent-bg-rgb: @accent_bg_color;
